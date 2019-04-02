@@ -3,7 +3,7 @@
     package="com.linlin.lpa">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
     <uses-feature android:name="android.hardware.type.watch" />
 
     <application
