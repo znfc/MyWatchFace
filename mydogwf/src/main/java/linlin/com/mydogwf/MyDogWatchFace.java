@@ -42,6 +42,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class MyDogOgWatchFace extends CanvasWatchFaceService {
 
+    final static String TAG = "zhao11 MyDogOgWatchFace";
     /*
      * Updates rate in milliseconds for interactive mode. We update once a second to advance the
      * second hand.
@@ -62,12 +63,15 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
         private final WeakReference<MyDogOgWatchFace.Engine> mWeakReference;
 
         public EngineHandler(MyDogOgWatchFace.Engine reference) {
+            Log.i(TAG,"EngineHandler");
             mWeakReference = new WeakReference<>(reference);
         }
 
         @Override
         public void handleMessage(Message msg) {
+
             MyDogOgWatchFace.Engine engine = mWeakReference.get();
+            Log.i(TAG,"handleMessage11 msg:"+msg.what +", engine:"+engine);
             if (engine != null) {
                 switch (msg.what) {
                     case MSG_UPDATE_TIME:
