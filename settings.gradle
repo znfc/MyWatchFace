@@ -1,2 +1,1 @@
-include ':qcommWF', ':markline'
-//, ':mydogwf'
+include ':qcommWF', ':markline', ':decompositionwf',":lpa", ':mydogwf'

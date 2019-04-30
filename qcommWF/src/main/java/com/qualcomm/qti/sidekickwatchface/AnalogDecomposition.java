@@ -23,7 +23,7 @@ public class AnalogDecomposition extends DecompositionWatchFaceService
         ImageComponent backgroundImageComponent = new ImageComponent.Builder()
                     .setComponentId(1)
                     .setZOrder(1)
-                    .setImage(Icon.createWithResource(mContext, R.drawable.bg))
+                    .setImage(Icon.createWithResource(mContext, R.drawable.bg_interactive))
                     .setBounds(new RectF(0F, 0F, 1F, 1F))
                     .build();
         ImageComponent hourImageComponent = new ImageComponent.Builder()

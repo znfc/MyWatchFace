@@ -1,11 +1,17 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'zhao1122'
+            keyPassword '411328'
+            storeFile file('D:/keystore/zhao11.jks')
+            storePassword '411328'
+        }
+    }
     compileSdkVersion 'android-P'
-
-
     defaultConfig {
-        applicationId "com.qualcomm.qti.sidekickwatchface"
+        applicationId "com.qualcomm.qti.sidekickwatchface1"
         minSdkVersion 27
         targetSdkVersion 28
         versionCode 1
@@ -15,7 +21,14 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
     }
 }
 
