@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_exerciseDetection">
+
+    <ListPreference
+            android:key="pref_exerciseDetection_walking"
+            android:icon="@drawable/ic_cc_settings_walking"
+            android:persistent="false" />
+
+    <ListPreference
+            android:key="pref_exerciseDetection_running"
+            android:icon="@drawable/ic_cc_settings_running"
+            android:persistent="false" />
+
+    <ListPreference
+            android:key="pref_exerciseDetection_biking"
+            android:icon="@drawable/ic_cc_settings_biking"
+            android:persistent="false" />
+
+</PreferenceScreen>

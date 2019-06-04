@@ -1,0 +1,10 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Values for text size entries: this must stay in sync with text_size_labels-->
+    <!-- Should stay in sync with default_text_size in Setup/res/values/config.xml, -->
+    <!-- and any device/.../Setup overlays. -->
+    <string-array name="text_size_entries" translatable="false">
+        <item>0.89</item>
+        <item>1.0</item>
+        <item>1.11</item>
+    </string-array>
+</resources>

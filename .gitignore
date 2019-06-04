@@ -13,3 +13,5 @@
 .externalNativeBuild
 /qcommWF/release
 .idea/vcs.xml
+mydogwf/release
+*/build

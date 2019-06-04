@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.wearable.resolver.ResolverActivityItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/resolver_item_application_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/resolver_item_application_name"
+        style="@android:style/TextAppearance.Material.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/resolver_item_application_image"
+        android:maxLines="2" />
+
+</com.google.android.apps.wearable.resolver.ResolverActivityItem >

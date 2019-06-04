@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_wifiNetworkConfiguration">
+    <Preference
+        android:key="pref_wifiNetworkMessage"
+        android:selectable="false"
+        android:layout="@layout/wifi_configure_network_message"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_wifiRetry"
+        android:title="@string/action_retry"
+        android:icon="@drawable/action_retry"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_wifiOpenOnPhone"
+        android:title="@string/action_enter_on_phone"
+        android:icon="@drawable/action_open_on_phone"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_wifiOpenOnWatch"
+        android:title="@string/action_enter_on_watch"
+        android:icon="@drawable/action_open_on_watch"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_wifiForgetNetwork"
+        android:title="@string/wifi_forget_network_title"
+        android:icon="@drawable/action_cancel"
+        android:persistent="false" />
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/loading_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingLeft="?android:attr/dialogPreferredPadding"
+      android:paddingRight="?android:attr/dialogPreferredPadding"
+      android:paddingTop="@dimen/settings_list_icon_margin"
+      android:paddingBottom="@dimen/settings_list_icon_margin">
+  <ImageView
+      android:id="@+id/icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_centerHorizontal="true"
+      android:indeterminate="true"
+      android:src="@drawable/ic_cc_settings_wifi_0" />
+  <TextView
+      android:id="@+id/loading_title"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_toEndOf="@id/icon"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="@dimen/settings_list_icon_margin"
+      android:layout_marginTop="1sp"
+      android:layout_marginBottom="1sp"
+      android:textSize="12sp"
+      android:background="?android:attr/colorPrimaryDark" />
+  <TextView
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_toEndOf="@id/icon"
+      android:layout_below="@id/loading_title"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="@dimen/settings_list_icon_margin"
+      android:layout_marginTop="1sp"
+      android:layout_marginBottom="1sp"
+      android:textSize="10sp"
+      android:fontFamily="sans-serif-condensed"
+      android:background="?android:attr/colorPrimaryDark" />
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        >
+    <LinearLayout
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="gone"
+            >
+        <android.support.wearable.view.CircledImageView
+                android:id="@+id/spinner"
+                android:layout_height="@dimen/network_operators_progress_icon_size"
+                android:layout_width="@dimen/network_operators_progress_icon_size"
+                android:layout_marginRight="10dp"
+                app:circle_border_color="#FFFFFFFF"
+                app:circle_border_width="1dp"
+                app:circle_radius="26dp"
+                app:circle_color="#00000000"/>
+        <TextView
+                android:id="@+id/progress_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/network_operators_searching"
+                />
+    </LinearLayout>
+    <include layout="@layout/wearable_radio_list_view_internal" />
+</FrameLayout>

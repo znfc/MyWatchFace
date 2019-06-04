@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/main_personal">
+    <Preference
+            android:key="pref_inputMethods"
+            android:title="@string/pref_inputMethods"
+            android:icon="@drawable/ic_cc_settings_keyboard"
+            android:order="10"
+            android:persistent="false"
+            android:fragment="com.google.android.clockwork.settings.input.VirtualKeyboardFragment" />
+
+    <Preference
+            android:key="pref_accounts"
+            android:title="@string/pref_accounts"
+            android:icon="@drawable/ic_cc_settings_account"
+            android:order="20"
+            android:persistent="false"
+            android:fragment="com.google.android.clockwork.settings.personal.AccountSettingsFragment"/>
+    <Preference
+            android:key="pref_yolo"
+            android:title="@string/pref_yolo"
+            android:icon="@drawable/ic_cc_settings_yolo"
+            android:order="30"
+            android:persistent="false"/>
+    <Preference
+            android:key="pref_buttons"
+            android:order="40"
+            android:persistent="false"
+            android:fragment="com.google.android.clockwork.settings.personal.buttons.ButtonSettingsFragment"/>
+
+    <Preference
+            android:key="pref_exerciseDetection"
+            android:title="@string/pref_exerciseDetection"
+            android:icon="@drawable/ic_cc_settings_running"
+            android:order="50"
+            android:persistent="false"
+            android:fragment="com.google.android.clockwork.settings.personal.fitness.ExerciseDetectionSettingsFragment"/>
+
+    <SwitchPreference
+            android:key="pref_smartReply"
+            android:title="@string/pref_smartReply"
+            android:order="60"
+            android:persistent="false" />
+
+    <SwitchPreference
+            android:key="pref_hotwordDetection"
+            android:title="@string/pref_hotwordDetection"
+            android:order="70"
+            android:persistent="false" />
+
+    <SwitchPreference
+            android:key="pref_alternateLauncher"
+            android:title="@string/pref_alternateLauncher"
+            android:order="80"
+            android:persistent="false" />
+
+    <com.google.android.clockwork.settings.personal.VoiceAssistantPreference
+            android:key="pref_voiceAssistant"
+            android:order="90" />
+
+    <Preference
+            android:key="pref_deviceAdministration"
+            android:title="@string/pref_deviceAdministration"
+            android:icon="@drawable/ic_cc_settings_deviceadmin"
+            android:order="100"
+            android:persistent="false"
+            android:fragment="com.google.android.clockwork.settings.personal.device_administration.ActiveDeviceAdministrationSettingsFragment"/>
+
+</PreferenceScreen>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- no translation found for wifi_status:1 (6828080896991292331) -->
+    <!-- no translation found for wifi_status:2 (3844860111309157515) -->
+    <!-- no translation found for wifi_status:3 (1861834991573280805) -->
+    <!-- no translation found for wifi_status:4 (178329685844686473) -->
+    <!-- no translation found for wifi_status:5 (8729438912659078630) -->
+    <!-- no translation found for wifi_status:6 (3076664287948185551) -->
+    <!-- no translation found for wifi_status:7 (8969139800445813785) -->
+    <!-- no translation found for wifi_status:8 (4980867983294667139) -->
+    <!-- no translation found for wifi_status:9 (4069411507995808590) -->
+    <!-- no translation found for wifi_status:10 (5189656844515403014) -->
+    <!-- no translation found for wifi_status:11 (3612113489328432789) -->
+    <!-- no translation found for system_app_notif_whitelist:0 (8776925310865767615) -->
+  <string-array name="bearer_entries">
+    <item msgid="8884918780526432466">"Neopredeljeno"</item>
+    <item msgid="5033175386015885927">"LTE"</item>
+    <item msgid="7097861388918243172">"HSPAP"</item>
+    <item msgid="3295814143297735177">"HSPA"</item>
+    <item msgid="2492154738000647849">"HSUPA"</item>
+    <item msgid="175184183334027205">"HSDPA"</item>
+    <item msgid="7843090241341890106">"UMTS"</item>
+    <item msgid="725080259719381229">"EDGE"</item>
+    <item msgid="7526351567955769646">"GPRS"</item>
+    <item msgid="2471395951946992328">"eHRPD"</item>
+    <item msgid="915509526094669171">"EVDO_B"</item>
+    <item msgid="5359257642609984661">"EVDO_A"</item>
+    <item msgid="4156161823227534620">"EVDO_0"</item>
+    <item msgid="3036576618570790640">"1xRTT"</item>
+    <item msgid="2930967999096404086">"IS95B"</item>
+    <item msgid="6536195174573397206">"IS95A"</item>
+  </string-array>
+  <string-array name="apn_protocol_entries">
+    <item msgid="7833826618983315635">"IPv4"</item>
+    <item msgid="630516118509556233">"IPv6"</item>
+    <item msgid="6604897763950751364">"IPv4/IPv6"</item>
+  </string-array>
+  <string-array name="apn_auth_entries">
+    <item msgid="6936019629749690603">"Brez"</item>
+    <item msgid="2186712053548999659">"PAP"</item>
+    <item msgid="3345955898849506787">"CHAP"</item>
+    <item msgid="406615895372731733">"PAP ali CHAP"</item>
+  </string-array>
+  <string-array name="emergency_alerts_duration_choices">
+    <item msgid="5748284877987141957">"2 sekundi"</item>
+    <item msgid="5741433928649897434">"4 sekunde"</item>
+    <item msgid="3659108639719584623">"6 sekund"</item>
+    <item msgid="1542821851789889364">"8 sekund"</item>
+    <item msgid="2846495318108315494">"10 sekund"</item>
+  </string-array>
+  <string-array name="emergency_alerts_duration_values">
+    <item msgid="1766912873228958551">"2"</item>
+    <item msgid="8499588392870888445">"4"</item>
+    <item msgid="6742099077406281075">"6"</item>
+    <item msgid="751195113634564435">"8"</item>
+    <item msgid="4687643420567861444">"10"</item>
+  </string-array>
+  <string-array name="preferred_network_mode_choices">
+    <item msgid="6863340322250397737">"LTE/WCDMA"</item>
+    <item msgid="6851401377128793444">"LTE"</item>
+    <item msgid="4645756277090542875">"Globalno"</item>
+    <item msgid="6878637936250326496">"GSM/WCDMA/LTE"</item>
+    <item msgid="1204244325528767111">"CDMA + LTE/EvDo"</item>
+    <item msgid="3224510723906590137">"CDMA/EvDo/GSM/WCDMA"</item>
+    <item msgid="9098176300540690892">"Samo EvDo"</item>
+    <item msgid="1549319876382983619">"CDMA brez EvDo"</item>
+    <item msgid="7999836840638531905">"Samodejno CDMA/EvDo"</item>
+    <item msgid="8388923164687705653">"Samodejno GSM/WCDMA"</item>
+    <item msgid="3127904170055111059">"Samo WCDMA"</item>
+    <item msgid="2848715394380575275">"Samo GSM"</item>
+    <item msgid="1182712799785602428">"Prednostno GSM/WCDMA"</item>
+  </string-array>
+    <!-- no translation found for enabled_networks_4g_tdscdma_wcdma_gsm_choices:0 (5748440546907112670) -->
+    <!-- no translation found for enabled_networks_4g_tdscdma_wcdma_gsm_choices:1 (7937441768695381203) -->
+    <!-- no translation found for enabled_networks_4g_tdscdma_wcdma_gsm_choices:2 (9164063391582192643) -->
+    <!-- no translation found for enabled_networks_lte_tdscdma_wcdma_gsm_choices:0 (1281358965732126803) -->
+    <!-- no translation found for enabled_networks_lte_tdscdma_wcdma_gsm_choices:1 (2754920101112125670) -->
+    <!-- no translation found for enabled_networks_lte_tdscdma_wcdma_gsm_choices:2 (7654554203541418546) -->
+  <string-array name="preferred_network_mode_choices_world_mode">
+    <item msgid="3094627154799576406">"Globalno"</item>
+    <item msgid="7721328980063224426">"LTE/CDMA"</item>
+    <item msgid="3644473664407317772">"LTE/GSM/UMTS"</item>
+  </string-array>
+  <string-array name="preferred_network_mode_values_world_mode">
+    <item msgid="8408523071022433179">"10"</item>
+    <item msgid="5946158475853980813">"8"</item>
+    <item msgid="3334697499014787857">"9"</item>
+  </string-array>
+  <string-array name="tts_rate_entries">
+    <item msgid="5691209186256880425">"Zelo počasi"</item>
+    <item msgid="7244051906504038792">"Počasi"</item>
+    <item msgid="6078778542002978911">"Običajno"</item>
+    <item msgid="7495171240928750710">"Hitro"</item>
+    <item msgid="2214267248496919932">"Hitreje"</item>
+    <item msgid="47363213828884436">"Zelo hitro"</item>
+    <item msgid="6571698587021580913">"Izredno hitro"</item>
+    <item msgid="423792245584792960">"Skrajno hitro"</item>
+    <item msgid="1582929342380125855">"Najhitreje"</item>
+  </string-array>
+  <string-array name="tts_rate_entry_values">
+    <item msgid="2972825371860282962">"60"</item>
+    <item msgid="869762641033565214">"80"</item>
+    <item msgid="2210340565357367368">"100"</item>
+    <item msgid="6978242724810087298">"150"</item>
+    <item msgid="2073982471546624658">"200"</item>
+    <item msgid="174710198964679769">"250"</item>
+    <item msgid="8285326777226189519">"300"</item>
+    <item msgid="1369719136096550246">"350"</item>
+    <item msgid="5524872491758653228">"400"</item>
+  </string-array>
+    <!-- no translation found for cellular_state_entries:0 (8676910494660376452) -->
+    <!-- no translation found for cellular_state_entries:1 (7506376850807893827) -->
+    <!-- no translation found for cellular_state_entries:2 (6999539986218670255) -->
+</resources>

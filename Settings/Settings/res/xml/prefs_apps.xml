@@ -1,0 +1,83 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/main_apps"
+        android:orderingFromXml="false">
+    <Preference
+            android:title="@string/apps_settings"
+            android:icon="@drawable/ic_cc_settings_about"
+            android:order="10"
+            android:fragment="com.google.android.clockwork.settings.apps.AppInfoSettingsFragment"
+            android:persistent="false" />
+    <Preference
+            android:key="pref_appNotifications"
+            android:title="@string/app_notifications"
+            android:icon="@drawable/ic_cc_settings_ring"
+            android:order="20"
+            android:persistent="false">
+        <!-- Should match the intent filter for com.google.android.clockwork.home.notificationsettings.NotificationSettingsPreferenceActivity -->
+        <intent android:action="com.google.android.clockwork.settings.APP_NOTIFICATIONS" />
+    </Preference>
+    <Preference
+            android:title="@string/app_permissions"
+            android:icon="@drawable/ic_cc_settings_permissions"
+            android:order="30"
+            android:fragment="com.google.android.clockwork.settings.apps.AppPermissionsSettingsFragment"
+            android:persistent="false" />
+    <PreferenceScreen
+            android:key="pref_cardPreviews"
+            android:title="@string/pref_cardPreviews"
+            android:icon="@drawable/ic_cc_preview"
+            android:order="40"
+            android:persistent="false">
+        <com.google.android.clockwork.settings.common.RadioButtonPreference
+                android:key="pref_cardPreviews_high"
+                android:title="@string/pref_previewMode_labelHigh"
+                android:summary="@string/pref_previewMode_descHigh"/>
+        <com.google.android.clockwork.settings.common.RadioButtonPreference
+                android:key="pref_cardPreviews_normal"
+                android:title="@string/pref_previewMode_labelNormal"
+                android:summary="@string/pref_previewMode_descNormal"/>
+        <com.google.android.clockwork.settings.common.RadioButtonPreference
+                android:key="pref_cardPreviews_low"
+                android:title="@string/pref_previewMode_labelOff"
+                android:summary="@string/pref_previewMode_descOff"/>
+    </PreferenceScreen>
+    <SwitchPreference
+            android:key="pref_muteWhenOffBody"
+            android:title="@string/pref_muteWhenOffBody"
+            android:order="50"
+            android:persistent="false" />
+    <Preference
+            android:key="pref_dndOptions"
+            android:title="@string/pref_dndOptions"
+            android:icon="@drawable/ic_cc_settings_dnd"
+            android:order="60"
+            android:fragment="com.google.android.clockwork.settings.sound.DoNotDisturbSettingsFragment"
+            android:persistent="false" />
+    <PreferenceScreen
+        android:key="pref_vibrationLevel"
+        android:title="@string/pref_vibrationLevel"
+        android:icon="@drawable/ic_cc_settings_vibration"
+        android:order="70"
+        android:persistent="false">
+        <com.google.android.clockwork.settings.common.RadioButtonPreference
+            android:key="pref_vibrationLevel_normal"
+            android:title="@string/pref_vibrationLevel_labelNormal"/>
+        <com.google.android.clockwork.settings.common.RadioButtonPreference
+            android:key="pref_vibrationLevel_long"
+            android:title="@string/pref_vibrationLevel_labelLong"/>
+        <com.google.android.clockwork.settings.common.RadioButtonPreference
+            android:key="pref_vibrationLevel_double"
+            android:title="@string/pref_vibrationLevel_labelDouble"/>
+    </PreferenceScreen>
+    <Preference
+        android:key="pref_vip_contacts"
+        android:title="@string/pref_vip_contacts"
+        android:icon="@drawable/ic_cc_settings_vip_contacts"
+        android:order="80"
+        android:persistent="false">
+        <intent
+            android:action="com.google.android.clockwork.home.contacts.ACTION_VIP_CONTACTS_SETTINGS"
+            android:targetPackage="com.google.android.wearable.app"
+        />
+    </Preference>
+</PreferenceScreen>

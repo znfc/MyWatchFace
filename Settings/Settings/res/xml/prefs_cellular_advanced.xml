@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/advanced_settings_title">
+    <SwitchPreference
+        android:key="pref_enhanced_4g_lte"
+        android:title="@string/enhanced_4g_lte_mode"
+        android:persistent="false"/>
+    <com.google.android.clockwork.settings.cellular.PreferredNetworkPreference
+            android:key="pref_preferredNetwork" />
+    <com.google.android.clockwork.settings.cellular.ApnSettingsPreference
+            android:key="pref_accessPointNames" />
+    <com.google.android.clockwork.settings.cellular.NetworkOperatorsPreference
+            android:key="pref_networkOperators" />
+    <Preference
+            android:key="pref_twinning"
+            android:title="@string/twinning_settings_action"
+            android:icon="@drawable/ic_settings_sharingaccounts"
+            android:fragment="com.google.android.clockwork.settings.cellular.TwinningFragment"
+            android:persistent="false"/>
+    <Preference
+            android:key="pref_accounts"
+            android:title="@string/accounts"
+            android:icon="@drawable/ic_settings_sharingaccounts"
+            android:persistent="false">
+            <intent android:targetClass="com.google.android.clockwork.settings.cellular.PhoneAccountsActivity"
+                    android:targetPackage="com.google.android.apps.wearable.settings"/>
+    </Preference>
+</PreferenceScreen>

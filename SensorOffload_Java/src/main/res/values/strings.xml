@@ -1,0 +1,12 @@
+<!--
+   Copyright (c) 2018 Qualcomm Technologies, Inc.
+   All Rights Reserved.
+   Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<resources>
+    <string name="app_name">Sport Mode Sample</string>
+    <string name="btn_label_start">Start</string>
+    <string name="btn_label_pause">Pause</string>
+    <string name="btn_label_reset">Reset</string>
+    <string name="notice_update_frequency">Updates every 10 seconds</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="@string/pref_simStatus"
+        android:orderingFromXml="true">
+      <Preference
+            android:key="pref_simStatusNetwork"
+            android:title="@string/sim_status_title_network"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusSignalStrength"
+            android:title="@string/sim_status_title_signal_strength"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusNetworkType"
+            android:title="@string/sim_status_title_network_type"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusServiceState"
+            android:title="@string/sim_status_title_service_state"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusRoamingState"
+            android:title="@string/sim_status_title_roaming_state"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusNetworkState"
+            android:title="@string/sim_status_title_network_state"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusPhoneNumber"
+            android:title="@string/sim_status_title_phone_number"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusImei"
+            android:title="@string/sim_status_title_imei"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusImeiSv"
+            android:title="@string/sim_status_title_imei_sv"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_simStatusIccid"
+            android:title="@string/sim_status_title_iccid"
+            android:persistent="false" />
+</PreferenceScreen>

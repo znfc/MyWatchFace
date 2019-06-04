@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="4805412166234254195">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‎‏‎‏‏‎‎‎‎‎‏‎‎‎‎‎‎‏‏‏‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‎‏‎‏‏‎‏‏‏‎‎‏‏‎Settings‎‏‎‎‏‎"</string>
+    <string name="generic_enabled" msgid="4767825898537903553">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‎‎‎‏‎‏‎‏‎‏‎‏‏‏‎‎‎‎‏‏‎‎‏‎‎‏‏‎‎‏‎‎‏‎‏‎‎‎‎‏‎‎‏‏‎‎‏‎‏‏‏‎‎‎‎‎‏‎ON‎‏‎‎‏‎"</string>
+    <string name="generic_disabled" msgid="6132207079573986077">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‎‎‎‏‏‎‎‏‏‏‏‏‏‎‎‏‏‏‎‏‏‎‎‏‎‏‎‏‏‎‏‏‎‎‏‎‎‏‎‎‏‎‎‏‏‎‏‏‎‎‎‏‏‏‎‏‎OFF‎‏‎‎‏‎"</string>
+    <string name="generic_automatic" msgid="868637236719762619">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‎‎‎‎‏‏‏‎‎‎‎‎‎‏‎‎‏‏‏‏‎‏‏‎‏‏‏‎‏‏‎‏‎‏‎‏‏‎‏‏‏‎‏‏‏‏‎‎‏‎‏‏‏‎‏‏‎Automatic‎‏‎‎‏‎"</string>
+    <string name="generic_help" msgid="2981841092590228407">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‎‏‏‎‎‎‎‏‏‎‏‎‎‎‎‎‏‎‏‎‏‏‎‎‏‏‎‏‏‏‎‎‏‎‎‎‎‎‎‎‏‏‎‏‎‎‏‏‏‎‏‏‎‏‏‏‎Help‎‏‎‎‏‎"</string>
+    <string name="generic_ok" msgid="1432634274285209665">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‏‎‏‏‏‏‎‏‎‏‎‎‏‎‎‎‎‎‏‏‎‎‏‏‏‏‎‏‎‎‎‏‏‏‎‎‏‎‎‎‎‏‎‎‎‎‎‏‎OK‎‏‎‎‏‎"</string>
+    <string name="generic_cancel" msgid="6193428581633519631">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‏‏‎‎‏‏‎‏‏‏‏‎‏‎‎‏‏‏‏‎‏‏‎‎‎‏‎‏‏‎‎‎‎‎‎‏‎‎‎‏‏‏‎‎‎‎‎‎‎‎‏‏‏‏‎Cancel‎‏‎‎‏‎"</string>
+    <string name="generic_phone" msgid="8623763185567592337">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‏‏‎‏‎‏‏‎‏‏‏‎‎‎‎‏‎‏‏‏‎‏‏‎‏‎‎‏‏‎‏‏‎‏‏‎‏‏‎‎‎‏‏‏‎‏‏‏‏‏‎‎‏‎‎‎‏‎PHONE‎‏‎‎‏‎"</string>
+    <string name="generic_network" msgid="6777066570869553437">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‎‎‏‏‎‎‏‏‏‏‏‎‏‎‎‎‏‎‎‎‏‏‏‏‎‎‎‏‏‏‏‏‎‏‏‎‏‎‏‎‏‏‏‎‎‏‎‎‎‏‏‏‎‏‎NETWORK‎‏‎‎‏‎"</string>
+    <string name="disable_text" msgid="9106135998265313262">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‎‎‏‏‏‎‎‎‏‏‎‏‎‏‏‎‏‎‎‎‎‎‎‎‎‎‏‎‎‎‏‏‏‏‏‏‎‏‏‏‎‎Disable‎‏‎‎‏‎"</string>
+    <string name="enable_text" msgid="8428163776996061717">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‎‏‏‎‏‏‎‏‏‎‏‎‎‏‎‎‏‏‎‏‎‎‎‎‎‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‎‏‎‎‎‎‏‎‏‎‏‎Enable‎‏‎‎‏‎"</string>
+    <string name="suggested_settings_battery_saver" msgid="6973608585328283281">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‎‎‎‏‏‏‎‎‏‏‏‏‎‎‎‎‎‎‏‏‏‏‏‎‎‎‎‎‏‏‎‎‎‏‏‎‏‏‎‏‎‎‏‏‏‎‏‎‎‏‎‎‎‏‎Battery saver‎‏‎‎‏‎"</string>
+    <string name="suggested_settings_summary" msgid="545719318271412676">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‏‏‎‎‏‎‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‏‎‎‎‎‏‎‎‎‎‎‏‎‏‎‎‎‏‎‏‏‎‎‏‎‎‏‏‏‎‎‎‏‎‎‎Suggested‎‏‎‎‏‎"</string>
+    <string name="main_general" msgid="2277067946678605807">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‏‏‎‎‎‏‎‏‎‎‏‏‏‎‏‏‏‎‏‎‏‎‏‏‎‎‏‏‎‏‎‎‏‏‎‏‎‏‏‏‏‏‏‎‏‏‏‏‎General‎‏‎‎‏‎"</string>
+    <string name="main_display" msgid="8543582589798177773">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‎‎‎‎‏‏‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‏‏‏‏‏‏‎‎‎‏‎‎‎‎‏‏‏‎‏‏‎‏‏‏‏‏‎‏‏‎‏‎Display‎‏‎‎‏‎"</string>
+    <string name="main_sound" msgid="1030377248270446960">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‎‏‎‎‏‏‎‎‏‎‏‎‎‎‏‎‏‎‏‎‎‏‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‏‏‏‏‎‎‎‏‎‏‏‏‎‎‎‎‎Sound‎‏‎‎‏‎"</string>
+    <string name="main_apps" msgid="625863343906090300">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‎‏‎‏‎‏‏‏‏‏‎‎‎‎‎‏‏‎‏‏‎‎‏‎‏‎‎‏‏‎‎‏‏‎‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‎‏‏‏‏‎‎‎Apps &amp; notifications‎‏‎‎‏‎"</string>
+    <string name="main_gestures" msgid="905553143863618199">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‏‎‎‏‎‎‎‏‎‎‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‎‏‏‎‎‏‎‎‏‏‏‎‏‎‏‎‏‎‏‎‏‎‏‎‎‏‎‏‏‏‎Gestures‎‏‎‎‏‎"</string>
+    <string name="main_connectivity" msgid="7370591930248236171">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎‎‏‎‎‏‏‎‎‏‏‎‏‎‎‏‎‎‏‏‏‏‎‎‏‏‏‎‏‎‏‏‎‎‏‏‏‎‏‎‎‎‏‏‎‎‏‎‎‎‏‎‏‏‎Connectivity‎‏‎‎‏‎"</string>
+    <string name="main_accessibility" msgid="2662022377571056555">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‏‏‏‏‎‎‎‏‎‏‏‎‎‏‏‏‎‎‏‏‏‏‏‏‏‎‎‏‎‏‏‏‎‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‏‎‏‎‏‎‏‏‎Accessibility‎‏‎‎‏‎"</string>
+    <string name="main_personal" msgid="8308170429366761720">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‎‏‏‎‎‏‎‎‎‏‏‎‎‏‏‏‏‏‏‎‎‏‎‏‎‎‏‏‏‏‏‎‎‏‏‏‏‎‏‏‏‏‎‎‎‏‏‏‏‏‎‎‎‎Personalization‎‏‎‎‏‎"</string>
+    <string name="main_system" msgid="7224774499516676026">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‎‏‎‎‎‎‏‏‏‎‎‎‏‏‏‎‎‎‏‎‎‎‎‎‏‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‏‏‏‏‎‏‏‏‏‎‏‏‏‎‏‎‎System‎‏‎‎‏‎"</string>
+    <string name="main_enterprise_privacy" msgid="7759678798497362601">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‎‏‎‎‏‏‎‎‏‏‏‎‎‏‎‎‎‎‏‎‏‏‎‎‏‎‏‎‏‎‏‎‎‏‎Managed device info‎‏‎‎‏‎"</string>
+    <!-- no translation found for pref_watchface (219945858425846586) -->
+    <skip />
+    <string name="pref_brightness" msgid="4404286087899301613">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‎‎‎‏‏‏‏‏‎‎‏‎‏‎‏‎‏‏‎‏‏‏‎‎‏‎‏‎‏‏‏‎‎‏‏‎‏‏‏‎‏‏‎‎‎‏‏‎‏‏‏‎‏‏‎‏‎Adjust brightness‎‏‎‎‏‎"</string>
+    <string name="adaptive_brightness" msgid="4866645892884526870">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‏‎‎‎‏‎‎‏‏‏‎‎‏‏‎‎‏‎‏‎‎‏‏‏‏‎‏‎‏‏‎‎‏‏‏‏‏‏‏‎‏‏‏‏‎‏‏‏‎‎‎‏‎‏‏‎‎Automatic‎‏‎‎‏‎"</string>
+    <string name="pref_fontSize" msgid="8359543865029440063">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‎‎‏‏‎‎‎‏‎‎‎‎‏‏‎‏‏‎‏‎‏‎‏‏‏‏‏‏‎‏‏‎‎‎‎‎‎‎‏‏‎‎‏‎‎‎‏‏‏‏‏‏‎Font size‎‏‎‎‏‎"</string>
+    <string name="pref_screenOrientation" msgid="6127085048589854819">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‎‎‎‎‎‏‏‏‏‏‎‎‎‏‏‏‎‏‏‎‎‎‏‏‏‎‎‏‎‏‎‏‏‏‎‎‏‏‏‎‎‎‏‎‏‎‎‎‎‏‏‎‎‎‏‏‎Screen Orientation‎‏‎‎‏‎"</string>
+    <string name="pref_screenOrientation_labelLeftWrist" msgid="652035256667508708">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‎‎‎‏‏‎‎‎‏‏‏‏‏‏‎‏‎‎‏‏‏‎‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‏‎‎‎‏‏‏‏‏‏‏‎‎‏‎‎‎Left wrist‎‏‎‎‏‎"</string>
+    <string name="pref_screenOrientation_labelRightWrist" msgid="6778414045028891067">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‎‎‏‏‏‎‎‎‎‏‏‏‎‏‎‏‎‎‏‎‎‎‎‏‏‏‎‎‏‏‏‎‏‏‏‎‎‏‏‏‎‎‏‏‎‏‏‏‎‏‏‎Right wrist‎‏‎‎‏‎"</string>
+    <string name="pref_alwaysOnScreen" msgid="977242386652826444">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‏‎‎‎‏‏‏‏‏‏‎‏‏‏‎‎‏‏‎‎‎‏‎‏‏‏‏‎‎‎‏‏‏‏‏‎‎‏‎‏‏‎‎‎‏‎‏‏‎‏‎‎‏‏‎‎‎Always-on screen‎‏‎‎‏‎"</string>
+    <string name="pref_wetMode" msgid="6656141011799357196">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‎‎‏‎‏‏‏‏‏‎‏‎‏‏‏‎‎‏‏‏‏‏‏‎‎‎‎‎‎‎‏‏‏‎‎‏‏‎‏‎‏‏‎‏‏‎‏‏‏‎‎‎‎‏‏‎‎‎Touch lock‎‏‎‎‏‎"</string>
+    <string name="pref_touchToWake" msgid="9162357570256065678">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‎‏‏‏‎‏‏‏‎‏‎‏‎‏‎‎‏‏‏‏‎‎‎‎‎‏‏‏‎‎‏‎‏‎‏‎‏‎‎‏‎‎‎‏‏‏‎‎Touch to wake‎‏‎‎‏‎"</string>
+    <string name="pref_touchToWakeAlt" msgid="7562327450289602518">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‏‏‏‏‎‎‏‎‏‏‎‎‏‎‎‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‏‏‎‏‏‎‎‏‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎Touch-to-wake‎‏‎‎‏‎"</string>
+    <string name="enable_ambient_screen" msgid="6499952256560066035">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‎‎‏‏‎‏‎‎‎‏‏‏‏‎‎‎‎‎‏‎‎‎‏‏‏‎‎‏‏‏‎‏‎‏‎‎‎‎‏‎‏‏‏‎‏‏‎‏‏‏‏‏‎‎‏‏‎Always-on screen reduces battery life.‎‏‎‎‏‎"</string>
+    <string name="enable_ambient_screen_subtitle" msgid="8243347773079894648">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‎‎‏‏‎‎‏‎‎‎‎‎‏‎‎‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‏‎‏‏‏‏‎‎‏‏‏‎‏‎‎‏‏‏‏‎‎‎‎Turn on?‎‏‎‎‏‎"</string>
+  <string-array name="text_size_labels">
+    <item msgid="1172611480729848918">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‎‎‏‎‎‎‏‎‏‏‏‏‏‎‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎‎‎‏‏‏‎‎‏‎‏‎‎‎‏‏‎‎‎‏‎‏‎‏‏‎‎Small‎‏‎‎‏‎"</item>
+    <item msgid="7428343085268820308">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‏‎‎‎‏‎‏‏‎‏‏‎‎‎‏‏‎‏‎‏‎‏‏‎‏‏‏‎‏‎‎‏‏‎‎‏‎‏‏‎‏‎‏‏‎‎‎‎‏‎‏‎‏‎‏‎‎‎Normal‎‏‎‎‏‎"</item>
+    <item msgid="2905776473655806193">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‏‎‎‎‏‎‎‏‏‏‎‏‎‏‎‏‏‎‎‏‏‏‏‎‎‎‏‎‎‎‎‏‎‎‎‏‏‏‏‎‎‎‏‎Large‎‏‎‎‏‎"</item>
+  </string-array>
+    <string name="pref_volume" msgid="583533202517807550">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‎‎‎‎‏‏‎‎‏‎‎‏‎‎‎‎‎‎‏‎‏‏‎‏‏‎‎‏‎‎‎‏‎‏‎‏‏‏‎‎‎‎‏‎‏‎‎‎‏‏‎‏‏‏‏‏‎‎Volume‎‏‎‎‏‎"</string>
+    <string name="pref_vibrationLevel" msgid="315706692908066738">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‎‎‏‏‎‎‎‎‏‏‎‎‏‏‏‎‏‏‎‎‏‎‎‎‎‏‎‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‎‏‏‎‎‏‎‎Vibration pattern‎‏‎‎‏‎"</string>
+    <string name="pref_cardPreviews" msgid="8075377469253297138">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‎‎‏‎‎‎‏‏‎‎‎‎‎‎‏‎‎‎‎‎‏‎‏‏‏‏‎‏‎‏‎‎‎‎‎‏‎‎‏‎‎‏‎‎‎‏‏‏‏‏‏‎‎‏‎‎Notification previews‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions" msgid="8591561749698004501">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‏‎‎‏‏‏‎‏‏‎‏‎‏‏‎‏‏‏‏‏‎‎‏‎‎‎‎‏‎‏‏‎‎‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‎‎‎‏‎‏‎‏‎Override Do Not Disturb for…‎‏‎‎‏‎"</string>
+    <string name="pref_muteWhenOffBody" msgid="4130182830105282651">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‎‏‎‏‎‎‎‏‎‏‎‏‏‎‏‏‎‏‏‎‎‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‏‏‏‏‏‎‎‏‎‎‎‎‏‎‏‏‎‏‏‎Do not disturb when off wrist‎‏‎‎‏‎"</string>
+    <string name="pref_appNotifications" msgid="6852580630991838680">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‏‎‎‎‏‏‎‎‏‎‏‎‎‎‎‎‏‏‏‎‎‎‏‏‏‎‎‎‎‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‏‏‏‎‏‏‏‎‏‏‎‎‎‎App notifications‎‏‎‎‏‎"</string>
+    <string name="pref_appNotifications_blockAll" msgid="3528021284111390747">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‏‏‏‎‏‏‎‎‎‎‎‏‏‎‎‏‎‏‎‏‎‏‎‎‏‏‎‎‏‏‏‎‏‏‏‏‎‏‎‎‎‎‏‏‎‎‎‎‎‎‏‏‎‏‏‎Block all‎‏‎‎‏‎"</string>
+    <string name="pref_appNotifications_none" msgid="836948949641390117">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‎‎‏‏‏‎‏‎‏‏‏‎‎‎‎‏‎‏‎‎‎‏‎‏‎‏‎‎‏‏‎‏‎‎‎‎‎‏‎‏‏‏‎‏‎‎‎‎‎‏‎‎‏‎‏‎Don\'t silence or block‎‏‎‎‏‎"</string>
+    <string name="pref_appNotifications_silently" msgid="2357553671144158837">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‎‏‎‏‏‎‏‏‏‏‎‏‏‎‏‏‎‏‎‎‏‎‎‏‎‏‎‏‏‎‎‏‏‎‏‏‏‎‏‏‏‎‎‏‏‎‏‏‎‎‏‏‏‎‏‎‏‎Show notifications silently‎‏‎‎‏‎"</string>
+    <string name="pref_mediaVolume" msgid="1291596704902475091">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‏‏‏‏‎‏‏‎‎‏‎‏‎‏‏‎‎‎‏‎‏‏‏‎‎‎‎‏‎‎‏‎‎‏‏‎‎‎‏‏‎‏‏‏‎‏‏‎‏‎‏‎‏‎‎‏‏‎Media volume‎‏‎‎‏‎"</string>
+    <string name="pref_accessibilityVolume" msgid="8759949518544563500">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎‎‎‏‏‎‎‏‎‏‏‏‏‎‏‎‏‏‎‎‏‏‎‎‎‏‏‏‎‎‏‏‎‎‏‏‏‏‏‎‏‏‎‏‎‎‏‎‏‏‎‎‎Accessibility volume‎‏‎‎‏‎"</string>
+    <string name="pref_alarmVolume" msgid="4759943273376168989">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‏‎‏‎‏‏‎‏‏‏‎‎‏‏‎‎‎‎‎‎‎‏‏‎‎‎‏‎‎‏‏‎‎‎‏‎‏‏‏‏‎‎‎‎‎‏‏‏‎‏‎Alarm volume‎‏‎‎‏‎"</string>
+    <string name="pref_ringVolume" msgid="75112011503047272">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‎‎‎‏‎‏‎‏‏‎‏‏‎‎‏‏‏‏‏‏‎‎‏‏‏‏‏‏‏‎‎‎‎‎‎‎‎‎‏‎‎‎‏‎‎‏‎‎‏‏‎‏‎‎‎‎Ring volume‎‏‎‎‏‎"</string>
+    <string name="pref_vibrateForCalls" msgid="8654642357949801834">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‎‎‎‎‏‏‎‏‏‎‏‏‏‎‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‎‏‏‏‎‏‎‎‏‎‏‏‎‏‎‎‏‎‏‎‏‏‎‏‎‏‎‎Also vibrate for calls‎‏‎‎‏‎"</string>
+    <string name="pref_watchRingtone" msgid="855685662644067855">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‏‏‎‎‎‎‎‎‎‎‎‎‎‎‏‏‎‎‏‎‎‏‏‏‎‎‏‏‎‎‏‎‏‎‎‏‎‏‏‎‏‎‏‏‏‏‎‎‎‎‎‏‏‏‏‎Watch ringtone‎‏‎‎‏‎"</string>
+    <string name="pref_emergencyNotifications" msgid="7107773096913970388">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‏‎‏‎‎‎‏‏‏‏‏‎‎‎‎‏‏‏‏‏‏‎‎‏‎‎‎‏‏‎‎‏‏‎‏‎‎‎‏‎‏‎‏‎‎‏‎‎‏‏‎‏‎‏‎‎‎Wireless emergency alerts‎‏‎‎‏‎"</string>
+    <string name="pref_silenceWhileWearingWatch" msgid="879641131530396794">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‎‎‏‏‎‏‎‏‎‎‎‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‎‏‎‏‏‎‏‎‏‏‎‎‎‏‎‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎Silence phone while wearing watch‎‏‎‎‏‎"</string>
+    <string name="pref_vibrationLevel_labelNormal" msgid="5509707331712871028">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‎‏‏‏‎‏‏‎‎‏‏‎‏‎‎‏‏‎‏‎‎‎‎‎‎‏‏‎‎‎‏‏‎‎‎‏‏‏‎‎‎‏‏‎‏‎‏‎‎‏‏‏‎‏‎‎‎Normal‎‏‎‎‏‎"</string>
+    <string name="pref_vibrationLevel_labelLong" msgid="45475922136986874">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‎‏‎‏‎‎‎‎‏‏‎‎‏‎‎‎‎‎‎‎‏‏‏‎‎‎‎‏‏‏‎‎‎‏‏‎‎‏‏‏‎‏‏‏‏‎‏‎‎‏‏‏‏‏‎‏‎‎Long‎‏‎‎‏‎"</string>
+    <string name="pref_vibrationLevel_labelDouble" msgid="6525541351572583838">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‎‎‏‏‏‏‎‏‏‎‎‎‎‏‎‏‎‎‏‎‎‏‎‎‎‏‎‎‏‏‏‎‎‏‏‎‏‏‎‎‏‏‎‏‎‏‏‎‎‏‏‏‏‎‎Double‎‏‎‎‏‎"</string>
+    <string name="pref_vip_contacts" msgid="1879173971064604498">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‎‎‎‏‎‏‎‎‎‎‏‎‏‎‏‎‏‏‎‎‎‏‎‏‎‎‏‏‏‎‎‎‎‏‏‏‎‏‏‏‎‏‎‎‎‏‏‏‎‏‎‏‎‎‏‎‎Favorite contacts‎‏‎‎‏‎"</string>
+    <string name="pref_previewMode_labelOff" msgid="801852493646863895">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‎‎‏‎‎‎‎‎‏‏‎‎‎‎‎‎‏‎‎‏‏‎‎‎‎‎‏‏‎‏‏‎‎‎‎‏‎‏‎‏‎‎‎‏‏‏‏‎‎‎‎‏‎‏‏‏‎Off‎‏‎‎‏‎"</string>
+    <string name="pref_previewMode_labelNormal" msgid="8391218979978349400">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‎‎‏‏‏‎‎‏‏‏‎‎‏‏‎‎‏‎‎‏‏‎‏‎‎‎‎‏‎‎‏‏‎‎‎‏‎‎‎‎‎‎‎‎‎‏‎‏‏‎‏‎‏‏‎‎‎‎Normal‎‏‎‎‏‎"</string>
+    <string name="pref_previewMode_labelHigh" msgid="2845932027101628063">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‏‏‎‏‏‏‏‏‏‎‏‏‎‎‏‎‎‎‎‎‎‏‏‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‏‏‎‎‏‏‎‎‎‏‏‎‏‎‎‏‏‏‏‏‎High‎‏‎‎‏‎"</string>
+    <string name="pref_previewMode_descOff" msgid="384558221044741768">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‏‎‏‎‏‎‏‏‎‎‎‏‏‏‎‎‏‏‎‏‎‏‎‏‎‎‎‏‎‎‎‎‎‏‏‎‏‎‎‏‏‏‏‏‏‎‏‏‎‏‎‎‎‏‎‎‎‎Never show‎‏‎‎‏‎"</string>
+    <string name="pref_previewMode_descNormal" msgid="3638635497643579205">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‎‏‏‏‏‏‏‏‎‎‎‎‎‏‏‏‏‎‏‏‎‏‎‎‏‏‏‏‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‎‏‏‏‎‏‎‎‎‏‎‏‎Show for 5 seconds‎‏‎‎‏‎"</string>
+    <string name="pref_previewMode_descHigh" msgid="423002447230118847">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‏‏‏‎‏‏‏‏‎‏‏‎‎‏‏‏‎‎‏‏‏‏‏‎‎‎‎‎‎‏‏‏‎‎‏‎‎‎‏‎‏‏‎‏‎‏‎‏‏‏‎‏‏‏‏‏‏‎Always show‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_repeatCallers" msgid="4924335853783993070">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‎‏‎‏‎‏‏‎‏‏‎‎‎‎‎‏‎‏‎‏‏‏‏‎‎‏‏‎‎‏‏‏‏‎‎‎‎‎‏‏‏‏‎‎‏‎‏‎‏‏‏‎‏‏‏‎‎Repeat callers‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_repeatCallers_favorites" msgid="4388447634368861190">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‎‏‏‏‎‎‏‏‎‏‏‏‎‎‏‎‏‏‏‎‏‏‏‏‏‎‏‎‏‏‎‎‏‏‏‏‏‎‏‎‏‏‎‎‏‎‏‎‎‎‎‎‎‎‏‏‎‎Repeat calls from favorites‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_calls" msgid="1348921732306138653">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‎‏‎‏‏‏‎‎‎‎‏‎‏‎‏‎‏‎‎‏‎‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‎‎‎‎‏‏‏‎‏‎Calls from contacts‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_calls_favorites" msgid="8654395286760587185">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‎‎‎‎‏‏‎‏‎‏‎‎‏‎‏‏‎‏‎‏‎‏‎‎‏‎‎‎‎‏‏‎‏‎‎‏‎‏‏‎‏‏‏‏‏‏‏‏‏‏‎‏‏‎‎‎‏‎Calls from favorites‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_messages" msgid="1302008367985288806">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‎‎‎‎‏‎‎‎‏‏‎‏‎‏‎‎‏‏‎‏‏‎‏‏‎‎‏‎‏‏‏‎‎‎‏‎‏‏‎‎‏‎‏‏‎‎‏‏‎‎‏‏‎‎‏‏‎‎Messages from contacts‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_messages_favorites" msgid="5217086406932660611">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‏‎‎‏‏‎‏‏‎‏‎‎‎‎‎‏‏‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‏‏‎‏‏‎‎‎‎‎‎‏‏‎‎‎‎‎‏‏‎Messages from favorites‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_reminders" msgid="4420290271332968202">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‎‎‎‎‏‏‎‏‎‎‏‎‏‎‏‎‎‎‎‎‎‏‎‏‏‏‎‏‎‏‎‏‎‏‎‎‏‏‏‎‎‎‎‏‎‏‎‎Reminders‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_events" msgid="6965864185073515283">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‏‎‏‎‏‎‏‏‏‎‏‏‏‎‎‎‏‎‎‏‎‎‎‏‏‏‎‏‎‎‎‎‏‏‏‎‏‏‎‎‎‎‏‏‏‎‏‏‎‎‎‏‎‎‏‏‎Events‎‏‎‎‏‎"</string>
+    <string name="pref_dndOptions_alarms" msgid="4729718969716138764">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‏‏‎‏‎‎‎‏‏‎‏‎‏‎‏‏‎‎‏‎‏‏‎‎‎‎‎‎‎‎‏‎‏‎‏‎‏‏‎‏‏‎‏‏‎‎‎‏‏‎‎‎‎‏‏‎‎‎Alarms‎‏‎‎‏‎"</string>
+    <string name="pref_tiltToWake" msgid="7785866998889309936">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‎‎‎‎‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎‎‏‎‎‎‏‏‎‎‎‎‎‏‎‎‏‏‏‎‏‏‏‏‏‎‎‏‏‎‏‏‏‏‎‎‎‎‎Tilt-to-wake‎‏‎‎‏‎"</string>
+    <string name="pref_wristGestures" msgid="6020010321248463981">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‏‎‎‎‏‎‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‎‏‏‏‏‎‎‏‏‎‎‎‏‏‎‎‏‏‎‎‏‎‏‏‎‎‎‏‏‎‏‏‎‏‎Wrist gestures‎‏‎‎‏‎"</string>
+    <string name="pref_launchTutorial" msgid="4964387450661947918">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‏‏‎‎‏‎‏‎‎‎‎‏‏‎‎‎‎‎‏‎‏‎‏‎‏‏‏‏‏‎‎‎‎‎‏‏‏‎‎‏‏‎‎‏‎‏‎‎‎‎‎‏‏‏‎‎Launch tutorial‎‏‎‎‏‎"</string>
+    <string name="pref_moreTips" msgid="5137825928039559765">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‏‎‎‏‏‎‏‎‎‏‏‏‎‎‏‎‏‏‏‎‏‎‏‏‏‎‎‏‏‏‎‏‎‎‏‎‏‏‎‏‏‏‏‎‎‏‎‎‏‎‏‎‏‎‏‎More tips‎‏‎‎‏‎"</string>
+    <string name="pref_bluetooth" msgid="7676895926390540630">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‎‏‎‎‎‏‎‎‏‏‏‎‏‎‎‎‎‎‎‏‎‏‎‏‏‏‏‎‎‏‏‏‎‎‎‏‎‎‏‏‎‏‏‎‎‏‎‎‏‎‏‎‏‎‏‏‎‎Bluetooth‎‏‎‎‏‎"</string>
+    <string name="pref_wifi" msgid="4193129129106441704">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‎‎‏‏‎‎‎‎‏‏‏‏‏‏‎‎‏‎‏‏‏‎‏‎‎‎‎‎‏‏‎‏‏‎‏‏‏‎‏‏‏‎‎‎‎‏‎‏‏‏‏‎‏‎‎‎‎Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="pref_cellular" msgid="3524838082225478578">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‏‏‎‏‎‏‎‏‎‏‏‏‏‎‏‏‎‎‎‏‏‏‏‎‏‏‏‎‏‎‏‏‏‎‏‎‎‎‏‏‎‎‏‏‎‏‏‏‎‏‏‎‎‏‎‎Mobile‎‏‎‎‏‎"</string>
+    <string name="pref_airplaneMode" msgid="4224481066347249517">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‏‎‎‎‎‎‎‏‎‏‏‏‏‏‎‎‏‎‎‏‎‏‏‏‎‎‎‏‏‏‏‏‏‏‏‏‎‏‏‎‏‏‏‏‏‏‎‏‏‎‏‏‎‏‎Airplane mode‎‏‎‎‏‎"</string>
+    <string name="pref_nfc" msgid="56967844180257475">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‎‎‏‎‏‎‎‏‏‎‎‎‏‏‏‏‏‏‎‎‏‏‏‏‎‏‎‎‏‏‏‏‏‏‏‎‏‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‏‏‎NFC‎‏‎‎‏‎"</string>
+    <string name="pref_location" msgid="7846951033644574797">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‏‎‎‏‎‏‏‏‏‏‏‎‎‎‎‏‏‎‎‎‏‏‏‏‏‎‎‎‏‎‎‏‎‎‎‏‎‎‏‏‏‎‏‎‎‎‎‏‎‎‏‏‎‏‎Location‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothEnabled" msgid="6930161595186868784">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‎‎‏‎‏‏‎‎‏‏‏‎‎‎‎‏‎‏‎‎‎‎‎‎‏‏‎‏‎‏‎‏‎‎‏‎‏‎‏‎‏‏‏‏‎‎‏‎‎‎‏‏‎‎‎‎‎Bluetooth‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothConnectedFrom" msgid="3878876782242584608">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‏‏‎‏‎‏‎‎‏‎‎‎‏‎‎‏‏‏‏‎‎‎‎‏‏‏‎‏‏‏‎‏‎‎‎‏‎‏‎‎‎‏‎‏‏‎‎‎‎‎‏‎‎‎‎‎‎Connected from ‎‏‎‎‏‏‎<xliff:g id="NAME">%s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothDisconnectedFrom" msgid="6622709957158221294">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‏‏‎‏‎‎‎‏‎‎‏‎‏‏‏‏‎‎‏‏‏‏‎‎‎‎‎‏‏‏‎‏‏‎‏‏‎‏‏‏‎‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎Disconnected from ‎‏‎‎‏‏‎<xliff:g id="NAME">%s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothConnecting" msgid="2052112474089894923">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‏‏‏‏‎‏‎‏‎‎‏‎‎‎‏‎‏‏‎‏‏‎‎‎‎‏‏‎‎‎‏‎‏‎‎‎‏‏‎‏‎‏‏‎‏‎‎‎‎‎‎‏‎‏‏‎Connecting to…‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothOn" msgid="1398252176423293438">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‎‏‏‎‎‏‏‏‏‎‎‏‎‏‏‎‏‏‏‏‎‎‏‎‎‎‏‏‏‎‏‎‎‎‏‎‎‎‎‎‏‎‎‏‎‎‎‏‏‏‏‏‏‏‏‎‎Bluetooth on‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothHfp" msgid="1394124833738696893">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‎‏‎‏‏‎‎‎‏‏‏‎‏‏‎‏‎‎‏‎‎‏‏‎‎‏‎‏‏‏‏‏‏‎‎‎‏‎‏‏‏‎‏‎‏‎‎‎‏‎‏‏‏‏‎‏‎Play phone voice call on watch‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothPaired" msgid="6360739401299481697">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‎‎‏‎‎‎‏‎‏‏‏‏‎‎‎‏‎‏‏‎‎‏‎‎‎‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‎‎‎‏‎Paired devices‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothAvailable" msgid="876826767303694914">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‎‎‏‎‏‎‏‏‎‎‎‏‏‏‎‏‎‏‎‎‏‏‎‎‏‎‎‏‏‎‏‎‏‎‏‏‎‎‎‎‏‏‎‏‏‎‏‎‎‏‎‎‎‎‏‎‎Available devices‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothScan" msgid="6599875708695001297">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‎‎‏‎‏‏‏‎‏‏‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‎‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‎‏‎‎‎‏‎Scan for nearby devices‎‏‎‎‏‎"</string>
+    <string name="pref_bluetoothScan_scanning" msgid="5039207686660207749">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎‏‏‏‎‎‏‎‏‏‎‎‎‏‎‎‏‏‎‎‎‎‏‏‎‎‏‏‎‎‏‎‏‏‎‏‎‎‏‎‎‎‎‏‎‏‎Scanning for nearby devices…‎‏‎‎‏‎"</string>
+    <string name="pref_bluetooth_connect" msgid="9032184886060752278">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‎‎‏‎‎‎‏‎‎‏‏‎‎‏‎‎‏‏‏‏‏‎‏‎‎‏‏‎‏‏‎‎‏‏‏‎‏‏‎‎‏‎‏‏‎‎Connect‎‏‎‎‏‎"</string>
+    <string name="pref_bluetooth_disconnect" msgid="2415606611532056577">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‏‏‎‎‎‎‏‎‏‏‏‏‏‎‏‎‏‎‏‏‎‏‎‏‎‎‎‏‎‏‏‎‏‎‏‏‏‎‏‎‎‎‎‎‎‏‎‎‎‎‎‎‎‎‎‎‏‎Disconnect‎‏‎‎‏‎"</string>
+    <string name="pref_bluetooth_turningOn" msgid="200065992562365086">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‏‏‎‎‎‏‏‎‏‏‏‏‎‏‎‏‏‏‎‏‎‎‏‎‎‏‎‏‎‎‎‎‏‏‎‏‎‎‏‎‏‎‎‏‏‏‏‎‎Bluetooth turning on…‎‏‎‎‏‎"</string>
+    <string name="pref_bluetooth_turningOff" msgid="263949237015649299">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‎‏‎‏‎‎‏‏‎‏‏‏‏‎‎‎‏‏‎‏‏‏‎‏‎‏‏‏‏‏‏‎‎‎‎‏‏‎‏‏‎‎‏‏‏‎‎‎‎‎‏‎‎‏‏‎Bluetooth turning off…‎‏‎‎‏‎"</string>
+    <string name="pref_bluetooth_available" msgid="7221237122162227317">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‏‎‏‏‎‏‏‏‏‏‏‎‎‏‏‏‎‎‏‏‏‎‎‏‎‎‎‎‏‎‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‏‏‎‏‎‏‎Available‎‏‎‎‏‎"</string>
+    <string name="pref_bluetooth_unavailable" msgid="7844532641238906204">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‏‏‏‎‏‎‏‏‎‎‎‎‎‏‏‏‎‎‎‎‎‎‎‎‎‎‏‏‎‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‏‎‏‎‏‏‏‎‎‎Unavailable‎‏‎‎‏‎"</string>
+    <string name="pref_bluetooth_forget" msgid="5372625095052106897">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‏‎‎‎‏‏‏‏‎‏‏‎‎‏‏‎‎‎‎‎‏‏‏‎‏‏‏‏‏‏‎‏‏‏‏‎‏‏‏‎‎‎‎‏‏‏‎‎‏‎‎‏‎‎‎‏‎Forget‎‏‎‎‏‎"</string>
+    <string name="bluetooth_disconnected" msgid="4900229571496554813">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‎‎‎‎‎‎‎‏‎‎‎‏‏‏‎‎‏‏‎‏‎‏‎‏‎‎‏‎‏‏‏‎‏‏‏‎‏‎‏‎‏‎‏‏‎‎‎‏‎‎‏‏‏‏‎‏‎Disconnected‎‏‎‎‏‎"</string>
+    <string name="bluetooth_connected" msgid="8767081179369244502">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‎‏‎‏‏‏‎‏‏‎‏‏‏‏‎‎‎‎‏‏‏‏‏‎‏‎‏‎‏‎‏‎‎‎‏‎‎‎‎‎‏‏‏‎‏‎‏‎‏‏‎‎Connected‎‏‎‎‏‎"</string>
+    <string name="pref_cellularToggle" msgid="1189270259095475208">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‎‏‎‎‎‎‎‎‏‎‎‏‎‎‎‏‎‏‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‏‎‏‎‎‏‎‏‎‎‏‎‏‎‎‎‎‎‎‏‎‎‎‎Mobile‎‏‎‎‏‎"</string>
+    <string name="pref_cellularToggle_noCellAirplane_dialogTitle" msgid="8922422032528916508">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‏‏‏‎‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‎‏‎‎‎‎‏‏‎‎‏‎‎‏‎‎‎‎‎‎‎‏‎‏‎‎‎‎‎‎‎‎‎‏‏‏‎‎‎Mobile‎‏‎‎‏‎"</string>
+    <string name="pref_cellularToggle_noCellAirplane_dialogMessage" msgid="4384515910419249445">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‎‏‏‎‏‏‎‎‎‏‏‏‎‏‏‎‏‏‏‏‏‏‏‎‏‏‎‎‎‏‎‎‎‏‎‎‏‎‏‏‎‎‏‏‏‏‎‎‏‎‎‏‎‎‏‎‏‎Mobile cannot be turned on in airplane mode‎‏‎‎‏‎"</string>
+    <string name="pref_dataUsage" msgid="544998622376426870">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‏‏‎‎‏‎‎‎‎‎‎‏‏‏‎‎‏‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‎‏‎‏‏‏‎‏‏‎‎Data usage‎‏‎‎‏‎"</string>
+    <string name="pref_resumeData" msgid="8499454224697951814">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‏‎‎‎‎‎‏‎‎‏‎‏‎‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‏‎‎‎‎‏‏‎‎‏‎‎‎‏‏‎‎Resume data‎‏‎‎‏‎"</string>
+    <string name="pref_resumeData_dialogTitle" msgid="6782193707382944259">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‏‏‏‏‎‎‏‏‎‎‎‏‎‎‏‏‏‏‏‎‎‏‎‎‎‏‏‎‎‏‏‏‎‎‏‏‎‎‏‏‎‎‏‎‎‎‎‎‎‎‏‏‎Resume data?‎‏‎‎‏‎"</string>
+    <string name="pref_resumeData_dialogMessage" msgid="2182508225244146591">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‎‎‏‎‎‏‎‎‏‏‏‎‏‎‎‏‏‏‎‏‎‏‎‏‎‏‏‎‏‏‏‎‏‎‎‎‎‏‎‏‏‏‎‏‎‏‎‏‏‏‎‎‏‏‏‏‏‎You\'ve reached your mobile data limit. Resuming may lead to charges from your carrier.‎‏‎‎‏‎"</string>
+    <string name="pref_dataRoaming" msgid="7701911059505836019">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‎‎‏‏‎‏‎‏‎‏‏‎‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎Data roaming‎‏‎‎‏‎"</string>
+    <string name="pref_internationalDataRoaming" msgid="9159517213339286616">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‎‎‎‏‏‏‎‏‎‎‏‎‎‏‎‎‎‏‏‎‎‎‎‎‎‏‎‏‎‏‏‏‎‎‏‎‏‎‎‏‏‏‏‏‏‏‎‎‎‏‎‏‏‎‎‎‎International data roaming‎‏‎‎‏‎"</string>
+    <string name="pref_dataRoaming_dialogTitle" msgid="8260031331389764715">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‎‎‎‎‏‏‎‎‎‎‏‏‎‏‎‏‏‏‎‏‏‎‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‎‏‏‏‎‏‎‎‎‏‏‎‏‎‏‏‎Attention‎‏‎‎‏‎"</string>
+    <string name="pref_dataRoaming_dialogMessage" msgid="3366696030290218252">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‎‎‎‏‏‏‎‏‎‎‎‎‎‏‏‎‎‏‏‏‎‏‏‏‎‎‎‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‏‎‎‎‎‏‏‎‎‎Allow data usage when roaming? Significant charges may apply.‎‏‎‎‏‎"</string>
+    <string name="pref_unlockSim" msgid="6552716969296791409">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‏‏‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‏‏‏‎‏‏‎‏‎‎‏‎‎‏‎‎‏‏‏‎‎‎‎‎‎‎‏‏‏‎‏‏‏‎‎‎‏‎Unlock SIM‎‏‎‎‏‎"</string>
+    <string name="pref_lockSimCard" msgid="2397976208537128039">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‏‎‏‎‎‎‏‏‏‎‏‎‏‎‎‏‎‏‎‏‎‏‎‎‎‎‎‎‏‏‎‎‏‏‎‏‏‎‎‎‏‏‎‎‎‏‏‎‎‎‏‏‎‎‏‏‏‎Require SIM lock‎‏‎‎‏‎"</string>
+    <string name="pref_changeSimPin" msgid="2294547304517946454">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‎‎‏‏‏‎‏‏‏‎‎‏‏‏‎‎‎‎‏‏‏‏‏‎‏‎‎‏‏‎‎‎‏‎‏‎‏‏‎‎Change SIM PIN‎‏‎‎‏‎"</string>
+    <string name="pref_simStatus" msgid="7123109578139445358">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‏‏‎‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‏‎‏‎‏‏‏‏‏‎‎‏‎‏‎‎‏‎‏‏‏‏‎‎‏‎‏‎‎‎‎‏‏‎‏‏‏‎‎SIM status‎‏‎‎‏‎"</string>
+    <string name="pref_callForwarding" msgid="4583344203454583284">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‏‎‏‎‎‏‏‏‏‎‏‎‎‎‏‎‎‏‏‏‏‏‎‏‎‎‏‎‎‎‎‎‏‏‎‎‏‎‎‎‏‏‏‏‏‎‏‎‎‎Call forwarding from phone‎‏‎‎‏‎"</string>
+    <string name="pref_callForwarding_infoTitle" msgid="1713274495863612938">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‏‏‏‎‎‎‏‏‎‏‏‎‎‎‏‏‎‎‎‎‏‎‎‏‏‏‎‏‎‎‎‎‎‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‎‎‎‏‎‏‎‎Set up call forwarding‎‏‎‎‏‎"</string>
+    <string name="pref_callForwarding_infoMessage" msgid="2623745567044400898">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‎‏‎‏‏‎‏‎‏‎‏‎‏‏‎‎‎‏‎‎‏‎‏‎‎‎‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‎‎‎‎‎‎‏‎‎To learn how to forward calls from your phone to your watch, open this help page.‎‏‎‎‏‎"</string>
+    <string name="pref_callForwarding_turnOn" msgid="5776901365435655283">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‏‎‏‎‏‏‏‎‏‎‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‏‏‏‎‏‎‏‎‎‎‎‏‎‏‏‏‎‎‏‎‎‎‏‏‏‎‎‏‏‎Turn on call forwarding‎‏‎‎‏‎"</string>
+    <string name="pref_callForwarding_turnOff" msgid="4301413631391610444">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‏‎‎‎‏‏‎‏‏‎‎‎‎‏‏‏‎‏‎‎‎‎‏‏‎‏‎‏‏‎‎‎‏‏‏‏‎‏‎‏‏‎‏‏‎‎‏‎‎‏‏‎‎‎Turn off call forwarding‎‏‎‎‏‎"</string>
+    <string name="pref_callForwarding_turnOn_requested" msgid="5194353199996589769">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‏‎‎‏‎‏‏‎‏‏‎‏‏‏‎‏‎‏‏‏‎‏‏‎‏‎‏‏‏‎‏‎‏‏‎‏‏‎‎‏‎‎‏‎Turn on requested ‎‏‎‎‏‏‎<xliff:g id="DATE">%s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="pref_callForwarding_turnOff_requested" msgid="500077464114059618">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‏‎‎‎‎‏‏‏‎‎‏‏‎‏‏‏‎‏‏‎‎‎‏‎‏‏‎‎‏‎‎‏‎‏‏‎‎‏‎‏‏‎‎‎‏‎‎Turn off requested ‎‏‎‎‏‏‎<xliff:g id="DATE">%s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="pref_defaultSms" msgid="1904017382578955185">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‎‏‏‎‏‏‎‎‎‏‏‎‏‏‎‏‏‎‏‏‏‎‎‎‏‎‏‏‎‏‏‎‏‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‏‎‏‏‎‎‎‏‎Default SMS app‎‏‎‎‏‎"</string>
+    <string name="pref_phoneNumber" msgid="8768999869049546148">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‎‏‏‎‎‎‏‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‏‏‎‏‏‎‏‏‎‎‎‏‎‎‏‎‏‎‎‏‎‎‏‎‏‏‎‏‎‎‏‎‎‎Displayed phone number‎‏‎‎‏‎"</string>
+    <string name="pref_voicemailNumber" msgid="5001396272302667902">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‏‏‎‏‎‎‎‏‎‎‎‎‏‏‏‎‏‏‎‏‎‎‏‎‎‏‏‏‏‏‏‏‎‎‏‎‎‎‎‎‎‏‏‏‎‎‎‎‏‏‏‏‏‏‎‎Voicemail number‎‏‎‎‏‎"</string>
+    <string name="pref_advancedSettings" msgid="3082953369356420880">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‏‎‎‏‏‏‎‎‎‎‎‏‎‏‎‏‎‏‏‏‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‏‎‎‎‏‎‎‎‎‎Advanced‎‏‎‎‏‎"</string>
+    <string name="pref_tapAndPay" msgid="5429360547337883422">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‎‏‎‏‏‎‎‎‏‏‏‏‎‏‏‎‏‎‏‎‎‏‏‎‏‏‎‏‏‏‎‏‏‎‎‏‏‎‎‎‎‏‎‎‏‏‏‏‎‎‎‏‏‏‏‎‎Tap &amp; pay‎‏‎‎‏‎"</string>
+    <string name="pref_tapAndPayDefault" msgid="3014482381832102410">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‏‎‏‎‏‎‏‏‎‎‏‎‏‏‏‏‏‎‎‎‎‎‏‎‎‏‏‏‏‏‎‏‏‎‎‎‏‏‎‏‎‏‎‎‎‏‎‎‎‎‎‏‎‏‎‎Tap &amp; pay default app‎‏‎‎‏‎"</string>
+    <string name="pref_location_summary_hasGps" msgid="28013479767394489">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‎‏‏‏‏‏‎‎‎‏‏‏‎‎‎‎‏‏‎‎‎‎‏‏‏‎‎‏‎‎‎‎‏‏‎‎‏‏‏‎‏‎‏‎‏‎‎‏‎‎‎‏‎‏‏‏‎‎‏‎From phone &amp; watch‎‏‎‎‏‎"</string>
+    <string name="pref_location_summary_noGps" msgid="2622782496491953522">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‎‏‏‎‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‎‏‎‏‎‎‎‎‎‏‏‏‏‎‏‏‏‎‏‎‏‏‏‎‎‏‎‎From phone‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode" msgid="3626870850365922437">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‏‎‏‎‎‏‏‏‎‏‏‏‏‎‏‎‎‏‎‏‎‎‎‏‎‏‎‎‏‎‎‎‏‏‏‏‎‎‏‏‏‎‎‏‎‎‎‎‏‎‏‎Mode‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode_highAccuracy" msgid="7579823299029570652">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‏‎‎‏‏‎‎‎‎‏‏‏‏‎‎‎‏‎‎‏‎‎‎‎‏‎‏‏‏‏‏‏‎‏‏‏‎‎‎‏‏‎‎‎‏‎‏‎‎‎‏‎‏‏‏‎‎‎High accuracy‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode_batterySaving" msgid="2344323005653113760">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‎‏‎‎‎‏‎‎‎‏‎‏‏‎‏‎‏‎‏‎‏‏‎‏‎‎‏‎‏‎‏‏‎‏‎‏‏‏‎‏‎‏‏‎‏‏‎‏‏‏‎‏‎‎‎‎‎‎Battery saving‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode_sensorsOnly" msgid="2887937944418774424">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‎‎‎‎‏‎‏‎‎‎‎‎‎‎‏‎‎‎‏‎‎‎‎‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‏‏‏‏‏‎‏‏‎‏‏‎‎‏‏‎‎‎‎Device only‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode_locationOff" msgid="7700889640408928374">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‎‏‏‏‏‏‎‎‎‎‏‏‏‎‎‏‎‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‎‎‏‏‏‏‎‏‎‏‎‎‎‎‎‏‏‏‎‏‏‎‎Location off‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode_highAccuracy_summary" msgid="8130099898512800027">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‏‎‎‏‏‏‏‏‎‏‎‏‎‏‏‎‎‏‎‎‎‎‏‎‏‎‏‏‏‎‏‎‎‏‎‏‏‎‏‏‏‏‎‎‏‎‎‎‏‏‎‏‏‎Use GPS, Wi‑Fi, Bluetooth, or mobile networks to determine location‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode_batterySaving_summary" msgid="2930515666264934265">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‎‏‎‏‎‏‎‏‏‎‏‎‎‏‎‎‎‎‏‏‏‏‎‎‎‏‏‎‏‎‎‎‎‎‏‏‏‎‎‎‎‎‏‎‎‎‏‏‏‎‏‏‏‏‎‎‏‎Use Wi‑Fi, Bluetooth, or mobile networks to determine location‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode_sensorsOnly_summary" msgid="812265708186842369">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‎‏‎‎‎‏‎‏‏‎‏‏‏‏‏‏‎‏‎‏‏‎‏‏‏‎‏‎‎‏‏‏‏‎‏‏‎‏‎‏‎‎‏‏‎‏‎‏‎‎‎‎‎‎‎‏‎Use phone and watch GPS to determine location‎‏‎‎‏‎"</string>
+    <string name="pref_location_mode_phoneOnly_summary" msgid="4279803817291981372">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‎‏‏‎‎‏‎‎‏‏‏‎‏‎‏‎‏‏‏‎‎‏‎‏‎‏‏‏‏‏‏‎‎‎‎‎‏‏‎‎‏‎‏‎‎‎‏‎‎‎‏‏‏‏‎‎‎Use phone GPS to determine location‎‏‎‎‏‎"</string>
+    <string name="pref_inputMethods" msgid="4297950081899013471">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‎‎‏‎‏‎‏‏‎‎‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‏‎‎‏‏‏‎‏‎‎‏‎‏‎‏‎‏‏‏‏‏‎Input methods‎‏‎‎‏‎"</string>
+    <string name="pref_screenLock" msgid="8171384079290769925">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‏‏‎‎‏‏‎‏‎‎‏‎‏‏‎‏‎‎‎‎‏‏‎‏‎‏‏‏‎‎‏‎‏‏‎‏‎‎‎‏‎‏‎‎‎‏‎‎‎‎‎‎‏‎‏‎Screen lock‎‏‎‎‏‎"</string>
+    <string name="pref_smartReply" msgid="688197994868173920">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‏‎‎‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‏‎‏‏‏‎‎‎‎‏‏‎‏‏‎‏‎‎‎‎‎‎‏‏‏‎‏‏‎‎‎‏‏‎‎‎‎‎‎Smart Reply‎‏‎‎‏‎"</string>
+    <string name="pref_hotwordDetection" msgid="6804276239786601270">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‏‎‏‏‎‏‏‎‏‎‎‏‎‏‎‎‏‏‎‎‎‎‏‎‎‎‎‎‏‎‎‎‎‏‏‏‎‎‎‏‏‎‏‎‏‏‎‎‏‏‎‏‏‎‎\"Ok Google\" detection‎‏‎‎‏‎"</string>
+    <string name="pref_alternateLauncher" msgid="4274641845535410141">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‎‏‎‏‎‎‏‎‏‎‎‏‎‏‎‎‎‎‎‏‏‏‎‎‎‏‎‎‏‎‎‏‎‎‏‎‏‎‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‏‎‏‎Enable alternate launcher‎‏‎‎‏‎"</string>
+    <string name="pref_voiceAssistant" msgid="7299570457880744010">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‎‎‏‏‎‏‎‏‎‎‏‎‎‎‏‎‏‎‏‎‎‎‎‎‎‏‏‎‏‎‏‏‏‎‏‎‏‎‏‏‎‏‎‎‎‎‎‏‎‎‏‎‏‎‎Voice assistant‎‏‎‎‏‎"</string>
+    <string name="pref_lockScreenNow" msgid="5027792604560312699">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‏‏‎‎‎‏‏‎‎‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‎‏‎‎‎‏‏‏‎‎‏‎‎‏‏‏‎‏‎‎‏‎‎‏‎‏‏‏‏‎‏‏‎Lock screen now‎‏‎‎‏‎"</string>
+    <string name="pref_accounts" msgid="4947734756508379778">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‎‏‎‎‏‏‏‏‎‎‎‏‎‏‎‎‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‎‏‎‎‏‎‎‏‎‏‎‏‎‏‎‎‎‎‎‏‎‎Accounts‎‏‎‎‏‎"</string>
+    <string name="pref_storage" msgid="2263339280670711255">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‎‏‏‎‏‎‎‎‏‏‏‏‏‏‏‏‎‎‎‏‎‏‎‏‏‎‎‎‎‏‏‎‏‎‎‏‎‎‎‎‏‏‎‏‏‏‎‏‏‏‎‏‎‏‏‏‎Storage‎‏‎‎‏‎"</string>
+    <string name="pref_yolo" msgid="1855896809952422114">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‏‏‏‎‎‎‎‎‏‎‏‏‏‏‎‎‎‎‏‎‏‎‎‎‎‏‏‎‏‎‎‎‎‏‏‏‏‏‏‏‎‏‎‏‎‏‎‎‎‏‏‏‎‎‎‏‎‎Smart Lock for Passwords‎‏‎‎‏‎"</string>
+    <string name="pref_addAccount" msgid="5537863202786700429">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‏‎‏‏‎‏‎‎‏‏‏‎‎‎‏‎‎‏‏‏‏‎‏‏‏‏‏‏‎‎‎‏‏‎‎‏‏‏‎‏‏‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎Add Google Account‎‏‎‎‏‎"</string>
+    <string name="pref_removeAccount" msgid="2030681086676267267">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‏‏‏‎‎‏‏‎‏‏‎‏‏‎‏‏‎‎‎‎‎‏‏‏‎‏‏‏‎‏‏‏‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‏‏‎Remove account‎‏‎‎‏‎"</string>
+    <string name="pref_exerciseDetection" msgid="4355564745166222371">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‎‎‏‏‏‎‎‏‎‎‎‎‏‎‎‏‏‎‎‎‎‏‏‏‏‎‎‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‏‏‏‎‏‎‎‎‎‏‎‎‎‏‏‎Workout autostart‎‏‎‎‏‎"</string>
+    <string name="pref_exerciseDetection_biking" msgid="1923539341450347022">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‏‎‎‏‎‎‎‏‏‎‏‎‏‏‎‏‏‏‏‎‏‏‎‏‎‏‎‎‎‏‏‎‎‎‎‎‎‏‎‎‎‎‎‏‏‏‎‎Biking‎‏‎‎‏‎"</string>
+    <string name="pref_exerciseDetection_running" msgid="7500591844212779810">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‏‎‏‏‏‎‏‏‏‎‏‎‎‏‎‎‎‏‎‏‎‏‏‎‏‏‏‏‏‎‏‏‏‏‏‏‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‎‎Running‎‏‎‎‏‎"</string>
+    <string name="pref_exerciseDetection_walking" msgid="5349052193204195939">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‎‎‏‏‏‎‏‏‏‎‏‎‎‏‏‎‏‎‏‎‎‎‎‏‎‎‎‏‎‏‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‎‏‎‎‏‏‎‎‎‏‏‎Walking‎‏‎‎‏‎"</string>
+    <string name="exerciseDetection_defaultAppTitle" msgid="1197577305145685864">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‎‏‎‎‏‏‏‏‎‏‎‏‎‎‏‏‎‎‎‏‏‎‏‏‎‏‏‎‎‏‎‎‎‎‏‎‎‎‏‏‏‎‎‏‏‎‏‏‏‎‏‏‎‏‎‎‎‎Default ‎‏‎‎‏‏‎<xliff:g id="EXERCISE">%1$s</xliff:g>‎‏‎‎‏‏‏‎ app‎‏‎‎‏‎"</string>
+    <string name="exerciseDetection_exerciseLabel" msgid="6255648342858632983">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‏‏‎‏‎‎‎‎‏‎‎‎‎‏‏‏‎‎‎‎‎‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‏‎‎‏‏‎‎‎‏‏‏‏‎‎‎‏‎‏‏‏‎‎‏‎‎‏‏‎<xliff:g id="EXERCISE">%1$s</xliff:g>‎‏‎‎‏‏‏‎ app‎‏‎‎‏‎"</string>
+    <string name="exerciseDetection_exerciseLabel_experimental" msgid="6414066693044266204">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‎‎‎‎‏‏‎‏‎‏‎‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‏‎‎‏‎‎‏‎‎‎‏‎‏‏‎‎‏‎‎‏‏‎‏‏‏‎‎‎‎‏‎‎‏‏‎<xliff:g id="EXERCISE">%1$s</xliff:g>‎‏‎‎‏‏‏‎ app (experimental)‎‏‎‎‏‎"</string>
+    <string name="exerciseDetection_none" msgid="4238526342036211443">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‏‎‎‎‏‎‏‎‏‎‎‎‎‎‎‎‏‎‏‏‏‎‎‎‎‏‏‎‏‎‎‎‏‎‎‎‏‏‎‏‏‏‏‎‎‏‏‎None‎‏‎‎‏‎"</string>
+    <string name="pref_deviceAdministration" msgid="3287818398887980726">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‏‎‏‎‎‎‎‎‏‎‏‎‏‏‎‏‎‏‏‎‏‎‏‎‎‎‎‎‎‏‏‏‏‎‏‏‎‏‏‎‎‎‏‎‏‏‏‎‏‎‏‏‎‏‏‎‎Device administration‎‏‎‎‏‎"</string>
+    <string name="pref_deviceAdministrators" msgid="7491518552210320037">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‏‏‎‎‏‏‏‎‎‎‎‏‏‎‏‏‏‎‎‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‏‎‏‎‏‎‏‎‏‎‎‏‎‏‎Device administrators‎‏‎‎‏‎"</string>
+    <string name="pref_androidDeviceManagerSettings" msgid="3867075489724880180">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‏‎‏‎‏‎‏‎‏‎‎‏‏‏‎‎‏‎‏‎‏‎‏‏‎‏‎‏‎‏‎‎‏‎‏‎‏‎‏‏‏‏‎‏‎‏‎‏‎‎‏‏‎‏‎‎‎Android Device Manager settings‎‏‎‎‏‎"</string>
+    <string name="inactive_device_admins" msgid="3698121746313055152">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‏‎‎‏‎‎‏‎‏‏‏‏‎‎‎‏‎‎‎‏‎‏‎‎‎‎‎‎‏‎‎‏‎‎‎‏‏‎‎‎‎‏‎‏‏‏‎‏‏‎‎‎‎‎Inactive device administrators‎‏‎‎‏‎"</string>
+    <string name="active_device_admin_msg" msgid="3584958834227349591">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‏‏‎‎‎‎‎‎‎‏‎‏‎‏‎‏‎‎‎‏‎‎‎‎‏‏‎‏‏‎‎‎‏‎‎‎‎‏‎‏‎‎‎‎‏‎‎‎‎‏‎‏‎‏‏‏‎Device administrator‎‏‎‎‏‎"</string>
+    <string name="deactivate_admin" msgid="5441342181579988886">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‎‎‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‏‏‏‎‏‎‎‏‏‎‏‏‎‎‏‎‎‏‏‏‏‏‏‎‎‏‎‏‏‎‎Deactivate‎‏‎‎‏‎"</string>
+    <string name="remove_device_admin" msgid="3042463741178321566">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‎‎‎‏‏‏‎‎‏‎‎‎‎‎‎‎‎‏‎‏‎‎‏‏‏‎‎‏‎‎‏‏‎‏‏‏‏‎‎‎‎‏‎‎‏‏‎‏‎‏‎‎‏‏‏‏‎‎Deactivate this device administrator‎‏‎‎‏‎"</string>
+    <string name="activate_admin" msgid="8670280644534998519">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‏‎‎‏‏‎‎‎‎‎‏‏‎‎‏‎‎‏‏‏‏‎‎‏‎‎‎‎‎‎‏‏‏‎‏‎‎‎‎‎‏‎‏‎‏‏‏‏‏‎‏‏‏‎Activate‎‏‎‎‏‎"</string>
+    <string name="uninstall_admin" msgid="206163615160904205">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‏‏‎‏‏‏‎‎‎‏‏‏‎‎‎‎‏‎‏‏‎‏‏‏‎‎‏‏‎‏‏‏‎‏‎‎‎‏‏‎‏‎‏‎‏‎‏‎‎‎‎‎‏‏‎‏‎Uninstall app‎‏‎‎‏‎"</string>
+    <string name="remove_and_uninstall_device_admin" msgid="2757364778149043308">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‏‎‎‏‎‎‎‏‎‎‎‎‏‎‎‎‎‎‏‎‏‎‏‎‎‎‎‎‎‏‎‏‎‏‏‎‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‎‏‏‎‎‎Deactivate and Uninstall‎‏‎‎‏‎"</string>
+    <string name="uninstall_this_admin" msgid="4916748024875598517">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‎‎‏‏‏‎‏‏‏‏‎‎‏‏‎‎‎‏‎‎‎‏‏‏‎‏‎‏‎‎‎‎‏‏‎‏‎‎‎‎‎‏‎‎‎‎‏‎‏‎‏‏‎‏‎‏‎Uninstall this app‎‏‎‎‏‎"</string>
+    <string name="inactive_device_admin" msgid="4100773806896242172">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‏‏‏‎‏‎‎‎‏‏‏‎‎‎‎‎‎‎‎‎‏‏‎‎‏‏‏‏‎‎‎‎‎‏‎‎‎‏‏‎‏‏‎‏‏‏‎‏‏‏‏‏‏‏‎‎‎Activating this administrator will allow the app ‎‏‎‎‏‏‎<xliff:g id="ADMIN_NAME">%1$s</xliff:g>‎‏‎‎‏‏‏‎ to perform the following operations:‎‏‎‎‏‎"</string>
+    <string name="active_device_admin" msgid="6761361821882288394">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‎‏‎‏‎‎‏‎‏‏‏‎‏‏‎‎‎‎‎‎‏‏‏‏‎‏‏‏‎‎‏‎‏‏‏‎‏‎‎‎‏‎‎‏‎‎‎‎‏‎‏‎‎This administrator is active and allows the app ‎‏‎‎‏‏‎<xliff:g id="ADMIN_NAME">%1$s</xliff:g>‎‏‎‎‏‏‏‎ to perform the following operations:‎‏‎‎‏‎"</string>
+    <string name="managed_accounts_removed_warning" msgid="5267195158282467117">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‎‎‎‏‏‎‎‎‏‏‎‏‎‏‏‎‎‎‎‏‎‏‏‎‏‏‏‏‎‏‎‎‎‎‎‏‎‏‎‏‎‏‏‏‎‏‏‏‎‎‏‎‏‏‎‏‎All your Managed Google Accounts will be removed.‎‏‎‎‏‎"</string>
+    <string name="deactivate_admin_question" msgid="554558182931246867">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‏‏‎‏‏‎‎‏‎‎‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‏‎‏‏‎‎‏‏‏‎‎‏‏‏‎‎‏‎‏‏‏‏‎‎‎‏‎‎‏‏‎Deactivate?‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_header" msgid="1248504285037391994">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‏‎‏‎‏‎‎‏‏‏‎‎‏‎‏‎‎‎‎‎‎‏‎‎‎‎‏‎‎‏‎‏‎‎‎‏‏‎‏‎‎‏‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎To provide access to your work data, your organization may change settings and install software on your device.‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎For more details, contact your organization\'s admin.‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_exposure_category" msgid="4510387788129740157">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‎‏‎‎‏‏‎‎‎‎‎‎‏‏‏‎‏‏‏‎‎‏‎‏‏‏‏‎‏‎‏‏‎‏‎‏‏‏‎‏‏‏‎‏‎‎‏‎‏‎‏‏‏‏‏‎‏‎Types of information your organization can see‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_enterprise_data" msgid="1429216413706598160">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‏‏‎‏‎‏‎‏‏‎‎‏‏‎‎‎‏‏‎‎‎‎‎‏‏‎‎‎‎‏‏‎‎‎‏‎‎‎‏‏‏‎‏‏‎‏‏‏‎‎‎‏‎‎‎‎‎Data associated with your work account, such as email and calendar‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_installed_packages" msgid="7920989838025590911">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‏‏‏‎‏‏‎‏‎‎‎‎‎‎‏‎‎‏‎‎‏‎‏‎‎‏‎‏‏‏‎‎‏‏‏‏‏‏‏‎‏‎‎‎‏‎‎‎‎‏‏‏‏‏‏‏‎List of apps on your device‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_usage_stats" msgid="2240723647951535039">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‎‎‎‏‏‎‎‎‏‎‏‎‎‏‏‎‎‏‎‎‏‎‎‏‎‎‏‏‎‎‏‏‏‏‏‏‎‏‏‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‏‏‎Amount of time and data spent in each app‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_network_logs" msgid="512367407851675039">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‏‎‎‎‏‏‏‎‎‎‏‎‎‏‎‏‏‎‏‏‏‎‎‎‏‎‏‎‏‏‎‏‏‎‏‏‏‏‏‎‎‏‎‎‏‏‏‎‏‏‎‎‏‏‏‏‏‎Most recent network traffic log‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_bug_reports" msgid="3896200576769708990">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‎‎‏‎‎‎‎‏‎‏‎‏‏‏‎‎‏‎‎‎‎‎‎‏‏‎‎‎‎‎‎‎‎‏‏‏‏‏‎‏‎‎‏‏‏‎‏‏‏‏‏‎‎Most recent bug report‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_security_logs" msgid="826400763776049537">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‎‏‏‏‎‏‏‏‏‏‏‏‎‏‏‏‎‎‎‏‏‏‎‏‏‎‏‏‏‏‏‎‏‏‏‏‏‎‏‏‏‎‏‎‎‎‎‏‏‎‎‎‎‎‎‏‎Most recent security log‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_exposure_changes_category" msgid="8113274961400635536">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‏‏‎‎‎‎‎‏‎‎‏‎‎‏‎‎‏‎‏‏‏‎‏‏‎‎‏‏‏‎‏‎‏‏‎‏‏‎‎‏‎‎‎‎‎‏‎‎‏‎‎‎‎‎Changes made by your organization\'s admin‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_enterprise_installed_packages" msgid="6341303431253805274">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‎‎‎‎‎‎‎‎‎‏‏‎‏‎‏‎‏‏‏‎‏‏‏‏‏‏‎‎‎‎‎‎‎‏‏‎‏‏‎‎‏‎‏‎‎‏‎‎‎‏‏‎‏‏‎‏‎‎Apps installed‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_location_access" msgid="4223890913354464139">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‎‏‏‏‏‎‎‏‎‎‎‏‏‎‎‏‏‎‏‎‎‎‎‎‎‏‎‏‎‎‎‏‏‏‏‏‏‎‎‎‏‏‏‎‏‏‏‎‎‎‏‎‏‏‎Location permissions‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_microphone_access" msgid="4052262568210797997">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‎‏‎‎‎‎‏‏‏‎‏‎‏‎‏‏‎‎‎‎‎‎‎‏‎‏‏‎‏‎‎‎‏‎‎‎‏‎‏‎‏‏‎‏‎‏‏‎‏‎Microphone permissions‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_camera_access" msgid="4152983268265746044">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‎‎‎‏‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‎‏‏‎‏‏‏‏‎‎‎‏‏‏‏‎‏‏‎‏‏‏‏‎‎‏‏‏‏‏‎‎‎Camera permissions‎‏‎‎‏‎"</string>
+    <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="8466331311761064573">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‏‏‏‎‎‏‏‏‎‎‏‏‎‏‏‏‏‎‎‎‏‎‏‏‎‏‎‎‎‏‎‎‏‎‎‏‎‎‎‎‎‎‏‎‎‏‏‏‏‏‎‏‎Minimum ‎‏‎‎‏‏‎<xliff:g id="COUNT_1">%d</xliff:g>‎‏‎‎‏‏‏‎ apps‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‏‏‏‎‎‏‏‏‎‎‏‏‎‏‏‏‏‎‎‎‏‎‏‏‎‏‎‎‎‏‎‎‏‎‎‏‎‎‎‎‎‎‏‎‎‏‏‏‏‏‎‏‎Minimum ‎‏‎‎‏‏‎<xliff:g id="COUNT_0">%d</xliff:g>‎‏‎‎‏‏‏‎ app‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="enterprise_privacy_enterprise_set_default_apps" msgid="8979295005824335023">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‎‏‏‎‏‏‏‎‏‎‎‏‏‏‎‏‏‏‏‎‎‎‎‏‏‏‎‎‏‏‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‏‏‎Default apps‎‏‎‎‏‎"</string>
+    <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="3196797947251832656">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‎‎‏‎‏‏‏‎‏‎‏‎‎‏‏‏‎‏‏‎‎‏‎‏‏‏‎‏‏‎‎‎‎‏‎‏‎‎‏‎‎‏‎‏‏‎‏‏‏‎‏‎‏‎‎‎‎‎‎‏‎‎‏‏‎<xliff:g id="COUNT_1">%d</xliff:g>‎‏‎‎‏‏‏‎ apps‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‎‎‏‎‏‏‏‎‏‎‏‎‎‏‏‏‎‏‏‎‎‏‎‏‏‏‎‏‏‎‎‎‎‏‎‏‎‎‏‎‎‏‎‏‏‎‏‏‏‎‏‎‏‎‎‎‎‎‎‏‎‎‏‏‎<xliff:g id="COUNT_0">%d</xliff:g>‎‏‎‎‏‏‏‎ app‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="5313387984426761960">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‏‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‎‎‏‏‏‎‎‎‎‏‏‎‎‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‎‏‎‎‎‎Number of apps is estimated. It may not include apps installed outside of the Play Store.‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_always_on_vpn_device" msgid="3468167178900269226">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‎‎‏‎‎‎‎‏‎‏‏‎‎‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‎‎‎‎‎‎‎‎‏‎‎‏‏‏‎‏‎‎‎‏‎‏‎‏‎‏‎‎Always-on VPN turned on‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_always_on_vpn_work" msgid="4710546374952637115">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‏‎‏‎‏‏‏‏‏‎‎‏‏‏‎‎‎‏‏‏‏‏‎‎‎‎‏‏‏‎‎‎‏‎‎‎‎‏‏‏‎‎‏‎‏‎‎‏‎‏‎‏‏‏‎‏‏‎Always-on VPN turned on in your work profile‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_always_on_vpn_personal" msgid="503095379572077222">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‏‏‏‏‏‎‏‏‎‏‎‏‏‎‏‎‏‎‎‏‎‏‎‏‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‎‏‏‎‎‏‎‏‎‏‎‎‏‏‎‎Always-on VPN turned on in your personal profile‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_input_method" msgid="3870535475639737564">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‏‎‏‏‎‏‏‎‏‏‏‎‎‏‏‏‏‎‎‎‎‎‏‎‎‎‎‏‎‏‎‎‎‎‎‎‏‏‎‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‎‎‎Default keyboard‎‏‎‎‏‎"</string>
+    <string name="enterprise_input_method_name" msgid="6442425276025944720">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‎‏‏‎‏‎‎‎‎‎‎‏‎‏‏‏‏‎‏‎‎‏‏‏‏‎‏‏‎‏‎‏‏‎‎‎‎‏‏‎‎‎‏‏‏‎‏‎‏‎‎‏‎‎‎‎‎Set to ‎‏‎‎‏‏‎<xliff:g id="APP_LABEL">%s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_global_http_proxy" msgid="2978554502609331335">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‎‏‎‏‎‏‎‏‏‏‏‏‎‎‏‏‏‎‎‎‏‎‏‎‎‎‎‎‎‎‎‎‎‎‏‎‏‎‏‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‏‏‎Global HTTP proxy set‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_ca_certs_device" msgid="5660399791832602947">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‏‎‎‎‏‏‎‏‏‏‎‎‎‏‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‏‏‎‏‏‏‎‎‎‎‎‏‎‎‏‏‎‎‏‎‏‎‎‎‎‏‏‎Trusted credentials‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_ca_certs_personal" msgid="449201560713126493">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‎‎‏‏‏‎‏‏‏‏‏‎‎‎‏‎‎‏‏‏‎‎‎‎‏‎‎‎‎‎‏‎‏‏‎‏‏‎‏‏‎‏‏‎‎‎‏‎‎‏‎‏‏‏‎‏‎Trusted credentials in your personal profile‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_ca_certs_work" msgid="4959115980503414619">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‏‎‎‏‎‎‏‎‏‎‎‎‏‏‎‏‏‎‏‎‏‏‎‏‏‎‎‎‏‏‏‎‏‏‏‏‎‎‏‏‏‎‏‏‏‎‏‎‏‏‎‏‏‎Trusted credentials in your work profile‎‏‎‎‏‎"</string>
+    <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="813536851734029415">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‎‏‎‎‏‎‏‎‎‏‎‎‎‎‏‏‎‏‏‏‎‏‎‎‏‏‎‏‎‎‏‏‎‏‎‎‏‎‏‏‏‏‏‎‎‏‎‎‎‏‏‎‎‏‏‏‎Minimum ‎‏‎‎‏‏‎<xliff:g id="COUNT_1">%d</xliff:g>‎‏‎‎‏‏‏‎ CA certificates‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‎‏‎‎‏‎‏‎‎‏‎‎‎‎‏‏‎‏‏‏‎‏‎‎‏‏‎‏‎‎‏‏‎‏‎‎‏‎‏‏‏‏‏‎‎‏‎‎‎‏‏‎‎‏‏‏‎Minimum ‎‏‎‎‏‏‎<xliff:g id="COUNT_0">%d</xliff:g>‎‏‎‎‏‏‏‎ CA certificate‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="enterprise_privacy_device_access_category" msgid="4284167101249175377">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎‏‏‎‏‎‏‏‎‏‎‎‎‏‏‏‏‎‏‏‎‏‎‎‎‏‎‏‏‏‏‏‎‎‏‏‏‏‏‏‎‏‎‏‎‎‎‏‎Your access to this device‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_lock_device" msgid="3185661217624099622">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‎‎‎‏‏‎‏‎‏‏‎‏‏‏‏‎‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‎‏‏‏‎‎‏‎‎‎‎‏‎‏‏‎‎‏‎‎‏‏‎‎Admin can lock the device and reset password‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_wipe_device" msgid="6761530811270192821">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‎‏‎‏‏‏‎‎‏‎‎‎‎‏‏‏‎‎‏‎‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‏‎‏‎‏‏‎‏‎‏‎Admin can delete all device data‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_failed_password_wipe_device" msgid="5569561594275997893">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‎‎‏‎‏‏‎‎‎‎‏‏‏‎‏‏‎‎‎‎‏‎‏‏‎‏‏‏‎‏‎‏‏‏‏‎‏‎‏‎‏‎‏‎‎‎‏‏‎‎‎‏‎‏‎Failed password attempts before deleting all device data‎‏‎‎‏‎"</string>
+    <string name="enterprise_privacy_failed_password_wipe_work" msgid="5980879176442107748">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‎‎‎‎‎‎‎‎‎‏‎‏‏‎‎‏‏‏‏‎‏‏‎‎‎‏‎‎‎‏‎‎‎‏‎‏‏‏‎‎‏‏‎‏‎‏‏‏‎‏‏‎‎‏‎‎‎Failed password attempts before deleting work profile data‎‏‎‎‏‎"</string>
+    <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="9113277456442443078">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‏‎‎‎‏‏‎‏‏‏‎‏‏‎‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‎‎‎‏‎‏‎‏‎‎‎‏‏‎‎‎‏‎‎‏‏‎<xliff:g id="COUNT_1">%d</xliff:g>‎‏‎‎‏‏‏‎ attempts‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‏‎‎‎‏‏‎‏‏‏‎‏‏‎‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‎‎‎‏‎‏‎‏‎‎‎‏‏‎‎‎‏‎‎‏‏‎<xliff:g id="COUNT_0">%d</xliff:g>‎‏‎‎‏‏‏‎ attempt‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="enterprise_privacy_none" msgid="6427359600597239879">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‏‎‎‏‎‏‎‎‏‎‎‎‏‏‎‎‎‎‎‎‎‏‏‎‎‏‏‎‏‎‏‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‏‎‎‎‏‏‏‎None‎‏‎‎‏‎"</string>
+    <string name="do_disclosure_generic" msgid="3074124315333371110">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‎‏‎‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎‎‏‎‏‏‎‏‎‏‏‎‎‎‏‎‎‏‎‎‏‏‏‎‎‏‏‎‎This device is managed by your organization.‎‏‎‎‏‎"</string>
+    <string name="do_disclosure_with_name" msgid="5575071798074563262">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‎‏‏‏‏‎‏‎‏‎‎‎‏‎‎‏‎‎‎‎‏‏‎‎‏‎‏‎‎‏‏‎‎‎‏‎‎‎‎‏‎‏‏‎‏‎‏‎‏‏‏‏‏‎‎This device is managed by ‎‏‎‎‏‏‎<xliff:g id="ORGANIZATION_NAME">%s</xliff:g>‎‏‎‎‏‏‏‎.‎‏‎‎‏‎"</string>
+    <string name="do_disclosure_learn_more_separator" msgid="8126714065336044753">" ‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‎‎‏‏‏‏‏‏‎‎‎‏‏‎‏‏‎‎‎‏‎‏‎‎‏‏‏‏‏‏‎‎‎‎‏‏‎‏‎‎‎‏‏‎‎‏‏‎‏‎‎‎‏‎ ‎‏‎‎‏‎"</string>
+    <string name="do_disclosure_learn_more" msgid="7628292198567029215">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‎‏‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‏‎‏‏‎‏‎‎‏‎‎‏‎‎‏‏‏‏‎‎‎‏‎‏‎‏‎‎‏‏‏‎‏‏‏‏‏‎Learn more‎‏‎‎‏‎"</string>
+    <string name="default_browser_title" msgid="1867583584627392619">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‏‏‏‏‎‏‎‏‎‏‏‏‏‏‏‎‏‎‏‏‎‎‎‎‎‎‎‎‏‎‏‏‎‎‎‎‏‎‎‎‏‎‎‎‎‎‎‎‎‎‏‏‎‏‎‏‏‎Browser app‎‏‎‎‏‎"</string>
+    <string name="default_calendar_app_title" msgid="3400575348008215057">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‎‏‎‏‎‎‎‏‎‏‎‏‎‎‎‎‏‏‎‎‎‏‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‎‎‎‎‏‎‎‎‏‎Calendar app‎‏‎‎‏‎"</string>
+    <string name="default_contacts_app_title" msgid="5800094107480074512">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‎‎‎‏‏‏‏‏‏‎‎‎‎‏‎‎‏‎‏‏‎‏‏‏‎‎‎‏‎‎‏‏‎‎‎‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‎‎‎‏‎‎‎‎‎Contacts app‎‏‎‎‏‎"</string>
+    <plurals name="default_phone_app_title" formatted="false" msgid="1593506092172167103">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‏‏‎‏‎‏‎‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‏‎‏‎‏‎‏‏‏‏‏‎‎‎‏‏‏‏‎‏‏‏‏‏‏‎Phone apps‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‏‏‎‏‎‏‎‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‏‎‏‎‏‎‏‏‏‏‏‎‎‎‏‏‏‏‎‏‏‏‏‏‏‎Phone app‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="default_map_app_title" msgid="7713497792633304953">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‎‏‎‏‏‏‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‏‏‏‏‎‏‏‏‎‏‏‏‏‎‎‏‎Map app‎‏‎‎‏‎"</string>
+    <plurals name="default_email_app_title" formatted="false" msgid="193334918360201934">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‏‎‏‎‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‏‏‎‎Email client apps‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‏‎‏‎‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‏‏‎‎Email client app‎‏‎‎‏‎</item>
+    </plurals>
+    <plurals name="default_camera_app_title" formatted="false" msgid="6645119903538410998">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‎‎‎‏‏‏‎‎‎‎‎‏‏‎‏‎‏‎‏‎‏‏‎‎‎‎‏‎‎‏‏‎‎‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎Camera apps‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‎‎‎‏‏‏‎‎‎‎‎‏‏‎‏‎‏‎‏‎‏‏‎‎‎‎‏‎‎‏‏‎‎‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎Camera app‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="remove_acct_conf" msgid="1004030898868231990">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‎‎‏‏‎‎‏‎‎‎‎‏‏‎‏‏‏‎‏‎‎‎‏‏‏‎‏‎‎‏‏‏‏‏‎‎‏‏‎‏‏‎‎Remove ‎‏‎‎‏‏‎<xliff:g id="ACCT_NAME">%1$s</xliff:g>‎‏‎‎‏‏‏‎ account from watch?‎‏‎‎‏‎"</string>
+    <string name="remove_account_failed" msgid="8014392527624186293">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‏‏‎‎‎‏‏‎‏‎‏‏‏‏‎‎‎‏‎‏‎‏‎‏‏‎‎‏‏‏‎‎‏‎‏‎‏‏‎‏‎‏‎‎‏‏‎‏‏‎‏‎‏‎Could not remove account from device.‎‏‎‎‏‎"</string>
+    <plurals name="pref_buttons" formatted="false" msgid="3617512883503647533">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‎‎‏‏‎‎‏‏‏‏‏‏‏‏‎‎‏‏‎‎‏‏‎‏‎‎‎‏‎‏‏‏‏‎‏‎‎‎‏‎‎‏‎‎‏‎‏‏‎‎‏‎‏‏‎‏‎Customize hardware buttons‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‎‎‏‏‎‎‏‏‏‏‏‏‏‏‎‎‏‏‎‎‏‏‎‏‎‎‎‏‎‏‏‏‏‎‏‎‎‎‏‎‎‏‎‎‏‎‏‏‎‎‏‎‏‏‎‏‎Customize hardware button‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="pref_buttons_launch_app" msgid="233879668818992059">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‎‎‏‏‏‏‏‎‏‏‏‎‏‎‎‎‎‏‎‏‎‎‎‏‏‏‎‏‎‏‎‎‎‎‏‎‎‏‎‎‎‏‎‏‏‎‏‏‏‎‏‏‏‎‏‏‎Launch app‎‏‎‎‏‎"</string>
+    <string name="pref_batterySaverMode" msgid="8105233369700336751">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‏‏‎‏‏‏‎‎‏‎‎‏‎‏‏‎‎‏‏‏‎‎‏‏‎‏‏‏‎‏‎‏‎‎‎‎‏‏‎‎‎‎‏‎‎‎‏‏‎‏‏‏‏‎Battery‎‏‎‎‏‎"</string>
+    <string name="pref_about" msgid="1864968876151865653">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‏‏‏‏‎‎‎‎‏‏‎‏‏‎‎‏‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‎‎‎‎‏‏‎‎‎‏‎‎‎‎‎‎‎‏‎‎‏‏‎‏‎‏‎About‎‏‎‎‏‎"</string>
+    <string name="pref_restart" msgid="8041163662029549677">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‏‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‏‏‏‏‎‎‏‎‏‎‎‎‎‎‎‎‏‏‎‎‏‏‏‏‎‎‎‎‎‏‏‎‏‏‎‏‎Restart‎‏‎‎‏‎"</string>
+    <string name="pref_powerOff" msgid="6425033601209321200">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‏‎‎‏‎‎‏‏‏‎‎‎‎‎‎‏‎‎‏‏‎‏‏‏‏‎‎‎‎‎‎‏‏‏‏‏‎‎‎‏‏‎‏‏‏‏‎‎‎‎‎Power off‎‏‎‎‏‎"</string>
+    <string name="pref_factoryReset" msgid="4639063415241970664">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‎‎‏‏‎‎‎‎‏‎‏‎‎‎‎‏‏‏‎‎‏‏‎‎‎‏‏‏‎‏‏‎‎‎‎‎‎‎‎‏‎‎‎‎‏‎‎‏‏‏‏‏‎‏‎‎‎‎Disconnect &amp; reset‎‏‎‎‏‎"</string>
+    <string name="pref_batterySaver" msgid="5458054850929363858">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‏‏‏‏‏‏‎‎‎‎‎‎‎‏‎‏‎‎‎‏‏‏‏‏‎‎‎‎‎‏‎‏‏‏‎‎‏‎‎‏‎‎Battery saver‎‏‎‎‏‎"</string>
+    <string name="pref_autoBatterySaver" msgid="3957633308770335436">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‎‏‏‏‎‏‏‎‎‎‏‎‏‎‏‏‎‏‎‎‎‎‏‏‎‏‎‏‎‎‎‎‎‏‎‎‎‎‎‏‎‎‏‏‏‏‎‏‎‏‏‎‎‏‏‎‎‎Turn on battery saver at ‎‏‎‎‏‏‎<xliff:g id="PERCENTAGE">%s</xliff:g>‎‏‎‎‏‏‏‎%%‎‏‎‎‏‎"</string>
+    <string name="pref_batterySaverMode_summary" msgid="7548291985288032043">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‏‏‎‎‎‎‎‎‏‏‏‎‏‎‏‏‏‎‎‏‎‎‎‏‎‏‏‎‏‏‎‎‎‎‎‎‎‏‎‏‎‏‏‎‏‏‏‏‎‎‏‎‏‎‏‏‎‎‏‎‎‏‏‎<xliff:g id="PERCENTAGE">%d</xliff:g>‎‏‎‎‏‏‏‎ %%‎‏‎‎‏‎"</string>
+    <string name="pref_batterySaverMode_title" msgid="2566029084026200805">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‏‏‎‎‏‏‏‎‎‎‏‎‏‏‏‎‏‏‏‎‏‏‎‏‏‎‏‎‎‎‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‎‎‏‎‏‏‏‎‎‏‎‏‎Battery‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎‎‏‎‎‏‏‎<xliff:g id="PERCENTAGE">%d</xliff:g>‎‏‎‎‏‏‏‎%%‎‏‎‎‏‎"</string>
+    <string name="pref_batterySaver_dialogTitle" msgid="6768717657548354379">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‎‏‏‏‏‎‏‎‏‎‎‎‎‏‏‎‏‏‎‎‎‏‏‏‎‏‎‏‏‎‎‎‏‎‏‎‏‎‏‏‏‎‎‏‏‎‏‎‎‏‎‏‏‎Turn on battery saver?‎‏‎‎‏‎"</string>
+    <string name="pref_batterySaver_dialogMessage" msgid="8979824206841257202">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‎‎‏‏‏‏‏‏‎‏‎‎‎‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‏‏‎‎‏‎‎Battery saver may limit some features like: ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Always-on display ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Vibration ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Location services ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Wi-Fi &amp; mobile data ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Watch SIM calls &amp; SMS ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• App updates ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎ ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎Battery saver turns off while your watch charges.‎‏‎‎‏‎"</string>
+    <string name="pref_batterySaverScr_dialogMessage" msgid="4974077101213179731">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‎‎‎‏‏‏‎‏‏‏‏‎‎‎‏‏‎‎‎‏‎‏‎‎‎‎‏‏‏‏‎‎‏‏‎‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‎Only show the time. To exit, press &amp; hold the power button to restart your watch.‎‏‎‎‏‎"</string>
+    <string name="pref_batterySaverTwm_dialogMessage" msgid="8298065824771489210">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎‏‎‎‎‏‎‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‎‏‎‎‎‎‎‏‎‏‎‎‎‎‎‎‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎Save your battery &amp; only show the time. To exit, press &amp; hold the power button.‎‏‎‎‏‎"</string>
+    <string name="pref_dateTime" msgid="5010099141828786184">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‏‎‎‎‎‏‏‏‎‏‏‏‎‎‏‎‏‎‎‏‏‏‏‏‏‏‏‏‎‏‏‎‎‎‏‏‎‎‎‏‏‎‏‏‏‎‎‎‎‎‎‎‏‎‎‎‎Date &amp; time‎‏‎‎‏‎"</string>
+    <string name="pref_autoDateTime" msgid="6780057840667552276">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‏‏‏‏‎‎‏‏‎‏‎‏‎‏‎‏‏‏‏‎‎‎‎‏‏‎‏‏‎‎‏‎‏‏‏‎‏‏‎‏‎‏‎‎‎‎‏‎‏‎‎‎Automatic date &amp; time‎‏‎‎‏‎"</string>
+    <string name="pref_manualDate" msgid="4435640066669064872">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‏‎‎‎‏‏‏‎‏‎‎‎‏‏‏‏‎‎‏‎‎‎‏‏‏‎‏‏‏‏‎‏‎‏‎‎‏‏‎‎‏‎‏‏‎‎‏‎‏‎‏‎‏‎‎‎‎Set date‎‏‎‎‏‎"</string>
+    <string name="pref_manualTime" msgid="3519418038429900606">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‏‎‏‎‏‏‏‎‏‏‏‏‏‎‎‎‎‎‎‏‏‏‏‎‎‏‎‏‏‎‎‏‎‏‏‎‏‏‏‎‏‎‏‏‏‏‏‎‎‏‏‏‏‏‎‎Set time‎‏‎‎‏‎"</string>
+    <string name="pref_autoTimeZone" msgid="2503024717839390870">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‏‏‏‎‎‏‎‎‎‎‏‏‏‏‎‏‏‏‎‎‎‎‎‏‎‎‎‏‎‏‏‎‏‎‏‏‎‏‏‎‏‏‎‎‎‏‎‎‏‎‏‏‎‎Automatic time zone‎‏‎‎‏‎"</string>
+    <string name="pref_manualTimeZone" msgid="8643301936079232151">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎‏‏‎‏‎‏‎‏‎‎‎‏‎‎‎‏‎‎‏‎‎‏‏‏‎‎‏‎‏‏‎‏‏‏‎‎‏‎‎‏‎‏‏‏‎Set time zone‎‏‎‎‏‎"</string>
+    <string name="pref_manualTimeZone_dialogTitle" msgid="1654353813764348750">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‏‏‏‏‎‏‎‏‎‏‏‏‎‎‏‎‎‎‎‎‎‏‏‏‎‏‎‎‏‎‏‎‎‎‏‏‏‏‎‎‏‎‎‏‏‎‏‏‎‏‎‎‏‏‏‎‎Select time zone‎‏‎‎‏‎"</string>
+    <string name="pref_hourFormat" msgid="7647328077287325481">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‎‎‎‏‎‎‎‎‎‏‏‎‎‎‏‎‎‎‏‎‏‏‏‏‎‎‏‏‏‎‏‏‏‏‎‎‏‎‏‎‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‎‏‎Use 24-hour format‎‏‎‎‏‎"</string>
+    <string name="sync_from_phone" msgid="5561792037089549428">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‎‏‎‎‎‏‏‎‎‎‏‏‏‏‎‏‏‏‎‏‎‏‎‏‎‎‎‏‏‎‎‏‏‏‎‎‎‏‏‏‎‏‎‎‎Sync from phone‎‏‎‎‏‎"</string>
+    <string name="sync_from_network" msgid="697734415635360677">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‏‎‏‎‏‏‏‎‏‏‎‏‏‎‎‏‏‏‎‎‎‎‎‏‎‎‎‏‎‏‏‏‏‎‎‎‎‎‏‎‏‎‏‎‏‎‏‏‏‎‏‎‎‏‎‏‎Sync from network‎‏‎‎‏‎"</string>
+    <string name="gmt" msgid="8760491063181319174">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎‎‏‏‏‎‎‎‎‏‎‎‎‎‏‏‎‏‎‎‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎‎‎‎‏‏‏‎‎‎‎‎‎‎‏‏‎‎GMT‎‏‎‎‏‎"</string>
+    <string name="pref_stayOnWhilePluggedIn" msgid="3295733791198092761">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‏‎‏‏‏‏‎‎‏‏‎‎‏‏‎‎‎‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‎‎‏‏‏‎‏‎‎‎‏‏‏‎‏‏‏‎‏‏‎‎‏‎Stay awake when charging‎‏‎‎‏‎"</string>
+    <string name="pref_showChimeraModules" msgid="4974221305400017478">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‏‎‏‏‎‏‎‎‎‏‏‎‎‎‏‎‎‎‎‏‎‎‏‎‎‎‏‏‎‎Show chimera modules‎‏‎‎‏‎"</string>
+    <string name="pref_btSnoopLog" msgid="4159721978590346557">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‎‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‎‎‏‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‏‎‎‏‏‏‏‎‏‎‎‏‏‏‏‎‏‎Bluetooth snoop logging‎‏‎‎‏‎"</string>
+    <string name="pref_connectivityVibrate" msgid="4590978864979907904">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‎‎‏‏‎‏‏‏‎‏‏‏‏‎‏‎‎‎‎‏‎‎‎‏‎‎‏‏‏‎‏‎‎‎‎‎‏‎‏‎‏‎‏‎‎‎‎‎‎‎Vibrate on connectivity change‎‏‎‎‏‎"</string>
+    <string name="pref_oemDebug" msgid="1862309934319898789">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‏‏‏‎‏‏‎‎‎‎‏‎‎‎‎‎‏‎‎‎‎‎‏‎‎‏‎‏‏‎‎‎‎‏‏‎‏‎‎‎‏‏‎‎‏‎‎‎‎‏‎‏‎‎‏‎‏‎Manufacturer‎‏‎‎‏‎"</string>
+    <string name="pref_oemDebug_summary" msgid="8774336698288562244">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‎‎‏‎‎‏‎‏‏‎‏‎‎‏‎‏‏‏‏‎‏‎‎‎‏‏‎‎‏‎‎‏‎‏‎‎‏‏‏‏‎‎‎‎‎‎‏‎‎‎‏‎‎‎Debug‎‏‎‎‏‎"</string>
+    <string name="pref_adbDebugging" msgid="702491673091039691">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‎‎‏‏‏‎‏‎‎‎‏‏‎‏‎‎‎‎‏‎‎‎‎‏‎‏‏‏‎‎‎‎‏‏‏‎‎‏‎‏‏‎ADB debugging‎‏‎‎‏‎"</string>
+    <string name="pref_smartIlluminate" msgid="5446895516211655363">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‏‎‎‏‎‏‏‏‎‏‎‎‎‎‏‎‏‎‎‏‏‏‎‎‏‏‏‏‎‏‎‎‎‏‏‏‎‏‏‎‏‎‏‏‎‎‏‎‏‏‎‎‎‎‏‏‎Smart illuminate‎‏‎‎‏‎"</string>
+    <string name="pref_locationMode" msgid="5062510625679056832">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‎‏‎‎‎‎‎‏‏‎‏‎‎‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‎‏‏‎‎‏‏‏‏‎‏‏‎‎‏‏‏‏‏‏‏‎‎‎‎‎‎‎Location‎‏‎‎‏‎"</string>
+    <string name="pref_debugOverBluetooth" msgid="4189963247393422445">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‎‎‏‎‎‏‎‏‏‎‏‏‏‏‎‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‏‏‎‏‎‎‏‏‏‎‏‏‏‏‎‎‎‏‏‎‏‏‎‏‎Debug over Bluetooth‎‏‎‎‏‎"</string>
+    <string name="pref_debugOverWifi" msgid="1672683072742110664">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‏‎‎‏‏‎‏‏‎‏‎‎‏‎‎‎‎‎‏‏‎‎‏‎‎‎‏‏‏‎‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‎‏‎‏‏‏‎‎‏‎‎‎‎Debug over Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="pref_wearDeveloperOptions" msgid="1323378637654888556">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‎‎‏‎‏‏‏‎‏‏‎‎‏‎‏‎‏‏‏‎‏‏‏‎‎‎‎‎‎‎‎‎‎‏‏‎‎‎‎‏‎‏‎‎‏‎‎‎‎‎‏‏‎‏‏‎‎‎Wear Developer Options‎‏‎‎‏‎"</string>
+    <string name="pref_forceLocationOn" msgid="6408016918140294524">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‎‏‏‏‎‏‏‎‏‏‏‎‏‏‎‎‏‎‏‏‎‏‏‏‏‏‎‎‏‏‎‎‎‎‏‏‏‎‎‏‎‎‎‎‏‎‏‎‏‎‏‏‏‏‏‎‎‎Force location mode to be set to device only‎‏‎‎‏‎"</string>
+    <string name="pref_clearAdbKeys" msgid="4287116934368022873">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‎‏‏‏‏‏‏‎‏‏‏‎‎‏‏‎‎‎‏‎‎‎‏‏‎‎‏‏‏‏‏‏‏‎‎‏‎‎‎‏‎‏‎‏‎‎‎‏‎‏‎‏‏‎‎‏‎Revoke debugging authorizations‎‏‎‎‏‎"</string>
+    <string name="pref_logPersist" msgid="4581366923741473004">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‎‎‏‎‎‏‎‎‎‏‏‏‏‎‎‎‏‏‎‏‎‏‎‏‏‎‏‎‏‎‏‎‏‏‎‏‎‏‎‎‎‏‏‏‎‏‏‎‎‎Store logger data persistently‎‏‎‎‏‎"</string>
+    <string name="pref_debugLayout" msgid="1023463220489857328">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‎‎‏‏‎‏‎‎‎‎‎‏‎‎‏‎‎‏‏‎‎‎‎‎‎‏‏‎‎‎‎‏‏‏‏‏‏‎‎‏‏‎‏‎‏‎‎‏‎‎‏‏‎‎‎‎‎Debug layouts‎‏‎‎‏‎"</string>
+    <string name="pref_debugOverdraw" msgid="9201078493023533404">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‏‎‏‏‎‎‎‎‏‏‎‎‏‏‎‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‎‎‏‏‏‎‏‏‏‏‎‎‏‎‏‎‏‏‏‎‎‎Debug overdraw‎‏‎‎‏‎"</string>
+    <string name="pref_debugTiming" msgid="298485889111711702">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‎‎‎‏‎‎‏‎‎‎‏‏‎‏‏‏‏‎‏‎‏‎‏‎‏‏‎‏‎‏‏‏‎‏‏‏‏‏‎‎‎‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎Debug GPU profiling‎‏‎‎‏‎"</string>
+    <string name="pref_bugReport" msgid="7804366356076446096">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‎‏‎‎‏‏‏‎‏‎‏‎‏‏‎‏‏‏‎‏‏‎‎‏‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‎‎‏‎‎‎‎‎‏‏‎‎‏‎‎‎‎‎Bug report in menu‎‏‎‎‏‎"</string>
+    <string name="pref_autoWifi" msgid="3566618648072344197">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‎‎‏‏‎‎‎‎‏‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‏‎‏‏‎‏‎‎‏‎‏‎‎‎‎‏‎‏‎Automatic Wi-Fi toggle‎‏‎‎‏‎"</string>
+    <string name="pref_enableWifiWhenCharging" msgid="8009680987440491406">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‎‏‎‎‎‎‎‎‏‏‎‏‎‎‏‏‎‏‎‏‏‏‏‎‎‎‏‎‎‏‎‎‏‎‏‏‏‎‎‏‎‏‎‏‏‏‎‎‎‏‏‏‎‎Automatically enable Wi-Fi when charging‎‏‎‎‏‎"</string>
+    <string name="pref_disableAutomaticWifi" msgid="7677937259405124357">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‎‏‎‎‎‏‏‎‏‏‎‎‎‎‎‏‏‎‏‎‎‎‎‏‎‎‎‎‎‏‎‏‎‏‎‎‏‎‏‎‎‎‎‏‎‎‎‏‏‎‎‎‎‎‏‎‏‎Disable Automatic Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="pref_wifiLogging" msgid="6233710255885846626">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‎‎‎‎‏‎‏‎‎‏‎‏‏‎‎‏‏‏‎‎‏‏‎‎‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‎‎‎‎‏‏‎‎‎‏‎‎Wi-Fi Verbose Logging‎‏‎‎‏‎"</string>
+    <string name="pref_powerOptimizations" msgid="1523119762455521293">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‎‎‏‎‎‎‏‏‎‎‏‏‎‏‎‏‎‏‎‏‏‎‏‎‏‎‏‎‎‏‏‏‏‎‎‎‏‎‎‏‏‏‏‎‏‎‎‎‎‎‎‎‏‏‎‏‎Battery optimization‎‏‎‎‏‎"</string>
+    <string name="pref_tap_and_pay_title" msgid="3809260028353032845">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‎‏‏‎‏‏‏‎‏‎‎‏‏‎‏‎‏‏‏‎‏‎‎‎‎‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‏‏‎‏‏‎‎‏‎‏‎‎‎‏‏‎‏‎Tap &amp; pay‎‏‎‎‏‎"</string>
+    <string name="pref_nfc_tap_and_pay_pref_screen_title" msgid="99082886156637353">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‏‏‎‎‎‎‎‎‎‎‎‎‎‏‏‎‏‎‏‏‏‎‎‎‎‏‎‏‎‎‎‏‎‏‎‏‏‏‏‏‏‎‏‎‏‎‎‏‎‏‎‏‎‎‏‎Tap &amp; pay default app‎‏‎‎‏‎"</string>
+    <string name="time_service_name" msgid="6283586624894331699">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‎‏‏‏‏‎‎‏‎‎‎‏‎‏‏‏‏‏‎‎‏‎‏‎‏‎‎‎‎‏‏‏‎‎‎‏‏‏‎‏‎‏‏‎‎‏‏‎‎‏‏‎Time service‎‏‎‎‏‎"</string>
+    <string name="airplane_mode_service_name" msgid="4439177176343003192">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‏‎‎‏‏‎‏‏‎‎‏‎‎‎‎‎‎‎‎‏‏‏‏‏‎‏‎‎‎‎‏‎‏‏‏‏‎‎‏‎‎‏‎‎‎‎‎‎‎‎‏‏‏‎‎‎‎Airplane mode service‎‏‎‎‏‎"</string>
+    <string name="sunlight_mode_service_name" msgid="2805107561145270356">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‏‎‏‏‏‎‏‏‎‏‏‎‏‏‏‏‏‎‎‏‏‏‎‏‏‎‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‎‎‎‎‎‎‎‎‏‎‏‎‏‎‎‎Brightness boost service‎‏‎‎‏‎"</string>
+    <string name="locale_service_name" msgid="8848057196394129773">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‏‎‏‎‎‏‏‏‎‏‎‎‏‎‎‏‎‎‎‎‎‏‏‏‏‏‎‏‏‎‏‎‎‏‎‎‏‎‏‎‎‏‎‏‏‎‏‏‎‏‎Language service‎‏‎‎‏‎"</string>
+    <string name="configure_doze_service_name" msgid="8757463281046904110">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‎‎‎‏‎‎‎‏‏‎‎‎‎‏‎‎‏‏‏‎‏‎‎‏‎‎‎‎‎‎‎‎‏‎‏‎‎‏‏‏‏‎‏‏‏‎‏‎‎‏‎‏‏‏‎‎Doze configuration service‎‏‎‎‏‎"</string>
+    <string name="battery_stats_service_name" msgid="9167387416924076315">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‎‏‎‎‎‏‏‎‏‎‎‏‎‎‏‎‎‎‏‏‏‎‏‎‎‎‎‎‏‎‎‏‎‏‎‎‏‏‏‎‎‏‎‎‎‏‏‎‏‏‎Battery statistics service‎‏‎‎‏‎"</string>
+    <string name="retail_service_name" msgid="1432625784987533620">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‏‎‏‏‎‏‎‏‏‎‎‎‏‏‏‏‏‎‏‎‎‎‏‎‎‎‏‏‏‏‏‏‎‏‎‎‎‎‎‏‎‎‏‏‎‏‎‎‎Retail service‎‏‎‎‏‎"</string>
+    <string name="update_lock_service_name" msgid="2727722966114418843">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‎‏‎‏‏‎‏‎‎‎‏‏‎‎‏‎‏‎‏‏‏‏‎‏‎‎‎‏‏‏‎‏‏‎‎‏‏‎‎‎‎‎‎‏‎‎‏‏‎‏‏‎Update lock service‎‏‎‎‏‎"</string>
+    <string name="storage_stats_service_name" msgid="7283103097230950947">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‎‎‏‎‎‏‎‏‏‎‎‎‏‏‏‏‎‏‎‏‏‎‏‏‏‏‎‏‏‎‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‏‎‎‎‏‎‎‎‏‏‎Storage statistics service‎‏‎‎‏‎"</string>
+    <string name="disable_fitness_service_name" msgid="1289359505506277029">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‏‏‏‏‎‎‏‎‎‏‎‏‏‏‎‎‏‏‎‏‎‎‎‏‏‏‎‎‏‎‎‎‏‎‏‏‏‏‎‎‏‏‎‎‏‎‏‏‎‏‎‏‎‎‏‎‏‎Disable Fitness service‎‏‎‎‏‎"</string>
+    <string name="perm_label_change_time" msgid="1614205346722069119">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‎‏‏‎‎‏‏‎‏‏‎‎‏‏‏‏‎‎‏‏‎‏‎‏‏‏‎‏‏‏‎‏‏‏‏‎‎‏‏‏‏‎‏‏‏‎‏‎‎‏‏‏‏‏‏‏‎Change system time‎‏‎‎‏‎"</string>
+    <string name="perm_description_change_time" msgid="3735088438206589161">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‏‏‎‏‎‏‎‏‏‎‏‏‎‎‏‏‎‎‏‎‎‏‎‏‎‎‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‏‎‎‎‏‏‏‎‏‎‎‏‎This app can change the time on your device.‎‏‎‎‏‎"</string>
+    <string name="perm_label_set_global_key" msgid="134460608000354749">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‏‏‎‏‏‏‎‏‏‎‏‏‎‎‏‏‎‎‏‏‎‏‎‏‏‏‏‎‏‎‎‎‎‎‏‎‎‏‎‎‏‏‏‎‏‎‎‏‏‎‏‏‏‏‎‏‎Set global key‎‏‎‎‏‎"</string>
+    <string name="perm_description_set_global_key" msgid="7218065128492714180">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‎‏‎‏‏‏‎‏‏‎‏‏‏‏‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‎‏‏‏‎‎‎‏‎‏‎‎‏‎‎‎‏‏‎‎‎‏‎‎‎This app can set the global key your device.‎‏‎‎‏‎"</string>
+    <string name="perm_label_set_power_save" msgid="5977410931507977385">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‎‎‎‎‎‎‎‏‏‏‏‎‎‏‎‎‏‎‏‎‎‏‎‎‎‏‎‎‎‏‎‎‎‏‏‏‎‏‏‏‎‎‏‎‏‎‏‎‎‏‎Set Power Save mode‎‏‎‎‏‎"</string>
+    <string name="perm_description_set_power_save" msgid="398664137585810344">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‏‏‎‎‎‏‎‎‎‎‏‎‏‎‏‏‎‏‏‏‎‏‎‏‏‏‏‎‎‎‎‎‏‎‏‏‏‏‏‎‏‎‏‎‏‏‎‏‏‏‎‏‎‏‎‎‎‎This app can set Power Save mode.‎‏‎‎‏‎"</string>
+    <string name="perm_label_change_airplane_mode" msgid="4621562876922150326">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‎‎‎‏‎‎‎‏‏‎‎‎‏‎‏‏‎‏‏‏‏‎‎‏‏‎‏‎‏‎‎‏‎‎‎‎‏‎‎‏‏‏‎‏‏‏‏‎‏‏‎‏‏‎‏‏‎‎Change Airplane mode‎‏‎‎‏‎"</string>
+    <string name="perm_description_change_airplane_mode" msgid="5548864799000291188">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‎‎‎‎‎‎‎‏‏‎‎‎‎‏‏‏‎‎‏‎‎‎‏‎‏‎‏‏‎‎‏‏‎‎‎‏‎‏‎‎‏‏‏‎‎‏‏‏‎‏‏‏‎‏‎‎‎This app can turn Airplane mode off and on.‎‏‎‎‏‎"</string>
+    <string name="perm_label_toggle_sunlight_mode" msgid="7300350721546030549">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‎‏‎‎‎‎‎‎‎‎‏‏‏‎‎‏‎‎‏‏‎‏‎‏‏‎‎‏‎‏‏‎‎‎‎‏‎‎‏‎‎‎‏‏‎‏‏‏‎‏‎‏‎‏‎Toggle Brightness boost‎‏‎‎‏‎"</string>
+    <string name="perm_description_toggle_sunlight_mode" msgid="7970773837921004741">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‎‏‎‎‏‏‏‎‏‏‏‏‎‎‎‎‎‏‎‎‏‎‎‏‏‎‎‎‏‏‎‏‎‎‏‎‎‎‎‏‎‎‎‏‎‏‏‎‎‏‏‎‎‎‏‎‏‎This app can toggle Brightness boost.‎‏‎‎‏‎"</string>
+    <string name="perm_label_change_locale" msgid="7000083711553910362">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‏‎‎‏‎‏‎‏‎‎‏‎‏‏‎‎‎‎‏‏‎‎‎‎‏‏‎‎‎‏‎‎‏‎‏‎‏‏‎‎‏‏‎‏‏‎‎‏‎‏‏‎‏‎‎Change system language‎‏‎‎‏‎"</string>
+    <string name="perm_description_change_locale" msgid="4911766644238488049">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‎‎‏‎‏‎‏‎‎‎‎‏‏‎‎‏‏‎‏‏‏‏‎‏‎‏‎‎‎‎‎‏‎‏‏‏‎‎‏‎‏‎‎‏‎‎‎‏‏‏‏‏‎‎‎‏‎This app can change the system language on your device.‎‏‎‎‏‎"</string>
+    <string name="perm_label_configure_doze" msgid="5421509200229650269">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‎‎‏‏‏‏‎‏‎‎‎‏‎‎‎‏‏‏‏‎‎‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‎‏‏‎‏‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎Change ambient mode settings‎‏‎‎‏‎"</string>
+    <string name="perm_description_configure_doze" msgid="7218651062978851446">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‎‏‏‎‏‏‏‎‎‏‏‎‎‏‏‏‎‎‏‎‏‎‏‎‎‏‏‏‎‎‏‎‏‏‎‎‏‏‎‏‏‎‎‏‎‎‏‏‏‎‏‏‎‎This app can change ambient mode settings, including turning ambient mode off or on.‎‏‎‎‏‎"</string>
+    <string name="perm_label_battery_stats" msgid="1778606753594342937">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‏‎‏‎‏‏‏‎‏‏‏‎‎‎‎‏‎‏‏‎‏‎‏‏‎‎‏‏‏‏‏‏‎‎‎‏‏‎‎‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‎‏‎Access battery usage statistics‎‏‎‎‏‎"</string>
+    <string name="perm_description_battery_stats" msgid="8156681656296522428">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‎‏‎‎‏‎‏‏‎‏‎‏‏‎‎‎‎‎‎‎‎‎‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‏‎‏‏‏‏‎‎‎This app can access battery usage statistics.‎‏‎‎‏‎"</string>
+    <string name="perm_label_retail" msgid="4988785191164980482">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‏‏‏‎‏‏‏‎‏‏‏‎‎‏‏‎‏‏‎‎‏‏‎‎‎‏‏‏‎‎‎‎‎‏‏‏‏‎‎‎‏‎‏‏‎‏‎‎‎‎‎‎‏‎‎Start retail mode‎‏‎‎‏‎"</string>
+    <string name="perm_description_retail" msgid="8096467821470700726">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‏‎‏‏‏‎‏‎‎‏‎‏‏‎‎‎‏‏‎‎‏‎‎‎‏‎‎‏‎‎‎‏‎‏‎‏‎‎‏‎‏‏‎‏‏‎‎This app can start retail mode on your device.‎‏‎‎‏‎"</string>
+    <string name="perm_label_read_settings" msgid="952483218522377452">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‎‎‏‏‎‏‏‏‏‏‏‎‎‏‏‎‎‏‏‏‎‎‎‎‏‏‎‏‎‏‏‎‏‎‎‎‏‏‎‎‎‎‎‎‏‏‎‎‏‏‏‎‏‏‎‎‎Read settings‎‏‎‎‏‎"</string>
+    <string name="perm_description_read_settings" msgid="5117658872211225102">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎‏‎‏‏‎‎‏‎‎‏‏‏‎‏‎‎‎‎‏‎‎‏‏‎‏‏‏‏‏‎‎‎‏‏‎‏‎‏‏‏‎‏‎‎‎‎‎‏‏‏‎‎This app can read settings.‎‏‎‎‏‎"</string>
+    <string name="perm_label_write_settings" msgid="967154864341021740">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‎‏‏‎‏‏‎‎‎‎‎‎‎‏‏‎‎‎‏‏‏‎‎‏‏‎‎‏‎‎‏‏‏‏‎‏‎‏‏‎‎‏‏‏‎‏‎‎‎‎‏‎‏‏‎‎‎Write settings‎‏‎‎‏‎"</string>
+    <string name="perm_description_write_settings" msgid="9086940006333287901">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‎‏‎‏‎‎‎‎‏‎‎‏‏‎‎‏‎‎‎‎‎‎‎‏‏‎‏‏‏‎‏‏‏‎‏‎This app can change settings‎‏‎‎‏‎"</string>
+    <string name="perm_label_lock_updates" msgid="4034546703228244097">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‏‏‎‏‏‎‏‏‎‎‏‏‏‎‎‎‎‏‏‏‎‏‎‎‏‎‎‏‎‎‏‎‎‎‎‏‎‎‎‎‎‎‏‎Prevent system updates‎‏‎‎‏‎"</string>
+    <string name="perm_description_lock_updates" msgid="2683626227679532287">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‏‎‎‏‏‏‏‏‎‎‎‏‎‎‏‏‏‏‏‎‏‎‏‎‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‏‎‏‎‎‏‎‏‎‎‏‏‏‏‏‏‏‏‎This app can prevent system updates.‎‏‎‎‏‎"</string>
+    <string name="perm_label_storage_stats" msgid="6197912295772696716">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‎‎‎‎‏‏‎‏‏‎‏‎‎‎‎‏‏‎‎‏‎‏‎‎‏‎‎‎‏‎‏‎‎‎‏‏‏‎‏‎‏‏‎‎‎‎‏‎‎‎‏‏‎‎‎Access storage usage statistics‎‏‎‎‏‎"</string>
+    <string name="perm_description_storage_stats" msgid="8162425162933291683">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‎‏‏‎‏‏‎‎‎‎‏‎‎‏‏‏‎‎‎‎‎‏‏‏‎‏‏‎‎‏‎‏‏‎‎‏‎‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎This app accesses storage usage statistics.‎‏‎‎‏‎"</string>
+    <string name="perm_label_disable_fitness" msgid="1149946811451073823">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‎‏‏‏‎‏‎‎‎‏‎‎‎‎‏‎‎‎‏‏‏‎‎‏‎‎‎‏‎‎‏‏‎‎‏‎‏‎‎‎‏‏‏‏‏‎Disable or enable Fitness‎‏‎‎‏‎"</string>
+    <string name="perm_description_disable_fitness" msgid="4951038687262255865">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‏‎‏‎‏‏‎‎‏‏‏‏‏‎‏‏‏‎‏‎‎‎‏‎‎‏‏‏‏‎‏‏‏‏‎‏‏‏‎‏‎‏‎‏‎‏‏‏‏‏‎‎‏‎This app can disable or enable Fitness.‎‏‎‎‏‎"</string>
+    <string name="perm_label_set_home_ready" msgid="8451607503458763111">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‎‎‏‎‏‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‏‎‏‏‏‏‏‎‎‎‎‎‎‏‎‏‏‎‎‏‏‏‎Set home ready‎‏‎‎‏‎"</string>
+    <string name="perm_description_set_home_ready" msgid="1332347716157882869">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‎‎‏‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‎‏‏‎‎‎‎‎‏‎‏‎‎‏‎‏‏‏‎‎‏‎‎‏‏‎‎‎‎‎‏‏‏‏‏‎‏‎‏‎This app can publish when home is ready.‎‏‎‎‏‎"</string>
+    <string name="perm_label_show_factory_reset_confirmation" msgid="7303857583755554738">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‎‏‏‏‎‎‏‎‎‎‎‎‏‏‏‏‎‎‎‏‏‎‎‏‏‎‎‎‎‏‏‏‎‎‏‎‏‎‏‏‏‎‏‏‏‏‏‎‏‏‎‎‏‎‎Show factory reset confirmation‎‏‎‎‏‎"</string>
+    <string name="perm_description_show_factory_reset_confirmation" msgid="8102678402211318506">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‏‎‎‏‎‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‏‏‎‏‏‎‏‎‏‎‎‎‎‏‎‎‏‎‎‎‎‏‎‏‎‏‏‏‎‏‎‏‎‎This app can show the factory reset confirmation.‎‏‎‎‏‎"</string>
+    <string name="verify_screen_lock_pin" msgid="7509047618652114025">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‎‎‏‏‎‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‏‏‎‎‏‎‎‎‏‏‏‎‏‎‎‎‎‎‎‏‎‎‎‏‏‎‎‎‏‏‎‏‎‎‏‎Verify your screen lock pin‎‏‎‎‏‎"</string>
+    <string name="verify_screen_lock_password" msgid="8265310277529137384">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‏‎‏‎‎‎‏‎‎‎‏‏‏‏‏‏‎‎‏‏‏‏‏‏‎‏‎‏‎‏‎‎‎‎‎‏‎‎‏‏‏‎‎‎‎‏‏‏‎‏‎‎‎‎Verify your screen lock password‎‏‎‎‏‎"</string>
+    <string name="choose_screen_lock_pin" msgid="4949582802551926327">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‏‎‎‎‎‎‏‏‏‎‎‏‏‎‏‎‏‎‏‎‏‏‎‏‏‏‏‎‎‎‏‏‏‏‏‎‏‎‏‏‎‏‏‏‎‎‎‏‏‎‏‏‏‎Choose your screen lock pin‎‏‎‎‏‎"</string>
+    <string name="choose_screen_lock_password" msgid="2211757075065518092">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‎‏‎‏‏‎‎‎‏‏‎‏‏‏‏‎‏‎‏‎‏‎‏‏‏‎‏‏‎‎‏‎‎‏‎‏‏‏‏‎‎‏‎‏‏‏‎‎‎‎‎‎‎‏‏‎‎‎Choose your screen lock password‎‏‎‎‏‎"</string>
+    <string name="lock_settings_title" msgid="3838008524017333227">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‎‏‎‎‎‎‏‏‎‏‎‏‏‎‎‎‎‏‏‎‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‏‎‎‏‎‏‏‏‎‎‏‏‏‏‏‎‏‎‏‏‎Choose screen lock‎‏‎‎‏‎"</string>
+    <string name="action_lock_none" msgid="479246350876272089">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‏‎‏‎‎‏‏‎‏‎‏‎‎‎‎‎‎‎‎‎‎‏‎‎‎‏‎‏‎‏‏‏‏‏‏‎‎‎‎‏‏‏‏‎‎‏‎‏‏‏‎‏‏‎‎‏‎None‎‏‎‎‏‎"</string>
+    <string name="action_lock_pattern" msgid="215281590639238701">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‏‏‏‏‏‏‎‎‏‏‎‏‎‏‎‏‎‏‏‏‎‏‏‏‎‏‎‏‎‎‎‎‏‎‏‏‏‎‏‏‏‎‎‏‏‏‏‎‎‎‏‎‏‏‎‏‎Pattern‎‏‎‎‏‎"</string>
+    <string name="action_lock_pin" msgid="4747331804647532967">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‏‏‏‏‎‎‎‎‏‏‏‏‎‏‎‎‏‎‎‎‏‏‏‏‏‏‎‏‏‎‏‏‎‏‏‏‎‏‏‏‎‎‎‏‎‏‎‎‏‏‎‏‎‎‏‏‏‎PIN‎‏‎‎‏‎"</string>
+    <string name="action_lock_password" msgid="6343551604618018553">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‎‎‎‎‎‏‎‎‎‏‏‎‏‎‎‏‎‏‎‎‏‎‎‏‏‎‎‏‎‎‏‏‏‏‎‎‏‏‏‎‏‏‎‏‏‏‏‏‎‏‏‏‏‏‎‎‏‎Password‎‏‎‎‏‎"</string>
+    <string name="action_power_off" msgid="2257246428618786560">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‎‏‎‏‎‎‏‏‎‏‎‏‏‎‎‏‏‎‏‎‏‎‏‎‏‏‎‏‏‏‎‎‎‏‎‏‎‏‏‏‏‎‎‎‎‏‏‏‎‎‎‎‎‎‎‎‎Power off‎‏‎‎‏‎"</string>
+    <string name="action_restart" msgid="4023857913936273892">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‏‎‏‏‏‎‏‎‎‎‎‎‏‎‎‏‎‏‏‎‏‎‎‎‎‏‏‏‎‎‎‎‏‏‏‏‎‎‏‎‎‎Restart‎‏‎‎‏‎"</string>
+    <string name="enable_airplane_mode" msgid="7012413720119183231">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‎‏‎‏‎‎‎‏‎‎‎‏‏‎‎‏‎‎‏‎‎‎‎‎‎‎‎‎‎‏‎‏‏‏‎‎‎‏‏‏‏‎‎‎‎‏‏‏‎‏‏‏‏‏‏‏‎Turn on Airplane mode‎‏‎‎‏‎"</string>
+    <string name="disable_airplane_mode" msgid="5007975406165404037">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‎‏‏‏‎‎‎‎‏‏‎‎‎‎‏‏‎‏‎‏‎‎‏‏‎‎‎‎‏‎‏‎Turn off Airplane mode‎‏‎‎‏‎"</string>
+    <string name="enable_wifi" msgid="268484308397480722">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‎‏‏‏‎‎‏‏‏‎‏‏‎‎‏‎‎‎‎‏‏‏‎‎‏‎‏‎‏‎‏‏‏‎‎‏‏‎‎‎‏‎‏‏‎‏‏‎‎‎‏‎‎‏‎‎Turn on Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="disable_wifi" msgid="2563651239499338628">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‏‏‎‎‏‎‎‏‏‏‏‏‎‏‎‏‏‎‎‏‏‏‎‎‎‎‎‏‏‎‎‏‎‎‏‎‏‏‎‎‏‎‎‎‏‎‎‏‏‏‎‎‎‎‏‎‎‎Turn off Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="airplane_mode" msgid="7474495377860835384">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‏‏‎‏‏‏‎‏‎‏‎‏‏‏‏‎‏‏‏‏‏‎‎‎‏‏‏‎‏‎‎‎‎‏‎‏‏‎‎‎‏‏‎‏‏‏‎‎‎‎‎‏‏‏‎‎‎‎Airplane mode‎‏‎‎‏‎"</string>
+    <string name="location_warning_title" msgid="324768427884387137">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‎‏‎‎‎‎‎‎‏‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‎‎‎‎‏‏‎‏‎‎‏‎‎‏‏‏‏‏‎‎‏‏‎‏‏‎‏‎‎‎‎‎‏‎Improve location accuracy?‎‏‎‎‏‎"</string>
+    <string name="location_warning_message" msgid="7539862108782770096">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‏‎‏‎‎‎‏‎‏‏‏‏‏‎‎‎‏‎‏‎‎‎‏‏‏‏‎‏‏‎‎‏‎‏‏‎‏‏‎‎‏‎‏‏‎‏‏‏‏‎‏‏‎‎‎‎‎Help apps find your location more quickly and accurately using Google\'s location service. Anonymous location data will be sent to Google when your device is on.‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎This service is active when Settings &gt; Location is on and High Accuracy or Battery Saving mode is selected.‎‏‎‎‏‎"</string>
+    <string name="agree" msgid="6518595068526959386">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‏‏‎‏‏‎‏‎‏‏‎‎‏‏‏‎‏‎‏‏‎‏‏‎‎‎‎‏‏‎‎‎‏‎‏‎‎‏‏‎‎‏‏‎‏‏‎‎‎‏‏‎‏‎‎Agree‎‏‎‎‏‎"</string>
+    <string name="disagree" msgid="7045507156753861285">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‏‏‎‎‎‏‏‎‏‎‏‎‏‎‏‏‎‏‏‎‏‏‏‎‎‎‏‎‏‏‎‎‏‏‎‎‏‎‎‏‎‏‎‎‏‎‏‎‏‎‏‎‎‏‎‏‎Disagree‎‏‎‎‏‎"</string>
+    <string name="factory_reset_confirmation" msgid="3307130543710863583">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‏‏‏‎‎‏‎‏‎‏‎‎‏‎‎‏‏‎‏‏‎‏‎‏‎‎‏‎‎‎‏‏‏‎‏‏‏‎‏‏‎‎‎‎‎‎‎‎‏‏‎‏‏‏‏‏‎Disconnect &amp; reset?‎‏‎‎‏‎"</string>
+    <string name="factory_reset_confirmation_subtitle" msgid="8332262918841859029">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‏‎‎‎‏‎‎‎‏‎‎‏‎‎‏‏‏‏‏‎‏‎‎‏‏‏‏‏‎‎‏‎‏‏‏‎‏‎‎‏‏‏‏‎‏‏‏‏‎‏‎‏‎‏‎Unpairing will factory reset your watch settings and delete all user data.‎‏‎‎‏‎"</string>
+    <string name="factory_resetting" msgid="6789489223990944984">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‏‏‏‎‎‏‎‎‎‏‏‏‎‎‎‏‏‏‏‎‏‎‎‎‎‏‏‎‏‎‎‏‎‏‎‎‏‎‏‎‏‎‎‏‎‎‏‏‎‏‏‎‎‎‎Resetting device‎‏‎‎‏‎"</string>
+    <string name="permissions_setting" msgid="7493246711262889765">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‎‎‎‎‏‎‏‏‏‎‏‏‎‏‎‏‏‏‎‎‏‏‎‎‎‎‎‏‎‎‎‏‏‏‎‎‏‎‎‏‎‏‎Permissions‎‏‎‎‏‎"</string>
+    <string name="info_label_model" msgid="5462928090963276060">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‏‏‎‏‎‎‎‎‎‎‏‏‏‎‎‎‎‎‏‎‎‏‏‏‏‎‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‎‎‏‎‎‎‏‏‏‎‎‎Model‎‏‎‎‏‎"</string>
+    <string name="info_label_device_name" msgid="2965996867358217441">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‎‎‏‎‏‎‎‏‎‏‎‏‎‏‏‎‎‏‏‎‏‏‏‏‏‎‏‏‎‎‏‏‏‏‎‎‏‏‏‎‏‏‎‏‎‏‎‎‏‏‏‎‎‎‎‏‎Device name‎‏‎‎‏‎"</string>
+    <string name="info_label_version" msgid="2709691749716726745">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‏‏‎‎‏‏‎‏‎‏‏‎‎‎‎‏‎‎‏‎‎‏‎‏‎‎‎‏‏‎‎‎‎‏‎‏‎‏‏‎‎‎‎‎‏‎‎‏‏‏‏‎‏‏‎‎‏‎Versions‎‏‎‎‏‎"</string>
+    <string name="info_value_version" msgid="1921105485159227050">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‏‎‏‎‏‎‎‏‎‎‏‎‎‎‏‏‎‏‎‎‎‎‏‎‏‎‏‎‎‎‏‎‏‏‏‏‏‎‎‎‎‏‎‏‏‏‏‎‏‎‏‎‏‎‏‎‎Tap to view‎‏‎‎‏‎"</string>
+    <string name="info_label_wear_os_version" msgid="2640502800697825605">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‏‎‏‎‎‏‎‎‏‏‏‏‎‎‏‏‎‏‎‎‏‏‏‎‏‎‏‎‏‎‎‎‎‎‎‎‎‏‎‎‏‎‎‏‏‎‎‏‎‏‎‎‎‏‎‏‎Wear OS by Google‎‏‎‎‏‎"</string>
+    <string name="info_label_home_app" msgid="8247458074190539975">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‏‎‎‏‏‎‏‏‎‏‏‎‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‎‎‏‏‎‏‏‏‏‎‏‏‎‎‏‏‎‎‎‏‏‏‎Home App‎‏‎‎‏‎"</string>
+    <string name="info_label_os_version" msgid="8547447429697764478">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‏‏‏‎‏‎‏‎‎‎‏‎‎‎‏‎‎‏‏‎‏‎‏‎‎‏‏‏‎‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‏‏‏‎‎Android OS‎‏‎‎‏‎"</string>
+    <string name="info_label_security_patch" msgid="2182967081179271667">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‎‎‏‎‎‏‎‏‏‎‏‏‏‎‏‎‎‏‏‏‏‏‏‏‎‏‎‎‏‎‏‏‎‎‎‎‎‏‏‏‏‏‏‎‏‎‎‎‏‏‏‏‏‎‎‏‏‎Android security patch level‎‏‎‎‏‎"</string>
+    <string name="info_label_serial" msgid="7541679776559969346">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‎‎‏‎‏‏‎‏‏‎‏‏‏‎‎‏‏‎‎‏‎‎‏‏‎‏‏‏‎‎‏‏‎‏‎‏‎‏‏‎‏‎‎‎‏‎‎‎‎‏‎‎Serial number‎‏‎‎‏‎"</string>
+    <string name="info_label_msn" msgid="2761467614956918313">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‏‎‎‏‎‏‎‎‏‎‏‎‏‏‎‏‎‎‎‎‏‎‏‎‏‎‎‎‏‏‏‎‎‎‎‏‎‎‎‎‎‎‏‎‎‏‎‏‏‎‎‎‏‎‏‎‎‏‎MSN‎‏‎‎‏‎"</string>
+    <string name="info_label_build" msgid="4221674184315078846">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‎‏‎‏‏‎‎‏‏‎‎‏‏‎‎‏‎‎‏‏‎‏‏‎‏‎‎‎‎‏‏‎‎‎‏‎‎‏‏‎‎‎‏‎‎‎‏‎‏‏‏‏‏‎‎Build number‎‏‎‎‏‎"</string>
+    <string name="info_label_connection" msgid="6805565712509458515">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‏‏‎‎‏‎‎‎‏‏‏‎‎‏‏‏‏‏‎‏‎‏‎‏‎‎‎‏‎‏‏‎‏‏‎‏‎‎‎‏‎‏‏‎‎‎‎‏‎‏‎‎‏‏‎Connection‎‏‎‎‏‎"</string>
+    <string name="info_label_regulator_information" msgid="521928042592927567">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‏‎‎‏‏‏‏‏‎‎‏‎‎‎‎‏‎‏‏‎‎‏‎‏‎‎‎‎‏‏‎‎‏‎‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‎Regulatory information‎‏‎‎‏‎"</string>
+    <string name="info_label_legal_notices" msgid="6238057824763505209">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‏‎‎‎‎‎‏‎‎‎‏‎‎‎‏‎‏‎‎‏‏‏‏‏‎‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‎‎‎‏‏‏‎‎‏‎Legal notices‎‏‎‎‏‎"</string>
+    <string name="info_label_open_source_information" msgid="6165552906723827208">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‏‎‎‏‎‎‎‎‎‏‏‏‎‎‎‏‏‎‏‏‎‎‏‏‏‏‎‎‎‎‎‏‎‎‏‎‎‏‏‎‏‎‎‏‏‏‏‎‎‎‎‎‏‎‎‎‎Open source‎‏‎‎‏‎"</string>
+    <string name="info_value_connection_error" msgid="2595437285507164813">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‎‎‎‎‎‏‎‎‏‏‎‏‏‎‎‎‎‏‏‏‎‏‎‏‏‎‏‏‏‏‏‏‎‏‏‏‎‏‎‏‎‏‏‎‏‎‏‎‏‎‎‎‏‏‎‏‎Unknown‎‏‎‎‏‎"</string>
+    <string name="info_value_connection_no_pairing" msgid="5859455735262962789">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‎‎‎‎‏‏‏‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‎‎‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‎‎‏‎‎‎‏‏‎‎‏‎‏‎No paired devices‎‏‎‎‏‎"</string>
+    <string name="info_value_connection_paired_disconnected" msgid="1143552375393611551">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‏‏‏‎‏‏‏‏‎‏‎‏‏‎‏‏‎‏‏‎‏‎‎‏‏‏‎‎‏‏‏‎‏‎‏‏‎‎‎‏‏‏‏‏‎‏‏‏‏‎‎‎‏‏‏‏‏‎Disconnected‎‏‎‎‏‎"</string>
+    <string name="info_value_connection_paired_connected" msgid="8545309092470711825">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‎‏‏‏‎‎‎‎‏‎‎‏‎‏‎‏‏‎‎‎‎‎‏‏‏‎‎‎‏‎‏‎‎‎‎‏‏‏‏‎‎‏‏‎‎‎‎‏‎‎‎‏‎Connected‎‏‎‎‏‎"</string>
+    <string name="info_value_legal_notices" msgid="3299469673150652238">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‏‏‎‎‏‎‏‎‎‎‎‏‎‎‏‎‎‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‏‎‎‎‏‏‎‎‏‏‏‏‏‎‏‎‎‏‏‏‎‎For legal notices, see device paired with your watch‎‏‎‎‏‎"</string>
+    <plurals name="show_dev_countdown" formatted="false" msgid="278671640704606230">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‎‎‏‎‏‎‎‏‏‎‎‎‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‏‎‎‎‏‏‎‎‎‎‎‎‎‎‏‎‏‏‎‎You are now ‎‏‎‎‏‏‎<xliff:g id="STEP_COUNT_1">%1$d</xliff:g>‎‏‎‎‏‏‏‎ steps away from being a developer.‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‎‎‏‎‏‎‎‏‏‎‎‎‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‏‎‎‎‏‏‎‎‎‎‎‎‎‎‏‎‏‏‎‎You are now ‎‏‎‎‏‏‎<xliff:g id="STEP_COUNT_0">%1$d</xliff:g>‎‏‎‎‏‏‏‎ step away from being a developer.‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="show_dev_on" msgid="2109846373541532173">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‏‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‎‎‏‏‎‎‏‎‎‏‎‏‎‎‏‏‎‎‏‎‏‏‎‏‏‎‏‎‎‏‎‎‎‎‎‏‏‎‏‎You are now a developer!‎‏‎‎‏‎"</string>
+    <string name="show_dev_already" msgid="407395843882625544">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‏‏‎‏‎‎‏‏‏‎‏‎‏‏‏‎‎‎‏‎‏‏‏‎‎‏‎‎‎‏‏‎‏‏‎‎‏‏‎‎‎‎‎‏‎‏‎‏‎‎‎‎‎‏‎‎‎‎No need, you are already a developer.‎‏‎‎‏‎"</string>
+    <string name="info_label_battery" msgid="3496702431985663374">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‎‎‎‎‏‏‎‏‏‎‎‏‎‎‎‎‏‎‏‎‏‎‏‏‏‏‎‎‏‏‏‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‏‎‎‎‏‏‏‎‎Battery‎‏‎‎‏‎"</string>
+    <string name="info_value_battery_plugged" msgid="987501859001734110">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‏‎‏‏‎‏‎‎‎‏‎‎‏‏‏‏‏‎‏‏‎‏‎‏‎‏‏‏‎‎‎‎‏‏‎‏‎‏‏‎‎‎‎‏‎‎‏‏‏‏‎‏‏‏‏‎‎‎‏‎‎‏‏‎<xliff:g id="PERCENTAGE">%s</xliff:g>‎‏‎‎‏‏‏‎ - plugged in‎‏‎‎‏‎"</string>
+    <!-- no translation found for info_value_battery (2781226267130548261) -->
+    <skip />
+    <string name="info_label_system_update" msgid="8233770039804037350">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‎‏‎‎‎‏‎‎‎‎‏‏‏‎‏‎‎‎‏‏‏‎‏‎‎‎‎‏‎‎‎‎‏‏‎‎‎‏‏‎‎‎‎‎‏‎‎‎‏‏‏‎‎‏‏‎‎System updates‎‏‎‎‏‎"</string>
+    <string name="checking_for_updates" msgid="1643221196764678417">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‏‏‎‎‏‏‎‏‏‏‏‎‎‏‎‎‏‏‏‏‏‎‎‎‏‏‏‎‏‎‎‎‏‎‎‎‏‏‎‏‎‎‎‎‏‎‎‏‎‎‎‏‎‎‎‏‎Checking for updates…‎‏‎‎‏‎"</string>
+    <string name="error_could_not_launch" msgid="1741795448696961995">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‏‎‎‏‏‎‏‏‏‎‏‏‎‏‏‎‏‏‏‎‏‏‏‏‏‎‎‏‎‏‏‏‏‎‏‏‏‏‎‎‏‎‏‏‎Could not launch app‎‏‎‎‏‎"</string>
+    <string name="baseband_version" msgid="3099493437361966829">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‎‎‏‏‏‎‎‏‏‏‎‎‏‏‎‏‏‏‎‎‎‎‎‎‎‏‎‏‏‎‎‏‏‏‎‏‎‏‎‎‏‏‏‎‏‏‏‎‏‏‎‏‎Baseband version‎‏‎‎‏‎"</string>
+    <string name="kernel_version" msgid="5681143854298654566">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‎‏‎‏‏‏‎‏‏‏‏‎‏‎‎‎‏‏‏‏‎‎‎‏‎‎‏‎‎‏‎‏‎‏‏‏‎‏‎‏‏‎‎‏‏‏‎‏‏‎‎‏‏‎‎Kernel version‎‏‎‎‏‎"</string>
+    <string name="device_status" msgid="1479230837802434695">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‎‏‎‎‎‎‏‏‏‎‏‎‎‏‎‎‎‏‎‎‏‏‏‎‎‎‎‎‏‎‏‎‎‎‎‎‎‎‏‎‎‏‎‎‎‎‎‎‎‏‎‎‎‎‏‏‏‎Status‎‏‎‎‏‎"</string>
+    <string name="fcc_equipment_id" msgid="8247602781643927905">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‏‎‏‎‏‎‏‏‏‏‏‎‎‎‎‏‎‎‎‎‏‎‎‎‎‎‎‎‏‏‎‏‎‎‎‏‏‏‏‎‎‎‏‎‏‏‎‎‎‎‏‎Equipment ID‎‏‎‎‏‎"</string>
+    <string name="selinux_status" msgid="4492945376268631700">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‎‎‏‎‏‏‎‏‎‎‎‏‎‎‏‏‎‎‎‎‎‎‎‏‏‏‏‎‏‏‎‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‏‏‎‏‎‎‏‎‏‎‎‎SELinux status‎‏‎‎‏‎"</string>
+    <string name="device_info_not_available" msgid="5858213049114617114">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‎‏‎‏‎‎‏‏‎‎‏‎‎‎‏‏‎‏‏‎‏‏‏‎‏‎‏‏‏‎‎‎‏‏‎‎‎‎‏‎‎‎‏‏‏‎‎‏‎‏‎‎‎‏‏‎‏‎‎Not available‎‏‎‎‏‎"</string>
+    <string name="device_status_summary" product="tablet" msgid="6883771577220273078">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‏‏‎‎‎‏‎‎‎‎‎‎‏‎‎‎‏‏‏‎‎‎‏‏‏‎‎‎‏‎‏‏‏‎‎‏‎‎‏‎‏‎‎‎‏‎‎‏‏‏‎‏‏‎‏‏‎‎Status of the battery, network, and other information‎‏‎‎‏‎"</string>
+    <string name="device_status_summary" product="default" msgid="6190216610174753010">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‏‎‏‎‎‎‎‎‎‏‎‎‎‏‎‎‏‏‎‏‎‏‏‎‏‏‎‏‎‎‎‎‏‏‎‎‎‎‎‏‎‏‏‎‎‎‏‏‏‏‎‎‏‎‎Phone number, signal, etc.‎‏‎‎‏‎"</string>
+    <string name="status_number_mdn" msgid="751001818997280955">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‎‎‏‏‎‏‏‎‎‎‎‎‏‏‎‎‎‎‎‏‎‏‏‎‎‏‏‏‎‎‏‏‏‎‎‎‎‎‎‎‏‎‏‎‏‎‎‎‎‏‎‏‏‏‎‏‏‎MDN‎‏‎‎‏‎"</string>
+    <string name="status_number_phone" msgid="9215294168305631385">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‏‎‎‎‏‏‎‏‎‎‏‏‎‏‎‎‏‏‏‎‎‎‏‎‏‎‏‎‏‎‏‎‎‏‎‏‏‎‎‎‎‎‎‎‎‎‏‎‎‏‏‎‎‏‎My phone number‎‏‎‎‏‎"</string>
+    <string name="status_min_number" msgid="5677264496381777363">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‎‎‏‎‎‏‏‎‏‏‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‎‏‏‎‎‎‏‎‏‏‏‎‏‎‏‎‏‏‏‎‏‎‎‏‏‎MIN‎‏‎‎‏‎"</string>
+    <string name="status_msid_number" msgid="5054431579050365788">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‎‎‏‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎‏‎‏‏‎‏‎‎‎‎‎‏‎‏‎‎‏‏‎‏‎‏‏‏‎‎‎MSID‎‏‎‎‏‎"</string>
+    <string name="status_prl_version" msgid="3383131582117101003">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‎‏‏‎‏‎‎‏‏‎‎‎‎‏‏‏‏‏‏‏‏‎‏‎‏‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‏‎‏‏‎PRL version‎‏‎‎‏‎"</string>
+    <string name="status_meid_number" msgid="4013889098560657284">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‏‎‏‏‎‏‎‎‎‎‏‏‎‎‏‎‏‏‎‏‏‏‏‎‎‏‎‏‏‏‏‏‏‎‎‎‎‏‎‏‎‏‎‏‎‏‏‏‏‎‎‎‎‏‎‎‎MEID‎‏‎‎‏‎"</string>
+    <string name="status_icc_id" msgid="1231660343377072846">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‏‎‎‎‏‎‏‏‏‏‎‏‏‏‏‎‎‏‎‎‎‏‏‏‎‏‎‎‎‎‎‏‎‏‏‏‎‏‏‎‏‎‎‎‏‎‎‏‎‏‏‎‎‏‏‏‎‎ICCID‎‏‎‎‏‎"</string>
+    <string name="status_network_type" msgid="7839077811135587430">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‎‏‎‎‏‏‏‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‏‏‎‏‎‏‏‎‏‏‎‎‎‏‎‎‎‏‎‎‏‎‎‎‏‏‎‎‏‏‎‎Mobile network type‎‏‎‎‏‎"</string>
+    <string name="status_latest_area_info" msgid="3858532744396704445">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‏‎‎‎‏‏‎‎‎‏‎‎‎‎‏‏‎‎‎‏‎‏‏‎‎‏‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‎Operator info‎‏‎‎‏‎"</string>
+    <string name="status_data_state" msgid="8793217835033667805">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‏‏‏‏‏‎‎‏‎‎‏‎‎‎‎‏‎‎‎‎‏‎‏‎‎‎‏‏‏‎‎‏‏‏‏‏‎‏‎‏‎‎‎‏‏‎‏‏‏‎‏‎Mobile network state‎‏‎‎‏‎"</string>
+    <string name="status_service_state" msgid="7258828116492905451">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‏‎‏‏‏‏‎‎‏‎‎‎‏‎‎‏‏‎‏‏‎‏‏‎‏‎‎‎‏‎‎‏‎‎‏‎‏‏‎‏‎‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎Service state‎‏‎‎‏‎"</string>
+    <string name="status_signal_strength" msgid="3674931742218015923">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‎‏‏‎‎‏‎‏‏‎‏‏‎‎‏‎‏‎‏‎‎‏‎‏‏‎‎‏‏‎Signal strength‎‏‎‎‏‎"</string>
+    <string name="status_roaming" msgid="8823917885403144430">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‎‏‎‎‏‏‎‏‏‎‏‎‏‎‎‏‎‎‎‎‏‏‎‎‏‏‏‎‏‎‏‎‏‎‏‏‏‎‏‎‎‎‎‎‏‏‏‎‏‏‏‎‎Roaming‎‏‎‎‏‎"</string>
+    <string name="status_operator" msgid="6984266089070939787">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‏‎‏‏‎‏‎‎‎‏‏‎‎‏‎‎‎‎‎‎‎‎‏‏‏‏‎‏‏‏‏‏‏‎‎‎‎‏‎‏‎‎‏‏‏‎‏‎‎‎‏‎‏‏‎Network‎‏‎‎‏‎"</string>
+    <string name="status_wifi_mac_address" msgid="2551145274089049903">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‏‎‏‏‎‎‏‏‏‎‏‏‏‏‏‎‏‎‎‎‏‏‏‎‎‎‎‏‏‏‎‎‎‎‏‏‏‏‏‏‎‏‎‎‎‏‏‏‏‎‎‏‎‏‏‏‏‎Wi‑Fi MAC address‎‏‎‎‏‎"</string>
+    <string name="status_bt_address" msgid="1706647943982379675">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‏‏‎‏‎‎‎‎‏‏‎‏‎‎‏‎‎‏‏‎‏‏‏‎‎‎‎‏‏‏‎‎‏‎‏‎‎‏‏‎‏‏‎Bluetooth address‎‏‎‎‏‎"</string>
+    <string name="status_serial_number" msgid="1832724952261309909">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‏‎‏‏‎‏‏‏‏‎‎‏‎‎‏‎‏‏‎‏‎‎‎‏‎‎‏‎‎‎‏‏‎‏‎‎‎‎‏‏‏‏‎‏‏‎‏‎‏‏‏‎‏‎‏‎‏‎Serial number‎‏‎‎‏‎"</string>
+    <string name="status_up_time" msgid="7577065251657875353">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‏‎‎‏‎‎‏‏‏‎‎‏‎‎‏‎‎‏‎‏‏‎‎‏‏‏‎‎‎‏‏‎‏‎‎‎‎‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎Up time‎‏‎‎‏‎"</string>
+    <string name="status_awake_time" msgid="4117932177067081486">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‎‎‏‎‎‏‎‏‏‏‎‏‎‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‎‎‏‏‏‎‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‏‏‎‎Awake time‎‏‎‎‏‎"</string>
+    <string name="action_accessibility" msgid="4274477204453979068">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‎‏‎‏‎‎‎‏‏‏‏‏‏‏‏‎‎‏‎‏‏‏‏‎‏‏‎‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‏‏‎‎‏‏‏‎‏‏‏‏‎‎‎Accessibility‎‏‎‎‏‎"</string>
+    <string name="action_accessibility_large_text" msgid="6941851006725723533">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‎‏‎‏‎‏‏‎‎‏‏‎‏‎‎‎‏‎‏‏‎‏‏‎‎‎‎‎‏‎‏‏‏‎‎‏‎‎‏‏‎‎‎‏‎‏‎‏‏‎‎‎‏‏‎‏‎Large font‎‏‎‎‏‎"</string>
+    <string name="enable_large_text" msgid="60823465250294614">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‎‏‏‎‎‎‎‎‎‏‎‏‏‎‏‎‎‏‏‏‏‎‏‎‎‏‎‎‎‎‎‏‎‎‎‎‎‎‏‎‎‎‏‎‏‏‎‏‎‏‎‏‏‎‎Enable large font?‎‏‎‎‏‎"</string>
+    <string name="disable_large_text" msgid="3460354305427083350">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‎‎‎‎‎‏‎‏‏‎‏‎‎‏‎‏‏‏‏‎‏‎‎‎‎‎‏‏‎‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎‎‎‎‎‏‎‏‎‏‏‎‎Disable large font?‎‏‎‎‏‎"</string>
+    <string name="action_accessibility_color_inversion" msgid="3469641555029056131">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‎‎‏‎‎‏‏‎‏‎‏‎‎‏‎‎‏‎‎‏‏‏‎‎‏‎‎‎‎‎‎‏‎‏‏‏‎‎‎‎‏‏‎‏‏‎‏‎‏‎‎‎‎‎‏‏‎Color inversion‎‏‎‎‏‎"</string>
+    <string name="action_accessibility_magnification" msgid="6876277344986693641">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‏‎‏‏‎‏‏‎‏‎‏‏‏‎‎‎‏‏‏‎‏‎‎‎‎‎‎‏‎‏‏‎‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‎‎‎‎‎‎‏‎‎‏‎Magnification gestures‎‏‎‎‏‎"</string>
+    <string name="enable_magnification" msgid="6711286211098200858">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‎‎‏‏‏‎‏‎‎‎‎‎‎‎‏‎‎‎‏‏‎‎‏‏‏‏‏‎‎‎‏‎‎‏‎‏‏‎‎‎‏‏‎‏‎‎Enable magnification?‎‏‎‎‏‎"</string>
+    <string name="magnification_subtitle" msgid="4380044615878003974">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‎‏‏‎‎‏‎‎‏‎‎‎‎‏‎‏‏‎‏‎‏‏‏‏‏‎‎‏‎‎‏‎‏‏‏‎‎‎‏‎‏‎‏‎‎‏‏‎‏‎‎‎‎‎‏‏‎‎Triple tap to zoom.‎‏‎‎‏‎"</string>
+    <string name="disable_magnification" msgid="8429032527771401304">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‏‎‎‏‏‏‏‏‎‎‎‎‎‏‏‎‏‏‎‎‏‏‎‏‎‎‏‎‎‎‎‎‎‏‏‎‏‏‏‏‏‏‎‎‎‏‎‏‏‎‎‎‎Disable magnification?‎‏‎‎‏‎"</string>
+    <string name="accessibility_power_button" msgid="3947315068872243678">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‎‏‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‎‏‎‎‏‎‎‎‎‏‏‎‎‎‎‏‎‏‎‏‏‎‏‎‎‏‏‏‎‎‏‏‏‎‏‏‏‏‎‎Power button ends call‎‏‎‎‏‎"</string>
+    <string name="accessibility_feature_state_on" msgid="5943415368007934139">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‎‏‏‏‏‎‏‏‎‏‎‎‎‎‎‎‏‏‎‎‏‎‎‏‏‎‏‎‎‎‏‎‏‎‏‏‎‏‎‏‏‏‏‎‎‎‎‎‏‎‏‏‏‎‏‏‎On‎‏‎‎‏‎"</string>
+    <string name="accessibility_feature_state_off" msgid="4983415388838116240">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‏‎‏‎‎‎‏‎‏‎‎‏‎‏‏‏‏‎‎‏‎‎‏‎‎‏‎‎‏‏‏‏‏‎‏‎‎‏‎‎‏‏‏‎‏‏‏‎‎‏‎‎‎‎‎Off‎‏‎‎‏‎"</string>
+    <string name="accessibility_menu_item_settings" msgid="8747326791824357447">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‎‏‏‎‎‏‎‎‏‎‏‏‏‏‏‏‎‏‎‏‏‏‏‏‎‎‏‏‎‎‎‎‏‏‏‏‎‎‏‎‏‎‏‏‏‎‎‎‎‏‎‎‎‏‏‏‎Settings‎‏‎‎‏‎"</string>
+    <string name="accessibility_service_default_description" msgid="4618751180180731832">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‎‎‎‎‏‏‎‎‏‎‎‎‏‏‎‎‏‏‎‏‏‏‎‏‎‎‎‏‎‏‎‎‎‏‎‎‏‎‏‏‎‏‎‏‏‎‏‏‏‏‎‏‏‏‎‎‎‎No description provided.‎‏‎‎‏‎"</string>
+    <string name="enable_service_title" msgid="2705790232499971416">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‏‏‎‎‎‏‏‎‎‏‏‏‎‎‏‎‏‏‏‏‎‎‎‎‏‎‏‏‎‏‏‎‎‏‏‏‎‎‎‎‏‏‏‏‎‎‏‎‏‎‏‎‏‏‎‎‎‎Use ‎‏‎‎‏‏‎<xliff:g id="SERVICE">%1$s</xliff:g>‎‏‎‎‏‏‏‎?‎‏‎‎‏‎"</string>
+    <string name="capabilities_list_title" msgid="7203592239863197705">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‏‏‏‏‏‎‎‎‎‏‎‎‏‏‎‎‏‏‏‏‏‎‎‏‏‏‎‏‎‎‏‏‏‏‎‎‏‏‏‎‎‏‏‏‎‎‎‎‎‎‎‎‏‎‎‏‎‎‏‎‎‏‏‎<xliff:g id="SERVICE">%1$s</xliff:g>‎‏‎‎‏‏‏‎ needs to:‎‏‎‎‏‎"</string>
+    <string name="capability_title_receiveAccessibilityEvents" msgid="8558770593364829246">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‏‏‎‎‎‏‏‎‏‏‎‏‏‏‎‎‏‎‎‎‎‎‏‎‎‎‏‎‎‎‏‏‏‎‎‏‎‎‎‏‏‏‏‎‎‏‎‎‎‎‏‏‏‏‏‎‎Observe your actions‎‏‎‎‏‎"</string>
+    <string name="capability_desc_receiveAccessibilityEvents" msgid="4898695177873003684">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‏‏‏‏‏‎‏‏‏‎‏‎‏‎‎‏‎‏‎‎‏‏‏‏‎‏‎‏‎‏‎‎‎‎‎‎‏‎‏‎‎‎‎‏‎‏‎‎‏‎‏‎‎‏‎‎‎Receive notifications when you’re interacting with an app.‎‏‎‎‏‎"</string>
+    <string name="accessibility_service_experimental" msgid="6612613571477586134">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‏‎‎‎‏‎‎‏‎‏‏‏‎‎‏‎‎‎‎‎‎‏‎‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‏‎‏‎‎‎‎‎‎‏‏‎‏‎‏‏‎‎‎‏‎‎‏‏‎<xliff:g id="NAME">%1$s</xliff:g>‎‏‎‎‏‏‏‎ (experimental)‎‏‎‎‏‎"</string>
+    <string name="tts_status_checking" msgid="5914293480810669850">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‎‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‏‎‎‏‎‏‎‏‏‏‏‎‎‏‎‏‎‎‏‎‎‎‎‎‏‏‏‎‎‏‏‏‎‎‎‏‏‎‏‎‎Checking...‎‏‎‎‏‎"</string>
+    <string name="tts_engine_settings_section" msgid="3270143842075000764">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‎‏‏‎‎‎‎‏‏‏‏‎‎‎‏‎‎‏‏‏‏‏‏‏‏‎‎‏‎‏‏‏‎‏‎‎‏‏‏‏‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎Engine settings‎‏‎‎‏‎"</string>
+    <string name="tts_engine_set_as_default" msgid="7070909974135609275">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‎‎‏‎‎‎‎‎‏‏‏‎‏‎‏‏‎‎‏‎‏‎‎‎‎‏‏‏‏‏‏‏‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎Set as default‎‏‎‎‏‎"</string>
+    <string name="enabled" msgid="6211511857401980949">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‏‏‎‎‏‏‏‎‏‏‏‎‎‏‎‎‎‏‏‏‏‏‏‏‎‏‎‎‏‎‏‎‎‏‎‎‏‎‎‏‏‎‏‎‎‎‎‎‎‏‎‏‎‏‎Enabled‎‏‎‎‏‎"</string>
+    <string name="notification_adb_target_service_title" msgid="104574699050942483">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‎‎‏‏‎‎‎‏‎‎‎‏‎‎‏‏‏‏‏‎‏‎‏‏‎‏‏‎‎‏‏‎‎‎‎‎‎‎‎‎‏‎‎‏‏‎Debugging‎‏‎‎‏‎"</string>
+    <string name="notification_adb_target_service_text" msgid="6982107394778870220">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‏‎‎‏‎‏‎‏‏‎‏‏‎‏‏‎‏‎‏‏‏‎‏‏‎‎‏‎‎‏‎‏‏‎‏‏‎‎‎‎‏‏‎‎‎‏‏‏‎‎‏‏‎‎‎Debugging over Bluetooth is enabled.‎‏‎‎‏‎"</string>
+    <string name="which_application" msgid="6276331741936034303">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‎‏‎‎‎‎‎‎‎‏‎‎‏‏‏‎‏‏‏‎‏‎‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎Complete action‎‏‎‎‏‎"</string>
+    <string name="are_you_sure" msgid="3613933635863706736">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‎‎‏‎‎‏‏‏‎‏‎‎‎‏‎‏‎‏‏‏‏‏‏‎‏‎‎‎‏‏‏‏‎‏‏‏‏‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎Are you sure?‎‏‎‎‏‎"</string>
+    <string name="please_wait" msgid="6237508868196214134">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‎‎‎‎‎‏‎‏‎‏‎‏‎‎‎‏‎‎‏‎‎‏‎‏‎‎‎‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‎‏‏‏‎‏‏‎‎Please wait.‎‏‎‎‏‎"</string>
+    <string name="changed_after_restart" msgid="5358424220322341627">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‎‏‎‏‏‏‎‎‏‏‏‏‎‎‏‎‎‏‏‏‎‎‎‎‎‎‏‏‎‎‎‎‎‎‏‎‏‎‎‏‏‎‏‎‎‎‏‎‏‏‏‏‏‎‏‏‎This will take effect on restart.‎‏‎‎‏‎"</string>
+    <string name="change_watch_face" msgid="93841052399292998">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‏‎‎‏‏‎‏‎‏‏‎‎‎‏‏‏‏‏‏‎‎‎‎‏‎‏‎‎‎‎‏‏‎‎‏‏‎‏‏‏‏‎‏‎‎‏‎‎‏‎‎‎‏‏‎‎Change watch face‎‏‎‎‏‎"</string>
+    <string name="settings" msgid="6718610711513793790">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‏‎‎‏‏‏‏‎‏‎‏‎‎‏‏‎‎‏‏‎‏‏‎‎‎‎‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‎‎‎‎‏‎‎‏‏‏‏‏‏‏‎‎Settings‎‏‎‎‏‎"</string>
+    <string name="advanced_settings" msgid="3278065177901955453">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‎‏‏‏‏‏‏‎‎‎‎‎‎‏‏‎‏‏‏‎‏‎‎‏‎‏‎‎‏‏‏‏‎‏‏‎‏‏‎‎‎‏‏‏‏‎‎‏‎‏‏‏‏‏‎‏‎Advanced‎‏‎‎‏‎"</string>
+    <string name="power_save_after_settings" msgid="7878839266047420718">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‏‎‏‏‏‎‏‎‎‎‎‏‎‏‎‎‏‎‎‎‏‏‎‎‎‏‏‏‏‎‎‏‎‎‏‏‏‏‏‏‎‏‎‎‏‎‎‏‎‏‏‏‎‎Power save after‎‏‎‎‏‎"</string>
+    <string name="max_battery_use_settings" msgid="870974980483155447">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‎‎‎‏‎‏‏‎‎‏‎‏‎‎‏‏‎‎‏‎‎‎‎‏‎‏‎‎‏‏‏‏‏‏‏‏‎‎‏‏‏‎‎‎‎‏‎‏‏‏‏‏‎‏‏‏‎Max battery use‎‏‎‎‏‎"</string>
+    <string name="airplane_mode_on" msgid="7326981613660360667">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‏‎‏‎‏‏‏‎‏‎‏‎‏‎‏‎‏‏‏‏‎‏‎‏‎‎‏‎‎‏‏‎‎‎‎‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‏‏‎‏‏‎Airplane mode‎‏‎‎‏‎"</string>
+    <string name="wifi_settings" msgid="7125053011032884530">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‏‏‏‎‎‎‎‏‎‏‎‎‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‎‎‎‎‎‎‏‏‏‎‎‎‏‎‏‎‎‎‏‎‏‎‎‏‏‎‎‏‎‎Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="watch_wifi_settings" msgid="6977467975231688441">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‎‏‎‏‎‎‏‏‏‏‎‎‏‎‎‎‏‎‎‏‏‏‏‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‏‎‎‏‏‏‎‏‏‏‏‏‎‎‏‎Watch Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="pref_cellularBatterySaver" msgid="2314831363095154724">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‎‎‎‎‏‏‏‏‏‏‏‏‎‏‏‏‎‏‏‎‏‏‏‎‎‎‎‏‏‏‎‎‎‎‎‏‏‏‎‎‎‎‏‎‏‎‎‎‎‎‎‏‎‎‏‎‎‎Mobile battery saver‎‏‎‎‏‎"</string>
+    <string name="bluetooth_disabled" msgid="6280695776893301138">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‎‎‏‎‏‎‎‏‏‎‎‎‎‎‏‏‏‎‎‎‏‎‎‎‎‏‎‏‎‏‎‎‎‎‎‎‎‏‎‏‎‏‏‏‎‎‎‏‏‎‎‏‎‎‏‎‎Turn on Bluetooth?‎‏‎‎‏‎"</string>
+    <string name="bluetooth_enable_request" msgid="5546371593663419423">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‏‏‏‏‎‎‎‏‎‏‎‏‎‏‏‏‎‎‏‎‏‎‎‎‎‎‏‏‎‎‎‏‎‏‎‎‎‎‎‎‎‎‏‎‏‎‎‎‎‎‏‏‏‏‏‎Allow &lt;b&gt;‎‏‎‎‏‏‎<xliff:g id="REQUESTER">%s</xliff:g>‎‏‎‎‏‏‏‎&lt;/b&gt; to turn on Bluetooth?‎‏‎‎‏‎"</string>
+    <string name="wifi_enable_request" msgid="3585083661439154377">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‏‏‎‎‎‎‎‎‏‏‎‎‎‏‏‎‏‎‎‏‏‎‎‎‎‏‏‏‎‎‏‎‎‎‏‎‎‎‏‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‎‏‎Allow &lt;b&gt;‎‏‎‎‏‏‎<xliff:g id="REQUESTER">%s</xliff:g>‎‏‎‎‏‏‏‎&lt;/b&gt; to turn on Wi-Fi?‎‏‎‎‏‎"</string>
+    <string name="bluetooth_make_discoverable" msgid="7255147841378508253">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‏‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎‏‎‎‎‎‏‎‏‏‎‏‏‎‏‏‎‎‏‎‎‏‏‏‎‏‏‎‏‏‏‎‏‏‏‎‏‏‏‎‏‎Make visible to other Bluetooth devices?‎‏‎‎‏‎"</string>
+    <string name="bluetooth_enter_pin" msgid="5212095687698442253">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‎‏‎‏‎‏‎‎‎‏‎‏‎‏‎‏‏‎‏‎‎‏‏‏‎‎‎‎‎‎‏‎‎‏‏‏‎‎‎‏‏‎‏‎‎‎‎‎‎‎‏‏‎‏‎Enter PIN:‎‏‎‎‏‎"</string>
+    <string name="bluetooth_pair_with" msgid="1433486491715935827">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‏‏‏‎‎‏‎‎‏‏‎‎‎‏‎‎‎‏‎‏‏‏‏‎‏‎‎‎‏‎‎‏‎‎‎‎‏‏‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‎‏‏‎Pair with ‎‏‎‎‏‏‎<xliff:g id="DEVICE">%1s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="bluetooth_pair_with_short" msgid="762483507456875923">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‎‏‎‎‏‎‏‎‎‏‏‏‎‎‎‏‎‏‎‏‏‎‏‎‏‏‏‎‏‎‎‎‏‎‎‎‎‏‏‏‏‏‎‎‏‏‏‎‏‏‎‎‏‎‎‏‏‎Pair ‎‏‎‎‏‏‎<xliff:g id="DEVICE">%1s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="bluetooth_confirm_code" msgid="3100116401776297946">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‎‏‎‏‏‏‎‏‎‎‏‏‎‏‏‏‎‎‎‏‎‎‏‏‏‎‏‎‎‎‏‏‏‏‎‏‎‎‎‎‎‏‏‏‏‏‎‏‏‎‏‎‎Do codes match?‎‏‎‎‏‎"</string>
+    <string name="bluetooth_enter_code_on_phone" msgid="4650853076116175299">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‎‏‎‎‎‏‎‏‏‎‎‏‎‎‏‏‎‎‎‏‏‏‎‏‏‎‏‎‎‎‎‎‎‎‏‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‎‎‎‏‏‎Enter this code on phone‎‏‎‎‏‎"</string>
+    <string name="bluetooth_enter_code" msgid="2633544558561573330">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‏‎‎‎‏‏‎‎‎‎‏‏‏‎‏‎‏‏‎‏‎‎‏‎‏‎‏‎‏‎‎‏‎‎‏‏‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‏‎‎‏‎‎Enter code on other device‎‏‎‎‏‎"</string>
+    <string name="wifi_activity_title" msgid="6738159393783650449">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‏‏‎‎‎‎‎‏‎‏‏‎‎‎‎‎‎‎‏‎‎‎‏‎‎‏‎‏‏‎‎‏‎‎‏‏‎‏‏‏‏‏‎‎‏‏‎‎‎‏‎‎‏‎‎‎‏‎Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="wifi_connection_action" msgid="394506258555947193">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‏‎‎‎‏‎‏‎‏‏‎‏‎‎‎‎‏‏‎‏‎‏‏‏‎‎‏‎‏‎‏‎‎‏‎‎‎‏‎‏‏‏‎‎‏‎Connection‎‏‎‎‏‎"</string>
+    <string name="wifi_connection_action_automatic" msgid="5533359973809075155">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‏‎‎‏‎‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‏‎‎‎‏‎‎‎‏‎‏‎‏‎‎‎‎‎‏‎‎‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎Automatic‎‏‎‎‏‎"</string>
+    <plurals name="wifi_connection_action_on_minutes" formatted="false" msgid="6468066446949660201">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‏‏‎‎‎‎‏‏‎‎‏‏‎‎‎‎‎‎‏‎‏‎‏‎‎‎‎‎‏‎‏‎‎‎‎‎‏‏‏‎‏‎‏‏‎‏‏‎‎‎‏‎‏‎‎‏‎On for ‎‏‎‎‏‏‎<xliff:g id="NUM_MINUTES">%d</xliff:g>‎‏‎‎‏‏‏‎ minutes‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‏‏‎‎‎‎‏‏‎‎‏‏‎‎‎‎‎‎‏‎‏‎‏‎‎‎‎‎‏‎‏‎‎‎‎‎‏‏‏‎‏‎‏‏‎‏‏‎‎‎‏‎‏‎‎‏‎On for 1 minute‎‏‎‎‏‎</item>
+    </plurals>
+    <plurals name="wifi_connection_action_on_hours" formatted="false" msgid="3244030981996338795">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‎‎‎‎‎‏‎‏‎‎‎‏‏‏‎‎‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‎‏‎‎‎‎‎‎‏‏‎‏‏‏‏‎‎‏‏‎‏‎‏‏‎On for ‎‏‎‎‏‏‎<xliff:g id="NUM_HOURS">%d</xliff:g>‎‏‎‎‏‏‏‎ hours‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‎‎‎‎‎‏‎‏‎‎‎‏‏‏‎‎‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‎‏‎‎‎‎‎‎‏‏‎‏‏‏‏‎‎‏‏‎‏‎‏‏‎On for 1 hour‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="wifi_connection_action_always_off" msgid="7878460947972668945">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‏‎‏‎‏‏‏‏‎‏‎‏‎‎‏‏‏‏‏‎‏‏‎‎‎‎‏‎‎‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‎‎‎‎‏‎‎‎‏‎Always off‎‏‎‎‏‎"</string>
+    <string name="wifi_connection_action_off" msgid="533586187701843875">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‏‎‏‏‎‎‏‏‏‏‎‏‎‏‏‎‏‏‏‎‎‏‏‏‏‏‎‎‎‎‏‏‏‎‎‎‎‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‎‎‎‏‏‎Off‎‏‎‎‏‎"</string>
+    <string name="wifi_connection_action_on" msgid="1731820036902467766">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‎‎‎‎‏‎‎‎‏‎‏‎‏‎‎‏‎‎‏‎‎‏‎‏‏‏‏‎‎‎‏‎‎‏‏‏‏‎‎‏‏‎‏‏‏‎‎‎‏‎‏‏‎‏‏‎‎On‎‏‎‎‏‎"</string>
+    <string name="wifi_toggle_enabled" msgid="6040689101508221747">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‎‏‎‏‎‎‏‏‎‏‎‏‏‎‏‎‏‏‏‎‏‏‏‎‎‏‏‏‎‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‏‏‎‎‏‏‎‎‏‏‎Wi-Fi enabled‎‏‎‎‏‎"</string>
+    <string name="wifi_toggle_disabled" msgid="3711675637655236697">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‏‎‎‎‎‎‏‎‏‎‎‎‎‏‎‏‎‏‎‏‎‎‏‏‏‎‏‏‏‏‏‏‏‏‏‎‏‎‎‏‎‏‏‏‎‎‎‎‎‏‎‏‏‎‎‏‎Wi-Fi disabled‎‏‎‎‏‎"</string>
+    <string name="wifi_current_connection_connected" msgid="1477532317206422899">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‎‏‎‎‎‎‎‎‏‎‎‏‏‏‏‏‏‏‏‎‏‎‎‎‎‎‏‏‎‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‎‎‏‎‏‎‏‏‏‎‎‏‏‎Connected‎‏‎‎‏‎"</string>
+    <string name="wifi_current_connection_connecting" msgid="170471559380052053">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‎‏‎‏‏‏‎‏‏‎‏‎‎‎‏‎‏‏‏‏‏‎‏‎‏‏‏‎‎‏‎‏‎‎‏‎‎‏‏‏‏‎‏‎‏‎‎‎‎‏‎‏‎‏‎‏‎Connecting…‎‏‎‎‏‎"</string>
+    <string name="wifi_current_connection_obtaining_ip" msgid="7448139656142104252">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‏‎‏‎‏‏‏‎‏‎‎‎‏‏‎‏‏‏‎‎‎‏‏‏‎‎‎‏‎‏‎‎‏‏‏‎‏‏‎‎‏‏‎‏‎‎‏‏‎‏‎‏‏‏‏‎‎‎Getting IP address…‎‏‎‎‏‎"</string>
+    <string name="wifi_connection_last_used" msgid="9174721932127941022">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‎‎‏‏‎‎‏‎‏‎‎‎‏‏‏‏‏‏‎‎‏‏‎‎‏‏‎‏‎‏‏‏‏‎‎‎‏‎‏‏‎‎‎‏‏‎‎‏‏‏‏‎‎Last used‎‏‎‎‏‎"</string>
+    <string name="wifi_connection_failure" msgid="6237186356446896115">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‎‎‏‏‏‎‏‏‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‎‏‏‎Connection failure‎‏‎‎‏‎"</string>
+    <string name="wifi_connection_no_internet" msgid="2351091570392173312">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‎‏‎‏‎‎‎‎‎‏‏‎‎‎‎‎‏‎‏‎‏‎‎‏‏‏‎‎‏‏‏‏‏‏‎‏‎‎‏‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‎‎‎‎No internet‎‏‎‎‏‎"</string>
+    <string name="wifi_available_networks_action" msgid="5649911085874011700">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‎‏‏‎‏‎‎‎‏‎‎‎‎‏‎‎‎‎‏‏‎‎‏‎‏‎‏‏‎‏‏‎‎‎‎‎‏‏‏‏‏‏‎‏‏‏‏‎‎‎‏‏‎‏‎‎‎Available networks‎‏‎‎‏‎"</string>
+    <string name="wifi_add_network_action" msgid="5924861685322990266">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‎‎‏‏‏‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‏‏‏‏‏‏‎‎‎‎‎‎‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‏‎‏‏‏‎‏‎‎Add network‎‏‎‎‏‎"</string>
+    <string name="wifi_saved_networks_action" msgid="8630907330422891856">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‏‏‏‎‎‎‏‏‏‎‎‏‎‎‏‎‎‎‏‏‏‏‏‎‏‎‎‎‎‏‏‏‏‎‎‏‎‏‎‏‏‏‏‏‎‎‏‎‏‎‏‎‏‎‎‎‎‎Saved networks‎‏‎‎‏‎"</string>
+    <string name="wifi_advanced_settings_action" msgid="6598435900685089887">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‎‎‏‎‎‏‎‎‏‎‏‏‎‏‎‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‏‎‎‎‎‏‎‎‏‏‏‏‏‏‎‎‎‏‎‏‏‏‏‏‎Advanced options‎‏‎‎‏‎"</string>
+    <string name="wifi_about_automatic_action" msgid="5789083404638420492">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‎‎‎‏‎‏‎‏‏‎‏‏‏‏‎‏‎‎‏‎‏‎‏‏‏‏‎‏‎‎‎‏‎‎‏‎‎‏‎‏‎‎‏‏‏‏‏‏‏‎‎‎‎‎‏‏‎‎‎About Wi-Fi Automatic‎‏‎‎‏‎"</string>
+    <string name="wifi_connection_title" msgid="2522820582918781849">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‏‎‎‎‎‎‎‏‎‏‏‎‏‏‎‏‏‏‏‏‏‎‏‎‎‎‎‏‎‎‏‎‎‏‏‏‎‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‎‎‏‎Connection‎‏‎‎‏‎"</string>
+    <string name="wifi_add_hidden_network_title" msgid="3829440405335323346">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‎‎‏‎‎‏‎‎‏‏‏‎‎‏‏‏‏‏‎‎‎‎‏‎‎‏‏‎‏‎‎‎‏‎‎‎‏‎‏‎‎‎‏‏‎‎‏‎‏‏‎‏‎‎‏‎‎Add hidden network‎‏‎‎‏‎"</string>
+    <string name="wifi_available_networks_title" msgid="8820693844617223880">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‏‏‎‏‎‎‏‎‏‏‎‎‏‏‎‎‏‎‏‎‎‎‏‎‏‎‏‎‎‎‎‏‏‏‎‎‎‏‎‎‏‎‏‏‏‏‎‏‏‎‎‏‎‎‎‎Available networks‎‏‎‎‏‎"</string>
+    <string name="wifi_add_network_title" msgid="5772528174953580978">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‎‏‏‏‎‎‎‎‏‎‎‎‏‏‏‏‎‎‏‎‏‎‎‏‏‏‏‏‎‎‎‎‎‎‏‎‏‎‏‏‎‎‏‎‎‏‏‎‏‏‎‎‏‎‎Add network‎‏‎‎‏‎"</string>
+    <string name="wifi_saved_networks_title" msgid="4180712371469804398">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‎‎‎‎‎‏‎‎‏‏‎‏‏‏‏‏‏‏‎‎‎‎‎‎‎‏‏‎‎‎‎‏‏‎‎‎‏‎‎‏‏‏‏‎‎‎‏‏‎‏‏‎‏‏‏‎‎Saved networks‎‏‎‎‏‎"</string>
+    <string name="wifi_empty_saved_networks" msgid="7547958447761615207">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‏‎‏‏‏‏‎‏‎‏‎‏‎‎‎‏‏‏‏‎‏‎‏‏‎‏‎‎‏‎‏‏‎‎‏‏‏‎No saved networks‎‏‎‎‏‎"</string>
+    <string name="wifi_advanced_title" msgid="8481894830427153526">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‏‏‎‏‎‏‏‎‏‏‏‏‏‎‎‏‏‎‏‎‎‎‏‏‎‎‎‏‎‏‏‏‎‏‎‏‎‏‎‎‏‎‎‏‎‎‎‏‏‏‎‏‏‎‎Advanced‎‏‎‎‏‎"</string>
+    <string name="wifi_advanced_automatic_rules_action" msgid="8189169829813236728">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‏‎‏‎‎‏‎‏‏‏‎‎‎‏‏‎‏‎‎‏‎‎‏‎‎‏‏‏‎‏‏‏‎‏‎‏‏‏‎‏‎‎‏‏‎‎‏‏‏‏‏‏‏‎‎‎‎Wi-Fi Automatic rules‎‏‎‎‏‎"</string>
+    <string name="wifi_advanced_ip_address_title" msgid="963026630313847601">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‎‏‎‏‏‏‎‏‎‏‎‏‏‎‏‏‏‎‎‏‏‏‏‎‎‎‏‏‎‎‎‏‎‎‎‏‏‎‎‏‎‎‏‎‏‎‏‏‎‎‏‏‎‎‎‏‎IP address‎‏‎‎‏‎"</string>
+    <string name="wifi_advanced_mac_address_title" msgid="5963717237036099879">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‏‏‎‎‎‎‏‏‎‏‏‎‎‎‎‏‎‎‏‏‏‎‏‎‏‏‎‏‏‏‏‎‎‏‏‎‏‎‎‏‎‎‏‎‏‎‎‏‎‎‏‎‎‏‏‏‎MAC address‎‏‎‎‏‎"</string>
+    <string name="wifi_advanced_view_address_action" msgid="458477374376903839">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‎‏‎‏‏‏‎‎‏‏‎‏‎‏‏‎‏‎‏‏‏‏‏‎‎‎‏‎‏‏‎‏‎‏‎‎‏‎‏‎‎‎‎‎‎‏‎‎‏‎‎‏‏‏‏‏‎Tap to view‎‏‎‎‏‎"</string>
+    <string name="wifi_rules_toggle_away_from_phone_seconds" msgid="8913969046025667674">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‏‏‎‏‏‎‏‎‎‏‏‎‎‎‏‏‏‏‎‎‏‏‏‏‎‎‏‏‏‏‏‏‏‎‎‏‏‎‎‎‎‎‎‎‎‎‏‎‎‎‏‎‏‏‎‏‎‎On when away from phone for ‎‏‎‎‏‏‎<xliff:g id="NUM_SECONDS">%d</xliff:g>‎‏‎‎‏‏‏‎s‎‏‎‎‏‎"</string>
+    <string name="wifi_rules_toggle_charging_seconds" msgid="4987963256512766554">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‏‏‏‎‎‎‏‏‎‎‏‏‏‎‎‎‏‎‎‏‏‏‏‎‎‎‏‎‎‏‎‎‏‎‎‏‎‎‏‏‏‎‎‎‏‎‎‏‎‏‏‎‏‎‎On when charging for ‎‏‎‎‏‏‎<xliff:g id="NUM_SECONDS">%d</xliff:g>‎‏‎‎‏‏‏‎s‎‏‎‎‏‎"</string>
+    <string name="wifi_rules_toggle_app_requested" msgid="8195792799475313277">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‏‎‏‏‏‏‎‏‎‏‎‎‏‏‏‎‎‎‏‎‎‎‎‎‏‏‎‎‎‎‎‏‎‏‏‎‏‏‏‎‎‎‏‎‏‎‏‎‎‏‏‏‏‏‎‏‎On when requested by app‎‏‎‎‏‎"</string>
+    <string name="wifi_rules_toggle_no_wifi_available_minutes" msgid="8471864639039188010">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‏‏‎‎‎‎‎‎‎‎‎‎‏‏‎‏‏‎‏‏‎‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‎‎‏‎‏‎‏‎‎Off when no Wi-Fi available for ‎‏‎‎‏‏‎<xliff:g id="NUM_MINUTES">%d</xliff:g>‎‏‎‎‏‏‏‎m‎‏‎‎‏‎"</string>
+    <string name="wifi_rules_toggle_battery_below_percent" msgid="492317707991933991">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‏‏‎‏‎‏‎‏‎‎‎‏‎‎‎‎‎‏‎‏‏‎‎‎‏‏‎‏‎‏‎‏‎‏‏‏‏‏‏‎‎‏‏‎‎‏‎‎‎‎‏‎‎‏‏‏‎Off when battery is below ‎‏‎‎‏‏‎<xliff:g id="PERCENTAGE">%s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="wifi_about_automatic_title" msgid="8051939352298115827">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‏‏‎‏‏‏‏‏‎‎‎‏‏‏‏‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‎‏‎‏‏‎‏‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‏‎About Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="wifi_about_automatic_text" msgid="6308925970837478481">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‏‎‎‎‏‏‎‏‏‏‎‎‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‏‏‎‎‎‎‎‎‎‎‏‎‎‎‏‏‏‎‎‎‏‎‏‎‎‎‏‎When Wi-Fi is enabled, your watch will automatically turn Wi-Fi on or off to save battery. It responds when: ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎ ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• An app requires Wi-Fi ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Battery saver is on ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Watch is charging ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Watch is updating ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Watch is away from phone ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Watch can\'t connect to Wi-Fi ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎• Some other situations‎‏‎‎‏‎"</string>
+    <string name="wifi_saved_networks_activity_title" msgid="993170349035104096">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‏‏‎‎‏‎‎‎‎‏‏‏‎‎‏‏‎‎‏‎‏‎‏‏‏‎‎‏‏‏‏‏‏‎‏‏‎‎‎‎‎‎‏‎‎‏‏‏‎‏‏‎‎‎‎‎‎Saved networks‎‏‎‎‏‎"</string>
+    <string name="toggle_wifi_action" msgid="3549061765193426014">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‎‏‎‎‎‎‎‎‏‏‎‎‏‏‎‎‏‏‎‏‏‏‏‏‎‎‏‎‏‎‎‎‎‏‎‎‎‏‏‎‎‏‏‎‎‏‎‎‎‏‎‏‏‏‏‎‎Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="action_summary_on" msgid="8158876872523376001">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‎‏‏‏‎‏‎‎‎‏‎‎‏‏‏‎‏‎‎‏‎‎‏‏‎‏‏‏‎‎‎‏‏‏‎‎‏‏‏‏‏‏‎‎‏‎‏‏‎‎‎‎‎‎‏‎ON‎‏‎‎‏‎"</string>
+    <string name="action_summary_off" msgid="1158645944578595513">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‎‎‎‎‏‎‏‎‎‎‏‎‏‎‏‏‎‎‏‎‏‏‎‎‏‎‎‎‎‏‎‏‏‎‎‎‎‏‏‎‏‏‏‎‏‏‎‏‎‏‎‏‏‏‎‎‏‎OFF‎‏‎‎‏‎"</string>
+    <string name="wifi_scan" msgid="694417691359695724">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‎‎‎‏‎‎‎‏‎‎‏‏‎‏‏‎‎‎‎‎‏‎‏‏‎‎‏‏‏‏‎‏‏‏‎‏‎‎‏‏‎‏‏‎‏‏‎‎‎Scan‎‏‎‎‏‎"</string>
+    <string name="wifi_scanning" msgid="4401813717865532749">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‎‎‎‏‎‏‏‎‎‏‏‎‎‎‏‎‎‏‎‎‎‎‎‏‎‎‏‎‏‏‎‎‏‏‎‏‎‎‎‏‎‎‎‎‏‏‎‏‎‏‎‎‏‏‎‏‎Scanning…‎‏‎‎‏‎"</string>
+    <string name="wifi_enabling" msgid="881270796782061215">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‎‎‏‏‏‎‏‎‏‏‏‎‎‏‏‏‎‎‎‏‏‏‏‎‏‏‎‏‏‎‎‏‎‎‎‏‏‏‏‎‏‏‎‎‎‏‏‎‏‎‎‏‏‏‏‏‎Wi-Fi turning on…‎‏‎‎‏‎"</string>
+    <string name="wifi_disabling" msgid="5517511704850880344">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎‎‏‎‎‏‎‎‎‏‎‎‎‏‏‏‎‏‎‏‎‎‏‏‎‎‏‏‎‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‏‏‏‎‏‎‏‏‎‎‎‎Wi-Fi turning off…‎‏‎‎‏‎"</string>
+    <string name="wifi_connect_success_message" msgid="2574650953041350732">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‏‏‎‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‎‏‎‏‎‎‏‎‏‎‎‏‏‎‏‎‎‏‎‎‎‎‎‏‎‎‏‏‎‎‎Connected‎‏‎‎‏‎"</string>
+    <string name="wifi_failed_connect_message" msgid="6822131100872966233">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‏‎‏‎‏‏‎‏‎‎‎‏‎‏‎‎‎‎‎‏‎‏‏‏‎‏‎‎‏‏‏‎‏‎‏‎‏‏‎‏‏‎‎‎‎‎‎‎‎‏‎‏‏‎‎‏‎Failed to connect to network‎‏‎‎‏‎"</string>
+    <string name="wifi_failed_forget_message" msgid="4288874740862056172">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‎‎‎‏‎‏‎‎‏‎‎‏‎‎‏‏‎‏‏‎‏‎‎‏‏‏‎‏‏‏‎‎‏‏‏‎‏‎‎‏‏‏‎‏‏‎‏‏‏‎‏‏‎‎‎Failed to forget network‎‏‎‎‏‎"</string>
+    <string name="wifi_network_forgetting" msgid="2819532667839816235">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‏‏‎‎‏‎‎‎‎‎‏‏‏‏‏‏‏‎‎‎‎‎‎‏‎‏‏‏‎‏‏‎‏‏‎‎‏‏‎‎‏‏‏‎‏‎‎‎‏‎‎‎‏‎‏‎‏‏‎Forgetting…‎‏‎‎‏‎"</string>
+    <string name="wifi_forget_network_title" msgid="2066639657741238885">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‏‎‏‎‏‏‏‎‎‎‏‎‏‏‎‏‏‏‎‏‎‎‎‏‏‎‏‏‎‏‏‎‎‏‏‎‎‏‏‎‏‏‎‎‎‎‏‎‎‏‏‎‎‏‎‏‎Forget network ‎‏‎‎‏‏‎<xliff:g id="NETWORK_NAME">%1$s</xliff:g>‎‏‎‎‏‏‏‎?‎‏‎‎‏‎"</string>
+    <string name="wifi_needs_on_message" msgid="1174643616472847255">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‎‎‏‎‎‏‏‎‏‎‎‏‎‏‏‎‎‎‎‏‎‎‏‎‏‎‏‎‎‏‎‎‏‏‎‎‎‏‎‏‏‎‏‎‏‎‎‏‏‏‎‎‏‎‏‏‏‎Please turn on Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="wifi_needs_network_message" msgid="3513141453674867353">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‏‎‎‎‎‎‏‎‎‏‎‏‏‏‏‏‎‎‎‏‎‎‏‏‏‏‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‏‎‏‎‎‏‏‎‎‏‎Connect your watch to a Wi-Fi network‎‏‎‎‏‎"</string>
+    <string name="wifi_select_network_message" msgid="5109371265503513383">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‏‏‏‎‏‎‎‎‎‎‏‎‎‎‏‎‎‎‎‏‏‎‎‎‎‏‏‎‏‎‎‏‏‏‏‎‏‏‎‎‏‏‎‎‏‎‏‏‎‎‏‎‎‏‏‏‎Select network‎‏‎‎‏‎"</string>
+    <string name="wifi_no_internet" msgid="121769553396228583">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‏‎‏‏‎‎‎‎‏‎‎‏‏‏‎‎‏‏‎‎‎‎‏‏‎‏‏‏‏‏‏‎‏‎‏‎‎‎‏‏‏‏‏‎‎‎‎‏‏‏‏‎‎‏‏‏‎No Internet access detected, won\'t automatically reconnect.‎‏‎‎‏‎"</string>
+    <string name="wifi_disabled_network_failure" msgid="436956786413722449">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‎‎‎‎‏‏‏‏‎‎‎‎‏‏‏‎‏‎‏‎‎‎‏‏‎‎‎‏‎‏‏‎‏‏‎‏‏‎‏‎‏‎‎‎‏‎IP configuration failure‎‏‎‎‏‎"</string>
+    <string name="wifi_disabled_wifi_failure" msgid="3919369680966360244">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‎‎‏‏‎‎‏‎‎‎‏‏‎‎‏‎‏‏‏‏‏‎‏‎‏‏‎‎‎‏‎‎‏‎‏‏‎‏‏‏‏‏‎‎‏‏‏‎‎‏‎‏‏‎‏‎‎‎Wi-Fi connection failure‎‏‎‎‏‎"</string>
+    <string name="wifi_disabled_password_failure" msgid="3642364261641610256">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‏‎‎‎‏‏‎‎‎‏‎‎‎‏‏‎‏‏‏‏‏‏‏‏‎‏‏‏‎‏‎‏‏‎‏‏‏‎‎‏‏‏‏‎‎‏‎‎‎‎‎‏‎‎‎‎‎Wrong password‎‏‎‎‏‎"</string>
+    <string name="wifi_status_unavailable" msgid="7913863221429909330">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‏‏‏‎‏‏‎‎‎‎‏‎‏‎‏‎‏‏‏‎‏‎‎‎‏‎‎‏‎‏‏‎‏‏‏‎‏‏‎‏‏‏‎‏‎‏‎‎‏‎‎Unavailable‎‏‎‎‏‎"</string>
+    <plurals name="wifi_power_save_minutes" formatted="false" msgid="8710071597623674734">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎‎‏‏‎‎‎‏‏‏‏‏‏‏‎‎‎‎‏‎‏‏‎‎‎‏‎‎‏‎‏‎‎‎‎‎‎‎‏‏‏‎‏‏‎‏‏‏‎‎%d minutes‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎‎‏‏‎‎‎‏‏‏‏‏‏‏‎‎‎‎‏‎‏‏‎‎‎‏‎‎‏‎‏‎‎‎‎‎‎‎‏‏‏‎‏‏‎‏‏‏‎‎1 minute‎‏‎‎‏‎</item>
+    </plurals>
+    <plurals name="wifi_power_save_hours" formatted="false" msgid="6535781916052356472">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‏‏‎‎‏‏‏‏‎‎‎‎‏‏‎‎‎‎‎‏‏‎‎‏‎‎‏‎‏‏‏‎‏‏‏‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‎‎‎%d hours‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‏‏‎‎‏‏‏‏‎‎‎‎‏‏‎‎‎‎‎‏‏‎‎‏‎‎‏‎‏‏‏‎‏‏‏‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‎‎‎1 hour‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="wifi_power_save_never" msgid="1553528659904001622">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‏‎‎‎‏‏‏‏‎‎‏‏‏‏‏‎‎‎‎‏‎‏‎‏‏‏‎‏‎‎‎‏‏‏‏‏‎‏‏‏‎‏‏‏‎‏‏‎‎‏‎‏‎‏‏‎‎Never‎‏‎‎‏‎"</string>
+    <string name="wifi_advanced_power_save_title" msgid="6300021866861061203">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‎‏‏‎‏‏‏‎‎‎‏‎‏‏‎‎‏‎‎‎‎‎‏‎‎‏‎‎‏‎‏‏‎‏‏‏‎‎‏‎‎‏‏‎‎‏‎‎‎‏‎‏‎‎‏‏‎Power save after‎‏‎‎‏‎"</string>
+    <string name="wifi_advanced_max_battery_title" msgid="7883165495408578628">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‎‏‏‎‎‏‏‎‏‎‏‎‎‎‎‏‎‏‎‎‎‎‎‎‎‏‎‏‎‎‏‏‎‏‏‏‎‎‎‏‏‏‎‏‎‎‎‎‎‏‎‎‎‏‎‎‎Max battery use‎‏‎‎‏‎"</string>
+    <string name="wifi_network_found_title" msgid="5213610451935137809">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‎‏‏‎‏‎‎‏‏‏‎‏‏‏‎‎‎‏‎‏‎‏‎‏‎‎‏‎‎‎‏‏‎‏‏‎‏‏‏‎‎‏‎‎‎‎‎‎‎‏‎‎‎‏‎Wi-Fi network found‎‏‎‎‏‎"</string>
+    <string name="wifi_network_found_summary" msgid="3418781182834180733">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‏‏‏‏‏‎‎‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‏‏‏‏‎‎‏‏‏‏‏‎‎‎‎‎‎‏‎‎‏‏‏‏‏‎‏‎Tap to connect watch to Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="wifi_network_named_found_title" msgid="1876510205016852259">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‎‎‎‎‏‎‏‎‏‎‏‏‎‏‎‎‎‎‎‏‎‏‏‎‏‏‎‏‏‎‏‏‎‏‏‎‏‏‎‎‏‏‎‎‎‏‏‏‎‎‏‎‎‎‏‏‎(‎‏‎‎‏‏‎<xliff:g id="NETWORK_NAME">%s</xliff:g>‎‏‎‎‏‏‏‎) network found‎‏‎‎‏‎"</string>
+    <string name="wifi_network_named_found_summary" msgid="7391958531872131752">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‎‏‎‏‎‏‏‎‎‎‎‎‏‏‎‎‎‏‏‏‏‎‏‏‎‏‎‏‏‎‏‎‏‎‏‎‎‎‎‎‎‎‏‎‏‎‏‎‏‎‏‎‎‎‎Tap to connect to Wi-Fi‎‏‎‎‏‎"</string>
+    <string name="wifi_network_password_required" msgid="5631399248733645591">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‎‎‏‎‎‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‏‏‏‎‎‎‎‎‏‎‎‏‎‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‎‏‏‏‎Password required‎‏‎‎‏‎"</string>
+    <string name="wifi_network_enter_password_phone" msgid="7420154361050701842">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‏‏‏‏‏‎‎‏‏‎‏‎‏‏‏‏‎‎‎‏‎‎‏‏‏‏‏‎‎‏‎‎‏‏‏‏‏‏‏‎‎‎‏‎‎‎‎‎‎‎‎‏‎‎‏‎‎Enter password on phone‎‏‎‎‏‎"</string>
+    <string name="wifi_network_enter_password_watch" msgid="5240163550532935870">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‎‏‎‏‏‏‎‎‎‏‏‎‎‏‏‎‎‏‏‏‏‏‏‎‎‎‏‎‏‎‎‏‎‎‏‏‏‎‏‏‏‎‎‏‎‎‎‎‎‏‎‏‏‏‏‏‎‎Enter password on watch‎‏‎‎‏‎"</string>
+    <string name="wifi_network_check_phone_to_connect" msgid="6779748990989652578">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‏‏‎‏‎‎‎‎‎‎‏‏‏‎‎‏‎‎‏‎‏‏‎‎‎‏‎‎‏‎‎‎‎‎‎‎‏‎‏‎‎‏‎‎‏‏‎‎‎‏‎‎Check your phone to finish connecting to network‎‏‎‎‏‎"</string>
+    <string name="wifi_network_check_phone_to_finish" msgid="2028371670543547606">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‎‏‏‎‎‎‏‏‏‎‎‏‎‏‎‎‏‎‎‏‏‎‎‏‏‏‏‏‎‎‏‏‎‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‎‏‏‎‎Check your phone to finish set up‎‏‎‎‏‎"</string>
+    <string name="wifi_network_continue_on_phone" msgid="3951726447523592572">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‎‏‏‎‏‎‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‎‏‎‎‎‏‎‏‎‎‏‎‎‎‏‎‏‎‎‎‏‏‏‏‏‎‎‏‎‏‏‏‏‏‎‎‎Continue on phone‎‏‎‎‏‎"</string>
+    <string name="setting_cloudsync_title" msgid="207845698304276784">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‏‏‏‎‎‎‏‎‎‏‏‎‏‎‏‎‏‎‎‎‏‏‏‏‏‎‏‏‎‏‏‏‏‎‎‎‎‏‎‎‏‏‏‏‏‎‎‏‎‎‏‏‎‎‎‎‎Connect your watch to Wi-Fi with Wear cloud sync‎‏‎‎‏‎"</string>
+    <string name="setting_cloudsync_summary" msgid="7607609779178517083">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‏‏‎‎‏‎‎‏‏‏‎‏‎‏‎‎‎‏‏‎‎‏‎‎‏‏‎‎‎‏‏‎‏‏‎‏‏‏‎‎‏‎‎‏‏‎‎‏‎‎‏‎‏‏‎‏‏‎Turn on Wear cloud sync to receive notifications and use voice search when you leave your phone behind. To enable this service, Wear OS data from your phone and watch will be stored on Google\'s servers. Your backed up Wi-Fi networks and passwords will be automatically sent to your watch, and your watch will stay synced even when you\'re not wearing it.‎‏‎‎‏‎"</string>
+    <string name="cloudsync_opt_in" msgid="5117702329299711162">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎‏‎‏‏‎‏‏‏‎‏‏‎‎‏‎‎‏‏‏‎‏‎‏‏‏‎‎‎‎‎‏‏‎‎‏‎‎‏‏‎‏‎‎‏‎‏‏‏‎‏‎‎Accept‎‏‎‎‏‎"</string>
+    <string name="cloudsync_opt_out" msgid="4423699720081282700">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‏‎‏‏‎‎‏‎‎‎‎‏‎‎‎‏‏‎‏‏‏‎‏‎‏‎‎‏‎‏‎‎‎‎‏‏‏‎‎‎‎‏‎‎‏‎‏‏‎‏‎‎‎‏‏‎‎‎No thanks‎‏‎‎‏‎"</string>
+    <string name="cloudsync_open_on_phone" msgid="8814497370472312357">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‏‎‏‎‎‏‏‎‏‏‎‎‎‏‎‏‎‏‎‏‎‎‎‎‏‎‎‎‎‎‎‏‎‎‏‏‏‎‏‏‏‏‎‏‏‏‎‎‎‏‎‎‏‎‏‎Open on phone‎‏‎‎‏‎"</string>
+    <string name="language_not_supported_title" msgid="1968642720803819568">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎‏‎‏‎‎‏‎‎‎‎‎‎‏‏‎‎‎‎‏‏‏‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‏‎‎‏‎‎‎‎‎‎‏‏‎‎‎‎‎Language not supported.‎‏‎‎‏‎"</string>
+    <string name="language_not_supported_open_on_phone" msgid="8025189224633042022">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‏‎‏‎‏‏‏‏‏‎‎‏‏‎‎‏‏‎‎‎‏‎‏‎‎‏‎‎‏‏‏‎‏‏‎‎‎‏‎‏‏‏‎‎‎‎‏‎‎‎‏‏‎‎‏‏‎‎Open on phone‎‏‎‎‏‎"</string>
+    <string name="input_settings" msgid="5118110348107866910">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎‏‏‏‎‎‏‎‏‏‏‎‎‎‏‏‏‏‏‎‏‎‏‎‎‏‎‎‎‎‏‏‏‎‎‎‎‏‏‎‎‎‏‏‎‎‎‏‏‏‏‎‎Input methods‎‏‎‎‏‎"</string>
+    <string name="input_current_prefix" msgid="2057233867948189591">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‏‎‎‎‏‏‎‎‏‏‎‎‎‎‏‏‎‏‎‎‏‏‎‏‏‎‎‏‏‏‏‎‏‏‏‏‎‏‎‎‎‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‎Current‎‏‎‎‏‎"</string>
+    <string name="input_choose_keyboards" msgid="278298835689162771">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‏‎‏‏‎‏‏‏‎‏‎‏‎‎‎‏‎‎‎‎‏‎‏‎‏‎‏‎‏‎‎‎‎‏‎‎‏‎‎‎‎‎‎‏‎‎‏‏‎Choose keyboards‎‏‎‎‏‎"</string>
+    <string name="input_none_selected" msgid="427147948453108579">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‏‏‏‏‎‏‏‎‏‏‎‎‎‏‎‎‎‏‏‎‎‏‎‏‏‏‏‎‎‎‏‏‎‎‎‎‏‎‏‎‏‏‎‎‏‏‎‏‏‎‏‏‎‎‎‏‏‎None selected‎‏‎‎‏‎"</string>
+    <string name="input_none_enabled" msgid="8421273010295976294">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‎‏‏‎‏‏‏‏‎‎‏‎‏‏‏‏‏‎‎‏‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‏‎‏‎‏‏‎‎‎‏‎‏‏‎‎‏‏‎‎No input methods are enabled‎‏‎‎‏‎"</string>
+    <string name="use_system_language_to_select_input_method_subtypes" msgid="7151476731488297357">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‎‎‏‏‏‏‏‏‎‎‏‎‎‏‏‎‎‎‏‏‎‎‏‎‎‏‏‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‏‎‎‎‎‏‏‎‎‎‏‏‎‏‎Use system language‎‏‎‎‏‎"</string>
+    <string name="ime_security_warning" msgid="3583239264481103860">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‏‎‏‏‏‎‏‎‎‎‏‏‏‎‎‏‎‎‏‎‎‎‎‎‎‏‎‏‎‎‎‎‏‎‏‎‎‎‎‎‏‏‎‎‏‏‏‏‏‏‏‏‎‏‎‎‎This input method may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app ‎‏‎‎‏‏‎<xliff:g id="IME_APPLICATION_NAME">%1$s</xliff:g>‎‏‎‎‏‏‏‎. Use this input method?‎‏‎‎‏‎"</string>
+    <string name="virtual_keyboard_category" msgid="5134055253243112816">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‏‏‏‏‏‏‏‏‎‏‎‏‎‎‎‎‎‎‏‏‎‏‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‎‏‎‏‏‎‏‎‏‏‏‎‎‎‎‎Virtual keyboard‎‏‎‎‏‎"</string>
+    <string name="available_virtual_keyboard_category" msgid="5425724896287911896">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‎‏‎‎‏‏‎‎‎‎‎‎‏‏‎‎‎‎‎‎‏‎‏‏‏‏‏‎‎‏‎‎‎‎‏‏‏‎‏‏‏‏‏‎‏‏‏‏‏‏‎‏‏‎‎‎‎Available virtual keyboard‎‏‎‎‏‎"</string>
+    <string name="add_virtual_keyboard" msgid="8722635346146309167">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‏‎‏‎‎‎‎‎‏‏‎‏‎‏‎‎‎‏‎‎‎‎‎‎‎‎‎‎‏‎‏‎‎‎‏‎‎‏‏‎‏‎‎‎‎‏‎‏‏‏‏‎Manage keyboards‎‏‎‎‏‎"</string>
+    <string name="secure_adb_confirmation_title" msgid="8816669995420016882">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‏‎‏‏‎‏‏‎‎‎‏‏‎‏‎‏‎‏‎‎‏‎‏‏‏‏‎‏‎‏‎‏‏‎‏‏‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‎‏‎‎Allow Debugging?‎‏‎‎‏‎"</string>
+    <string name="secure_adb_cancel" msgid="2243282983486437576">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‎‎‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‏‏‏‏‏‎‎‏‏‏‏‎‎‎‏‎‏‏‎‎‎‏‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‎‎‎Cancel‎‏‎‎‏‎"</string>
+    <string name="secure_adb_ok" msgid="5408715456679027119">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‎‎‎‎‏‏‏‏‏‎‎‏‏‏‏‎‎‎‎‎‏‏‎‏‎‎‎‏‏‏‏‎‏‎‎‎‎‏‎‎‏‎‏‎‎‎‎‏‏‎‏‎‏‏‏‏‎OK‎‏‎‎‏‎"</string>
+    <string name="secure_adb_whitelist_label" msgid="467176563323383647">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‎‏‏‏‏‎‏‏‏‎‏‏‏‏‏‎‏‎‎‏‏‎‏‏‏‏‏‏‎‎‎‎‎‏‎‎‎‏‏‏‎‎‏‎‏‏‏‏‎‏‎‏‏‏‏‏‎Always allow from this computer‎‏‎‎‏‎"</string>
+    <string name="secure_adb_view_fingerprint" msgid="667541700597840756">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‎‎‎‎‏‏‏‎‎‏‎‏‎‏‏‎‏‎‎‎‏‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‎‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎View fingerprint‎‏‎‎‏‎"</string>
+    <string name="secure_adb_fingerprint_text" msgid="1943809908161283984">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‏‏‏‏‏‎‎‏‏‏‎‎‏‏‎‎‏‏‎‏‎‎‎‎‎‎‎‎‏‏‏‎‏‏‎‏‎‏‏‎‏‎‎‎‎‏‏‏‏‎‎‏‎‎‎‎‎The computer\'s RSA key fingerprint is: ‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎‎‏‎‎‏‏‎<xliff:g id="FINGERPRINT">%1$s</xliff:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string>
+    <string name="theater_mode_toast_button" msgid="5603785622123143444">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‏‏‎‎‎‏‎‎‏‎‏‎‎‏‎‏‎‏‎‏‎‏‎‏‎‏‎‎‏‏‎‎‎‎‎‏‎‏‏‏‎‏‏‎‎‎‎‏‎‎‎‏‎‏‎‎‎To turn screen back on, press the power button‎‏‎‎‏‎"</string>
+    <string name="theater_mode_toast_no_button" msgid="6472294801147796030">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‏‏‏‎‏‎‏‎‎‎‏‏‏‏‎‎‎‎‎‎‎‎‏‎‏‏‎‎‏‏‎‏‎‎‎‏‏‏‏‏‎‎To turn screen back on, quickly tap 3 times‎‏‎‎‏‎"</string>
+    <string name="wet_mode_dialog_title" msgid="6658208762004810331">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‎‎‏‏‎‎‏‏‎‏‎‏‏‎‏‎‏‏‎‎‏‎‏‏‏‏‎‏‎‎‎‏‏‏‎‏‏‎‎‎‎‏‎‏‎‏‎‏‎‎‏‎‏‏‎‏‏‎Touch lock enabled‎‏‎‎‏‎"</string>
+    <string name="wet_mode_dialog_message" msgid="6910040220476077907">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‏‎‎‏‎‎‏‏‏‏‏‎‎‎‎‎‏‏‎‏‎‏‎‎‏‎‎‎‏‏‎‏‏‏‎‏‏‏‎‏‎‏‎‎‏‏‎Touch screen now off. Turn on with power button.‎‏‎‎‏‎"</string>
+    <string name="wet_mode_dialog_never_show_dialog" msgid="2114313083006496416">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‏‎‏‎‏‎‏‏‏‏‎‎‎‏‏‎‎‏‎‎‎‏‏‎‎‎‎‎‎‎‎‎‎‏‎‎‏‎‎‎‎‎‎‏‎‏‏‏‎‏‎‏‎‎‎‎‎‎Never show this message again‎‏‎‎‏‎"</string>
+    <string name="action_open_on_phone" msgid="6536470494374750323">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‏‎‏‏‎‏‏‎‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‎‎‏‏‎‏‏‏‎‎‎‎‎‎‏‏‏‎‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‎Open on phone‎‏‎‎‏‎"</string>
+    <string name="action_open_on_watch" msgid="2920470776324748337">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‎‏‎‎‎‎‏‏‏‏‎‎‏‏‎‎‎‏‎‏‏‎‎‏‎‏‎‎‏‏‏‏‏‏‎‏‏‏‏‏‎‏‏‏‏‎‏‎‎‎‎‏‏‎‎‎‏‎Open on watch‎‏‎‎‏‎"</string>
+    <string name="action_enter_on_phone" msgid="168450328024257708">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‎‏‎‏‎‏‏‎‎‏‏‏‎‏‎‎‏‎‏‎‏‏‏‎‎‏‎‎‏‏‎‎‎‎‏‎‏‏‏‏‎‎‎‏‎‏‎‎‏‎‏‎‏‏‎‎‎Enter on phone‎‏‎‎‏‎"</string>
+    <string name="action_enter_on_watch" msgid="5401379427138691664">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‏‏‏‏‎‏‎‏‏‎‎‎‏‏‎‏‏‏‏‏‏‎‎‎‏‎‏‎‎‎‏‏‏‎‏‏‎‏‎‎‎‏‏‎‎‎‏‎‎‏‎‏‎‎‎‎‎Enter on watch‎‏‎‎‏‎"</string>
+    <string name="action_forget" msgid="1084244122440784430">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‏‎‎‎‎‏‏‎‎‎‎‎‎‎‎‏‎‎‏‎‎‏‎‎‎‏‏‏‎‎‏‏‏‏‏‏‎‎‎‏‏‎‏‎‏‏‎‏‎‎‎‏‎‏‏‏‎‎Forget‎‏‎‎‏‎"</string>
+    <string name="action_retry" msgid="7414627742858009216">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‏‏‏‎‎‏‏‎‎‎‎‎‏‏‎‎‏‎‏‎‎‏‎‏‏‏‎‏‎‎‏‎‏‏‎‎‏‏‏‎‏‏‎‏‏‎‏‎‏‎‎‎‎‎‎‎‎Retry‎‏‎‎‏‎"</string>
+    <string name="wifi_action_dialog_title_add_network" msgid="5146083073501841996">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‏‏‎‏‎‏‎‏‎‎‎‏‏‏‏‎‏‎‎‏‎‏‎‎‏‎‎‏‏‎‎‏‎‏‏‏‎‏‎‎‏‎‎‏‎‏‎‎‏‎‎‏‏‎‎‎To add a new network, open the Wear OS app on your phone‎‏‎‎‏‎"</string>
+    <string name="wifi_action_dialog_enter_on_phone" msgid="170476402115154567">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‎‎‏‎‏‏‏‎‏‏‎‏‎‎‏‏‏‎‏‏‎‎‎‏‎‎‏‏‎‏‏‏‎‏‎‏‎‏‎‎‏‎‎‎‏‎‎‏‎‏‎‎‎‎‏‏‏‎Network password required‎‏‎‎‏‎"</string>
+    <string name="wifi_enter_password_on_phone" msgid="1948066766546798630">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎‎‎‎‏‎‎‎‏‏‏‎‏‏‎‎‎‏‏‎‎‏‏‏‎‎‏‎‎‎‏‎‏‏‎‎‎‏‎‎‎‎‎‎‏‎‎‎‎‎‏‎‎‏‏‎‎To connect, enter the password on your phone‎‏‎‎‏‎"</string>
+    <string name="wifi_continue_on_phone" msgid="1670020382042696624">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‏‎‎‏‎‏‏‎‏‎‎‎‏‏‎‏‎‏‎‏‏‎‎‎‎‎‏‏‏‎‏‏‏‎‏‎‏‎‎‎‏‎‎‏‎‏‎‏‏‏‎‏‏‎‎‎‎‎Continue on phone‎‏‎‎‏‎"</string>
+    <string name="phone_away_error_dialog_title" msgid="6999177221305706266">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‏‎‎‎‏‎‎‎‎‏‎‎‏‎‏‎‎‏‏‎‎‏‎‏‏‏‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‎‏‏‏‎‎‎‏‏‎‏‎‎Phone away‎‏‎‎‏‎"</string>
+    <string name="phone_away_error_dialog_subtitle" msgid="9128359871227501020">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‎‎‏‏‏‎‎‏‎‏‏‏‏‎‎‎‎‎‏‎‏‎‎‏‎‎‏‏‏‎‎‏‎‎‎‎‏‏‎‎‏‏‏‎‏‏‏‎‎‎Phone is not nearby or Bluetooth is off‎‏‎‎‏‎"</string>
+    <string name="screen_lock_create_pattern" msgid="1524551126125179557">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‎‎‏‎‏‎‎‎‎‏‎‎‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‎‏‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‎‎‏‎‏‎Draw an unlock pattern‎‏‎‎‏‎"</string>
+    <string name="screen_lock_create_pattern_in_progress" msgid="7841736026012846534">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‎‏‏‎‏‏‏‎‎‎‏‎‏‎‏‏‏‏‎‎‏‎‎‏‏‎‎‏‏‏‎‎‎‎‏‎‎‎‎‏‎‎‏‏‏‎‎‎‏‏‎‎Lift finger when done‎‏‎‎‏‎"</string>
+    <string name="screen_lock_confirm_pattern" msgid="2288332177989693647">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‏‎‎‏‎‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‎‏‎‎‏‎‏‎‏‏‏‏‏‏‎‎‎‎‏‏‎‎‏‏‏‏‎Draw pattern again to confirm‎‏‎‎‏‎"</string>
+    <string name="screen_lock_pattern_no_match" msgid="6854352745008646769">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‏‎‎‎‏‏‏‏‏‏‎‎‎‏‏‎‏‏‎‎‎‎‎‎‏‎‏‏‏‎‎‏‏‎‏‏‏‎‏‏‎‏‏‎‎‏‎‏‎‎‏‏‏‎‎‎‏‎Wrong pattern‎‏‎‎‏‎"</string>
+    <string name="screen_lock_enter_pattern" msgid="7901714954033038660">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‏‎‏‎‏‎‎‎‏‎‎‎‎‏‏‏‏‏‏‎‎‎‏‎‏‎‏‏‎‏‏‏‏‎‎‎‏‎‎‎‎‎‎‎‎‏‎‏‎‏‎‎‎‏‎‎‎Enter pattern‎‏‎‎‏‎"</string>
+    <string name="screen_lock_remove_dialog" msgid="4698796677144476504">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‏‎‎‏‏‎‏‎‏‎‏‏‏‏‎‏‎‏‎‏‎‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‏‏‎‏‏‎‏‏‏‏‎‏‏‎‏‎‏‏‎‎‎‎Turn off screen lock?‎‏‎‎‏‎"</string>
+    <string name="screen_lock_remove_pay_dialog_title" msgid="8709740069004982264">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‎‏‏‎‏‏‏‏‏‎‎‏‏‎‏‏‎‎‏‏‏‎‎‏‎‎‏‎‏‎‎‏‏‎‎‎‎‎‏‏‏‎‎‏‏‎‏‏‏‏‏‏‏‏‎‎‎‎A screen lock is required for Android Pay‎‏‎‎‏‎"</string>
+    <string name="screen_lock_remove_pay_dialog_text" msgid="2877259673018535521">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‏‏‏‏‏‎‏‏‏‎‎‎‎‏‎‏‎‎‎‏‏‎‏‏‎‏‏‎‏‎‎‎‎‎‏‏‎‏‎‎‏‏‏‎‎‎‏‏‏‎‎‏‏‎‎‎‎‏‎For your security, your cards will be removed if the screen lock is off for 5 minutes or more. Continue?‎‏‎‎‏‎"</string>
+    <string name="screen_lock_create_confirmation" msgid="987128816854413391">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‏‎‏‏‎‎‏‎‏‏‏‏‏‏‎‎‎‏‏‎‏‏‎‏‏‏‎‎‏‏‎‎‎‎‏‎‏‎‎‎‏‎‏‏‎‎‎‎‎‏‎‎‏‏‏‏‎Auto-lock watch after you take it off?‎‏‎‎‏‎"</string>
+    <string name="keyboard_password_hint" msgid="3670518157304850862">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‏‏‏‏‎‎‎‎‎‏‎‎‏‏‎‎‏‏‎‏‎‎‎‏‎‎‎‏‏‎‏‏‏‏‎‎‎‏‏‎‏‏‏‎‏‎‎‏‏‎‏‎‏‏‏‎‎password‎‏‎‎‏‎"</string>
+    <string name="screen_lock_pin_hint" msgid="240246749320912580">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‎‏‎‏‎‏‎‏‏‎‎‎‎‏‏‏‎‎‏‎‎‏‎‏‎‏‎‎‎‏‏‏‏‎‏‏‎‏‏‏‎‎‎‏‏‏‏‎‏‏‎‎‎‏‎‎‎PIN‎‏‎‎‏‎"</string>
+    <string name="screen_lock_confirm_hint" msgid="3451662150226415986">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‏‎‎‎‏‎‎‎‏‏‏‎‎‎‎‎‎‎‏‏‏‎‎‏‏‏‎‏‎‎‎‎‎‎‏‎‎‎‏‎‏‏‏‎‎‏‎‎confirm‎‏‎‎‏‎"</string>
+    <string name="screen_lock_password_no_match" msgid="1073003662959199867">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‏‏‏‎‎‏‎‎‎‎‎‏‎‎‏‏‎‎‏‎‎‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‎‎‎‎‎‏‎‎‎‏‏‎‎‏‏‏‏‎‏‏‎Wrong password‎‏‎‎‏‎"</string>
+    <string name="screen_lock_too_many_attempts" msgid="917383143550629427">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‏‎‏‏‏‎‏‏‎‎‏‏‎‎‏‏‎‎‎‏‏‎‏‏‏‏‎‎‏‎‏‎‎‏‎‎‎‏‎‎‎‎‏‏‎‏‏‎‎‎‏‏‎‎‏‏‎Too many attempts. Please wait.‎‏‎‎‏‎"</string>
+    <string name="screen_lock_pin_no_match" msgid="4622252006134251266">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‎‎‎‏‎‎‏‎‏‏‎‎‎‏‎‎‏‏‎‏‏‎‏‎‏‏‎‏‏‎‏‏‏‏‏‏‏‎‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‎‎‏‎‎Wrong PIN‎‏‎‎‏‎"</string>
+    <string name="lockpassword_confirm_passwords_dont_match" msgid="8463714877214196932">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‎‏‎‏‎‎‏‎‎‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‎‎‏‎‎‎‏‎‏‎‏‎‎‎‎‏‎‎‏‏‎‎‎‏‎‎‎Passwords don’t match‎‏‎‎‏‎"</string>
+    <string name="lockpassword_confirm_pins_dont_match" msgid="7214870325212138533">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‎‎‎‎‎‎‏‎‏‏‏‏‎‎‏‎‏‎‏‎‏‏‎‏‏‎‎‏‎‏‏‎‎‎‏‏‎‏‏‎‎‏‏‎‎‎‎‏‎‎‏‎‏‎PINs don’t match‎‏‎‎‏‎"</string>
+    <string name="lockpassword_invalid_pin" msgid="2730419184694214982">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‎‎‎‏‏‎‎‏‎‏‏‏‎‎‏‎‎‎‎‎‏‏‎‏‏‏‏‎‎‏‏‏‎‎‎‏‎‎‎‎‎‏‎‏‎‎‎‏‏‎‎Wrong PIN‎‏‎‎‏‎"</string>
+    <string name="lockpassword_invalid_password" msgid="2500727056195373697">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‏‎‏‎‎‎‏‎‏‏‏‏‎‎‎‎‎‎‎‏‎‎‎‎‏‏‎‎‎‏‎‏‏‏‎‏‏‏‏‎‎‏‎‏‎‏‎‎‎‎‎‎‏‎Wrong password‎‏‎‎‏‎"</string>
+    <string name="lockpattern_need_to_unlock_wrong" msgid="4972676775830079746">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‎‎‎‎‏‎‎‏‏‏‏‏‏‏‎‎‏‎‏‏‏‎‎‏‏‎‎‏‏‎‎‎‏‎‏‏‏‏‏‏‎‎‏‎‎‏‎‎‎‎‎‎‏‎‎Try again‎‏‎‎‏‎"</string>
+    <string name="lockpattern_recording_inprogress" msgid="2990093651271362597">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‎‏‏‏‏‏‏‎‏‏‏‏‎‎‏‎‎‏‎‏‎‏‎‏‎‏‏‎‏‎‎‏‎‎‏‎‏‏‏‎‎‎‏‎‏‎‎‎‎‎‏‎‎‏‎‏‎Release finger when done‎‏‎‎‏‎"</string>
+    <string name="lockpattern_recording_intro_header" msgid="5105820853250108037">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‏‏‎‏‏‎‏‏‏‎‎‎‎‏‎‏‎‎‎‎‎‎‏‏‏‎‏‎‎‏‎‎‏‏‎‎‎‎‎‏‎‎‏‎‏‎‏‎‏‎‎‎‎‏‎‏‎Draw an unlock pattern‎‏‎‎‏‎"</string>
+    <string name="lockpattern_recording_incorrect_too_short" msgid="2218741164770892343">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‎‏‏‎‎‏‎‏‎‏‎‎‎‏‏‎‏‎‏‎‏‎‏‎‏‎‏‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‎‏‏‏‎Connect at least ‎‏‎‎‏‏‎<xliff:g id="NUMBER">%d</xliff:g>‎‏‎‎‏‏‏‎ dots. Try again.‎‏‎‎‏‎"</string>
+    <string name="lockpattern_pattern_entered_header" msgid="1361014349185514703">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‎‏‏‏‎‎‎‏‏‎‏‎‎‏‎‏‏‎‏‎‏‎‏‏‎‏‏‏‏‎‎‎‏‎‏‏‎‏‎‎‏‎‏‏‏‏‏‎‎‏‏‎‎‏‏‏‏‎Pattern recorded‎‏‎‎‏‎"</string>
+    <string name="lockpattern_need_to_confirm" msgid="3218382383593635028">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‎‏‎‏‎‏‎‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‏‏‎‎‏‎‎‏‏‏‏‎‎‏‏‎‏‎‏‎‎‎Draw pattern again to confirm‎‏‎‎‏‎"</string>
+    <string name="lockpattern_pattern_confirmed_header" msgid="2047331995158971023">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‏‏‎‏‎‎‏‏‎‎‏‎‏‎‏‏‎‎‏‏‎‏‎‎‎‏‏‎‏‎‎‏‎‏‏‏‏‏‎‎‎‎‎‎‎‏‎‏‎‎‎‏‏‏‏‎Your new unlock pattern‎‏‎‎‏‎"</string>
+    <string name="lockpassword_password_too_short" msgid="5122346739159351040">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‎‏‎‏‏‎‎‎‏‏‏‎‏‏‎‎‏‏‏‎‎‎‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‏‏‏‎‎‎‎‎‎‎‎‎Password must be at least %d characters‎‏‎‎‏‎"</string>
+    <string name="lockpassword_pin_too_short" msgid="4831966008478841321">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‎‎‎‎‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‎‏‏‏‏‎‏‏‏‏‎‎‎‏‎‎‏‎‎‏‎‏‏‏‎‎‏‏‏‏‎‏‎‎‏‎PIN must be at least %d digits‎‏‎‎‏‎"</string>
+    <string name="lockpassword_password_too_long" msgid="4221525444775369377">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‎‏‎‏‎‏‏‏‎‏‏‏‏‏‎‎‎‎‎‏‏‎‏‎‎‎‎‎‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‎‏‎‏‎‏‎‎‎‎‏‎Password must be fewer than ‎‏‎‎‏‏‎<xliff:g id="NUMBER">%d</xliff:g>‎‏‎‎‏‏‏‎ characters.‎‏‎‎‏‎"</string>
+    <string name="lockpassword_pin_too_long" msgid="3478217974754680910">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‎‏‎‎‎‏‎‏‎‎‎‏‏‏‎‎‏‏‎‏‎‎‎‏‏‏‎‏‎‏‎‎‏‎‏‎‎‎‎‏‏‎‏‎‎‎‎‎‎‏‎‎‏‏‏‎‎PIN must be fewer than ‎‏‎‎‏‏‎<xliff:g id="NUMBER">%d</xliff:g>‎‏‎‎‏‏‏‎ digits.‎‏‎‎‏‎"</string>
+    <string name="lockpassword_pin_contains_non_digits" msgid="2061450213300576672">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‏‎‎‏‏‎‏‏‏‎‏‏‏‏‏‎‎‎‎‎‏‏‎‎‎‎‎‎‎‏‎‏‏‏‏‎‏‏‏‏‎‎‏‎‎‎‎‏‏‎‏‎‎‎‎‎‎PIN must contain only digits 0-9.‎‏‎‎‏‎"</string>
+    <string name="lockpassword_pin_recently_used" msgid="5499404229949166372">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‎‏‎‏‎‎‎‏‏‏‎‎‏‏‏‏‎‎‎‎‎‎‏‎‏‎‎‏‎‎‏‎‎‏‏‎‎‏‏‎‏‎‎‏‎‎‏‏‎‎‏‎‎‏‎‎‎Device administrator doesn’t allow using a recent PIN.‎‏‎‎‏‎"</string>
+    <string name="lockpassword_illegal_character" msgid="3342791481112110848">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‎‎‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‎‎‏‎‏‏‏‏‎‎‎‏‏‏‎‏‎‎‏‏‏‎‎‎‎‎‎‎‎‎Password contains an illegal character.‎‏‎‎‏‎"</string>
+    <string name="lockpassword_password_requires_alpha" msgid="5182750554641803459">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‏‎‎‎‎‏‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‎‎‎‏‎‎‎‏‎‏‎‎‎‏‏‎‎‎‎‏‏‎Password must contain at least one letter.‎‏‎‎‏‎"</string>
+    <string name="lockpassword_password_requires_digit" msgid="42065663034289960">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‎‏‎‎‏‎‏‎‏‎‏‏‏‎‎‏‎‎‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‎‏‏‎‎‏‏‎‎‏‏‎‏‏‏‏‎‎‏‎‏‎‎‎‎Password must contain at least one digit.‎‏‎‎‏‎"</string>
+    <string name="lockpassword_password_requires_symbol" msgid="8221129992105916373">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‎‏‏‏‎‏‎‏‎‎‏‎‎‎‏‎‏‎‏‏‏‎‎‏‏‏‏‏‏‏‎‎‏‎‎‎‎‏‏‏‎‏‏‏‏‏‎‏‎‏‎‏‎Password must contain at least one symbol.‎‏‎‎‏‎"</string>
+    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="4959911075056879222">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‏‎‎‏‏‎‏‏‎‎‎‎‎‎‏‎‎‏‎‎‏‎‎‏‎‏‎‏‎‎‎‎‏‏‎‎‏‏‏‎‏‏‎‎Password must contain at least %d letters.‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‏‎‎‏‏‎‏‏‎‎‎‎‎‎‏‎‎‏‎‎‏‎‎‏‎‏‎‏‎‎‎‎‏‏‎‎‏‏‏‎‏‏‎‎Password must contain at least 1 letter.‎‏‎‎‏‎</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5045864394371538219">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‎‎‎‎‎‏‏‎‏‎‎‎‎‎‏‎‏‏‏‎‏‏‏‎‏‎‏‏‏‎‏‏‎‏‎‎‏‏‏‎‏‎‎‏‏‏‎‏‎‎‏‎‏‎‏‏‎Password must contain at least %d lowercase letters.‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‎‎‎‎‎‏‏‎‏‎‎‎‎‎‏‎‏‏‏‎‏‏‏‎‏‎‏‏‏‎‏‏‎‏‎‎‏‏‏‎‏‎‎‏‏‏‎‏‎‎‏‎‏‎‏‏‎Password must contain at least 1 lowercase letter.‎‏‎‎‏‎</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="4892563942754300204">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‏‏‏‎‎‏‎‏‏‏‏‎‎‎‎‎‏‏‏‏‏‎‏‏‏‏‏‎‏‎‎‎‏‏‎‎‎‎‎‏‎‎‏‏‎‎‎‏‎‎‏‎‏‏‎‎‎Password must contain at least %d uppercase letters.‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‏‏‏‎‎‏‎‏‏‏‏‎‎‎‎‎‏‏‏‏‏‎‏‏‏‏‏‎‏‎‎‎‏‏‎‎‎‎‎‏‎‎‏‏‎‎‎‏‎‎‏‎‏‏‎‎‎Password must contain at least 1 uppercase letter.‎‏‎‎‏‎</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="5743752317464312740">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‏‏‎‏‏‎‏‎‏‏‏‏‎‏‎‎‎‎‏‎‎‏‏‎‏‎‎‎‏‎‎‎‎‎‏‎‎‏‎‎‏‎‏‏‏‏‎‏‏‏‎‏‎‎‏‎‎‎Password must contain at least %d numerical digits.‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‏‏‎‏‏‎‏‎‏‏‏‏‎‏‎‎‎‎‏‎‎‏‏‎‏‎‎‎‏‎‎‎‎‎‏‎‎‏‎‎‏‎‏‏‏‏‎‏‏‏‎‏‎‎‏‎‎‎Password must contain at least 1 numerical digit.‎‏‎‎‏‎</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="4161266012741472016">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‏‎‏‏‎‎‏‎‎‎‎‏‎‏‎‎‏‎‏‎‏‏‏‎‎‏‎‎‎‏‏‏‏‎‎‎‏‎‎‎‎‎Password must contain at least %d special symbols.‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‏‎‏‏‎‎‏‎‎‎‎‏‎‏‎‎‏‎‏‎‏‏‏‎‎‏‎‎‎‏‏‏‏‎‎‎‏‎‎‎‎‎Password must contain at least 1 special symbol.‎‏‎‎‏‎</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="2718373281177991138">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‏‏‎‏‏‏‎‎‏‏‎‎‏‏‎‏‎‎‎‎‏‏‎‎‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‏‏‏‏‎‎‎‏‎‎Password must contain at least %d non-letter characters.‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‏‏‎‏‏‏‎‎‏‏‎‎‏‏‎‏‎‎‎‎‏‏‎‎‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‎‏‏‏‏‎‏‏‏‏‏‏‎‎‎‏‎‎Password must contain at least 1 non-letter character.‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="lockpassword_password_recently_used" msgid="6794017008402920322">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‎‎‏‎‎‏‎‎‏‏‎‎‏‎‎‏‏‏‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‎‎‏‎‏‏‏‎‎‏‏‏‎‎‎‎‎‏‎‎Device administrator doesn’t allow using a recent password.‎‏‎‎‏‎"</string>
+    <string name="lockpassword_pin_no_sequential_digits" msgid="7545805425023308306">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‎‎‏‎‎‏‎‎An ascending, descending or repeated sequence of digits is forbidden‎‏‎‎‏‎"</string>
+    <string name="action_request_activation" msgid="7785408501539612007">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‎‎‎‎‏‎‏‏‎‏‎‏‎‎‏‏‏‏‎‎‏‎‎‎‏‎‎‎‎‏‎‏‏‎‎‏‎‎‏‏‎‎‏‎‎‏‎‏‎‏‏‎‎‏‏‏‎Request activation‎‏‎‎‏‎"</string>
+    <string name="action_change_number" msgid="1721177210283147908">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‏‏‏‏‎‎‎‏‎‏‏‎‏‏‎‎‏‏‎‎‎‏‏‎‏‏‎‏‏‎‏‏‎‎‏‏‎‏‏‎‎‏‏‎‎‎‎‏‎‏‎‎‎‎‏‎‎‎Change watch number‎‏‎‎‏‎"</string>
+    <string name="call_forward_empty_watch_number_title" msgid="4841673199764220926">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‎‎‏‏‎‎‎‏‎‎‎‏‎‏‎‎‎‎‎‏‏‏‏‏‎‏‏‏‎‏‏‎‎‏‏‏‏‎‎‏‏‎‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎Enter number for watch‎‏‎‎‏‎"</string>
+    <string name="call_forward_empty_watch_number_message" msgid="1555005458970933293">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‏‎‎‏‎‏‎‎‎‏‏‏‏‏‎‏‎‎‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‎‎‎‎‎‏‎‏‏‏‏‎‎‎‎‎‏‎‏‏‎‏‎A phone number needs to be set for this watch. Enter one now.‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_action" msgid="8154280353158530999">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‎‎‏‏‏‎‏‎‎‏‎‏‏‎‎‎‏‏‏‎‎‏‎‏‎‎‎‏‏‏‏‎‏‏‎‎‎‎‎‎‏‏‏‏‎‏‏‎‏‏‏‎Emergency alerts‎‏‎‎‏‎"</string>
+    <string name="twinning_settings_action" msgid="6190745163037004374">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‏‎‏‎‎‏‏‏‏‏‎‎‎‏‏‏‏‎‏‏‎‏‎‎‎‎‎‎‎‏‏‏‎‎‏‎‎‏‏‏‎‏‎‎‏‎‎‏‎‏‎‏‏‎‎Watch shares number with phone‎‏‎‎‏‎"</string>
+    <string name="number_sharing_title" msgid="8947414007171920492">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‎‏‎‏‏‏‎‎‏‏‎‎‏‏‎‏‎‎‎‏‎‎‏‎‏‎‎‏‏‏‏‎‏‎‏‏‎‎‎‏‏‎‎‏‎‎‏‏‎‏‏‎‎‎Number sharing‎‏‎‎‏‎"</string>
+    <string name="number_sharing_calls_action" msgid="3507808663796603256">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‎‏‎‏‏‏‎‎‎‏‏‏‏‎‏‎‏‏‎‎‏‎‏‎‎‎‎‎‎‎‏‏‎‏‎‎‎‏‎‎‏‎‏‏‎‎‏‎‏‏‏‏‎‎‎‎Calls‎‏‎‎‏‎"</string>
+    <string name="number_sharing_sms_action" msgid="1380093527714222200">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‎‎‏‎‎‏‏‏‎‎‎‏‎‎‏‏‏‏‎‎‎‎‎‎‎‏‎‏‏‏‎‎‎‎‏‏‏‎‎‎‏‏‎‏‎‎‎‎‎‏‏‏‏‎‎‎‎Text messages‎‏‎‎‏‎"</string>
+    <string name="data_usage_activity_title" msgid="8004096494528807765">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‏‎‏‎‎‎‏‎‎‎‎‏‏‎‏‎‏‏‎‏‎‏‎‏‏‎‎‎‎‎‏‎‏‎‏‏‎‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‏‎Watch data usage‎‏‎‎‏‎"</string>
+    <string name="toggle_data_limit_action" msgid="8750788990698495275">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‎‏‏‏‎‎‎‏‎‎‎‎‏‏‎‎‎‎‏‏‏‎‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‏‎‏‎‎‏‎‏‎‏‏‎Set data limit‎‏‎‎‏‎"</string>
+    <string name="toggle_data_connectivity_action" msgid="6543775492161440158">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‏‏‎‏‎‎‎‎‎‎‏‎‏‎‎‏‎‎‏‎‎‎‏‏‏‏‎‎‎‏‎‎‎‎‏‏‎‎‎‎‏‎‎‎‏‎‎‏‏‎‎‏‏‏‏‎‎Mobile data‎‏‎‎‏‎"</string>
+    <string name="data_usage_limit_dialog_title" msgid="2112017249657238848">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‏‎‏‎‎‏‏‏‏‎‏‏‎‎‏‎‎‎‏‏‏‏‏‏‏‏‎‏‎‎‏‎‏‎‏‎‏‎‎‎‏‎‎‏‏‎‏‎‏‎‏‎‎‎‎‎‎‎Limiting data usage‎‏‎‎‏‎"</string>
+    <string name="data_usage_limit_dialog_subtitle" msgid="850091274679088000">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‏‎‎‏‏‎‎‎‎‏‎‎‎‎‏‏‎‎‎‎‎‏‎‏‎‏‎‎‏‎‏‏‏‏‎‎‏‏‏‏‏‏‏‎‎‏‏‏‎‎‎‎‎‎‎‎Once the limit is reached, mobile data will turn off.‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎Your watch and your carrier may measure data usage differently, so consider setting a conservative limit.‎‏‎‎‏‎"</string>
+    <string name="set_data_limit_action" msgid="590721615355798132">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‎‎‎‏‏‎‎‏‎‏‎‏‎‏‎‏‎‎‎‏‎‏‏‎‏‏‏‏‎‏‏‎‎‎‏‏‎‏‏‎‏‎‏‏‎‎‎‏‎‎‏‏‏‎‏‎‎‎Data limit‎‏‎‎‏‎"</string>
+    <string name="set_warning_level_action" msgid="4572127878638442301">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‎‏‏‎‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‎‎‏‏‏‏‎‏‎Warning level‎‏‎‎‏‎"</string>
+    <string name="show_app_usage_action" msgid="7236650899794379598">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‎‎‏‏‎‏‏‎‏‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‎‏‏‏‎‎‏‎‏‏‏‎‎‎‎‎‏‎‏‎‎‎‎‏‏‎‏‎‎‏‏‏‎‎App usage‎‏‎‎‏‎"</string>
+    <string name="data_limit_chooser_title" msgid="6048522054915854733">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‏‏‎‎‎‎‏‎‏‎‏‎‏‎‏‏‎‎‎‎‏‏‎‎‏‏‎‎‏‏‎‏‏‎‎‎‎‎‎‎‎‏‎‎‎‏‏‎‎‎‏‏‎‏‎Data limit‎‏‎‎‏‎"</string>
+    <string name="data_limit_chooser_warning_level_title" msgid="919320390156462902">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‏‏‎‎‎‎‏‎‎‎‎‏‎‏‎‏‎‎‎‎‎‏‏‎‎‎‏‎‏‎‏‎‎‎‎‎‏‏‎‎‏‎‏‎‏‎‏‏‎‎‏‏‎‏‏‎‎Warning level‎‏‎‎‏‎"</string>
+    <string name="sim_locked_dialog_title" msgid="7953808077675251018">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‎‎‏‏‎‎‎‎‏‏‎‎‏‏‎‏‎‎‏‎‎‏‏‏‎‎‎‏‏‏‎‎‏‎‏‏‏‎‏‏‏‎‏‎‎‎‏‎‏‎‏‎‎‏‎‏‎‎Unlock SIM?‎‏‎‎‏‎"</string>
+    <string name="sim_locked_dialog_subtitle" msgid="1509485804448755002">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‎‏‏‏‏‎‎‏‎‏‏‎‎‎‏‎‏‎‏‎‏‎‏‏‏‎‏‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‎‏‎‏‏‎‏‎‎‏‏‏‎‏‎‎SIM is locked. To place or receive a call, SIM must be unlocked.‎‏‎‎‏‎"</string>
+    <string name="cycle_day_chooser_title" msgid="4706921821260735794">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‏‎‏‎‏‎‎‏‎‎‏‎‏‏‎‎‎‎‏‏‏‎‏‎‏‎‏‎‎‎‏‎‏‏‏‎‎‎‏‏‏‏‏‏‎‎‏‎‏‎‎‏‏‎‎‏‎‎Cycle start day‎‏‎‎‏‎"</string>
+    <string name="app_usage_activity_title" msgid="4557567828782085111">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‏‏‎‏‏‏‏‎‎‏‎‏‏‎‎‎‏‎‎‏‎‎‏‎‎‏‏‎‏‏‏‏‏‎‎‏‏‏‏‏‏‎‏‏‏‎App usage‎‏‎‎‏‎"</string>
+    <string name="emergency_dialer_title" msgid="641785562929233778">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‎‏‏‏‎‏‎‎‎‎‎‎‏‎‏‎‎‏‎‎‏‎‎‎‏‏‎‏‏‎‏‎‎‎‏‎‏‏‏‏‎‏‏‏‏‏‏‏‏‎‏‏‏‎‎‏‎‎Emergency call‎‏‎‎‏‎"</string>
+    <string name="advanced_settings_title" msgid="8338131360462620139">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‎‏‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‎‏‏‏‎‎‎‎‏‏‎‏‏‏‎‏‎‏‏‎‏‎‎‎‏‎‏‏‏‏‎‏‎‏‏‎Advanced‎‏‎‎‏‎"</string>
+    <string name="preferred_network_type_action" msgid="6199394649430825820">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‎‎‎‎‏‎‎‎‏‎‏‎‏‏‎‎‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‏‏‏‎‎‏‎‎‎‎‎‎‏‏‎‏‏‎‏‎‏‏‏‎‎‎Preferred network type‎‏‎‎‏‎"</string>
+    <string name="access_point_names_action" msgid="7554142836775395337">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‎‏‏‎‏‎‏‎‏‏‎‏‏‎‏‎‎‏‏‏‎‎‎‏‎‏‏‏‏‎‎‎‎‏‎‎‎‏‏‏‏‎‎‏‎‎‎‎‎‎‎‎‎‏‎‎‏‎Access Point Names‎‏‎‎‏‎"</string>
+    <string name="accounts" msgid="3084512371261967454">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‎‏‏‎‎‏‏‏‎‎‏‏‎‎‎‏‏‏‎‏‎‏‎‎‎‏‏‎‎‎‎‏‎‎‏‎‏‏‏‏‎‎‎‎‎‏‏‎‎‎‏‎‏‏‏‏‎‎Accounts‎‏‎‎‏‎"</string>
+    <string name="network_operators_action" msgid="3539402039417413215">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‎‎‎‏‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‎‎‏‏‎‏‏‏‏‏‏‎‎‏‏‎‎‎‏‎‎‏‎‎‏‏‏‏‎‎‏‎‏‏‏‏‏‎Network operators‎‏‎‎‏‎"</string>
+    <string name="preferred_network_type_title" msgid="7278984223777556890">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‎‎‎‎‏‎‎‎‎‏‎‎‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‎‏‏‎‎‏‏‎‏‎‎Preferred network type‎‏‎‎‏‎"</string>
+    <string name="apn_settings_title" msgid="8138182292997199157">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‏‏‏‏‎‎‎‎‏‎‏‎‎‎‎‏‏‎‏‎‏‏‎‏‎‏‏‏‎‎‏‏‎‏‏‏‏‎‎‎‏‏‎‏‎‏‎‏‎‎‏‏‎‏‎‏‎Access Point Names‎‏‎‎‏‎"</string>
+    <string name="apn_not_set" msgid="8541183031767332984">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‏‎‎‎‏‎‎‎‎‏‏‎‎‎‎‎‏‎‏‏‎‏‏‎‏‏‎‏‏‎‏‎‎‎‎‏‎‏‎‏‏‏‏‏‏‎‎‎‎‏‏‏‏‎‎‎‎Not set‎‏‎‎‏‎"</string>
+    <string name="apn_name" msgid="2148365288258432463">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‏‏‏‎‏‎‎‎‎‏‎‎‎‎‏‏‎‏‏‎‏‏‎‎‎‏‏‎‏‏‏‏‎‎‏‏‎‏‏‎‎‎‏‏‎‏‏‎‏‏‏‎‎‏‏‏‏‎Name‎‏‎‎‏‎"</string>
+    <string name="apn_apn" msgid="8077766247882916540">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‎‎‏‏‎‎‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‏‏‎‎‎‏‏‏‏‎‏‏‎‎‏‏‏‎‎‎‎‎‏‎‏‎‏‏‏‏‎‎‎APN‎‏‎‎‏‎"</string>
+    <string name="apn_http_proxy" msgid="3562445287656756262">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‏‏‎‎‏‎‎‎‏‏‏‎‏‎‏‎‎‏‏‏‎‏‎‎‎‏‎‏‏‏‎‎‏‎‏‎‎‎‎‏‎‎‏‏‎‎Proxy‎‏‎‎‏‎"</string>
+    <string name="apn_http_port" msgid="4080861752268315117">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‏‎‏‎‎‎‏‎‎‎‏‎‎‎‏‎‎‎‏‎‎‏‎‎‎‏‏‏‎‎‎‏‎‏‏‎‏‏‏‎‎‏‎‏‏‎‎‏‏‏‏‎‏‏‎‏‎Port‎‏‎‎‏‎"</string>
+    <string name="apn_user" msgid="8921609627884311524">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‏‏‏‏‏‏‎‏‏‎‎‏‎‏‏‎‎‎‎‎‎‎‏‎‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‏‎‎‏‎‎‎Username‎‏‎‎‏‎"</string>
+    <string name="apn_password" msgid="7837551043693357176">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‎‎‏‎‎‏‎‎‏‎‎‏‏‎‎‏‎‎‏‏‎‎‎‏‎‏‏‎‎‎‏‎‏‎‏‎‏‏‎‏‎‏‎‎‎‎‏‏‏‏‎‎‎‎Password‎‏‎‎‏‎"</string>
+    <string name="apn_server" msgid="7756455418850131772">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‏‎‏‎‎‏‎‎‎‏‏‏‎‏‏‏‎‎‎‏‏‎‏‏‏‎‏‎‎‏‎‎‏‎‏‏‎‏‏‏‎‎‏‏‏‏‏‏‎‎‏‏‏‏‎‎‎Server‎‏‎‎‏‎"</string>
+    <string name="apn_mmsc" msgid="4027987129686592835">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‏‏‏‎‎‏‏‎‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‎‎‎‎‏‎‎‎‏‏‎‏‎‎‎‎‏‎‎‎‏‏‎‏‎‏‎‎‎‎‏‏‎MMSC‎‏‎‎‏‎"</string>
+    <string name="apn_mms_proxy" msgid="7186884171543320215">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‏‎‏‏‏‏‎‎‏‏‏‏‎‎‎‏‎‎‎‏‎‎‏‏‏‎‎‎‎‏‏‎‏‎‏‏‎‏‏‏‏‎‎‏‎‏‏‎‏‎‎‏‎‏‏‏‎MMS proxy‎‏‎‎‏‎"</string>
+    <string name="apn_mms_port" msgid="8446503743811447025">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‎‏‏‏‎‎‎‎‎‎‎‎‎‏‎‎‏‏‎‎‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‎‎‏‏‎‏‏‎‏‎‎‎‏‏‏‏‎‎‎‏‎MMS port‎‏‎‎‏‎"</string>
+    <string name="apn_mcc" msgid="3332248537078445466">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‏‏‏‎‏‎‎‎‎‏‏‎‎‏‏‎‎‎‏‏‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‎‎‎‏‏‎‏‎‏‏‎‎‏‏‎‏‎‎MCC‎‏‎‎‏‎"</string>
+    <string name="apn_mnc" msgid="2883033748036398975">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‎‎‎‎‎‎‎‏‎‏‎‎‏‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‏‏‎‏‏‎‎‏‎‏‏‎‎‎‎‏‎‏‏‏‏‎‏‏‏‏‏‏‏‎MNC‎‏‎‎‏‎"</string>
+    <string name="apn_auth_type" msgid="88247648181201768">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‎‏‏‏‎‎‏‏‎‎‎‎‏‎‎‏‏‎‎‎‏‎‎‏‎‏‏‏‎‏‎‎‎‎‏‏‎‏‎‏‎‏‎‏‎‏‏‎‏‏‎‏‎‎‎‎Authentication type‎‏‎‎‏‎"</string>
+    <string name="apn_auth_type_none" msgid="6718885482261269901">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‎‏‎‎‏‏‏‏‏‎‎‏‎‎‎‏‏‎‏‎‏‏‏‏‏‏‎‏‏‏‏‎‎‎‏‎‏‏‎‏‏‎‎‏‎‎‏‏‎‏‏‎‎‎‏‏‎‏‎None‎‏‎‎‏‎"</string>
+    <string name="apn_auth_type_pap" msgid="3873092426378434797">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‏‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‏‎‎‎‎‏‎‏‎‏‎‎‏‎‎‎‎‏‎‎‎‏‎‏‎‏‏‎‏‏‎‎‎‏‏‏‎‏‏‎‏‎PAP‎‏‎‎‏‎"</string>
+    <string name="apn_auth_type_chap" msgid="4070640641732056671">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‎‏‏‏‏‏‎‏‏‏‎‏‎‎‏‎‎‎‎‏‏‎‎‎‏‎‏‏‎‎‏‎‏‎‏‏‎‏‎‏‎‎‎‏‎‏‏‎‎‏‎‏‏‏‏‏‎CHAP‎‏‎‎‏‎"</string>
+    <string name="apn_auth_type_pap_chap" msgid="3796609053857208851">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‎‏‎‏‏‎‎‎‎‎‏‎‎‎‎‏‏‏‏‎‏‎‎‎‏‏‎‏‏‎‏‏‎‎‎‏‏‎‎‎‎‏‏‎‏‏‎‏‎‎‎‎‏‎‎‏‏‎PAP or CHAP‎‏‎‎‏‎"</string>
+    <string name="apn_type" msgid="777003340517361307">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‎‏‏‎‎‏‎‎‎‎‏‏‏‏‎‎‎‎‏‏‎‏‎‏‏‏‏‏‎‎‏‎‎‏‏‎‏‎‏‎‎‎‏‎‎‎‏‏‎‏‎‎‏‏‎‏‏‎APN type‎‏‎‎‏‎"</string>
+    <string name="apn_protocol" msgid="8797595170754147122">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‎‎‏‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‎‏‎‎‎‏‏‎‏‏‎‎‏‏‏‏‏‏‎‎‎‏‏‎‎‏‏‎‎‏‏‎‎‏‎‎APN protocol‎‏‎‎‏‎"</string>
+    <string name="apn_roaming_protocol" msgid="1504028033605088551">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‎‏‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‏‎‎‎‎‏‏‏‎‎‏‎‎‎‏‏‎‏‎‎‎‎‏‎‏‎‏‏‎‏‎‏‎‎‏‎‎‏‏‏‎APN roaming protocol‎‏‎‎‏‎"</string>
+    <string name="carrier_enabled" msgid="311832592831279233">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‎‎‏‎‏‎‎‏‏‏‏‎‏‏‎‏‎‎‎‎‏‎‏‏‏‎‏‎‎‏‏‎‏‎‎‎‏‏‎‎‎‏‏‏‏‎‎‎‎‏‎‎‎‎‎‎‏‎APN enable/disable‎‏‎‎‏‎"</string>
+    <string name="carrier_enabled_summaryOn" msgid="6366438560558188302">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‎‎‏‎‏‏‎‏‎‎‎‏‎‎‎‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‎‎‏‏‎‏‎‏‏‏‎‎‎‎‏‏‏‎‎‎‎‏‏‏‎‎APN enabled‎‏‎‎‏‎"</string>
+    <string name="carrier_enabled_summaryOff" msgid="1917080662135140848">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‏‎‎‏‏‎‏‎‏‏‎‏‎‏‏‎‏‎‏‏‎‏‎‎‏‎‎‎‎‎‎‎‎‏‎‏‎‏‎‏‏‏‏‏‎‎‎‏‏‏‏‏‎‎‎‎‎APN disabled‎‏‎‎‏‎"</string>
+    <string name="bearer" msgid="5705257172380903366">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‎‏‎‎‏‎‎‏‎‏‎‎‏‎‏‎‏‏‏‎‏‎‏‎‎‎‎‎‎‎‎‎‏‏‎‏‏‎‎‏‏‏‏‏‎‎‎‏‏‎‎Bearer‎‏‎‎‏‎"</string>
+    <string name="mvno_type" msgid="5876618520188528749">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‎‏‏‎‎‎‏‏‎‏‏‏‏‏‎‎‎‏‎‏‏‎‏‎‎‎‏‎‎‏‎‎‎‎‎‏‎‏‎‎‎‏‏‎‏‎‏‎‎‎‎‏‏‎‏‏‎‏‎MVNO type‎‏‎‎‏‎"</string>
+    <string name="mvno_match_data" msgid="2300190176742876018">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‏‎‏‏‎‎‎‎‎‏‎‎‏‏‎‏‎‎‎‏‎‎‎‏‏‎‏‏‏‎‎‏‎‎MVNO value‎‏‎‎‏‎"</string>
+    <string name="network_operators_title" msgid="8003479675613885925">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‏‎‎‏‎‎‎‎‏‎‎‏‎‎‏‎‏‏‏‎‎‎‏‎‏‏‎‎‎‎‎‎‎‎‏‏‎‎‎‏‏‎‏‎‏‏‏‏‎‎‏‎‏‎Available networks‎‏‎‎‏‎"</string>
+    <string name="empty_networks_title" msgid="5933372163448044697">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‎‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‎‎‎‏‎‏‏‏‏‎‏‏‎‏‎‏‎‎‎‎‎‏‎‏‏‏‏‏‏‎‎‏‎‎‏‏‎‎‏‎No networks found‎‏‎‎‏‎"</string>
+    <string name="network_operators_searching" msgid="397288269515180265">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‏‏‎‎‎‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‏‎‎‏‏‏‎‎‎‎‎‎‏‏‏‏‎‎‎‎‏‏‏‎‎‏‎‎‎‏‏‏‎‏‎‎‏‎Searching…‎‏‎‎‏‎"</string>
+    <string name="network_operators_select_automatically" msgid="5538548487657706609">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‎‎‎‏‎‎‎‎‎‎‏‎‏‎‎‏‎‏‎‎‎‎‏‏‏‎‏‎‏‎‏‎‏‎‎‎‏‏‏‎‎‎‏‎Choose automatically‎‏‎‎‏‎"</string>
+    <string name="sim_pin_edit_hint" msgid="616373397520553542">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‎‏‎‎‎‏‏‎‏‏‏‎‎‏‏‎‎‎‏‎‏‎‏‏‎‏‏‏‎‎‎‎‎‎‎‏‏‎‏‏‎‏‎‎‏‎‏‏‎‎‏‎‎‎‏‏‎‎Enter SIM PIN‎‏‎‎‏‎"</string>
+    <string name="sim_pin_edit_puk_hint" msgid="1744515060305182443">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‎‎‏‏‎‏‎‏‏‏‎‎‎‎‏‏‎‎‏‏‎‏‎‎‎‏‎‏‏‎‏‎‏‏‎‎‏‏‏‏‎‎‏‏‏‏‏‎‏‏‏‎‏‎‏‏‎Enter PUK PIN‎‏‎‎‏‎"</string>
+    <string name="sim_pin_edit_old_hint" msgid="1956686439835545342">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎‎‏‎‎‏‏‏‏‎‎‎‏‎‏‏‏‏‏‏‎‎‏‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‎‏‎‏‎‏‏‏‎‏‏‏‏‏‏‏‎‎Enter old PIN‎‏‎‎‏‎"</string>
+    <string name="sim_pin_edit_new_hint" msgid="3731958925337669056">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‎‎‏‎‏‎‎‏‏‎‏‏‏‏‎‏‎‏‎‏‏‎‏‎‎‎‏‏‎‎‏‏‎‏‎‏‏‎‏‏‏‎‎‎‎‎‎‎Enter new PIN‎‏‎‎‏‎"</string>
+    <string name="sim_pin_edit_repeat_hint" msgid="5984284021016728346">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‎‎‎‎‏‏‎‎‎‏‏‏‎‎‏‎‏‎‎‏‏‏‎‎‎‏‏‎‏‎‏‏‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‏‎‎‎‏‏‎‏‎‎Repeat new PIN‎‏‎‎‏‎"</string>
+    <string name="sim_pin_edit_repeat_not_match" msgid="7471584154731781097">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‏‏‎‏‏‎‎‎‎‎‏‏‎‎‏‏‎‎‎‏‏‎‎‏‏‏‏‎‏‏‏‎‎‎‎‏‏‏‎‎‏‏‎‎‏‏‎‏‏‏‏‏‎‏‎‎‏‎The PIN codes do not match.‎‏‎‎‏‎"</string>
+    <string name="sim_lock_success" msgid="6328247201010523178">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‏‏‏‎‎‏‏‎‏‎‎‏‏‎‏‎‎‎‎‎‎‏‏‎‎‎‏‎‏‏‏‏‎‎‏‏‏‎‎‎‎‏‎‏‎‏‎‎SIM locked‎‏‎‎‏‎"</string>
+    <string name="sim_unlock_success" msgid="2656151154421981552">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‏‏‎‏‏‏‎‎‏‎‎‎‏‎‏‏‎‏‏‎‎‏‏‎‏‏‏‎‏‏‎‏‎‎‎‏‎‎‎‎‏‏‏‎‎‎‎‏‎‏‏‏‎‎‎‎‎SIM unlocked‎‏‎‎‏‎"</string>
+    <string name="puk_unlock_success" msgid="4041698545159912656">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‎‎‎‏‎‏‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‏‎‏‏‏‎‎‏‎‏‏‏‏‎‎‎‎‎‏‏‏‏‎‎‏‏‎‏‎‎‎‎‎PUK unlocked‎‏‎‎‏‎"</string>
+    <string name="sim_lock_enable_success" msgid="1646791027446167692">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‏‏‎‏‏‎‏‎‏‎‎‏‎‎‏‏‏‎‏‏‎‏‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‎‏‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‎‎‎SIM lock enabled‎‏‎‎‏‎"</string>
+    <string name="sim_lock_disable_success" msgid="5687766559634853681">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‏‎‏‏‏‏‎‎‎‎‎‎‎‏‏‎‎‎‏‏‎‏‎‎‎‎‏‎‎‎‎‏‏‎‎‎‎‏‏‎‎‎‏‏‏‏‎‎‏‏‎‎‎‏‎SIM lock disabled‎‏‎‎‏‎"</string>
+    <string name="sim_lock_pin_change_success" msgid="8583948845100732893">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‏‎‎‏‎‎‎‎‎‎‏‎‎‏‏‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‏‏‎‏‎‏‎‎‏‎‎‎‏‏‏‎‏‏‏‎‏‎SIM PIN changed‎‏‎‎‏‎"</string>
+    <plurals name="sim_unlock_attempts_remaining" formatted="false" msgid="5411232485051300127">
+      <item quantity="other">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‎‎‎‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‎‎‏‏‎‎‏‏‏‎‏‎‎‏‎‎‎‏‎‎‏‎‏‏‏‏‎‎‏‎‎‎‏‏‏‏‏‎%d more tries‎‏‎‎‏‎</item>
+      <item quantity="one">‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‏‎‎‎‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‎‎‏‏‎‎‏‏‏‎‏‎‎‏‎‎‎‏‎‎‏‎‏‏‏‏‎‎‏‎‎‎‏‏‏‏‏‎%d more try‎‏‎‎‏‎</item>
+    </plurals>
+    <string name="sim_unlock_attempts_remaining_none" msgid="3816193893172334512">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‎‎‎‎‎‏‎‎‎‎‎‎‏‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‏‎‎‏‏‏‏‏‎‏‏‎‎‎‎‎No tries remaining.‎‏‎‎‏‎"</string>
+    <string name="sim_unlock_wrong_code" msgid="8521741841049249357">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‎‎‏‏‎‏‎‎‏‏‏‏‎‎‎‎‏‏‎‏‏‏‏‎‎‏‏‏‎‏‎‏‎‎‏‎‏‏‏‎‎‏‏‎‎‏‎‎‏‏‎‏‎Wrong SIM PIN.‎‏‎‎‏‎"</string>
+    <string name="sim_unlock_wrong_code_puk" msgid="6052007124691359525">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‏‏‏‏‎‏‎‎‎‎‏‏‎‎‎‏‏‎‏‎‏‎‎‎‏‏‏‏‎‏‎‏‎‏‏‏‎‎‏‎‎‏‎‏‏‏‎‎‏‎‎‏‎‏‎Wrong PUK PIN.‎‏‎‎‏‎"</string>
+    <string name="sim_unlock_wrong_length" msgid="2633977315176024285">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‎‎‏‎‎‎‏‏‎‏‏‏‎‎‎‏‎‎‎‏‏‎‏‎‎‏‏‎‏‎‏‎‎‏‏‎‎‎‎‎‎‏‎‎‎‎‏‎‎‎‏‏‎‏‏‏‎‏‎Length should be between 4 and 8 digits.‎‏‎‎‏‎"</string>
+    <string name="sim_unlock_wrong_length_puk" msgid="1793230106938484951">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‏‏‏‎‎‎‏‎‏‏‎‏‎‏‎‏‎‏‎‎‏‎‎‎‎‎‎‎‎‏‎‎‏‎‎‏‏‎‏‎‏‎‏‎‏‎‎‎‏‏‎‏‎‏‏‏‎Length should be 8 digits.‎‏‎‎‏‎"</string>
+    <string name="sim_unlock_too_many_attempts" msgid="1074580896821316179">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‏‏‏‎‏‎‎‏‏‎‏‎‏‏‎‏‏‎‏‎‎‎‎‏‏‏‎‏‏‏‎‏‎‏‏‏‎‏‎‎‏‎‎‎‏‎‏‎‎‏‎‏‎‎‏‏‎Too many SIM unlock attempts.‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎Contact your carrier to unlock your SIM.‎‏‎‎‏‎"</string>
+    <string name="puk_unlock_too_many_attempts" msgid="8799169769732707995">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‏‎‏‏‏‎‎‏‎‎‏‎‎‏‎‎‎‏‏‎‏‏‎‏‎‎‎‏‏‎‎‎‎‏‎‏‏‎‏‎‎‏‏‎‏‏‎Too many PUK unlock attempts.‎‏‎‎‏‏‎\n‎‏‎‎‏‏‏‎Contact your carrier for a new SIM.‎‏‎‎‏‎"</string>
+    <string name="default_sms_title" msgid="1401665463163912488">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‏‏‎‏‏‏‎‏‎‎‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‏‎‎‎‏‏‎‎‎‎‎‎‏‎‎‏‎‏‎‎‎‎Default SMS app‎‏‎‎‏‎"</string>
+    <string name="sim_locked_notification_title" msgid="7628982019247375975">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‎‏‏‏‏‏‏‎‎‏‎‏‏‎‏‎‏‏‏‎‎‏‏‏‏‏‎‏‏‏‎‎‎‏‎‏‎‏‎‎‎‎‎‏‏‎‎‏‏‎‎‏‏‏‎SIM locked‎‏‎‎‏‎"</string>
+    <string name="sim_unlock_action_title" msgid="4506904675643949612">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‏‎‏‎‎‎‏‎‏‏‏‎‏‏‏‏‎‏‏‏‏‎‏‏‎‎‏‎‎‎‎‏‎‎‎‏‎‎‏‏‏‎‎‎‎‎‎‎‏‎‎‎‏‎‏‏‎‎‎Unlock SIM‎‏‎‎‏‎"</string>
+    <string name="sim_dismiss_action_title" msgid="4085452874627480531">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‏‎‏‏‎‎‏‎‎‏‏‏‎‎‎‏‏‎‏‏‏‏‏‎‎‏‏‎‏‎‏‎‏‏‎‎‎‏‎‎‏‏‏‏‏‎‏‏‏‏‎‏‎‎‏‏‎Dismiss without unlocking SIM‎‏‎‎‏‎"</string>
+    <string name="sim_locked_notification_summary" msgid="7625502458885782257">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‎‏‎‎‏‏‎‎‏‏‏‎‏‎‎‎‎‏‎‏‎‏‏‎‏‎‏‏‏‏‏‏‎‎‎‎‎‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‎‏‎Tap to enter SIM unlock PIN‎‏‎‎‏‎"</string>
+    <string name="sim_absent_notification_title" msgid="3713617408791319100">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‏‎‎‎‏‎‎‏‎‏‏‎‏‎‏‏‎‏‎‏‏‎‏‏‏‎‎‏‎‎‏‎‏‎‏‏‎‏‏‎‏‎‎‏‎‎‏‎‎‎‏‏‏‏‎‎‎Missing SIM‎‏‎‎‏‎"</string>
+    <string name="sim_invalid_notification_title" msgid="6270470542189931144">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‎‎‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‎‎‎‏‎‏‏‎‎‏‏‏‎‎‏‎‎‎‎‎‏‎‏‎‏‎‏‎‎‎‏‎‎‎‎Invalid SIM‎‏‎‎‏‎"</string>
+    <string name="puk_required_notification_title" msgid="1640908579267166099">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‏‏‎‎‎‏‎‏‏‎‏‎‏‏‎‏‏‎‏‎‏‎‎‎‏‎‏‏‎‎‎‎‎‎‎‏‏‏‎‎‎‎‏‏‏‏‏‏‏‎‎‏‎‎‏‏‎SIM PUK locked‎‏‎‎‏‎"</string>
+    <string name="puk_required_notification_summary" msgid="6247770015469060738">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‏‏‎‏‎‎‏‎‎‎‏‎‎‏‏‎‏‏‏‎‏‎‎‎‎‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‎‎‎‎‏‎‏‎‎‎‎‎‏‎‎Tap to enter PUK PIN and set up new SIM PIN‎‏‎‎‏‎"</string>
+    <string name="perm_locked_notification_title" msgid="520630736175218557">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‏‎‎‏‏‏‎‎‏‏‎‏‎‎‏‏‎‏‏‏‎‎‏‎‏‎‏‏‎‏‎‎‎‏‏‎‏‏‏‏‏‏‎‏‏‏‏‏‏‎‏‏‏‏‏‎‏‎SIM permanently locked‎‏‎‎‏‎"</string>
+    <string name="perm_locked_notification_summary" msgid="2018576335319042403">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‎‎‎‎‎‏‏‎‏‏‎‏‏‎‎‎‏‏‏‏‎‏‏‎‏‏‎‏‎‏‎‏‎‏‏‎‎‏‏‏‎‎‎‏‎‎‏‎‏‏‎‎‎‏‏‎Contact your carrier for a new SIM. Too many PUK unlock attempts.‎‏‎‎‏‎"</string>
+    <string name="sim_status_activity_title" msgid="3790960421400357682">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‎‏‎‎‏‏‏‎‎‎‎‏‏‎‎‏‎‎‏‏‎‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‎‎‏‎‎‎‏‎‏‎‏‏‎‎‏‏‎‎‏‎‎SIM status‎‏‎‎‏‎"</string>
+    <string name="sim_status_signal_strength" msgid="8494546292035755848">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‏‏‎‎‎‏‎‏‎‏‏‎‎‎‎‏‏‎‏‏‎‎‎‏‎‏‏‏‎‎‎‏‏‏‎‎‏‏‏‎‎‎‏‏‏‏‏‎‏‎‎‏‎‎‎‎‎‏‎‎‏‏‎<xliff:g id="DBM">%1$d</xliff:g>‎‏‎‎‏‏‏‎ dBm ‎‏‎‎‏‏‎<xliff:g id="ASU">%2$d</xliff:g>‎‏‎‎‏‏‏‎ asu‎‏‎‎‏‎"</string>
+    <string name="sim_status_field_not_available" msgid="5384168753901282471">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‏‎‏‏‏‎‎‎‎‏‏‎‏‎‎‎‏‏‏‏‎‏‎‎‏‎‎‎‎‎‏‏‎‎‎‎‏‎‏‏‎‎‏‎‎‏‎‎‏‎‏‎‎‏‏‏‎Not available‎‏‎‎‏‎"</string>
+    <string name="call_forwarding_activity_message" msgid="6442561550548434978">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‎‏‏‎‏‎‎‎‏‎‎‏‎‎‏‏‏‎‎‏‏‎‎‎‏‎‎‏‏‎‎‎‎‎‎‎‎‏‏‏‏‎‎‎‎‎‎‎‎‎‏‎‎‎‏‎‎Unanswered calls to your phone will forward to your watch (‎‏‎‎‏‏‎<xliff:g id="PHONE_NUMBER">%s</xliff:g>‎‏‎‎‏‏‏‎). Your phone must be on to activate this feature.‎‏‎‎‏‎"</string>
+    <string name="sim_status_roaming" msgid="8792727636364826672">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‏‏‎‎‎‎‎‏‎‏‏‎‎‏‏‎‎‏‏‎‎‎‎‏‏‎‎‎‏‎‎‏‎‎‏‎‎‎‏‏‎‎‎‎‎‏‏‎‎‎‎‎Roaming‎‏‎‎‏‎"</string>
+    <string name="sim_status_not_roaming" msgid="6615179802950394001">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‏‏‏‎‎‏‏‎‏‏‏‎‏‎‏‏‎‏‏‏‏‏‎‏‏‎‏‏‎‏‎‎‎‎‎‏‏‎‎‏‎‎‏‏‎‎‎‎‎‏‎‎‏‎‎‎‏‎Not roaming‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_network" msgid="6778646630471129135">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‎‎‏‎‏‎‎‏‎‏‏‏‎‎‏‏‎‎‏‎‎‎‎‏‎‎‏‏‎‎‏‎‎‎‎‏‎‏‎‏‏‎‎‎‎‎‏‎‏‏‏‏‎Network‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_signal_strength" msgid="2883584737877650688">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‎‎‎‎‎‎‎‏‎‎‏‎‎‎‏‏‎‏‎‎‎‎‏‎‏‎‏‎‎‎‏‏‎‎‏‏‏‎‏‏‏‏‎‏‏‎‏‏‎‏‎‎‎‎‎‎‎‎‎Signal strength‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_network_type" msgid="1745915086754667661">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‎‎‎‎‏‏‏‎‏‎‏‎‏‏‏‏‎‎‏‎‎‎‎‏‎‏‎‏‏‎‏‎‏‎‎‎‎‎‎‎‎‏‏‏‎‏‏‏‎‎‏‎‎‎‏‏‎‏‎Network type‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_service_state" msgid="4245919925118291600">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‏‏‎‏‏‎‎‏‎‎‎‏‎‎‏‏‎‏‎‏‏‎‏‎‎‎‏‎‎‎‏‎‏‏‎‏‏‎‏‏‏‎‎‏‏‏‎‏‎‎‏‎‎‎‎‎Service state‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_roaming_state" msgid="4217001574707252801">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‎‎‎‏‎‏‏‏‎‎‏‏‎‎‏‎‎‏‎‏‏‎‏‏‏‎‏‏‎‏‏‎‏‏‎‎‎‎‎‏‎‎‏‏‏‎‎‏‎‎‎‎‎‏‎Roaming‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_network_state" msgid="1173162393716387204">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‎‎‏‎‎‎‏‏‏‏‏‏‎‏‎‎‎‏‏‏‏‏‎‏‏‎‎‏‏‏‏‎‏‎‏‎‎‏‏‏‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‎‎‎Network state‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_phone_number" msgid="4258531247809109017">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‏‎‎‎‏‏‎‎‏‎‏‎‏‎‏‏‏‏‎‎‏‏‎‏‏‎‏‏‏‎‎‏‎‏‎‎‏‎‎‎‎‎‎‎‏‏‏‎‎‎‎‎‏‏‎‎‏‎Phone number‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_imei" msgid="4807785077839033270">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‎‏‎‏‏‏‎‎‎‏‎‏‎‏‏‏‏‎‎‎‎‏‏‏‎‎‎‏‏‏‎‎‏‎‎‎‎‎‏‎‎‏‏‏‏‎‎‏‏‏‎‏‏‎‏‏‎‎IMEI‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_imei_sv" msgid="3916171578271145127">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‎‎‏‎‏‏‎‎‏‎‎‎‎‏‎‎‏‎‏‎‎‏‏‎‏‎‎‏‏‏‎‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‏‎‎‏‎‏‎‎‏‏‏‎IMEI SV‎‏‎‎‏‎"</string>
+    <string name="sim_status_title_iccid" msgid="9088740330102335658">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‎‏‎‎‎‎‏‏‎‏‏‎‎‎‏‎‎‏‎‏‏‎‏‎‎‎‎‏‏‏‏‏‎‎‎‎‏‎‎‎‎‏‎‏‎‎‎‏‎‏‎‏‎‏‎‎ICCID‎‏‎‎‏‎"</string>
+    <string name="network_type_unknown" msgid="6420632399101347340">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‏‎‏‎‏‎‏‏‎‎‏‎‎‏‏‎‎‎‏‎‎‏‎‏‏‏‎‎‏‏‎‎‏‏‎‎‎‏‏‎‎‎‎‎‏‏‎‎‎Unknown‎‏‎‎‏‎"</string>
+    <string name="network_type_gprs" msgid="2880421200350770468">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‏‏‏‏‏‏‏‏‎‎‏‎‏‎‎‏‏‏‏‏‏‎‏‎‎‏‎‎‎‎‏‎‎‏‎‎‏‏‎‏‎‎‏‎‏‏‏‎‏‎‏‎‎‏‎‎‏‎‎‎GPRS‎‏‎‎‏‎"</string>
+    <string name="network_type_edge" msgid="1924691065824356415">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‎‏‎‏‏‎‏‎‏‏‏‏‎‎‎‎‎‎‏‎‏‎‎‏‏‏‎‏‏‎‎‎‎‏‏‎‏‎‏‎‎‎‎‏‎‏‎‎‎‎‎‏‏‏‏‏‏‎EDGE‎‏‎‎‏‎"</string>
+    <string name="network_type_umts" msgid="4937644465006778008">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‎‎‎‏‏‎‎‎‎‎‏‎‎‏‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‏‏‎‎‏‏‏‎‎‎‏‎‏‏‎‏‎‎‏‏‎‎‎‎UMTS‎‏‎‎‏‎"</string>
+    <string name="network_type_cdma" msgid="8783828427239247586">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‏‎‎‏‏‎‎‏‏‎‏‏‎‏‎‏‏‎‏‎‏‎‎‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‏‏‎‎‏‏‏‎‏‏‏‎‎‎‏‎‎CDMA‎‏‎‎‏‎"</string>
+    <string name="network_type_evdo_0" msgid="3715365868818778446">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‏‎‎‎‏‏‏‏‏‎‏‎‎‎‎‏‏‎‎‏‎‎‏‎‏‎‏‎‎‏‎‏‏‎‎‎‏‏‎‏‏‏‎‎‏‎‎‏‎‏‎‎‏‏‏‎‎EVDO 0‎‏‎‎‏‎"</string>
+    <string name="network_type_evdo_a" msgid="1312108657287730010">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‏‏‎‎‎‏‎‏‏‏‏‎‏‏‏‏‏‎‎‏‏‏‎‎‎‎‏‎‏‏‎‎‏‏‎‎‏‎‎‏‏‎‏‎‏‏‎‏‎‎EVDO A‎‏‎‎‏‎"</string>
+    <string name="network_type_1xrtt" msgid="7121077217080189119">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‏‏‎‏‎‎‏‏‎‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‏‏‏‏‎‏‏‎‎‎‏‏‎‎‎‏‎‎‏‎‎‎‎‎‏‎‏‏‏‏‏‏‎1xRTT‎‏‎‎‏‎"</string>
+    <string name="network_type_hsdpa" msgid="8541302844427681310">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‎‏‎‎‎‏‎‎‎‏‏‎‎‏‏‎‏‏‎‏‎‏‏‏‎‏‏‏‎‏‎‎‏‎‎‏‎‎‏‎‏‎‎‏‏‏‏‏‎‎‎‎‏‏‏‏‎‎HSDPA‎‏‎‎‏‎"</string>
+    <string name="network_type_hsupa" msgid="1612456803909642947">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‎‏‏‎‎‎‎‎‏‎‎‏‏‎‎‎‏‏‏‎‏‎‏‏‏‎‎‎‎‏‎‎‏‎‏‏‎‎‏‎‎‎‏‎‏‎‏‎‏‏‎‎‎‎‏‏‎HSUPA‎‏‎‎‏‎"</string>
+    <string name="network_type_hspa" msgid="24504969961812165">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‎‏‏‏‏‎‏‎‏‏‏‎‎‎‎‏‏‏‏‎‎‏‎‎‎‏‏‏‏‏‎‏‏‎‏‏‏‎‎‏‏‏‎‎‎‏‏‎‎‎‎‏‏‎‎‎‏‎‏‎HSPA‎‏‎‎‏‎"</string>
+    <string name="network_type_iden" msgid="9068687023637955767">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‏‏‎‏‏‏‎‏‏‎‏‎‎‏‏‏‎‎‏‎‏‏‎‎‏‏‎‎‏‏‎‎‏‏‏‏‎‎‏‎‎‎‏‎‏‎‎‎‎‏‎‎‏‎‏‏‎‏‏‏‎iDen‎‏‎‎‏‎"</string>
+    <string name="network_type_evdo_b" msgid="4209909564716558955">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‎‏‏‎‏‏‎‎‏‎‎‏‏‎‏‎‎‏‏‏‎‎‎‏‏‎‏‎‏‏‎‏‎‏‏‏‎‎‏‏‎‎‏‎‏‎‏‎‎‏‏‎‏‎‏‏‎EVDO B‎‏‎‎‏‎"</string>
+    <string name="network_type_lte" msgid="946511617080012479">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‎‎‏‎‎‎‏‎‏‎‏‎‏‏‏‏‎‏‎‎‏‏‎‏‎‎‎‎‎‏‏‏‏‏‎‏‎‏‎‏‏‎‏‎‏‏‏‎‏‎‏‏‏‏‏‏‎LTE‎‏‎‎‏‎"</string>
+    <string name="network_type_ehrpd" msgid="8269499148323868150">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‏‏‎‎‎‎‏‏‎‎‏‎‏‎‎‏‏‎‏‎‏‎‎‏‎‏‏‎‎‏‏‎‎‎‏‏‏‏‎‏‎‏‎‎‏‏‎‏‏‏‏‏‎‏‏‎‎eHRPD‎‏‎‎‏‎"</string>
+    <string name="network_type_hspap" msgid="3401625991738187399">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‎‏‎‎‎‎‎‎‎‎‏‏‎‏‎‎‎‏‎‎‏‎‎‎‎‎‎‏‎‎‏‎‏‎‎‏‎‏‏‏‏‎‏‎‎‎‎‏‏‏‎HSPA+‎‏‎‎‏‎"</string>
+    <string name="network_type_gsm" msgid="7789621096955444165">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‎‎‎‏‏‎‏‎‎‏‎‎‏‎‏‏‎‎‎‏‏‏‎‏‏‏‎‏‎‎‏‎‏‏‏‎‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‎‎‏‎‏‎GSM‎‏‎‎‏‎"</string>
+    <string name="network_type_td_scdma" msgid="3540477939501561304">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‏‎‎‏‎‎‎‏‎‎‏‎‎‏‏‎‏‏‏‏‎‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‎‎‎‎TD-SCDMA‎‏‎‎‏‎"</string>
+    <string name="network_state_disconnected" msgid="1995329139648732597">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‏‏‎‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‏‎‎‎‏‏‏‏‏‏‎‎‎‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‎‏‏‎‏‎‏‎Disconnected‎‏‎‎‏‎"</string>
+    <string name="network_state_connecting" msgid="2033661880906096950">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‎‏‏‏‎‎‏‎‎‎‎‎‏‎‎‏‎‏‏‎‏‎‎‏‎‏‏‎‏‎‎‏‎‏‎‏‎‎‏‎‎‏‎‎‎‎‏‎‎‏‏‎‏‏‎‎Connecting…‎‏‎‎‏‎"</string>
+    <string name="network_state_connected" msgid="7142925555006698116">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‏‎‎‏‎‎‎‎‎‏‏‎‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‎‎‏‎‏‏‎‎‏‏‏‎‏‏‏‏‏‏‎‎‏‎‏‎‎‎‎‏‎‎‎Connected‎‏‎‎‏‎"</string>
+    <string name="network_state_suspended" msgid="7392973632777679437">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‎‏‏‎‎‏‎‎‎‏‏‏‏‎‎‏‎‏‏‎‎‏‎‏‏‎‏‏‏‏‏‎‎‎‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‎‏‏‎‏‎Suspended‎‏‎‎‏‎"</string>
+    <string name="service_state_in_service" msgid="1049858121090949894">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‎‏‎‎‏‎‎‎‏‏‏‎‏‏‎‎‎‎‏‏‎‎‏‏‎‎‎‎‏‎‏‎‎‎‎‏‎‏‏‏‏‎‏‏‎‎‎‏‏‎‎‎‎‎‏‏‎‎In service‎‏‎‎‏‎"</string>
+    <string name="service_state_out_of_service" msgid="7113381159638816530">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‏‎‏‏‎‏‏‏‏‏‎‎‏‏‏‎‎‏‏‏‏‎‎‏‏‏‏‏‎‏‎‎‎‎‏‏‏‎‏‎‎‏‎‏‎‏‏‏‎‎‎‏‎‎‏‎‎Out of service‎‏‎‎‏‎"</string>
+    <string name="service_state_emergency_only" msgid="2139330614100403725">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‏‏‎‏‏‎‎‎‎‎‏‏‎‏‏‎‏‏‏‎‏‏‎‏‏‏‏‎‏‏‏‏‎‏‎‎‏‎‎‏‎‏‎‏‎‎‏‏‎‎‎‎‎‏‏‎‏‎Emergency calls only‎‏‎‎‏‎"</string>
+    <string name="service_state_off" msgid="15569115243060557">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‎‏‏‎‏‏‎‏‏‏‎‏‎‏‎‎‎‎‎‎‎‎‎‏‏‏‎‎‎‏‏‏‏‏‏‎‎‎‎‏‏‏‏‎‎‏‏‏‎‏‎‏‎‎‏‏‎‏‎Radio off‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_extreme_threats" msgid="1521858409520757775">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‎‎‏‎‏‎‎‏‎‎‎‎‏‎‎‏‏‏‏‎‏‏‎‎‏‏‏‏‏‏‎‎‎‎‎‎‏‏‏‏‎Show extreme threats‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_severe_threats" msgid="5654141415227703874">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‎‏‏‏‎‏‏‏‏‎‎‎‏‎‏‏‏‎‏‎‏‎‎‏‎‎‎‎‎‏‎‎‎‏‏‏‏‎‎‎‏‏‎‎‎‎‏‎‎‏‎‎‎‎‏‎‎Show severe threats‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_amber_alerts" msgid="2102695613586145083">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‎‏‎‎‎‏‏‎‏‎‎‎‎‏‎‏‎‎‎‏‏‏‏‎‏‎‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‎Show AMBER alerts‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_etws_test_alerts" msgid="1713794302435988484">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‏‏‏‎‎‏‎‎‎‏‎‎‏‏‏‏‎‏‏‎‏‎‏‏‎‏‎‎‎‎‏‏‎‏‏‎‎‏‎‎‏‎‎‎‏‎‏‎‎‎‎‎‎‎‏‎‎‎Show ETWS test alerts‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_cmas_test_alerts" msgid="1363934803759410404">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‎‏‏‏‎‏‏‎‏‏‎‏‎‏‎‏‏‎‏‏‏‏‎‏‎‎‏‎‎‎‎‏‎‏‏‎‏‏‏‏‏‎‎‏‎‏‏‎‎‏‏‏‎‎‏‎‎‎Show CMAS test alerts‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_alert_reminder" msgid="7743049358230528293">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‎‏‏‏‎‏‎‎‏‏‎‏‎‏‏‎‎‏‎‏‏‏‎‏‏‏‏‎‏‎‏‏‏‎‏‎‎‏‎‏‏‎‏‎‎‎‎‏‎‎‏‎‎‏‎‏‎Alert reminder‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_vibrate" msgid="5679936234811727178">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‎‏‎‎‏‏‎‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‎‏‏‎‏‎‎‏‎‏‎‎‏‏‏‎‏‎‏‎‎‏‎‏‎‎Vibrate on alert‎‏‎‎‏‎"</string>
+    <string name="emergency_alerts_duration" msgid="97004157287443115">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‏‎‏‏‎‎‎‏‎‏‎‎‎‎‎‏‏‎‎‎‏‎‎‎‏‏‎‎‎‎‎‏‏‎‏‏‎‏‎‏‎‏‎‏‎‏‎‏‎‏‎‏‎‏‏‎Alert sound duration‎‏‎‎‏‎"</string>
+    <string name="voice_call_volume_action" msgid="408360372869909238">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‏‏‎‏‎‏‎‏‎‏‏‎‎‏‎‎‏‏‎‎‏‏‎‎‎‎‏‏‏‎‏‎‏‎‏‎‎‎‎‎‏‏‏‎‎‏‎‏‎‏‏‏‏‎‏‏‎‎Call volume‎‏‎‎‏‎"</string>
+    <string name="volume_activity_header" msgid="6084413044879135077">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‎‎‏‏‏‎‎‎‎‎‎‏‎‏‏‎‏‎‏‏‎‏‏‎‏‎‏‏‏‏‏‏‎‏‏‎‎‎‏‏‎‎‎‎‏‎‎‎‏‎‏‏‎‎‏‎‏‎Volume‎‏‎‎‏‎"</string>
+    <string name="apps_settings" msgid="3981870500786239817">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎‎‏‎‎‏‏‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‎‏‎‎‏‏‏‏‏‎‎‎‎‏‏‏‏‎‎‏‎‏‎‎‏‎‎‏‎App info‎‏‎‎‏‎"</string>
+    <string name="apps_settings_sys" msgid="5263253129588148759">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‎‎‎‎‏‎‏‎‏‏‎‏‎‏‎‎‏‏‎‏‎‏‎‏‏‏‏‎‎‎‎‎‎‎‎‏‎‎‎‎‏‎‎‎‏‎‏‎‎‎‎‏‎‏‏‏‎System app info‎‏‎‎‏‎"</string>
+    <string name="app_notifications" msgid="3101095301364259862">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‏‎‎‏‎‏‎‎‏‏‎‏‏‎‏‏‏‏‏‏‎‎‎‎‏‏‎‎‎‏‏‏‎‎‏‏‎‎‎‏‏‏‎‎‎‎‎‏‎‏‏‎‎App notifications‎‏‎‎‏‎"</string>
+    <string name="app_permissions" msgid="2117795431545957809">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‏‎‏‏‎‎‎‏‏‏‏‏‎‏‎‏‏‏‎‏‏‏‎‎‏‎‏‏‏‎‏‎‎‎‎‏‏‏‏‎‏‏‏‏‎‏‏‎‏‏‎‏‏‎‎‎‏‎App permissions‎‏‎‎‏‎"</string>
+    <string name="app_permissions_sys" msgid="8154705223256011836">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‎‏‏‎‏‎‏‎‏‎‏‎‎‏‏‎‎‎‏‏‏‏‏‎‎‎‎‎‎‏‏‎‎‏‎‎‏‏‏‎‏‎‎‎‎‏‏‏‏‎‎‎System app permissions‎‏‎‎‏‎"</string>
+    <string name="apps_settings_loading" msgid="4389211768781013578">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‏‎‎‏‏‏‎‏‎‎‏‏‎‎‏‏‏‎‎‏‏‎‏‏‎‎‏‎‏‎‎‎‎‏‎‎‎‏‎‏‎‎‎‎‎‎‎‎‎‏‎‎‏‎‎‏‎‏‎‎Loading apps…‎‏‎‎‏‎"</string>
+    <string name="apps_notifications_setting" msgid="1265616743859944727">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‏‏‎‎‏‎‎‎‎‎‏‎‏‏‏‏‏‏‎‏‏‏‎‎‏‎‎‎‏‎‏‏‏‏‎‎‎‏‏‏‎‏‏‏‏‏‏‎‏‎‎‎‏‎‏‏‏‎Notifications‎‏‎‎‏‎"</string>
+    <string name="app_label_uninstall" msgid="6314929963748048320">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‎‎‎‏‏‎‎‏‎‎‎‏‏‎‏‎‏‏‎‎‎‎‎‎‏‎‏‏‎‏‎‏‎‏‏‎‎‎‎‏‏‏‏‎‏‏‏‎‎‎‎‎‎‎Uninstall‎‏‎‎‏‎"</string>
+    <string name="app_alert_title_uninstall" msgid="2436399574976831203">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‏‏‏‏‎‏‎‏‎‎‏‎‎‎‎‎‎‏‎‎‏‏‏‏‎‏‎‏‏‎‏‎‎‎‎‎‎‏‏‏‏‎‏‏‏‎‎‎‏‏‎Uninstall app?‎‏‎‎‏‎"</string>
+    <string name="usage_access_title" msgid="1240341273916955036">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‏‎‎‏‏‎‏‏‎‏‎‎‏‎‎‏‏‏‏‎‏‎‎‎‏‎‎‏‎‏‎‎‎‎‎‎‏‎‎‏‏‎‏‎‏‏‎‎‏‏‎‎‏‏‏‎‎‎Apps with usage access‎‏‎‎‏‎"</string>
+    <string name="usage_access" msgid="3675321149146070184">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‎‎‎‎‎‎‎‏‎‏‎‏‏‏‎‏‎‎‎‏‏‏‎‎‏‏‎‎‏‎‏‎‎‏‎‏‎‏‎‎‏‏‏‏‏‏‎‎‏‎‏‎‏‎‎‎‎Usage access‎‏‎‎‏‎"</string>
+    <string name="permit_usage_access" msgid="8456359882394235109">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‏‎‏‏‎‏‏‎‎‎‎‎‏‏‎‏‎‎‎‎‎‏‎‎‏‏‎‎‎‏‎‏‏‏‏‏‎‎‎‏‏‏‏‎‎‎‎‏‏‏‎‎‏‎‏‎Permit usage access‎‏‎‎‏‎"</string>
+    <string name="usage_access_description" msgid="5280016262050728521">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‎‏‎‎‎‏‏‎‎‏‏‎‎‎‏‎‏‏‎‏‎‎‎‎‏‏‎‎‏‎‏‏‏‏‎‏‎‎‎‏‏‏‎‎‏‎‏‎‎‏‎‎‏‎‎‏‎Usage access allows an app to track what other apps you’re using and how often, as well as your carrier, language settings, and other details.‎‏‎‎‏‎"</string>
+    <string name="app_label_remove_upgrades" msgid="5995010670579009800">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‎‎‏‏‎‎‏‎‏‎‎‎‏‏‏‎‎‏‏‏‎‎‎‏‎‎‏‎‎‏‎‎‏‎‎‎‏‎‎‏‏‏‎‎‏‎‎‏‎‎‎‎‏‎‎‎‎Remove Upgrades‎‏‎‎‏‎"</string>
+    <string name="app_alert_title_remove_upgrades" msgid="273193189483419932">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‎‏‎‎‏‎‎‏‏‏‏‎‎‎‎‏‎‎‎‏‎‎‏‏‎‎‎‏‏‎‏‏‏‎‎‎‏‏‎‎‏‎‎‎‏‏‏‎‎‎Remove Upgrades?‎‏‎‎‏‎"</string>
+    <string name="app_label_disable" msgid="5662173550341354136">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‏‎‏‎‎‏‎‏‎‎‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‎‎‎‏‏‎‏‎‎‏‎‏‏‎‏‎‏‎‏‏‏‎‎‏‎‏‎‎‏‏‎‎‎‎Disable‎‏‎‎‏‎"</string>
+    <string name="app_alert_title_disable" msgid="2048634869072890803">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‎‏‏‎‏‏‏‎‎‎‏‏‎‏‏‎‏‎‎‎‏‏‏‏‎‎‏‎‏‏‎‏‏‎‎‏‎‎‎‏‏‎‎‎‏‎‏‏‏‎‏‏‎‎‏‏‎Disable?‎‏‎‎‏‎"</string>
+    <string name="app_alert_summary_disable" msgid="7833303458898277307">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‏‏‎‏‎‏‎‏‏‏‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‎‎‏‎‏‎‏‏‏‏‎‎‎‎‏‏‏‎‎‏‏‏‎‏‏‏‎‏‏‎Other apps may be affected.‎‏‎‎‏‎"</string>
+    <string name="app_label_enable" msgid="3519168879582562992">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‎‎‏‏‎‏‎‏‏‎‏‎‎‏‏‎‎‏‎‏‏‏‎‎‏‏‎‏‎‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‎‎‏‎‏‎‏‎‏‏‎‎‎‎‎Enable‎‏‎‎‏‎"</string>
+    <string name="app_alert_title_enable" msgid="8156033734090178600">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‎‎‎‎‎‎‎‏‏‎‏‎‏‏‏‎‏‏‏‏‏‏‏‏‎‎‎‏‎‎‎‏‏‎‎‎‏‎‎‎‎‎‎‎‎‏‎‏‎‎‎‎Enable?‎‏‎‎‏‎"</string>
+    <string name="app_label_force_stop" msgid="667092405112695060">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‎‎‎‎‎‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‏‎‎‎‎‎‏‏‏‏‎‎‎‏‏‎‏‎‎‏‏‎‏‎‎‏‎‎‎‏‎‏‎‎‎Force stop‎‏‎‎‏‎"</string>
+    <string name="app_alert_title_force_stop" msgid="488207601157988768">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‏‏‎‎‎‏‏‎‎‏‏‏‎‏‏‎‎‎‏‏‏‎‏‎‎‎‎‎‎‎‏‏‏‎‏‎‏‎‏‎‏‏‏‎‎‎‎‏‏‎‏‎‎‎‎‎‎Force stop?‎‏‎‎‏‎"</string>
+    <string name="app_alert_summary_force_stop" msgid="958801291717219526">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‏‎‏‎‎‏‏‏‎‎‏‎‏‏‎‎‎‏‎‏‏‎‎‎‏‏‏‏‎‎‎‏‎‏‏‏‏‏‏‎‏‏‎‎‏‎‏‎‎‏‏‎‎‎‏‏‎‎App may not function properly.‎‏‎‎‏‎"</string>
+    <string name="system_apps_settings" msgid="8066191141788527007">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‏‏‏‏‎‎‎‎‏‏‎‏‏‎‏‏‎‎‎‎‎‏‎‏‏‎‏‎‏‎‎‏‎‏‎‎‏‏‎‎‏‏‏‏‏‎System Apps‎‏‎‎‏‎"</string>
+    <string name="app_advanced_settings_title" msgid="3653045230416766354">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‏‎‎‏‎‏‎‎‏‎‎‎‎‏‎‎‏‎‏‏‎‏‏‎‏‏‎‏‎‎‏‎‎‏‎‏‏‎‎‏‎‎‏‎‎Advanced‎‏‎‎‏‎"</string>
+    <string name="pref_draw_over_other_apps_title" msgid="3310646375501856437">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‏‏‏‏‎‎‎‏‏‏‎‎‎‏‏‏‎‏‎‏‎‏‏‎‏‎‎‎‎‏‎‎‏‎‏‏‏‎‎‎‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‏‎Display over other apps‎‏‎‎‏‎"</string>
+    <string name="draw_over_other_apps_dialog_title" msgid="5318591150598096819">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‏‎‎‏‏‏‏‎‎‎‏‏‏‎‏‏‎‎‏‏‏‎‏‏‏‏‏‎‎‎‎‏‏‏‏‎‏‏‎‎‏‏‎Display over other apps?‎‏‎‎‏‎"</string>
+    <string name="draw_over_other_apps_dialog_description" msgid="5130743298196424742">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‏‏‎‎‏‏‎‏‎‎‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‎‏‎‎‎‏‎‏‎‏‎‏‏‎‏‏‎‏‏‎‎‏‎‎‎‎‎‏‎‎‏‏‎‎This feature allows an app to display on top of other apps you’re using. It may interfere with your use of those apps or change the way they seem to appear or behave.‎‏‎‎‏‎"</string>
+    <string name="pref_write_settings_title" msgid="25404350209480216">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‎‏‏‏‏‎‏‏‎‏‎‎‏‎‎‎‎‎‏‎‎‎‏‏‏‏‏‎‎‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‏‏‎‎‎‎‏‏‎‎‎‎Modify system settings‎‏‎‎‏‎"</string>
+    <string name="write_settings_dialog_title" msgid="3995413705151933001">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‏‏‎‎‏‎‏‎‎‎‏‏‏‏‏‎‎‏‏‎‎‎‏‎‏‎‎‎‏‎‎‏‎‎‏‏‏‎‏‏‏‎‏‎‏‎‎‏‎‎‏‎‎‏‎Modify system settings?‎‏‎‎‏‎"</string>
+    <string name="write_settings_dialog_description" msgid="5393443251049042059">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‏‏‎‏‏‎‎‏‎‏‎‏‏‏‎‎‎‎‎‎‏‏‏‏‏‎‏‎‎‏‏‏‎‎‎‎‎‎‎‏‏‎‎‏‎‎‎‎‏‎‎‎‏‎‏‏‎This permission allows an app to modify system settings.‎‏‎‎‏‎"</string>
+    <string name="pref_app_about" msgid="3818407988709605619">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‏‏‎‏‏‎‏‎‏‏‏‎‏‎‏‎‏‏‎‏‏‏‏‏‎‏‎‎‎‏‏‎‎‏‏‎‎‎‎‎‎‏‏‏‏‎‎‏‏‎App Info‎‏‎‎‏‎"</string>
+    <string name="app_info_label_version" msgid="2327954738076469498">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‎‎‏‎‎‏‏‏‎‏‎‎‎‏‏‏‎‏‎‎‎‎‎‎‎‎‎‎‏‎‎‎‎‎‎‏‏‏‏‎‎‎‏‎‎‏‎‎‎‏‏‏‏‏‎‏‎‎Version‎‏‎‎‏‎"</string>
+    <string name="app_info_label_storage" msgid="8104907221987164864">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‏‎‏‎‏‎‎‎‏‎‏‏‎‏‎‏‎‎‎‎‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‎‎Storage‎‏‎‎‏‎"</string>
+    <string name="app_info_label_data" msgid="4900178464755655435">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‎‎‎‎‎‎‎‎‎‏‏‏‎‏‏‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‏‏‏‏‏‎‎‎‏‏‏‏‎‏‎‎‎‏‏‎‎‎‎‏‎‏‏‎Data‎‏‎‎‏‎"</string>
+    <string name="app_info_label_cache" msgid="6517447845587164795">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‏‎‎‏‏‏‎‎‏‎‏‎‏‎‎‎‎‎‎‏‎‎‏‎‎‎‏‏‎‏‏‏‏‎‎‏‎‏‏‎‏‏‏‎‎‏‏‏‏‎‎‏‏‏‏‎‏‏‎Cache‎‏‎‎‏‎"</string>
+    <string name="app_info_label_clear_data" msgid="4219489150893792053">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‏‎‏‎‎‎‏‏‏‎‏‎‏‎‎‎‏‏‎‎‎‎‎‏‏‎‏‏‏‎‎‏‎‎‏‎‏‎‎‎‏‏‏‎‎‏‏‎‏‏‎‎‏‏‎‏‎‏‎Clear data‎‏‎‎‏‎"</string>
+    <string name="app_info_label_clear_cache" msgid="5926119164287569364">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‎‎‎‏‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‏‏‏‎‏‏‎‏‏‎‎‎‏‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‎‏‏‏‎‏‎‏‎‎‎Clear cache‎‏‎‎‏‎"</string>
+    <string name="app_info_dialog_delete_data_title" msgid="7394715588093134872">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‎‏‏‏‏‏‎‏‎‎‏‏‏‎‏‎‏‎‎‏‏‎‎‎‎‎‎‎‏‏‎‏‎‏‎‏‎‏‏‏‎‎‏‎‎‎‎‎‎‏‏‎‎‎‎Delete app data?‎‏‎‎‏‎"</string>
+    <string name="app_info_dialog_delete_data_message" msgid="72311265745689860">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‏‎‎‎‎‎‎‎‎‏‏‏‎‎‏‏‎‏‎‏‏‎‏‏‎‏‎‎‎‏‏‎‎‎‎‎‎‎‏‏‏‏‏‎‏‏‏‎‏‎‎‎‎‎‏‎‎‎All this app\'s data will be permanently deleted. This include all files, settings, accounts, databases, etc.‎‏‎‎‏‎"</string>
+    <string name="app_info_toast_clear_cache" msgid="3792760581540820790">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‎‎‏‎‏‎‎‎‏‎‏‎‎‏‎‏‏‏‏‎‏‎‎‏‏‏‎‏‏‎‏‏‎‎‏‏‎‏‏‎‎‎‎‎‏‏‎‏‏‏‎‎‏‏‎‏‏‎‎Cache cleared‎‏‎‎‏‎"</string>
+    <string name="app_info_toast_clear_data" msgid="3927526492669896813">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‏‏‎‏‎‎‎‎‎‎‏‎‏‏‎‎‎‎‎‏‎‎‎‏‎‎‏‎‏‎‎‎‎‎‏‏‎‎‎‎‏‏‎‎‏‏‎‏‎‎‎‎‏‏‎‏‏‎‏‎Data cleared‎‏‎‎‏‎"</string>
+    <string name="network_lte" msgid="8227603060910091716">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‎‏‎‎‎‏‎‏‏‏‎‎‏‎‏‎‎‎‏‎‏‏‎‎‏‎‎‎‏‏‎‎‏‏‎‎‏‏‏‎‏‏‎‎‏‏‎‏‏‎‏‏‏‎‎‎‏‎‎‎LTE (recommended)‎‏‎‎‏‎"</string>
+    <string name="network_4G" msgid="3291562823881132895">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‏‎‏‎‏‏‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‎‏‎‎‏‎‏‎‏‎‎‎‏‎‎‎‎‏‎‏‏‎‏‎‏‏‏‏‏‎4G (recommended)‎‏‎‎‏‎"</string>
+    <string name="network_global" msgid="7688386659600092225">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‎‏‎‏‎‏‏‎‎‏‎‏‎‏‎‎‎‏‎‏‏‏‎‏‏‏‎‏‎‎‏‏‏‎‏‎‏‎‏‎‎‎‎‏‏‎‎‏‏‎‎‎‏‎‎‎‎‎‏‎Global‎‏‎‎‏‎"</string>
+    <string name="data_usage_warning_title" msgid="4982628781060662506">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‏‎‎‏‎‏‏‏‎‏‏‎‏‎‎‏‏‏‏‎‏‎‎‎‏‎‏‏‏‎‏‏‎‎‎‎‏‎‎‎‏‎‎‏‎‎‏‏‏‎‏‎‏‎‎Data usage warning‎‏‎‎‏‎"</string>
+    <string name="data_usage_reached_limit_title" msgid="6814624529672600688">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‏‎‎‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‏‎‎‏‏‏‏‎‎‎‎‎‎‎‏‏‎‎‏‏‎‎‎‏‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎Mobile data limit reached‎‏‎‎‏‎"</string>
+    <string name="data_usage_reached_limit_text" msgid="2309438590806512037">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‎‎‎‎‎‏‏‎‎‏‏‎‎‎‏‏‎‎‎‏‎‏‎‎‏‏‎‎‏‎‎‏‏‏‎‎‏‏‎‎‏‏‏‎‏‎‎‎‏‏‎‏‎‎‏‎‏‎Data paused for rest of cycle‎‏‎‎‏‎"</string>
+    <string name="data_usage_exceeded_limit_title" msgid="6991713340592399854">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‏‏‎‎‎‏‏‏‎‎‎‏‏‏‏‎‏‎‏‎‏‎‏‎‏‎‏‎‏‏‏‏‎‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‎‎Mobile data limit exceeded‎‏‎‎‏‎"</string>
+    <string name="data_usage_exceeded_limit_text" msgid="1525622907355832315">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‎‎‏‎‏‏‎‎‎‎‎‏‏‎‎‏‏‏‏‏‎‎‏‏‎‏‏‏‏‏‏‎‎‎‏‎‎‏‎‎‏‎‎‏‏‏‏‏‏‏‏‏‏‎‏‏‎‎‏‎‎‏‏‎<xliff:g id="AMOUNT_OVER">%1$s</xliff:g>‎‏‎‎‏‏‏‎ over specified limit‎‏‎‎‏‎"</string>
+    <string name="settings_title_voicemail_number" msgid="6047558039668191426">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‏‏‏‎‏‏‎‏‎‎‏‏‏‏‎‏‏‏‏‏‏‏‏‎‏‏‏‎‏‎‎‎‏‏‏‏‏‎‏‎‏‏‏‏‎‎‎‎‏‏‎‎‎‎‏‎‎Voicemail number‎‏‎‎‏‎"</string>
+    <string name="settings_update_phone_number" msgid="7045423654409404585">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‎‎‏‏‏‎‎‎‏‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‏‎‎‎‏‎‎‎‏‎‏‎‎‏‏‎‏‎‏‎‎‎‎‎‎‎‎‏‎‏‎‏‎‎‏‎Update %1$s to %2$s?‎‏‎‎‏‎"</string>
+    <string name="device_admin_warning" msgid="7322019885433317264">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‎‏‎‏‏‎‎‏‏‏‎‏‎‎‎‎‏‎‏‎‎‏‎‎‏‎‏‎‏‏‎‎‎‏‎‏‏‎‎‏‏‎‎‏‎‏‏‎‎‏‏‏‏‎‎‏‎‎‎‎‎Activating this administrator will allow the app ‎‏‎‎‏‏‎<xliff:g id="APP_NAME">%1$s</xliff:g>‎‏‎‎‏‏‏‎ to perform the following operations:‎‏‎‎‏‎"</string>
+    <string name="add_device_admin_msg" msgid="1152033562635976504">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‎‏‏‎‎‎‎‏‏‎‏‎‏‏‏‏‏‎‎‏‏‎‎‎‏‏‏‏‏‎‏‎‏‏‏‏‏‏‎‎‏‏‏‎‎‎‎Activate device administrator?‎‏‎‎‏‎"</string>
+    <string name="add_device_admin" msgid="1237937764953206565">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‏‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‎‎‎‎‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‎Activate‎‏‎‎‏‎"</string>
+    <string name="cancel" msgid="3093698559472298487">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‎‏‎‏‏‏‎‏‏‏‏‎‎‎‎‎‏‏‎‎‏‏‏‎‎‏‎‏‏‎‏‏‏‏‏‎‏‏‏‏‎‏‏‏‏‏‎‏‎‎‏‏‏‏‏‎‏‏‏‎Cancel‎‏‎‎‏‎"</string>
+    <string name="disabled_by_policy_title" msgid="4867639270211833535">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‏‎‎‎‏‏‎‏‎‏‎‏‎‏‎‎‎‎‏‎‎‎‎‎‎‏‎‏‏‎‏‏‏‎‏‏‎‏‏‏‏‏‎‎‏‏‏‎‏‎‏‏‏‏‏‏‎Action not allowed‎‏‎‎‏‎"</string>
+    <string name="default_admin_support_msg" msgid="6013029522745194315">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‎‏‏‏‎‎‏‎‏‎‎‏‎‎‏‎‎‏‏‏‏‏‏‎‎‎‎‏‎‏‏‏‎‎‏‎‏‎‎‏‏‏‏‏‎‏‏‏‎‏‎‎‏‎‏‏‎This action is disabled. Contact your organization\'s administrator to learn more.‎‏‎‎‏‎"</string>
+    <string name="admin_support_more_info" msgid="473762286748096634">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‏‏‏‏‎‏‎‎‏‎‎‏‏‎‎‏‎‎‏‎‎‎‏‎‎‏‎‏‎‎‎‏‎‏‎‎‏‏‎‎‏‏‎‎‎‏‏‎‏‏‎‎‎‎‏‏‏‏‎‏‎‎More details‎‏‎‎‏‎"</string>
+    <string name="credentials_reset_hint" msgid="6363764513186826888">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‏‎‎‎‎‏‎‏‎‎‎‎‏‎‏‎‎‎‏‎‎‎‎‏‏‎‏‏‏‎‏‎‏‎‏‎‏‎‏‏‏‏‎‎‏‏‎‎‏‎‏‎‏‎‎‎‏‎‎‎‎Remove all the contents?‎‏‎‎‏‎"</string>
+    <string name="credentials_erased" msgid="1955991288185844766">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‎‎‏‎‎‏‏‏‎‏‏‎‏‏‎‏‎‎‏‏‏‎‎‎‎‎‏‎‎‏‏‎‏‏‏‎‏‎‎‎‎‎‏‏‏‏‎‎Credential storage is erased.‎‏‎‎‏‎"</string>
+    <string name="credentials_not_erased" msgid="1195753161051041914">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‎‎‏‎‎‏‏‎‎‎‎‎‏‎‏‎‏‏‎‎‏‎‏‎‏‎‎‎‏‎‎‎‏‏‎‏‏‏‏‏‏‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎Credential storage couldn\'t be erased.‎‏‎‎‏‎"</string>
+    <string name="credentials_configure_lock_screen_hint" msgid="4128139727909651999">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‎‏‎‎‏‎‏‎‎‎‎‏‏‎‎‏‎‎‏‏‎‏‎‏‏‏‏‏‎‎‎‏‎‎‏‏‏‎‏‏‏‎‎‎‎‏‏‎‎‎‎‏‏‏‏‏‎You need to set a lock screen PIN or password before you can use credential storage.‎‏‎‎‏‎"</string>
+    <string name="screen_lock_prompt_title" msgid="2499384620531183698">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‏‎‏‎‏‎‏‏‏‏‏‎‎‏‏‎‎‏‎‎‎‏‎‎‎‏‏‏‏‎‏‏‏‏‏‏‎‏‎‏‎‏‏‏‏‏‎‎‎‎‎‏‎‏‎‎‏‎‎Add screen lock?‎‏‎‎‏‎"</string>
+    <string name="screen_lock_prompt_subtitle" msgid="55406056434153765">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‎‎‎‏‎‎‏‏‎‏‎‏‏‏‏‎‎‎‎‎‏‏‏‏‎‎‏‎‎‎‎‎‏‎‏‎‎‏‏‎‏‏‏‎‎‏‎‎‏‎‎‏‎‏‎Screen locks can make your watch more secure. Your watch will auto-lock when you take it off. You can change it later in settings.‎‏‎‎‏‎"</string>
+    <string name="computing_size" msgid="1371812306284285270">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‎‏‏‎‎‎‎‏‎‎‏‏‎‏‎‏‎‎‎‎‎‎‎‎‏‏‎‎‎‏‏‏‏‏‎‏‎‎‏‎‏‎‏‏‎‎‎‏‏‎‏‎‏‎‏‎‏‏‎‎Computing…‎‏‎‎‏‎"</string>
+    <string name="invalid_size_value" msgid="4641862077377965847">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‎‎‎‎‎‏‏‎‏‎‏‏‎‎‏‏‎‏‎‎‏‏‏‏‎‏‏‏‎‎‏‏‏‎‏‎‎‏‏‏‏‎‎‎‎‏‏‎‏‏‏‏‎‎‎‏‎‏‏‏‎Couldn’t compute package size.‎‏‎‎‏‎"</string>
+    <string name="sharing_remote_bugreport_dialog_message" msgid="6100694073219249413">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‎‏‎‏‎‏‎‏‎‎‎‎‎‎‏‎‎‏‏‏‎‏‏‏‏‏‏‎‎‏‏‎‏‏‎‎‏‎‎‎‎‎‏‏‏‎‏‎‏‎‎‎‎‎‏‎‏‎This bug report is being shared with your IT admin. Contact them for more details.‎‏‎‎‏‎"</string>
+    <string name="share_remote_bugreport_dialog_title" msgid="4136999307120378377">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‎‏‏‎‏‎‎‏‏‎‎‏‎‎‏‎‏‏‏‏‎‎‏‏‎‏‏‏‏‎‎‎‏‏‏‏‎‎‏‎‏‎‎‎‎‎‏‎‎‎‎‎‏‎‎‏‎Share bug report?‎‏‎‎‏‎"</string>
+    <string name="share_remote_bugreport_dialog_message_finished" msgid="2443699486355972227">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‏‏‏‏‎‏‎‎‏‏‏‎‎‎‎‏‏‏‎‏‏‏‏‎‎‎‏‎‎‏‏‏‎‎‎‎‎‏‏‎‏‎‏‏‎‎‎‎‎‏‎‎‎‎‎‏‏‎Your IT admin requested a bug report to help troubleshoot this device. Apps and data may be shared.‎‏‎‎‏‎"</string>
+    <string name="share_remote_bugreport_dialog_message" msgid="2411146597711336886">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‎‎‎‏‎‏‏‏‎‏‏‎‎‎‎‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‎‎‏‎‎‏‏‏‏‏‏‎‎‏‏‏‎‏‎‏‎‏‏‎‏‏‎‏‏‎‎Your IT admin requested a bug report to help troubleshoot this device. Apps and data may be shared, and your device may temporarily slow down.‎‏‎‎‏‎"</string>
+    <string name="decline_remote_bugreport_action" msgid="1656841072157939116">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‏‏‎‏‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‎‎‎‎‎‏‎‏‏‎‏‎‏‎‎‎‎‏‏‎‏‎‎‎‎‎‎‎‏‎‏‎‏‎‏‏‎‏‎‏‏‎‎‎Decline‎‏‎‎‏‎"</string>
+    <string name="share_remote_bugreport_action" msgid="5986194940195347877">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‎‏‏‎‎‎‏‎‎‏‏‎‎‏‏‏‏‎‎‏‎‎‏‎‏‎‎‏‏‏‏‎‏‏‎‏‎‎‏‎‏‎‏‏‎‎‏‏‏‎‏‏‎‏‎‎‏‎‏‎Share‎‏‎‎‏‎"</string>
+    <string name="storage_sort_data" msgid="3695575745392144766">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‎‏‎‎‏‎‏‎‏‎‎‏‎‏‎‎‎‏‏‏‏‎‏‏‏‏‎‎‎‏‎‏‎‎‏‎‏‏‏‏‏‎‎‎‏‎‏‏‏‏‏‏‎‎Data size‎‏‎‎‏‎"</string>
+    <string name="storage_sort_app" msgid="3251752430571365103">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‎‎‎‎‎‏‎‎‎‏‎‏‏‏‎‎‏‏‎‏‏‎‏‏‎‏‎‎‏‏‎‏‏‏‎‎‎‎‎‏‎‎‎‏‎‏‏‏‎‏‏‏‏‎App size‎‏‎‎‏‎"</string>
+    <string name="unsupported_operation" msgid="6181531042841274481">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‎‏‎‏‎‏‏‏‎‎‏‎‎‏‎‎‏‏‎‏‎‏‏‎‏‏‏‎‏‏‎‏‏‏‏‎‎‎‏‎‎‏‏‎‏‎‏‎‏‎‏‎‎‎‎‏‏‏‎‎‎‏‎Operation not supported‎‏‎‎‏‎"</string>
+    <string name="set_date_instruction" msgid="8590422303848718854">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‏‎‏‏‏‎‎‏‏‎‏‏‏‎‏‎‎‏‏‏‏‏‎‎‏‎‎‏‎‎‏‎‎‎‎‏‏‎‏‏‏‏‏‏‎‏‏‏‎‎‎‏‎‎‎‎‎‎‏‏‎‎Scroll to set date‎‏‎‎‏‎"</string>
+    <string name="set_time_instruction" msgid="681317036333560381">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‏‏‏‎‏‎‎‏‎‎‎‎‏‏‎‎‎‏‏‏‏‎‎‎‎‎‏‏‎‏‎‎‎‎‏‎‏‎‏‎‏‏‏‎‎‏‎‎‎‏‏‏‏‎‏‎Scroll to set time‎‏‎‎‏‎"</string>
+    <string name="set_screen_lock_message" msgid="4046088959289588891">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‏‎‎‎‏‏‏‏‎‏‎‏‏‏‏‏‎‏‏‏‎‎‎‎‎‏‎‎‏‏‎‏‎‎‏‏‎‎‎‎‏‏‏‏‎‎‎‏‎‏‎‏‏‎‎‎‎‎‏‎‏‎‏‏‏‏‏‏‏‎‎‏‎‎‏‏‎‏‏‎Setting screen lock‎‏‎‎‏‎"</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_header_base_height"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="@dimen/settings_header_top_margin"
+        android:textSize="@dimen/setting_short_header_text_size"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="#9E9E9E"
+        android:fontFamily="sans-serif-condensed-light"
+        />
+
+    <android.support.wearable.view.WearableListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/wheel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/setting_empty_text_size"
+        android:maxLines="2"
+        android:paddingTop="@dimen/setting_empty_text_padding_top"
+        android:ellipsize="end"
+        android:textColor="@color/bright_text_color"
+        android:fontFamily="sans-serif-condensed-light"
+        android:visibility="gone"
+        />
+</merge>

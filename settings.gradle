@@ -1,1 +1,2 @@
-include ':qcommWF', ':markline', ':decompositionwf',":lpa", ':mydogwf'
+include ':qcommWF', ':markline', ':decompositionwf',  ':rrr', ':mydogwf' ,'ModernDecompWatchfaces'
+//':lpa2',

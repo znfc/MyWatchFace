@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background= "@color/pin_pad_background" >
+    <FrameLayout android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            >
+        <TextView android:id="@+id/pin_edit"
+                android:layout_width="match_parent"
+                android:inputType="numberPassword"
+                style="@style/SimPinText.PinEdit"
+                />
+        <TextView android:id="@+id/error_label"
+                android:layout_width="match_parent"
+                style="@style/SimPinText.ErrorLabel"
+                />
+    </FrameLayout>
+    <com.google.android.clockwork.settings.cellular.views.PinPadView
+            android:id="@+id/pin_pad_view"
+            android:layout_below="@id/frame"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF0000</color>
+    <color name="cw_blue">#0288D1</color>
+    <color name="cw_dark_gray">#424242</color>
+    <color name="cw_highlight_gray">#BDBDBD</color>
+    <color name="cw_light_bkgnd">#FFF</color>
+
+    <color name="primary_text_light">#424242</color>
+    <color name="primary_text_dark">#FFFFFF</color>
+    <color name="disabled_text_dark">#757575</color>
+    <color name="brightness_gray">#4D000000</color>
+
+    <color name="background_color_default">@color/cw_dark_gray</color>
+    <color name="foreground_color_default">#FFFFFF</color>
+    <color name="adjust_brightness_foreground">@color/cw_dark_gray</color>
+
+    <color name="toast_background">#000000</color>
+    <color name="divider_color">#4F5758</color>
+
+    <!-- CircleFramedDrawable -->
+    <color name="circle_avatar_frame_color">#ffffffff</color>
+    <color name="circle_avatar_frame_shadow_color">#8A000000</color>
+    <color name="circle_avatar_frame_pressed_color">#ffffffff</color>
+
+    <!-- Light color scheme of Bluetooth pairing dialog. -->
+    <color name="bluetooth_pair_with_text_light_scheme">#C0000000</color>
+    <color name="bluetooth_pairing_instruction_text_light_scheme">#66000000</color>
+    <color name="bluetooth_pairing_code_text_light_scheme">#000000</color>
+
+    <!-- Dark color scheme of Bluetooth pairing dialog. -->
+    <color name="bluetooth_pair_with_text_dark_scheme">#C0FFFFFF</color>
+    <color name="bluetooth_pairing_instruction_text_dark_scheme">#66FFFFFF</color>
+    <color name="bluetooth_pairing_code_text_dark_scheme">#FFFFFF</color>
+
+    <!-- Radio control -->
+    <color name="radio_list_background_color">#434343</color>
+    <color name="radio_item_header_color">@color/normal_text_color</color>
+
+    <color name="radio_item_focused_text_color">@color/primary_text_dark</color>
+    <color name="radio_item_unfocused_text_color">#757575</color>
+
+    <color name="radio_circle_focused_color">#FFFFFF</color>
+    <color name="radio_circle_unfocused_color">#757575</color>
+
+    <!-- System volume UI. -->
+    <color name="volume_bar_color">#2878FF</color>
+
+    <!-- Screen lock -->
+    <color name="screen_lock_instruction_color">#FFFFFF</color>
+    <color name="screen_lock_dialog_next_button_color">#5E97F6</color>
+
+    <color name="pin_pad_button_regular">#FFFFFF</color>
+    <color name="pin_pad_button_special">#737373</color>
+    <color name="pin_pad_touch_tint">#330288d1</color>
+    <color name="pin_pad_background">#34454C</color>
+
+    <color name="bright_text_color">#9E9E9E</color>
+    <color name="normal_text_color">#757575</color>
+</resources>

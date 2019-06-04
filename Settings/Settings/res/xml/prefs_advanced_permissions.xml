@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.wearable.preference.AcceptDenySwitchPreference
+            android:key="pref_advancedPermissions_drawOverlay"
+            android:title="@string/pref_draw_over_other_apps_title"
+            app:dialogTitle="@string/draw_over_other_apps_dialog_title"
+            app:dialogMessage="@string/draw_over_other_apps_dialog_description"
+            android:persistent="false" />
+    <android.support.wearable.preference.AcceptDenySwitchPreference
+            android:key="pref_advancedPermissions_writeSettings"
+            android:title="@string/pref_write_settings_title"
+            app:dialogTitle="@string/write_settings_dialog_title"
+            app:dialogMessage="@string/write_settings_dialog_description"
+            android:persistent="false" />
+</PreferenceScreen>

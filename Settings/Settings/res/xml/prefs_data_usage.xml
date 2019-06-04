@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="@string/data_usage_activity_title"
+        android:orderingFromXml="true">
+      <android.support.wearable.preference.AcceptDenySwitchPreference
+            android:key="pref_dataUsageLimitEnable"
+            android:title="@string/toggle_data_limit_action"
+            app:dialogTitle="@string/data_usage_limit_dialog_title"
+            app:dialogMessage="@string/data_usage_limit_dialog_subtitle"
+            android:persistent="false" />
+      <com.google.android.clockwork.settings.cellular.DataLimitPreference
+            android:key="pref_dataUsageLimitValue"
+            android:title="@string/set_data_limit_action"
+            android:icon="@drawable/ic_cc_settings_morehorizontal"
+            android:dialogTitle="@string/data_limit_chooser_title"
+            android:negativeButtonText="@null"
+            android:persistent="false"
+            android:dependency="pref_dataUsageLimitEnable" />
+      <SwitchPreference
+            android:key="pref_dataConnectivityEnable"
+            android:title="@string/toggle_data_connectivity_action"
+            android:persistent="false"
+            />
+      <ListPreference
+            android:key="pref_dataUsageCycleDay"
+            android:title="@string/data_usage_activity_title"
+            android:icon="@drawable/ic_cc_settings_morehorizontal"
+            android:dialogTitle="@string/cycle_day_chooser_title"
+            android:negativeButtonText="@null"
+            android:persistent="false" />
+      <com.google.android.clockwork.settings.cellular.DataLimitPreference
+            android:key="pref_dataUsageWarningLevel"
+            android:title="@string/set_warning_level_action"
+            android:icon="@drawable/ic_cc_settings_morehorizontal"
+            android:dialogTitle="@string/data_limit_chooser_warning_level_title"
+            android:negativeButtonText="@null"
+            android:persistent="false" />
+      <Preference
+            android:key="pref_dataUsageAppUsage"
+            android:title="@string/show_app_usage_action"
+            android:icon="@drawable/ic_cc_settings_morehorizontal"
+            android:persistent="false" />
+</PreferenceScreen>

@@ -1,0 +1,2143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of the micro app [CHAR LIMIT=NONE] -->
+    <string name="app_name">Settings</string>
+
+    <!-- Generic text to indicate that a setting is enabled. Should be in all caps. [CHAR LIMIT=40] -->
+    <string name="generic_enabled">ON</string>
+    <!-- Generic text to indicate that a setting is disabled. Should be in all caps. [CHAR LIMIT=40] -->
+    <string name="generic_disabled">OFF</string>
+    <!-- Generic text to indicate that the setting is set to automatic. [CHAR LIMIT=40] -->
+    <string name="generic_automatic">Automatic</string>
+    <!-- Generic text to indicate help. [CHAR LIMIT=40] -->
+    <string name="generic_help">Help</string>
+    <!-- Generic text to indicate OK. [CHAR LIMIT=10] -->
+    <string name="generic_ok">OK</string>
+    <!-- Generic text to indicate Cancel. [CHAR LIMIT=10] -->
+    <string name="generic_cancel">Cancel</string>
+    <!-- Generic text to indicate that a setting is set to the phone [CHAR LIMIT=15]-->
+    <string name="generic_phone">PHONE</string>
+    <!-- Generic text to indicate that a setting is set to the network [CHAR LIMIT=15]-->
+    <string name="generic_network">NETWORK</string>
+    <!-- [CHAR LIMIT=25] Manage applications, individual application info screen, button label under Storage heading. Button to disable an existing application. -->
+    <string name="disable_text">Disable</string>
+    <!-- [CHAR LIMIT=25] Manage applications, individual application info screen, button label under Storage heading. Button to re-enable an existing application. -->
+    <string name="enable_text">Enable</string>
+
+    <!-- Suggested settings list labels -->
+    <skip />
+    <!-- [CHAR_LIMIT=40] Battery saver: Label for feature, title + menu item -->
+    <string name="suggested_settings_battery_saver">Battery saver</string>
+    <!-- Label to turn on Battery saver suggested settings [CHAR LIMIT=30] -->
+    <string name="suggested_settings_summary">Suggested</string>
+
+    <!-- Main settings list labels -->
+    <skip />
+    <!-- Label to open General settings UI [CHAR LIMIT=30] -->
+    <string name="main_general">General</string>
+    <!-- Label to open Display settings on main settings list [CHAR LIMIT=30] -->
+    <string name="main_display">Display</string>
+    <!-- Sound settings screen heading -->
+    <string name="main_sound">Sound</string>
+    <!-- Title for setting tile leading to Apps & Notification settings [CHAR LIMIT=40]-->
+    <string name="main_apps">Apps &amp; notifications</string>
+    <!-- Label to open Gestures settings on main settings list [CHAR LIMIT=30] -->
+    <string name="main_gestures">Gestures</string>
+    <!-- Label to open Connectivity settings on main settings list [CHAR LIMIT=30] -->
+    <string name="main_connectivity">Connectivity</string>
+    <!-- Label to open Accessibility settings on main settings list [CHAR LIMIT=30] -->
+    <string name="main_accessibility">Accessibility</string>
+    <!-- Label to open Personal settings on main settings list [CHAR LIMIT=30] -->
+    <string name="main_personal">Personalization</string>
+    <!-- Label to open System settings on main settings list [CHAR LIMIT=30] -->
+    <string name="main_system">System</string>
+    <!-- Label for security settings menu. DO NOT TRANSLATE -->
+    <string name="main_security">Security</string>
+    <!-- Label for enterprise privacy settings menu. [CHAR LIMIT=NONE] -->
+    <string name="main_enterprise_privacy">Managed device info</string>
+
+    <!-- Display settings labels -->
+    <skip />
+    <!-- Label to open Change watch face settings [CHAR LIMIT=40] -->
+    <string name="pref_watchface">@string/change_watch_face</string>
+    <!-- Label to open Adjust brightness dialog [CHAR LIMIT=40] -->
+    <string name="pref_brightness">Adjust brightness</string>
+    <!-- Label for adaptive brightness setting, adjusts automatically to ambient light levels [CHAR LIMIT=40] -->
+    <string name="adaptive_brightness">Automatic</string>
+    <!-- Label to open Font size dialog [CHAR LIMIT=40] -->
+    <string name="pref_fontSize">Font size</string>
+    <!-- Preference which enables/disables 180 screen rotation [CHAR LIMIT=25] -->
+    <string name="pref_screenOrientation">Screen Orientation</string>
+    <!-- Entry for normal screen orientation (watch on the left wrist) [CHAR LIMIT=25]-->
+    <string name="pref_screenOrientation_labelLeftWrist">Left wrist</string>
+    <!-- Entry for 180-flipped screen orientation (watch on the right wrist) [CHAR LIMIT=25]-->
+    <string name="pref_screenOrientation_labelRightWrist">Right wrist</string>
+    <!-- Label to toggle always-on screen behaviour [CHAR LIMIT=40] -->
+    <string name="pref_alwaysOnScreen">Always-on screen</string>
+    <!-- Label to toggle always-on screen behaviour [CHAR LIMIT=40] -->
+    <string name="pref_wetMode">Touch lock</string>
+    <!-- Label to toggle touch to wake behaviour [CHAR LIMIT=40] -->
+    <string name="pref_touchToWakeAlt">Touch-to-wake</string>
+    <!-- Title string displayed in settings confirmation dialog to enable ambient screen. [CHAR_LIMIT=50] -->
+    <string name="enable_ambient_screen">Always-on screen reduces battery life.</string>
+    <!-- Subtitle string displayed in settings confirmation dialog to enable ambient screen. [CHAR_LIMIT=16] -->
+    <string name="enable_ambient_screen_subtitle">Turn on?</string>
+    <!-- Font size settings labels -->
+    <skip />
+    <!-- Values array for text sizes -->
+    <string-array name="text_size_labels">
+        <!-- Entry for small text size [CHAR LIMIT=25]-->
+        <item>Small</item>
+        <!-- Entry for normal text size [CHAR LIMIT=25]-->
+        <item>Normal</item>
+        <!-- Entry for large text size [CHAR LIMIT=25]-->
+        <item>Large</item>
+    </string-array>
+    <!-- Values for text size entries: this must stay in sync with text_size_labels-->
+    <!-- Should stay in sync with default_text_size in Setup/res/values/config.xml, -->
+    <!-- and any device/.../Setup overlays. -->
+    <!-- NOTE: there are different values in values-w210dp-round and values-w180dp-notround -->
+    <string-array name="text_size_entries" translatable="false">
+        <item>0.875</item>
+        <item>1.0</item>
+        <item>1.125</item>
+    </string-array>
+
+
+    <!-- Sound and Notifications settings labels -->
+    <skip />
+    <!-- Label to open Volume dialog to change volume levels [CHAR LIMIT=40] -->
+    <string name="pref_volume">Volume</string>
+    <!-- Label to open Vibration pattern dialog [CHAR LIMIT=40] -->
+    <string name="pref_vibrationLevel">Vibration pattern</string>
+    <!-- Label to open Notification preview dialog [CHAR LIMIT=40] -->
+    <string name="pref_cardPreviews">Notification previews</string>
+    <!-- Label to open Do not disturb options dialog[CHAR LIMIT=40] -->
+    <string name="pref_dndOptions">Override Do Not Disturb for\u2026</string>
+    <!-- Label for toggling the vibrate for calls functionality [CHAR LIMIT=40] -->
+    <string name="pref_muteWhenOffBody">Do not disturb when off wrist</string>
+    <!-- Label to open App notifications dialog [CHAR LIMIT=40] -->
+    <string name="pref_appNotifications">App notifications</string>
+    <!-- Label to block all app notifications [CHAR LIMIT=40] -->
+    <string name="pref_appNotifications_blockAll">Block all</string>
+    <!-- Label to not block app notifications at all [CHAR LIMIT=40] -->
+    <string name="pref_appNotifications_none">Don\'t silence or block</string>
+    <!-- Label to not block app notifications at all [CHAR LIMIT=40] -->
+    <string name="pref_appNotifications_silently">Show notifications silently</string>
+    <!-- Label to open Media volume dialog [CHAR LIMIT=40] -->
+    <string name="pref_mediaVolume">Media volume</string>
+    <!-- Label to open Accessibility volume dialog [CHAR LIMIT=40] -->
+    <string name="pref_accessibilityVolume">Accessibility volume</string>
+    <!-- Label to open Alarm volume dialog [CHAR LIMIT=40] -->
+    <string name="pref_alarmVolume">Alarm volume</string>
+    <!-- Label to open Ring volume dialog [CHAR LIMIT=40] -->
+    <string name="pref_ringVolume">Ring volume</string>
+    <!-- Label for toggling the vibrate for calls functionality [CHAR LIMIT=40] -->
+    <string name="pref_vibrateForCalls">Also vibrate for calls</string>
+    <!-- Label to open Watch ringtone dialog [CHAR LIMIT=40] -->
+    <string name="pref_watchRingtone">Watch ringtone</string>
+    <!-- Warning to indicate user ringtone won't play as volume is set to 0 [CHAR LIMIT=120] -->
+    <string name="ringtone_no_volume_warning">Increase ring volume to hear ringtone</string>
+    <!-- Label to open emergencyNotifications dialog [CHAR LIMIT=40] -->
+    <string name="pref_emergencyNotifications">Wireless emergency alerts</string>
+    <!-- Label to toggle whether phone should be silenced while the watch is worn [CHAR LIMIT=40] -->
+    <string name="pref_silenceWhileWearingWatch">Silence phone while wearing watch</string>
+
+    <!-- Vibration pattern settings labels -->
+    <!-- Label for a normal vibration pattern.  This is the default behavior. [CHAR LIMIT=20] -->
+    <string name="pref_vibrationLevel_labelNormal">Normal</string>
+    <!-- Label for a longer vibration pattern. [CHAR LIMIT=20] -->
+    <string name="pref_vibrationLevel_labelLong">Long</string>
+    <!-- Label for the longest vibration pattern, usually two vibrations one after another. [CHAR LIMIT=20] -->
+    <string name="pref_vibrationLevel_labelDouble">Double</string>
+
+    <!-- Label for settings involving favorite/starred contacts. [CHAR LIMIT=30] -->
+    <string name="pref_vip_contacts">Favorite contacts</string>
+
+    <!-- preview mode settings labels -->
+    <!-- Label for a preview mode that prevents cards from previewing [CHAR LIMIT=20] -->
+    <string name="pref_previewMode_labelOff">Off</string>
+    <!-- Label for a preview mode previews cards for 5 seconds.  This is the default behavior. [CHAR LIMIT=20] -->
+    <string name="pref_previewMode_labelNormal">Normal</string>
+    <!-- Label for a preview mode that previews cards forever, so that the user can always read them on the watchface. [CHAR LIMIT=20] -->
+    <string name="pref_previewMode_labelHigh">High</string>
+    <!-- Description for a preview mode that prevents cards from previewing [CHAR LIMIT=35] -->
+    <string name="pref_previewMode_descOff">Never show</string>
+    <!-- Description for a preview mode that previews cards briefly for a few seconds. This is the default behavior. [CHAR LIMIT=35] -->
+    <string name="pref_previewMode_descNormal">Briefly show</string>
+    <!-- Description for a preview mode that previews cards forever, so that the user can always read them on the watchface. [CHAR LIMIT=35] -->
+    <string name="pref_previewMode_descHigh">Always show</string>
+
+    <!-- Do not disturb options labels -->
+    <skip />
+    <!-- Label for toggling enabling repeat callers to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_repeatCallers">Repeat callers</string>
+    <!-- Label for toggling enabling repeat calls from favorite contacts to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_repeatCallers_favorites">Repeat calls from favorites</string>
+    <!-- Label for toggling enabling calls from contacts to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_calls">Calls from contacts</string>
+    <!-- Label for toggling enabling calls from favorite contacts to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_calls_favorites">Calls from favorites</string>
+    <!-- Label for toggling enabling message notifications from contacts to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_messages">Messages from contacts</string>
+    <!-- Label for toggling enabling message notifications from favorite contacts to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_messages_favorites">Messages from favorites</string>
+    <!-- Label for toggling enabling reminder notifications to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_reminders">Reminders</string>
+    <!-- Label for toggling enabling event notifications to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_events">Events</string>
+    <!-- Label for toggling enabling alarms to go through Do Not Disturb [CHAR_LIMIT=30] -->
+    <string name="pref_dndOptions_alarms">Alarms</string>
+
+
+    <!-- Gestures settings labels -->
+    <skip />
+    <!-- Label to toggle tilt-to-wake behaviour. [CHAR_LIMIT=40] -->
+    <string name="pref_tiltToWake">Tilt-to-wake</string>
+    <!-- Label to toggle wrist gestures behaviour. [CHAR_LIMIT=40] -->
+    <string name="pref_wristGestures">Wrist gestures</string>
+    <!-- Setting title that launches wrist gesture tutorial. [CHAR_LIMIT=40] -->
+    <string name="pref_launchTutorial">Launch tutorial</string>
+    <!-- Entry in watch Settings menu allowing user to open a webpage with more
+         information. [CHAR_LIMIT=40] -->
+    <string name="pref_moreTips">More tips on phone</string>
+
+
+    <!-- Connectivity settings labels -->
+    <skip />
+    <!-- The title of the activity for managing bluetooth [CHAR LIMIT=40] -->
+    <string name="pref_bluetooth">Bluetooth</string>
+    <!-- The title of the setting for managing Wi-Fi [CHAR LIMIT=40] -->
+    <string name="pref_wifi">Wi-Fi</string>
+    <!-- The title of the setting for managing old Wi-Fi settings DO NOT TRANSLATE -->
+    <string name="pref_wifi_old">Wi-Fi (deprecated)</string>
+    <!-- Setting title that leads to the mobile settings view. [CHAR_LIMIT=40] -->
+    <string name="pref_cellular">Mobile</string>
+    <!-- Title of the toggle to switch Airplane mode state [CHAR LIMIT=40] -->
+    <string name="pref_airplaneMode">Airplane mode</string>
+    <!-- Setting title that leads to NFC settings [CHAR LIMIT=40] -->
+    <string name="pref_nfc">NFC</string>
+    <!-- Setting title that leads to location settings [CHAR LIMIT=40] -->
+    <string name="pref_location">Location</string>
+    <!-- Bluetooth settings labels -->
+    <skip />
+    <!-- The title of the switch to toggle Bluetooth radio state [CHAR_LIMIT=40] -->
+    <string name="pref_bluetoothEnabled">Bluetooth</string>
+    <!-- Message informing that device is connected to the paired phone [CHAR_LIMIT=40] -->
+    <string name="pref_bluetoothConnectedFrom">Connected from <xliff:g id="name">%s</xliff:g></string>
+    <!-- Message informing that device is disconnected to the paired phone [CHAR_LIMIT=40] -->
+    <string name="pref_bluetoothDisconnectedFrom">Disconnected from <xliff:g id="name">%s</xliff:g></string>
+    <!-- Message that the Bluetooth is connecting to the paired phone [CHAR LIMIT=40] -->
+    <string name="pref_bluetoothConnecting">Connecting to\u2026</string>
+    <!-- Message on toast that Bluetooth is on [CHAR_LIMIT=40] -->
+    <string name="pref_bluetoothOn">Bluetooth on</string>
+    <!-- Setting for using the watch as HFP speaker for phone [CHAR LIMIT=100] -->
+    <string name="pref_bluetoothHfp">Play phone voice call on watch</string>
+    <!-- The title of the category for paired bluetooth devices. [CHAR_LIMIT=40] -->
+    <string name="pref_bluetoothPaired">Paired devices</string>
+    <!-- The title of the category for unpaired bluetooth devices available to pair with. [CHAR_LIMIT=40] -->
+    <string name="pref_bluetoothAvailable">Available devices</string>
+    <!-- Title of the list item to be clicked on when the user wants to trigger a new bluetooth device discovery process. [CHAR_LIMIT=60] -->
+    <string name="pref_bluetoothScan">Scan for nearby devices</string>
+    <!-- Message to be shown during the bluetooth device discovery process. [CHAR_LIMIT=60] -->
+    <string name="pref_bluetoothScan_scanning">Scanning for nearby devices\u2026</string>
+    <!-- Action to connect to a paired Bluetooth device. [CHAR_LIMIT=60] -->
+    <string name="pref_bluetooth_connect">Connect</string>
+    <!-- Action to disconnect from a connected paired Bluetooth device. [CHAR_LIMIT=60] -->
+    <string name="pref_bluetooth_disconnect">Disconnect</string>
+    <!-- Message which is shown on entering the bluetooth settings when bluetooth is enabling. [CHAR_LIMIT=100] -->
+    <string name="pref_bluetooth_turningOn">Bluetooth turning on\u2026</string>
+    <!-- Message which is shown on entering the bluetooth settings when bluetooth is disabling. [CHAR_LIMIT=100] -->
+    <string name="pref_bluetooth_turningOff">Bluetooth turning off\u2026</string>
+    <!-- The connection status of an unpaired remote bluetooth device. It means the device is available for pairing. [CHAR_LIMIT=40] -->
+    <string name="pref_bluetooth_available">Available</string>
+    <!-- The profile availability of the remote device. It means no shared profiles between the two devices. [CHAR_LIMIT=40] -->
+    <string name="pref_bluetooth_unavailable">Unavailable</string>
+    <!-- The ability to forget a shared bluetooth device. [CHAR_LIMIT=40] -->
+    <string name="pref_bluetooth_forget">Forget</string>
+
+    <!-- This overrides the SettingsLib definition of this string. -->
+    <!-- Bluetooth settings.  Message when a device is disconnected -->
+    <string name="bluetooth_disconnected">Disconnected</string>
+    <!-- Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected">Connected</string>
+
+    <!-- Mobile labels/descriptions -->
+    <skip />
+    <!-- The action text to toggle Mobile radio [CHAR_LIMIT=20] -->
+    <string name="pref_cellularToggle">Mobile</string>
+    <!--  Title of the error dialog to to inform user that mobile should not be turned on in airplane mode. [CHAR LIMIT=20]-->
+    <string name="pref_cellularToggle_noCellAirplane_dialogTitle">Mobile</string>
+    <!--  Subtitle of the error dialog to to inform user that mobile should not be turned on in airplane mode. [CHAR LIMIT=NONE]-->
+    <string name="pref_cellularToggle_noCellAirplane_dialogMessage">Mobile cannot be turned on in airplane mode</string>
+    <!-- The action text to open data usage page [CHAR_LIMIT=20] -->
+    <string name="pref_dataUsage">Data usage</string>
+    <!-- The settings action text to resume using data after reaching the data limit [CHAR_LIMIT=18] -->
+    <string name="pref_resumeData">Resume data</string>
+    <!-- The dialog title to resume using data after reaching the data limit [CHAR_LIMIT=18] -->
+    <string name="pref_resumeData_dialogTitle">Resume data?</string>
+    <!-- The dialog explaination text to resume using data after reaching the data limit [CHAR_LIMIT=NONE] -->
+    <string name="pref_resumeData_dialogMessage">You\'ve reached your mobile data limit. Resuming may lead to charges from your carrier.</string>
+    <!-- The action text to toggle data romaing settings [CHAR_LIMIT=20] -->
+    <string name="pref_dataRoaming">Data roaming</string>
+    <!-- The action text to toggle international data roaming settings. This string mainly targets for zh-rCN, and should be
+         translated to "数据国际漫游". The CHAR_LIMIT only applies to zh-rCN. For other languages, please ignore the CHAR_LIMIT.
+         [CHAR_LIMIT=20] -->
+    <string name="pref_internationalDataRoaming">International data roaming</string>
+    <!-- Title for the Data roaming dialog -->
+    <string name="pref_dataRoaming_dialogTitle">Attention</string>
+    <!-- Message for the Data roaming dialog -->
+    <string name="pref_dataRoaming_dialogMessage">Allow data usage when roaming? Significant charges may apply.</string>
+    <!-- The action text to unlock SIM [CHAR_LIMIT=30] -->
+    <string name="pref_unlockSim">Unlock SIM</string>
+    <!-- The action text to enable or disable SIM [CHAR_LIMIT=30] -->
+    <string name="pref_lockSimCard">Require SIM lock</string>
+    <!-- The action text to enable or disable SIM [CHAR_LIMIT=30] -->
+    <string name="pref_changeSimPin">Change SIM PIN</string>
+    <!-- The action text to open the SIM status page [CHAR_LIMIT=20] -->
+    <string name="pref_simStatus">SIM status</string>
+    <!-- The action text to open the call forwarding page [CHAR_LIMIT=32] -->
+    <string name="pref_callForwarding">Call forwarding from phone</string>
+        <!-- Title for the settings call forwarding settings activity [CHAR LIMIT=30] -->
+    <string name="pref_callForwarding_infoTitle">Set up call forwarding</string>
+    <!-- Message shown for call forwarding settings info activity [CHAR LIMIT=NONE] -->
+    <string name="pref_callForwarding_infoMessage">To learn how to forward calls from your phone to your watch, open this help page.</string>
+    <!-- The action text to turn on call forwarding [CHAR_LIMIT=30] -->
+    <string name="pref_callForwarding_turnOn">Turn on call forwarding</string>
+    <!-- The action text to turn off call forwarding [CHAR_LIMIT=30] -->
+    <string name="pref_callForwarding_turnOff">Turn off call forwarding</string>
+    <!-- The last time the call forward turn on action was requested [CHAR_LIMIT=50] -->
+    <string name="pref_callForwarding_turnOn_requested">Turn on requested <xliff:g id="date">%s</xliff:g></string>
+    <!-- The last time the call forward turn off action was requested [CHAR_LIMIT=50] -->
+    <string name="pref_callForwarding_turnOff_requested">Turn off requested <xliff:g id="date">%s</xliff:g></string>
+    <!-- The action text to open the default SMS app page [CHAR_LIMIT=30] -->
+    <string name="pref_defaultSms">Default SMS app</string>
+    <!-- The title of the activity to change the phone number [CHAR_LIMIT=40] -->
+    <string name="pref_phoneNumber">Displayed phone number</string>
+    <!-- The title of the activity to change the voicemail number [CHAR_LIMIT=40] -->
+    <string name="pref_voicemailNumber">Voicemail number</string>
+    <!-- The action text to open advanced settings page [CHAR_LIMIT=20] -->
+    <string name="pref_advancedSettings">Advanced</string>
+    <!-- NFC labels/descriptions -->
+    <skip />
+    <!-- Label for Tap and pay settings [CHAR_LIMIT=20] -->
+    <string name="pref_tapAndPay">Tap &amp; pay</string>
+    <!-- Label for the default app for Tap and pay [CHAR_LIMIT=20] -->
+    <string name="pref_tapAndPayDefault">Tap &amp; pay default app</string>
+    <!-- Location labels/descriptions -->
+    <skip />
+    <!-- [CHAR LIMIT=30] Summary displayed under location switch to indicate that the device location is obtained from both watch and paired phone. -->
+    <string name="pref_location_summary_hasGps">From phone &amp; watch</string>
+    <!-- [CHAR LIMIT=30] Summary displayed under location switch to indicate that the device location is obtained from paired phone. -->
+    <string name="pref_location_summary_noGps">From phone</string>
+
+
+    <!-- Personal settings labels -->
+    <skip />
+    <!-- Action which launches the input settings activity [CHAR LIMIT=25] -->
+    <string name="pref_inputMethods">Input methods</string>
+    <!-- Preference which launches screen lock activity [CHAR LIMIT=25] -->
+    <string name="pref_screenLock">Screen lock</string>
+    <!-- Preference which enables/disables Smart Reply [CHAR LIMIT=25] -->
+    <string name="pref_smartReply">Smart Reply</string>
+    <!-- Preference which enables/disables Ok Google hotword detection [CHAR LIMIT=25] -->
+    <string name="pref_hotwordDetection">\"Ok Google\" detection</string>
+    <!-- Preference for Local Edition which enables/disables hotword detection -->
+    <string name="pref_hotwordDetectionLe" translatable="false">“嘿，小安”启动指令检测</string>
+    <!-- Preference which enables/disables an alternate launcher (if available) [CHAR LIMIT=25] -->
+    <string name="pref_alternateLauncher">Enable alternate launcher</string>
+    <!-- Preference for choosing default Voice Assistant [CHAR LIMIT=25] -->
+    <string name="pref_voiceAssistant">Voice assistant</string>
+    <!-- Preference which locks screen immediately [CHAR LIMIT=25] -->
+    <string name="pref_lockScreenNow">Lock screen now</string>
+    <!-- Preference for accounts [CHAR LIMIT=25] -->
+    <string name="pref_accounts">Accounts</string>
+    <!-- Preference for storage [CHAR LIMIT=25] -->
+    <string name="pref_storage">Storage</string>
+    <!-- Preference for smart lock for passwords (YOLO) [CHAR LIMIT=28] -->
+    <string name="pref_yolo">Smart Lock for Passwords</string>
+    <!-- Preference for adding an account [CHAR LIMIT=25] -->
+    <string name="pref_addAccount">Add Google Account</string>
+    <!-- Preference for removing an account [CHAR LIMIT=25] -->
+    <string name="pref_removeAccount">Remove account</string>
+    <!-- Preference for automatically launching a workout recording app when activity is detected. [CHAR LIMIT=25] -->
+    <string name="pref_exerciseDetection">Workout autostart</string>
+    <!-- Preference for biking exercise detection. [CHAR LIMIT=15] -->
+    <string name="pref_exerciseDetection_biking">Biking</string>
+    <!-- Preference for running exercise detection. [CHAR LIMIT=15] -->
+    <string name="pref_exerciseDetection_running">Running</string>
+    <!-- Preference for walking exercise detection. [CHAR LIMIT=15] -->
+    <string name="pref_exerciseDetection_walking">Walking</string>
+    <!-- Title shown when choosing an app to associate with a specific exercise. [CHAR LIMIT=25] -->
+    <string name="exerciseDetection_defaultAppTitle">Default <xliff:g id="exercise" example="walking">%1$s</xliff:g> app</string>
+    <!-- Label for a given exercise type. [CHAR LIMIT=25] -->
+    <string name="exerciseDetection_exerciseLabel"><xliff:g id="exercise" example="walking">%1$s</xliff:g> app</string>
+    <!-- Label for a given experimental exercise type. [CHAR LIMIT=35] -->
+    <string name="exerciseDetection_exerciseLabel_experimental"><xliff:g id="exercise" example="walking">%1$s</xliff:g> app (experimental)</string>
+    <!-- String indicating no app should handle a particular exercise. [CHAR LIMIT=25] -->
+    <string name="exerciseDetection_none">None</string>
+    <!-- Preference for device administration apps. [CHAR LIMIT=25] -->
+    <string name="pref_deviceAdministration">Device administration</string>
+    <!-- Preference for all device administration apps. [CHAR LIMIT=25] -->
+    <string name="pref_deviceAdministrators">Device administrators</string>
+    <!-- Preference for Android Device Manager settings. [CHAR LIMIT=25] -->
+    <string name="pref_androidDeviceManagerSettings">Android Device Manager settings</string>
+    <!-- Preference title for inactive device administrators -->
+    <string name="inactive_device_admins">Inactive device administrators</string>
+    <!-- Label for screen showing the active device policy -->
+    <string name="active_device_admin_msg">Device administrator</string>
+    <!-- String for button which deactivates the device administrator -->
+    <string name="deactivate_admin">Deactivate</string>
+    <!-- Label for button to remove the active device admin [CHAR LIMIT=80] -->
+    <string name="remove_device_admin">Deactivate this device administrator</string>
+    <!-- String for button which activates the device administrator -->
+    <string name="activate_admin">Activate</string>
+    <!-- String for button which uninstalls the device administrator -->
+    <string name="uninstall_admin">Uninstall app</string>
+    <!-- Label for button to deactivate and uninstall the device admin [CHAR_LIMIT=50]-->
+    <string name="remove_and_uninstall_device_admin">Deactivate and Uninstall</string>
+    <!-- String for button which uninstalls the device administrator -->
+    <string name="uninstall_this_admin">Uninstall this app</string>
+    <!-- String to describe an inactive device administrator and its permissions-->
+    <string name="inactive_device_admin">Activating this administrator will allow the app <xliff:g id="admin_name" example="Sample Admin">%1$s</xliff:g> to perform the following operations:</string>
+    <!-- String to describe an active device administrator and its permissions -->
+    <string name="active_device_admin">This administrator is active and allows the app <xliff:g id="admin_name" example="Sample Admin">%1$s</xliff:g> to perform the following operations: </string>
+    <!-- String to inform users that their managed Google accounts will be removed -->
+    <string name="managed_accounts_removed_warning">All your Managed Google Accounts will be removed.</string>
+    <!-- Title for dialog to confirm deactivation of the device administrator -->
+    <string name="deactivate_admin_question">Deactivate?</string>
+
+    <!-- Enterprise Privacy --> <skip />
+
+    <!-- Enterprise Privacy settings activity header, summarizing the powers that the admin has. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_header">To provide access to your work data, your organization may change settings and install software on your device.\n\nFor more details, contact your organization\'s admin.</string>
+    <!-- Title for the 'Types of information your organization can see' preference category. [CHAR LIMIT=60] -->
+    <string name="enterprise_privacy_exposure_category">Types of information your organization can see</string>
+    <!-- Label explaining that the admin can see data associated with his/her work account. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_enterprise_data">Data associated with your work account, such as email and calendar</string>
+    <!-- Label explaining that the admin can see apps installed on the device. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_installed_packages">List of apps on your device</string>
+    <!-- Label explaining that the admin can see app usage statistics. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_usage_stats">Amount of time and data spent in each app</string>
+    <!-- Label explaining that the admin can retrieve network logs on the device. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_network_logs">Most recent network traffic log</string>
+    <!-- Label explaining that the admin can request bug reports on the device. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_bug_reports">Most recent bug report</string>
+    <!-- Label explaining that the admin can retrieve security on from the device. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_security_logs">Most recent security log</string>
+    <!-- Title for the 'Changes made by your organization’s admin' preference category. [CHAR LIMIT=60] -->
+    <string name="enterprise_privacy_exposure_changes_category">Changes made by your organization\'s admin</string>
+    <!-- Label indicating that the admin installed one or more apps on the device. -->
+    <string name="enterprise_privacy_enterprise_installed_packages">Apps installed</string>
+    <!-- Label indicating that the admin granted one or more apps access to the device's location. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_location_access">Location permissions</string>
+    <!-- Label indicating that the admin granted one or more apps access to the microphone. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_microphone_access">Microphone permissions</string>
+    <!-- Label indicating that the admin granted one or more apps access to the camera. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_camera_access">Camera permissions</string>
+    <!-- Summary indicating the number of apps that a label (e.g. installed apps or apps granted a particular permission) refers to. The number shown is a minimum as there may be additional apps we do not know about. [CHAR LIMIT=NONE] -->
+    <plurals name="enterprise_privacy_number_packages_lower_bound">
+        <item quantity="one">Minimum <xliff:g id="count">%d</xliff:g> app</item>
+        <item quantity="other">Minimum <xliff:g id="count">%d</xliff:g> apps</item>
+    </plurals>
+    <!-- Label indicating that the admin set one or more apps as defaults for common actions (e.g. open calendar, send e-mail). [CHAR LIMIT=50] -->
+    <string name="enterprise_privacy_enterprise_set_default_apps">Default apps</string>
+    <!-- Summary indicating the number of apps that a label (e.g. installed apps or apps granted a particular permission) refers to. [CHAR LIMIT=45] -->
+    <plurals name="enterprise_privacy_number_packages">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> app</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> apps</item>
+    </plurals>
+    <!-- Label explaining that the the number of apps is an estimation. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_apps_count_estimation_info">Number of apps is estimated. It may not include apps installed outside of the Play Store.</string>
+    <!-- Label explaining that an always-on VPN was set by the admin for the entire device. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_always_on_vpn_device">Always-on VPN turned on</string>
+    <!-- Label explaining that an always-on VPN was set by the admin in the work profile. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_always_on_vpn_work">Always-on VPN turned on in your work profile</string>
+    <!-- Label explaining that an always-on VPN was set by the admin in the personal profile. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_always_on_vpn_personal">Always-on VPN turned on in your personal profile</string>
+    <!-- Label explaining that the current input method was set by the admin. [CHAR LIMIT=50] -->
+    <string name="enterprise_privacy_input_method">Default keyboard</string>
+    <!-- Summary indicating the input method set by the admin. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_input_method_name">Set to <xliff:g id="app_label" example="Example Keyboard">%s</xliff:g></string>
+    <!-- Label explaining that a global HTTP proxy was set by the admin. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_global_http_proxy">Global HTTP proxy set</string>
+    <!-- Label explaining that the admin installed trusted CA certificates for the entire device. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_ca_certs_device">Trusted credentials</string>
+    <!-- Label explaining that the admin installed trusted CA certificates in personal profile. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_ca_certs_personal">Trusted credentials in your personal profile</string>
+    <!-- Label explaining that the admin installed trusted CA certificates in work profile. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_ca_certs_work">Trusted credentials in your work profile</string>
+    <!-- Summary indicating the number of trusted CA certificates installed by the admin. The number shown is a minimum as there may be additional CA certificates we do not know about. [CHAR LIMIT=NONE] -->
+    <plurals name="enterprise_privacy_number_ca_certs">
+        <item quantity="one">Minimum <xliff:g id="count">%d</xliff:g> CA certificate</item>
+        <item quantity="other">Minimum <xliff:g id="count">%d</xliff:g> CA certificates</item>
+    </plurals>
+    <!-- Title for the 'Your access to this device' preference category. [CHAR LIMIT=60] -->
+    <string name="enterprise_privacy_device_access_category">Your access to this device</string>
+    <!-- Label explaining that the admin can lock the device and change the user's password. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_lock_device">Admin can lock the device and reset password</string>
+    <!-- Label explaining that the admin can wipe the device remotely. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_wipe_device">Admin can delete all device data</string>
+    <!-- Label explaining that the admin configured the device to wipe itself when the password is mistyped too many times. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_failed_password_wipe_device">Failed password attempts before deleting all device data</string>
+    <!-- Label explaining that the admin configured the work profile to wipe itself when the password is mistyped too many times. [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_failed_password_wipe_work">Failed password attempts before deleting work profile data</string>
+    <!-- Summary indicating the number of mistyped passwords after which the device or work profile wipes itself. [CHAR LIMIT=NONE] -->
+    <plurals name="enterprise_privacy_number_failed_password_wipe">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> attempt</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> attempts</item>
+    </plurals>
+    <!-- Label indicating that the the admin never took a given action so far (e.g. did not retrieve security logs or request bug reports). [CHAR LIMIT=NONE] -->
+    <string name="enterprise_privacy_none">None</string>
+    <!-- Message indicating that the device is enterprise-managed by a Device Owner [CHAR LIMIT=NONE] -->
+    <string name="do_disclosure_generic">This device is managed by your organization.</string>
+    <!-- Message indicating that the device is enterprise-managed by a Device Owner [CHAR LIMIT=NONE] -->
+    <string name="do_disclosure_with_name">This device is managed by <xliff:g id="organization_name" example="Foo, Inc.">%s</xliff:g>.</string>
+    <!-- Message indicating that the device is enterprise-managed: Space that separates the main text and the "learn more" link that follows it. [CHAR LIMIT=NONE] -->
+    <string name="do_disclosure_learn_more_separator">" "</string>
+    <!-- Message indicating that the device is enterprise-managed: Link to learn more about what a Device Owner app can do [CHAR LIMIT=NONE] -->
+    <string name="do_disclosure_learn_more">Learn more</string>
+
+    <!-- Strings for displaying which applications were set as default for specific actions. -->
+    <!-- Title for Default Browser settings. [CHAR LIMIT=45] -->
+    <string name="default_browser_title">Browser app</string>
+    <!-- Title for the app that has been set as default handler of calendar-related intents. [CHAR LIMIT=45] -->
+    <string name="default_calendar_app_title">Calendar app</string>
+    <!-- Title for the app that has been set as default handler of contacts-related intents. [CHAR LIMIT=45] -->
+    <string name="default_contacts_app_title">Contacts app</string>
+    <!-- Title for the apps that have been set as default handlers of call-related intents. [CHAR LIMIT=45] -->
+    <plurals name="default_phone_app_title">
+        <item quantity="one">Phone app</item>
+        <item quantity="other">Phone apps</item>
+    </plurals>
+    <!-- Title for the app that has been set as default handler of geo-related intents. [CHAR LIMIT=45] -->
+    <string name="default_map_app_title">Map app</string>
+    <!-- Title for the apps that have been set as default handlers of new email intents. [CHAR LIMIT=45] -->
+    <plurals name="default_email_app_title">
+        <item quantity="one">Email client app</item>
+        <item quantity="other">Email client apps</item>
+    </plurals>
+    <!-- Title for the apps that have been set as default handlers of camera-related intents. [CHAR LIMIT=45] -->
+    <plurals name="default_camera_app_title">
+        <item quantity="one">Camera app</item>
+        <item quantity="other">Camera apps</item>
+    </plurals>
+    <!-- Template for concatenating two app names. DO NOT TRANSLATE -->
+    <string name="app_names_concatenation_template_2"><xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g></string>
+    <!-- Template for concatenating three app names. DO NOT TRANSLATE -->
+    <string name="app_names_concatenation_template_3"><xliff:g id="first_app_name">%1$s</xliff:g>, <xliff:g id="second_app_name">%2$s</xliff:g>, <xliff:g id="third_app_name">%3$s</xliff:g></string>
+
+    <!-- Confirmation for removing a specific account. [CHAR LIMIT=60] -->
+    <string name="remove_acct_conf">Remove <xliff:g id="acct_name" example="abc@gmail.com">%1$s</xliff:g> account from watch?</string>
+    <!-- Message displayed when removing an account fails. [CHAR LIMIT=60] -->
+    <string name="remove_account_failed">Could not remove account from device.</string>
+    <!-- Preference for customizing hardware button functionality [CHAR LIMIT=32] -->
+    <plurals name="pref_buttons">
+        <item quantity="one">Customize hardware button</item>
+        <item quantity="other">Customize hardware buttons</item>
+    </plurals>
+    <!-- Title string describing a page where the user picks which app they would like a stem button to launch [CHAR LIMIT=32] -->
+    <string name="pref_buttons_launch_app">Launch app</string>
+    <!-- String describing the location of the button KEYCODE_STEM_1.  This can be overridden by OEM. [CHAR LIMIT=35] -->
+    <string name="button_location_description_stem_1" translatable="false"></string>
+    <!-- String describing the location of the button KEYCODE_STEM_2.  This can be overridden by OEM. [CHAR LIMIT=35] -->
+    <string name="button_location_description_stem_2" translatable="false"></string>
+    <!-- String describing the location of the button KEYCODE_STEM_3.  This can be overridden by OEM. [CHAR LIMIT=35] -->
+    <string name="button_location_description_stem_3" translatable="false"></string>
+
+    <!-- System settings labels -->
+    <skip />
+    <!-- Action which launches activity that allows user to adjust battery saver [CHAR LIMIT=25] -->
+    <string name="pref_batterySaverMode">Battery</string>
+    <!-- Setting title that leads to the information about the phone [CHAR_LIMIT=40] -->
+    <string name="pref_about">About</string>
+    <!-- Action which restarts the device [CHAR LIMIT=25] -->
+    <string name="pref_restart">Restart</string>
+    <!-- Action which launches a power off activity [CHAR LIMIT=25] -->
+    <string name="pref_powerOff">Power off</string>
+    <!-- Action which launches a factory reset activity [CHAR LIMIT=32] -->
+    <string name="pref_factoryReset">Disconnect &amp; reset</string>
+    <!-- Battery Saver settings -->
+    <!-- Action which turns on battery saver mode [CHAR LIMIT=25] -->
+    <string name="pref_batterySaver">Battery saver</string>
+    <!-- Action that enables/disables automatic battery saver [CHAR LIMIT=40] -->
+    <string name="pref_autoBatterySaver">Turn on battery saver at <xliff:g id="percentage">%s</xliff:g>%%</string>
+    <!-- Summary for battery saver toggles that aren't available when TalkBack is on [CHAR LIMIT=25] -->
+    <string name="pref_batterySaver_offForTalkback">Disabled for TalkBack</string>
+    <!-- Action which launches activity that allows user to adjust battery saver [CHAR LIMIT=25] -->
+    <string name="pref_batterySaverMode_summary"><xliff:g id="percentage">%d</xliff:g> %%</string>
+    <!-- Title for the battery saver mode activity [CHAR LIMIT=25] -->
+    <string name="pref_batterySaverMode_title">Battery\n<xliff:g id="percentage">%d</xliff:g>%%</string>
+    <!-- Title of dialog shown before battery saver mode starts [CHAR LIMIT=35] -->
+    <string name="pref_batterySaver_dialogTitle">Turn on Battery Saver?</string>
+    <!-- Message of dialog shown before the time only mode battery saver starts [CHAR LIMIT=350] -->
+    <string name="pref_batterySaver_dialogMessage">Save your battery &amp; only show the time. To exit, press the power button twice.</string>
+    <!-- Message of dialog shown before SCR-based traditional watch mode starts [CHAR LIMIT=350] -->
+    <string name="pref_batterySaverScr_dialogMessage">Only show the time. To exit, press &amp; hold the power button to restart your watch.</string>
+    <!-- Date & time settings -->
+    <skip />
+    <!-- Action which launches the time & date settings activity [CHAR LIMIT=20]-->
+    <string name="pref_dateTime">Date &amp; time</string>
+    <!-- Action which launches activity that allows user to turn automatic date and time on/off [CHAR LIMIT=40]-->
+    <string name="pref_autoDateTime">Automatic date &amp; time</string>
+    <!-- Action which launches activity that allows user to manually set date [CHAR LIMIT=15]-->
+    <string name="pref_manualDate">Set date</string>
+    <!-- Action which launches activity that allows user to manually set time [CHAR LIMIT=15]-->
+    <string name="pref_manualTime">Set time</string>
+    <!-- Action which launches activity that allows user to turn automatic time zone on/off [CHAR LIMIT=30]-->
+    <string name="pref_autoTimeZone">Automatic time zone</string>
+    <!-- Action which launches activity that allows user to manually set time zone [CHAR LIMIT=40]-->
+    <string name="pref_manualTimeZone">Set time zone</string>
+    <!-- Title for activity that allows user to manually set the time zone [CHAR LIMIT=20]-->
+    <string name="pref_manualTimeZone_dialogTitle">Select time zone</string>
+    <!-- Action which toggles 24-hour format on/off [CHAR LIMIT=30]-->
+    <string name="pref_hourFormat">Use 24-hour format</string>
+    <!-- Label for automatic time and automatic time zone settings activities to sync from phone [CHAR LIMIT=30] -->
+    <string name="sync_from_phone">Sync from phone</string>
+    <!-- Label for automatic time and automatic time zone settings activities to sync from network [CHAR LIMIT=40] -->
+    <string name="sync_from_network">Sync from network</string>
+    <!-- String used to rule out time zone display names matching GMT offset strings [CHAR LIMIT=10] -->
+    <string name="gmt">GMT</string>
+
+
+    <!-- Developer options labels -->
+    <skip />
+    <!-- Option to keep the display on while plugged in [CHAR LIMIT=35] -->
+    <string name="pref_stayOnWhilePluggedIn">Stay awake when charging</string>
+    <!-- Option to show chimera modules list for debugging [CHAR LIMIT=35] -->
+    <string name="pref_showChimeraModules">Show chimera modules</string>
+    <!-- Option to enable bluetooth snoop logging, which saves packet information into a file for debugging purposes [CHAR LIMIT=35] -->
+    <string name="pref_btSnoopLog">Bluetooth snoop logging</string>
+    <!-- Option to enable vibration when connecting / disconnecting from phone. [CHAR LIMIT=35] -->
+    <string name="pref_connectivityVibrate">Vibrate on connectivity change</string>
+    <!-- Label for OEM debug menu [CHAR LIMIT=40] -->
+    <string name="pref_oemDebug">Manufacturer</string>
+    <!-- Default value for the OEM debug menu which launches a debug app [CHAR LIMIT=40] -->
+    <string name="pref_oemDebug_summary">Debug</string>
+    <!-- Text of adb debugging option [CHAR_LIMIT=40]-->
+    <string name="pref_adbDebugging">ADB debugging</string>
+    <!-- Setting title that toggles smart illuminate mode. "Smart illuminate" attempts to only
+        wake up the screen for new notifications if it is likely the user can actually see the
+        screen.   [CHAR_LIMIT=40] -->
+    <string name="pref_smartIlluminate">Smart illuminate</string>
+    <!-- Option to debug over Bluetooth [CHAR LIMIT=35] -->
+    <string name="pref_debugOverBluetooth">Debug over Bluetooth</string>
+    <!-- Option to debug over WiFi [CHAR LIMIT=35] -->
+    <string name="pref_debugOverWifi">Debug over Wi-Fi</string>
+    <!-- Menu item to access Android Wear specific developer options [CHAR LIMIT=35] -->
+    <string name="pref_wearDeveloperOptions">Wear developer options</string>
+    <!-- Setting title to revoke secure adb debugging authorizations [CHAR_LIMIT=40]-->
+    <string name="pref_clearAdbKeys">Revoke debugging authorizations</string>
+    <!-- Option to store logger data persistently on device [CHAR LIMIT=35] -->
+    <string name="pref_logPersist">Store logger data persistently</string>
+    <!-- Text of debug layout option [CHAR LIMIT=40] -->
+    <string name="pref_debugLayout">Debug layouts</string>
+    <!-- Text of debug overdraw option [CHAR LIMIT=40] -->
+    <string name="pref_debugOverdraw">Debug overdraw</string>
+    <!-- Text of debug GPU profiling option [CHAR LIMIT=40] -->
+    <string name="pref_debugTiming">Debug GPU profiling</string>
+    <!-- Title text for bug report in the cue card. [CHAR_LIMIT=30] -->
+    <string name="pref_bugReport">Bug report in menu</string>
+    <!-- Title text for automatic Wi-Fi toggle in dev settings. [CHAR_LIMIT=40] -->
+    <string name="pref_autoWifi">Automatic Wi-Fi toggle</string>
+    <!-- Title text for automatically enabling WiFi when device is placed in charger
+         in dev settings. [CHAR_LIMIT=40] -->
+    <string name="pref_enableWifiWhenCharging">Automatically enable Wi-Fi when charging</string>
+    <!-- Title text for Disabling Automatic Wi-Fi in dev settings. [CHAR_LIMIT=40] -->
+    <string name="pref_disableAutomaticWifi">Disable Automatic Wi-Fi</string>
+    <!-- Title text for Wi-Fi logging level in dev settings. [CHAR_LIMIT=40] -->
+    <string name="pref_wifiLogging">Wi-Fi verbose logging</string>
+    <!-- Label for list to control apps that ignore battery saving restrictions [CHAR LIMIT=27]-->
+    <string name="pref_powerOptimizations">Battery optimization</string>
+    <!-- Settings to adjust dpi. DO NOT TRANSLATE -->
+    <string name="pref_dpiSettings">DPI settings</string>
+    <!-- DO NOT TRANSLATE -->
+    <string-array name="pref_dpi_entries" translatable="false">
+        <item>Default DPI</item>
+        <item>226</item>
+        <item>260</item>
+        <item>300</item>
+        <item>340</item>
+    </string-array>
+    <string-array name="pref_dpi_values" translatable="false">
+        <item></item>
+        <item>226</item>
+        <item>260</item>
+        <item>300</item>
+        <item>340</item>
+    </string-array>
+
+    <!-- Label for the settings that allows user to select the default Tap and Pay app. [CHAR_LIMIT=40] -->
+    <string name="pref_tap_and_pay_title">Tap &amp; pay</string>
+
+    <!-- Title of the dialog that allows user to select the default Tap and Pay app. [CHAR_LIMIT=44] -->
+    <string name="pref_nfc_tap_and_pay_pref_screen_title">Tap &amp; pay default app</string>
+
+    <!-- Name of the service that is responsible for changing the time [CHAR LIMIT=18]-->
+    <string name="time_service_name">Time service</string>
+    <!-- Name of the service that is responsible for changing the airplane mode [CHAR LIMIT=30]-->
+    <string name="airplane_mode_service_name" >Airplane mode service</string >
+    <!-- Name of the service that is responsible for changing the sunlight mode [CHAR LIMIT=30]-->
+    <string name="sunlight_mode_service_name" >Brightness boost service</string >
+    <!-- Name of the service that is responsible for changing the locale [CHAR LIMIT=30] -->
+    <string name="locale_service_name">Language service</string>
+    <!-- Name of the service that is responsible for changing doze preferences [CHAR LIMIT=40]-->
+    <string name="configure_doze_service_name">Doze configuration service</string>
+    <!-- Name of the service that is responsible for retrieving battery stats [CHAR LIMIT=NONE] -->
+    <string name="battery_stats_service_name">Battery statistics service</string>
+    <!-- Name of the service that starts retail mode [CHAR LIMIT=NONE] -->
+    <string name="retail_service_name">Retail service</string>
+    <!-- Name of the service that is responsible for unlocking and locking updates[CHAR LIMIT=30]-->
+    <string name="update_lock_service_name">Update lock service</string>
+    <!-- Name of the service that is responsible for changing chosen apps [CHAR LIMIT=NONE]-->
+    <string name="configure_chosen_apps_service_name" translatable="false">
+        Chosen apps configuration service</string>
+    <!-- Name of the service that is responsible for retrieving storage stats [CHAR LIMIT=NONE] -->
+    <string name="storage_stats_service_name">Storage statistics service</string>
+    <!-- Name of the service that is responsible for changing the Fitness optin setting -->
+    <string name="disable_fitness_service_name" >Disable Fitness service</string >
+
+    <!-- Permissions labels/descriptions -->
+    <skip />
+    <!-- Name of permission required to change the time [CHAR LIMIT=27]-->
+    <string name="perm_label_change_time">Change system time</string>
+    <!-- Description of permission required to change the time [CHAR LIMIT=NONE] -->
+    <string name="perm_description_change_time">This app can change the time on your device.</string>
+    <!-- Name of permission required to disable the settings key [CHAR LIMIT=30]-->
+    <string name="perm_label_set_global_key">Set global key</string>
+    <!-- Description of permission required to disable the settings key [CHAR LIMIT=NONE] -->
+    <string name="perm_description_set_global_key">This app can set the global key your device.</string>
+    <!-- Name of permission required to enable or disable power save mode [CHAR LIMIT=32]-->
+    <string name="perm_label_set_power_save">Set Power Save mode</string>
+    <!-- Description of permission required to enable or disable power save mode [CHAR LIMIT=NONE] -->
+    <string name="perm_description_set_power_save">This app can set Power Save mode.</string>
+
+    <!-- Name of permission required to toggle airplane mode [CHAR LIMIT=30]-->
+    <string name="perm_label_change_airplane_mode" >Change Airplane mode</string >
+    <!-- Description of permission required to toggle airplane mode [CHAR LIMIT=NONE] -->
+    <string name="perm_description_change_airplane_mode" >This app can turn Airplane mode off and on.</string>
+    <!-- Name of permission required to toggle sunlight mode -->
+    <string name="perm_label_toggle_sunlight_mode" >Toggle Brightness boost</string >
+    <!-- Description of permission required to toggle sunlight mode [CHAR LIMIT=NONE] -->
+    <string name="perm_description_toggle_sunlight_mode" >This app can toggle Brightness boost.</string>
+    <!-- Name of permission required to change the locale -->
+    <string name="perm_label_change_locale">Change system language</string>
+    <!-- Description of permission required to change the locale [CHAR LIMIT=NONE] -->
+    <string name="perm_description_change_locale">This app can change the system language on your device.</string>
+    <!-- Name of permission required to configure doze [CHAR LIMIT=44]-->
+    <string name="perm_label_configure_doze">Change ambient mode settings</string>
+    <!-- Description of permission required to configure doze [CHAR LIMIT=NONE] -->
+    <string name="perm_description_configure_doze">This app can change ambient mode settings, including turning ambient mode off or on.</string>
+    <!-- Name of permission required to access battery stats [CHAR LIMIT=NONE] -->
+    <string name="perm_label_battery_stats">Access battery usage statistics</string>
+    <!-- Description of permission required to configure doze [CHAR LIMIT=NONE] -->
+    <string name="perm_description_battery_stats">This app can access battery usage statistics.</string>
+    <!-- Name of permission required to put the device into retail mode [CHAR LIMIT=60] -->
+    <string name="perm_label_retail">Start retail mode</string>
+    <!-- Description of permission required to put the device into retail mode [CHAR LIMIT=NONE] -->
+    <string name="perm_description_retail">This app can start retail mode on your device.</string>
+    <!-- Name of permission required to read settings -->
+    <string name="perm_label_read_settings">Read settings</string>
+    <!-- Description of permission required to read settings [CHAR LIMIT=NONE] -->
+    <string name="perm_description_read_settings">This app can read settings.</string>
+    <!-- Name of permission required to write settings [CHAR LIMIT=21]-->
+    <string name="perm_label_write_settings">Write settings</string>
+    <!-- Description of permission required to write settings [CHAR LIMIT=NONE] -->
+    <string name="perm_description_write_settings">This app can change settings</string>
+    <!-- Name of permission required to lock and unlock updates [CHAR LIMIT=33]-->
+    <string name="perm_label_lock_updates">Prevent system updates</string>
+    <!-- Description of permission required to lock and unlock updates [CHAR LIMIT=NONE] -->
+    <string name="perm_description_lock_updates">This app can prevent system updates.</string>
+    <!-- Name of permission required to change the apps associated with actions [CHAR LIMIT=NONE]-->
+    <string name="perm_label_configure_chosen_apps" translatable="false">Change chosen applications</string >
+    <!-- Description of permission required to change the apps associated with actions [CHAR LIMIT=NONE] -->
+    <string name="perm_description_configure_chosen_apps" translatable="false">This app can
+        change chosen applications.</string>
+    <!-- Name of permission required to show theater mode popup and go to sleep [CHAR LIMIT=NONE] -->
+    <string name="perm_label_start_theater_mode" translatable="false">Turn on Theater mode</string >
+    <!-- Description of permission required to show theater mode popup and go to sleep [CHAR LIMIT=NONE] -->
+    <string name="perm_description_start_theater_mode" translatable="false">This app can show Theater mode message and go to sleep</string>
+    <!-- Name of permission required to change the watch power state -->
+    <string name="perm_label_watch_power" translatable="false">Change watch power</string >
+    <!-- Description of permission required to change the watch power state [CHAR LIMIT=NONE] -->
+    <string name="perm_description_watch_power" translatable="false">This app can change the watch power state</string>
+    <!-- Name of permission required to change the watch power state -->
+    <string name="perm_label_watch_touch" translatable="false">Disable touch</string >
+    <!-- Description of permission required to change the watch power state [CHAR LIMIT=NONE] -->
+    <string name="perm_description_watch_touch" translatable="false">This app can disable the touch screen</string>
+    <!-- Name of permission required to change the watch power state -->
+    <string name="perm_label_end_wet_mode" translatable="false">End wet mode</string >
+    <!-- Description of permission required to change the watch power state [CHAR LIMIT=NONE] -->
+    <string name="perm_description_end_wet_mode" translatable="false">This app can end wet mode</string>
+    <!-- Name of permission required to configure storage usage [CHAR LIMIT=NONE] -->
+    <string name="perm_label_storage_stats">Access storage usage statistics</string>
+    <!-- Description of permission required to configure storage usage [CHAR LIMIT=NONE] -->
+    <string name="perm_description_storage_stats">This app accesses storage usage statistics.</string>
+    <!-- Name of permission required to configure storage usage [CHAR LIMIT=NONE] -->
+    <string name="perm_label_disable_fitness">Disable or enable Fitness</string>
+    <!-- Description of permission required to configure storage usage [CHAR LIMIT=NONE] -->
+    <string name="perm_description_disable_fitness">This app can disable or enable Fitness.</string>
+    <!-- Name of permission required to set home as ready [CHAR LIMIT=NONE] -->
+    <string name="perm_label_set_home_ready">Set home ready</string>
+    <!-- Description of permission required to configure storage usage [CHAR LIMIT=NONE] -->
+    <string name="perm_description_set_home_ready">This app can publish when home is ready.</string>
+    <!-- Name of permission required to show the factory reset confirmation [CHAR LIMIT=NONE] -->
+    <string name="perm_label_show_factory_reset_confirmation">Show factory reset confirmation</string>
+    <!-- Description of permission required to show the factory reset confirmation [CHAR LIMIT=NONE] -->
+    <string name="perm_description_show_factory_reset_confirmation">This app can show the factory reset confirmation.</string>
+    <!-- Name of permission required to monitor keyguard password being set [CHAR LIMIT=NONE]-->
+    <string name="perm_label_keyguard_password_set" translatable="false">Keyguard password set</string >
+    <!-- Description of permission required to monitor keyguard password being set [CHAR LIMIT=NONE] -->
+    <string name="perm_description_keyguard_password_set" translatable="false">This app can monitor keyguard password being set</string>
+    <!-- Name of permission required to enable additional CPU cores on supported devices [CHAR LIMIT=NONE]-->
+    <string name="perm_label_enable_extra_cores" translatable="false">Enable extra cores</string >
+    <!-- Description of permission required to enable additional CPU cores on supported devices [CHAR LIMIT=NONE] -->
+    <string name="perm_description_enable_extra_cores" translatable="false">This app can enable extra cores on supported devices</string>
+
+    <!-- Dialog message for verifying pin screen lock [CHAR LIMIT=40] -->
+    <string name="verify_screen_lock_pin">Verify your screen lock pin</string>
+
+    <!-- Dialog message for verifying password screen lock [CHAR LIMIT=50] -->
+    <string name="verify_screen_lock_password">Verify your screen lock password</string>
+
+    <!-- Dialog message for choosing pin screen lock [CHAR LIMIT=40] -->
+    <string name="choose_screen_lock_pin">Choose your screen lock pin</string>
+
+    <!-- Dialog message for choosing password screen lock [CHAR LIMIT=50] -->
+    <string name="choose_screen_lock_password">Choose your screen lock password</string>
+
+    <!-- Title for the lock settings page [CHAR LIMIT=25] -->
+    <string name="lock_settings_title">Choose screen lock</string>
+
+    <!-- Action to set no device lock [CHAR LIMIT=25] -->
+    <string name="action_lock_none">None</string>
+
+    <!-- Action to set pattern device lock [CHAR LIMIT=25] -->
+    <string name="action_lock_pattern">Pattern</string>
+
+    <!-- Action to set pin device lock [CHAR LIMIT=25] -->
+    <string name="action_lock_pin">PIN</string>
+
+    <!-- Action to set password device lock [CHAR LIMIT=25] -->
+    <string name="action_lock_password">Password</string>
+
+    <!-- Action which launches a power off activity [CHAR LIMIT=25] -->
+    <string name="action_power_off">Power off</string>
+
+    <!-- Action which restarts the device [CHAR LIMIT=25] -->
+    <string name="action_restart">Restart</string>
+
+    <!-- String displayed in settings confirmation dialog before user decides if he wants to turn
+         on airplane mode. [CHAR_LIMIT=32] -->
+    <string name="enable_airplane_mode">Turn on Airplane mode</string>
+
+    <!-- String displayed in settings confirmation dialog before user decides if he wants to turn
+     on airplane mode. [CHAR_LIMIT=32] -->
+    <string name="disable_airplane_mode">Turn off Airplane mode</string>
+
+    <!-- String displayed in settings confirmation dialog before user decides if he wants to turn
+         on wifi. [CHAR_LIMIT=32] -->
+    <string name="enable_wifi">Turn on Wi-Fi</string>
+
+    <!-- String displayed in settings confirmation dialog before user decides if he wants to turn
+     on wifi. [CHAR_LIMIT=32] -->
+    <string name="disable_wifi">Turn off Wi-Fi</string>
+
+    <!-- Airplane mode options entry in Settings. [CHAR LIMIT=25] -->
+    <string name="airplane_mode">Airplane mode</string>
+
+    <!-- [CHAR LIMIT=40] Title of location mode privacy warning. -->
+    <string name="location_warning_title">"Improve location accuracy?"</string>
+    <!-- Warning text to user that location information will be logged [CHAR LIMIT=NONE] -->
+    <string name="location_warning_message">
+        Help apps find your location more quickly and accurately using Google\'s
+        location service. Anonymous location data will be sent to Google when
+        your device is on.\n\nThis service is active when Settings &gt; Location
+        is on and High Accuracy or Battery Saving mode is selected.
+    </string>
+    <!-- [CHAR LIMIT=32] Agree button -->
+    <string name="agree">Agree</string>
+    <!-- [CHAR LIMIT=32] Disagree button -->
+    <string name="disagree">Disagree</string>
+
+    <!-- Title string displayed in settings confirmation dialog to unpair the watch and phone [CHAR LIMIT=59] -->
+    <string name="factory_reset_confirmation">Disconnect &amp; reset?</string>
+    <!-- Subtitle string displayed in settings confirmation dialog to unpair the watch and phone. [CHAR_LIMIT=123] -->
+    <string name="factory_reset_confirmation_subtitle">Unpairing will factory reset your watch settings and delete all user data.</string>
+
+    <!-- Progress text shown when waiting for the device to reset [CHAR LIMIT=25] -->
+    <string name="factory_resetting">Resetting device</string>
+
+    <!-- Action which launches the Permissions Activity [CHAR LIMIT=25] -->
+    <string name="permissions_setting">Permissions</string>
+
+    <!-- Device info -->
+    <skip />
+    <!-- Device info label for model [CHAR LIMIT=30] -->
+    <string name="info_label_model">Model</string>
+    <!-- Do not translate. Device info, customized model name, keep empty to use default Build.MODEL -->
+    <string name="customized_model_name"></string>
+    <!-- Device info label for device name [CHAR LIMIT=30] -->
+    <string name="info_label_device_name">Device name</string>
+    <!-- Device info label for software versions [CHAR LIMIT=30] -->
+    <string name="info_label_version">Versions</string>
+    <!-- Device info value for software version telling the user they can touch to view more [CHAR LIMIT=40] -->
+    <string name="info_value_version">Tap to view</string>
+    <!-- Wear OS by Google, name of operating system [CHAR LIMIT=30] -->
+    <string name="info_label_wear_os_version">Wear OS by Google</string>
+    <!-- Label for home / main system application that provides core Wear OS functionality [CHAR LIMIT=30] -->
+    <string name="info_label_home_app">Home App</string>
+    <!-- Device info label for OS software version [CHAR LIMIT=30] -->
+    <string name="info_label_os_version">System version</string>
+    <!-- Device info label for monthly security patch level [CHAR LIMIT=30] -->
+    <string name="info_label_security_patch">Android security patch level</string>
+    <!-- Device info label for serial number [CHAR LIMIT=30] -->
+    <string name="info_label_serial">Serial number</string>
+    <!-- Device info label for MSN (manufacturer serial number) [CHAR LIMIT=30] -->
+    <string name="info_label_msn">MSN</string>
+    <!-- Device info label for build [CHAR LIMIT=30] -->
+    <string name="info_label_build">Build number</string>
+    <!-- Device info label for connection to companion device [CHAR LIMIT=30] -->
+    <string name="info_label_connection">Connection</string>
+    <!-- Device info label for displaying regulatory information [CHAR_LIMIT=30] -->
+    <string name="info_label_regulator_information">Regulatory information</string>
+    <!-- Device info label for displaying legal noticies [CHAR_LIMIT=30] -->
+    <string name="info_label_legal_notices">Legal notices</string>
+    <!-- Device info value for displaying open source information [CHAR LIMIT=30] -->
+    <string name="info_label_open_source_information">Open source</string>
+    <!-- Device info value for connection when there is an error [CHAR LIMIT=30] -->
+    <string name="info_value_connection_error">Unknown</string>
+    <!-- Device info value for connection when the device has no pairing [CHAR LIMIT=30] -->
+    <string name="info_value_connection_no_pairing">No paired devices</string>
+    <!-- Device info value for connection when the device has been paired but no connection exists [CHAR LIMIT=30] -->
+    <string name="info_value_connection_paired_disconnected">Disconnected</string>
+    <!-- Device info value for connection when the device has been paired and is connected [CHAR LIMIT=30] -->
+    <string name="info_value_connection_paired_connected">Connected</string>
+    <!-- Device info value for when legal notices is clicked [CHAR LIMIT=NONE] -->
+    <string name="info_value_legal_notices">For legal notices, see device paired with your watch</string>
+    <!-- Device Info screen. Countdown for user taps to enable development settings [CHAR LIMIT=NONE] -->
+    <plurals name="show_dev_countdown">
+        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being a developer.</item>
+        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being a developer.</item>
+    </plurals>
+    <!-- Device Info screen. Confirmation that developer settings are enabled [CHAR LIMIT=NONE] -->
+    <string name="show_dev_on">You are now a developer!</string>
+    <!-- Device Info screen. Okay we get it, stop pressing, you already have it on [CHAR LIMIT=NONE] -->
+    <string name="show_dev_already">No need, you are already a developer.</string>
+    <!-- Device info label for battery [CHAR LIMIT=30]-->
+    <string name="info_label_battery">Battery</string>
+    <!-- Device info value for battery when plugged in [CHAR LIMIT=100]-->
+    <string name="info_value_battery_plugged"><xliff:g id="percentage">%s</xliff:g> - plugged in</string>
+    <!-- Device info value for battery when not plugged in [CHAR LIMIT=100]-->
+    <string name="info_value_battery"><xliff:g id="percentage">%s</xliff:g></string>
+    <!-- Device info label to launch a system update screen [CHAR LIMIT=40]-->
+    <string name="info_label_system_update">System updates</string>
+    <!-- Message displayed when we check for updates [CHAR LIMIT=40] -->
+    <string name="checking_for_updates">Checking for updates\u2026</string>
+    <!-- Toast message shown if trying to launch an activity which does not exist [CHAR LIMIT=NONE] -->
+    <string name="error_could_not_launch">Could not launch app</string>
+    <!-- Device info label for the baseband version [CHAR LIMIT=40] -->
+    <string name="baseband_version">Baseband version</string>
+    <!-- Device info label for the kernel version [CHAR LIMIT=40] -->
+    <string name="kernel_version">Kernel version</string>
+    <!-- Device info title for the status screen -->
+    <string name="device_status">Status</string>
+    <!-- Device info screen, fcc equipment id label  [CHAR LIMIT=40] -->
+    <string name="fcc_equipment_id">Equipment ID</string>
+    <!-- Device info screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="selinux_status">SELinux status</string>
+    <!-- Device info screen, show when a value of some status item is unavailable. -->
+    <string name="device_info_not_available">Not available</string>
+    <!-- Device info screen, summary of the item that takes you to device status screen (no mobile) -->
+    <string name="device_status_summary" product="tablet">Status of the battery, network, and other information</string>
+    <!-- Device info screen, summary of the item to go into the device status screen (with mobile) -->
+    <string name="device_status_summary" product="default">Phone number, signal, etc.</string>
+    <!-- Do not translate. Device info, status item title -->
+    <string name="status_imei">IMEI</string>
+    <!-- Do not translate. Device info, status item title -->
+    <string name="status_imei_sv">IMEI SV</string>
+    <!-- Do not translate. Device info, status item title -->
+    <string name="status_iccid">ICCID</string>
+    <!-- Device info, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number_mdn">MDN</string>
+    <!-- Device info, status item title.  The phone number of the current device [CHAR LIMIT=30] -->
+    <string name="status_number_phone">My phone number</string>
+    <!-- Device info, status item title.  The phone MIN number of the current device.-->
+    <string name="status_min_number">MIN</string>
+    <!-- Device info, status item title.  The phone MSID number of the current device.-->
+    <string name="status_msid_number">MSID</string>
+    <!-- Device info, status item title.  The phone PRL Version of the current device.-->
+    <string name="status_prl_version">PRL version</string>
+    <!-- Device info, status item title.  The phone MEID number of the current LTE/CDMA device. [CHAR LIMIT=30] -->
+    <string name="status_meid_number">MEID</string>
+    <!-- Device info, status item title.  The ICCID of the current LTE device. [CHAR LIMIT=30] -->
+    <string name="status_icc_id">ICCID</string>
+    <!-- Device info, status item title for the type of data phone network we're connected to, for example 3G or Edge or GPRS -->
+    <string name="status_network_type">Mobile network type</string>
+    <!-- Device info, status item title for the latest area info mobile broadcast received (Brazil only). -->
+    <string name="status_latest_area_info">Operator info</string>
+    <!-- Device info, status item title. The status of data access.  For example, the value may be "Connected" -->
+    <string name="status_data_state">Mobile network state</string>
+    <!-- Device info, status item title. The status of whether we have service.  for example, the value may be "In service" -->
+    <string name="status_service_state">Service state</string>
+    <!-- Device info, status item title. The  current mobile tower signal strength -->
+    <string name="status_signal_strength">Signal strength</string>
+    <!-- Device info, status item title, The status for roaming.  For example, the value might be "Not roaming" -->
+    <string name="status_roaming">Roaming</string>
+    <!-- Device info, status item title. The mobile carrier that the user is connected to.  -->
+    <string name="status_operator">Network</string>
+    <!-- Device info, status item title.  The MAC address of the Wi-Fi network adapter. -->
+    <string name="status_wifi_mac_address">Wi\u2011Fi MAC address</string>
+    <!-- Device info, status item title.  The bluetooth adapter's hardware address-->
+    <string name="status_bt_address">Bluetooth address</string>
+    <!-- Device info, status item title.  The hardware serial number. [CHAR LIMIT=30]-->
+    <string name="status_serial_number">Serial number</string>
+    <!-- Device info, status item title.  How long the device has been running since its last reboot. -->
+    <string name="status_up_time">Up time</string>
+    <!-- Device info, status item title.  How much time the device has had its main CPU awake. -->
+    <string name="status_awake_time">Awake time</string>
+
+
+    <!-- Accessibility settings -->
+    <skip />
+    <!-- Action which launches the accessibility settings activity [CHAR LIMIT=25] -->
+    <string name="action_accessibility">Accessibility</string>
+    <!-- Action which launches the large text confirmation dialog [CHAR LIMIT=25] -->
+    <string name="action_accessibility_large_text">Large font</string>
+    <!-- String displayed in settings confirmation dialog before user decides if he wants to turn
+         on large text. [CHAR_LIMIT=32] -->
+    <string name="enable_large_text">Enable large font?</string>
+    <!-- String displayed in settings confirmation dialog before user decides if he wants to turn
+         off large text. [CHAR_LIMIT=32] -->
+    <string name="disable_large_text">Disable large font?</string>
+    <!-- Action which enables/disabled the color inversion feature [CHAR LIMIT=25] -->
+    <string name="action_accessibility_color_inversion">Color inversion</string>
+    <!-- Action which launches the magnification confirmation dialog [CHAR LIMIT=25] -->
+    <string name="action_accessibility_magnification">Magnification gestures</string>
+    <!-- String displayed in settings confirmation dialog before user decides if he wants to turn
+         on device screen magnification. [CHAR_LIMIT=32] -->
+    <string name="enable_magnification">Enable magnification?</string>
+    <!-- Subtitle string displayed in settings confirmation dialog briefly explaining the magnification
+         feature's interaction model. [CHAR_LIMIT=40] -->
+    <string name="magnification_subtitle">Triple tap to zoom.</string>
+    <!-- String displayed in settings confirmation dialog before user decides if he wants to turn
+         off large text. [CHAR_LIMIT=32] -->
+    <string name="disable_magnification">Disable magnification?</string>
+    <!-- Action which launches the power button accessibility dialog [CHAR LIMIT=40] -->
+    <string name="accessibility_power_button">Power button ends call</string>
+    <!-- Summary for the enabled state of an accessibility feature. [CHAR LIMIT=10] -->
+    <string name="accessibility_feature_state_on">On</string>
+    <!-- Summary for the disabled state of an accessibility feature. [CHAR LIMIT=10] -->
+    <string name="accessibility_feature_state_off">Off</string>
+    <!-- Title for accessibility menu item to lauch a settings activity. [CHAR LIMIT=15] -->
+    <string name="accessibility_menu_item_settings">Settings</string>
+    <!-- Default description for an accessibility serivice if the latter doesn't provide one. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_service_default_description">No description provided.</string>
+    <!-- Title for a warning about security implications of enabling an accessibility
+         service. [CHAR LIMIT=NONE] -->
+    <string name="enable_service_title">Use
+         <xliff:g id="service" example="TalkBack">%1$s</xliff:g>?</string>
+    <!-- Title for the list of capabilities of an accessibility service. -->
+    <string name="capabilities_list_title"><xliff:g id="service" example="TalkBack">%1$s</xliff:g>
+        needs to:</string>
+    <!-- Title for the capability of an accessibility service to receive events and keys. -->
+    <string name="capability_title_receiveAccessibilityEvents">Observe your actions</string>
+    <!-- Description for the capability of an accessibility service to receive events and keys. -->
+    <string name="capability_desc_receiveAccessibilityEvents">Receive notifications when you\u2019re
+        interacting with an app.</string>
+    <!-- Mark that an a11y service is experimental. This will show up in the UI like: "ServiceName (experimental)".
+         [CHAR LIMIT=35]
+    -->
+    <string name="accessibility_service_experimental"><xliff:g id="name" example="ServiceName">%1$s</xliff:g> (experimental)</string>
+    <!-- On main TTS Settings screen, current TTS engine status for the current default language,
+         tts engine is queried for status [CHAR LIMIT=150] -->
+    <string name="tts_status_checking">Checking...</string>
+    <!-- On the main TTS settings screen, text for a divider under which
+         the engine specific settings and the "engine install data" option
+         are listed [CHAR LIMIT=30]-->
+    <string name="tts_engine_settings_section">Engine settings</string>
+    <!-- Title for an action in the TTS settings screen, which will set the current TTS engine as
+         the default TTS engine. [CHAR LIMIT=30]-->
+    <string name="tts_engine_set_as_default">Set as default</string>
+
+    <!-- Shown when an option is enabled [CHAR LIMIT=30] -->
+    <string name="enabled">Enabled</string>
+    <!-- Title of the persistent notification when Debugging over Bluetooth is on [CHAR LIMIT=15] -->
+    <string name="notification_adb_target_service_title">Debugging</string>
+    <!-- Text of the persistent notification when Debugging over Bluetooth is on [CHAR LIMIT=500]-->
+    <string name="notification_adb_target_service_text">Debugging over Bluetooth is enabled.</string>
+    <!-- Shown in activity that is displayed when more than one activity can be started for certain
+         intent. This is similar to Android's "choose an application below that will be used to
+         perform the action." [CHAR_LIMIT=18]-->
+    <string name="which_application" >Complete action</string >
+    <!-- Displayed in confirmationactivity to make sure a user wants to perform an operations.
+         [CHAR_LIMIT=16] -->
+    <string name="are_you_sure" >Are you sure?</string >
+    <!-- Displayed in confirmationactivity when the user has requested an operation that hasn't
+         happened yet..
+     [CHAR_LIMIT=16] -->
+    <string name="please_wait" >Please wait.</string >
+    <!-- Displayed as a Toast to notify the user that the changed setting requires a restart. [CHAR_LIMIT=45]-->
+    <string name="changed_after_restart">This will take effect on restart.</string>
+
+    <!-- Setting title to change the watch face (i.e. enter watch face picker). [CHAR_LIMIT=40] -->
+    <string name="change_watch_face">Change watch face</string>
+
+    <!-- Title at the top of settings view [CHAR_LIMIT=15] -->
+    <string name="settings">Settings</string>
+    <!-- Title at the top of advanced settings view [CHAR_LIMIT=30] -->
+    <string name="advanced_settings">Advanced</string>
+    <!-- Title at the top of power save after settings view [CHAR_LIMIT=30] -->
+    <string name="power_save_after_settings">Power save after</string>
+    <!-- Title at the top of max battery use settings view [CHAR_LIMIT=30] -->
+    <string name="max_battery_use_settings">Max battery use</string>
+    <!-- Setting title that leads to the airplane mode toggle view. [CHAR_LIMIT=40] -->
+    <string name="airplane_mode_on">Airplane mode</string>
+    <!-- Setting title that leads to the wifi settings view.
+        [CHAR_LIMIT=40] -->
+    <string name="wifi_settings">Wi-Fi</string>
+    <!-- Setting title that leads to the wifi settings view.
+    [CHAR_LIMIT=40] -->
+    <string name="watch_wifi_settings">Watch Wi-Fi</string>
+
+    <!-- Title text for mobile battery saver in dev settings. [CHAR_LIMIT=40] -->
+    <string name="pref_cellularBatterySaver">Mobile battery saver</string>
+
+    <!-- Message which is shown on entering the bluetooth settings when bluetooth is disabled. [CHAR_LIMIT=30] -->
+    <string name="bluetooth_disabled">Turn on Bluetooth?</string>
+
+    <!-- A security prompt for enabling Bluetooth from a 3p app. [CHAR_LIMIT=30] -->
+    <string name="bluetooth_enable_request">Allow
+        &lt;b><xliff:g id="requester" example="FancyApp">%s</xliff:g>&lt;/b> to
+        turn on Bluetooth?
+    </string>
+
+    <!-- A security prompt for enabling WiFi from a 3p app. [CHAR_LIMIT=30] -->
+    <string name="wifi_enable_request">Allow
+        &lt;b><xliff:g id="requester" example="FancyApp">%s</xliff:g>&lt;/b> to
+        turn on Wi-Fi?
+    </string>
+
+    <!-- Message which is shown to the user to ask for permission to make the device discoverable to other Bluetooth devices. [CHAR_LIMIT=60] -->
+    <string name="bluetooth_make_discoverable">Make visible to other Bluetooth devices?</string>
+
+    <!-- The title text for entering bluetooth pairing PIN. [CHAR_LIMIT=40] -->
+    <string name="bluetooth_enter_pin">Enter PIN:</string>
+
+    <!-- First line of the bluetooth pairing dialog. The pairing dialog is displayed when the
+            pairing process starts and it tells the user what the other device is and which action
+            the user should take to finish pairing with it, the dialog also has an confirmation and
+            cancellation button. For example the first line could be 'Pair with Nexus 6', the
+            second line: 'Do the codes match?' and the third one: '123456' (OK and Cancel
+            buttons are below it). [CHAR_LIMIT=10] -->
+    <string name="bluetooth_pair_with">Pair with <xliff:g id="device" example="Nexus 5">%1s</xliff:g></string>
+
+    <!-- The short version of the bluetooth_pair_with string to be used when the device name is too long. [CHAR_LIMIT=8] -->
+    <string name="bluetooth_pair_with_short">Pair <xliff:g id="device" example="Nexus 5">%1s</xliff:g></string>
+
+    <!-- Second line of the bluetooth pairing dialog for the confirm-passkey pairing variant. It
+            asks the user to check that the pairing codes match.[CHAR_LIMIT=26] -->
+    <string name="bluetooth_confirm_code">Do codes match?</string>
+
+    <!-- Second line of the bluetooth pairing dialog for the display-passkey pairing variant.
+            It asks the user to enter the passkey displayed on the third line of the dialog on the
+            phone to pair with it.[CHAR_LIMIT=26] -->
+    <string name="bluetooth_enter_code_on_phone">Enter this code on phone</string>
+
+    <!-- Second line of the bluetooth pairing dialog for the display-passkey pairing variant.
+        It asks the user to enter the passkey displayed on the third line of the dialog on the
+        remote Bluetooth device to pair with it.[CHAR_LIMIT=26] -->
+    <string name="bluetooth_enter_code">Enter code on other device</string>
+
+
+    <!-- Wi-Fi Settings Page -->
+    <skip />
+    <!-- The title of the activity for Wi-Fi [CHAR_LIMIT=20] -->
+    <string name="wifi_activity_title">Wi-Fi</string>
+
+    <!-- The action text to open Wi-Fi connection page [CHAR_LIMIT=20] -->
+    <string name="wifi_connection_action">Connection</string>
+    <!-- The summary text of Wi-Fi Connection set to Automatic [CHAR_LIMIT=10] -->
+    <string name="wifi_connection_action_automatic">Automatic</string>
+    <!-- The summary text of Wi-Fi Connection set to on for a number of minutes [CHAR_LIMIT=20] -->
+    <plurals name="wifi_connection_action_on_minutes">
+        <item quantity="one">On for 1 minute</item>
+        <item quantity="other">On for <xliff:g id="num_minutes">%d</xliff:g> minutes</item>
+    </plurals>
+    <!-- The summary text of Wi-Fi Connection set to on for a number of hours [CHAR_LIMIT=20] -->
+    <plurals name="wifi_connection_action_on_hours">
+        <item quantity="one">On for 1 hour</item>
+        <item quantity="other">On for <xliff:g id="num_hours">%d</xliff:g> hours</item>
+    </plurals>
+    <!-- The summary text of Wi-Fi Connection set to Always Off [CHAR_LIMIT=24] -->
+    <string name="wifi_connection_action_always_off">Always off</string>
+    <!-- The summary text of Wi-Fi Connection set to Off when in airplane mode [CHAR_LIMIT=24] -->
+    <string name="wifi_connection_action_off">Off</string>
+    <!-- The summary text of Wi-Fi Connection set to On when in airplane mode [CHAR_LIMIT=24] -->
+    <string name="wifi_connection_action_on">On</string>
+    <!-- The summary text of Wi-Fi toggle when Wi-Fi is set to ON [CHAR_LIMIT=50] -->
+    <string name="wifi_toggle_enabled">Wi-Fi enabled</string>
+    <!-- The summary text of Wi-Fi toggle when Wi-Fi is set to OFF [CHAR_LIMIT=50] -->
+    <string name="wifi_toggle_disabled">Wi-Fi disabled</string>
+
+    <!-- The summary text of the current Wi-Fi connection when Connected [CHAR_LIMIT=24] -->
+    <string name="wifi_current_connection_connected">Connected</string>
+    <!-- The summary text of the current Wi-Fi connection when Connecting [CHAR_LIMIT=50] -->
+    <string name="wifi_current_connection_connecting">Connecting\u2026</string>
+    <!-- The summary text of the current Wi-Fi connection when Obtaining IP address [CHAR_LIMIT=50] -->
+    <string name="wifi_current_connection_obtaining_ip">Getting IP address\u2026</string>
+    <!-- The summary text of the last used Wi-Fi connection (shown when Wi-Fi is enabled but not connected to a network) [CHAR_LIMIT=50] -->
+    <string name="wifi_connection_last_used">Last used</string>
+    <!-- The summary text of a Wi-Fi connection that has failed to connect [CHAR_LIMIT=50] -->
+    <string name="wifi_connection_failure">Connection failure</string>
+    <!-- The summary text of a Wi-Fi connection that is connected, but no internet is available [CHAR_LIMIT=50] -->
+    <string name="wifi_connection_no_internet">No internet</string>
+
+    <!-- The action text to open Wi-Fi available networks page [CHAR_LIMIT=50] -->
+    <string name="wifi_available_networks_action">Available networks</string>
+
+    <!-- The action text to manually add network. [CHAR_LIMIT=50] -->
+    <string name="wifi_add_network_action">Add network</string>
+
+    <!-- The action text to open Wi-Fi saved networks page [CHAR_LIMIT=50] -->
+    <string name="wifi_saved_networks_action">Saved networks</string>
+
+    <!-- The action text to open Wi-Fi Advanced options page [CHAR_LIMIT=50] -->
+    <string name="wifi_advanced_settings_action">Advanced options</string>
+
+    <!-- The action text to open Wi-Fi About Wi-Fi Automatic page [CHAR_LIMIT=50] -->
+    <string name="wifi_about_automatic_action">About Wi-Fi Automatic</string>
+
+    <!-- Wi-Fi Settings, Connection Page -->
+    <skip />
+    <!-- The title text of the Wi-Fi Connection selection page [CHAR_LIMIT=20] -->
+    <string name="wifi_connection_title">Connection</string>
+
+    <!-- Wi-Fi Settings, Add Network Page -->
+    <skip />
+    <!-- The title text of the option to add a hidden network on the Wi-Fi "Configure" page [CHAR LIMIT=50]-->
+    <string name="wifi_add_hidden_network_title">Add hidden network</string>
+
+    <!-- Wi-Fi Settings, Available Networks Page -->
+    <skip />
+    <!-- The title text of the Wi-Fi Available networks page [CHAR_LIMIT=50] -->
+    <string name="wifi_available_networks_title">Available networks</string>
+
+    <!-- Wi-Fi Settings, Add Networks Page -->
+    <skip />
+    <!-- The title text of the Wi-Fi Add networks page [CHAR_LIMIT=50] -->
+    <string name="wifi_add_network_title">Add network</string>
+
+    <!-- Wi-Fi Settings, Saved Networks Page -->
+    <skip />
+    <!-- The title text of the Wi-Fi Saved networks page [CHAR_LIMIT=50] -->
+    <string name="wifi_saved_networks_title">Saved networks</string>
+    <!-- Text on the saved networks page when there are no saved networks [CHAR_LIMIT=50] -->
+    <string name="wifi_empty_saved_networks">No saved networks</string>
+
+    <!-- Wi-Fi Settings, Advanced options Page -->
+    <skip />
+    <!-- Wi-Fi settings, advanced activity title [CHAR_LIMIT=50]-->
+    <string name="wifi_advanced_title">Advanced</string>
+    <!-- Wi-Fi settings, advanced, action text to open Wi-Fi Automatic rules page [CHAR LIMIT=50] -->
+    <string name="wifi_advanced_automatic_rules_action">Wi-Fi Automatic rules</string>
+    <!-- Wi-Fi settings, advanced, title of the item to show the IP address. [CHAR_LIMIT=50]-->
+    <string name="wifi_advanced_ip_address_title">IP address</string>
+    <!-- Wi-Fi settings, advanced, title of the item to show the Wi-Fi device's MAC address.[CHAR_LIMIT=50] -->
+    <string name="wifi_advanced_mac_address_title">MAC address</string>
+    <!-- Wi-Fi settings, advanced, action text to view IP and Mac addresses [CHAR LIMIT=50] -->
+    <string name="wifi_advanced_view_address_action">Tap to view</string>
+
+    <!-- Wi-Fi Settings, Wi-Fi Automatic Rules Page -->
+    <skip />
+    <!-- Wi-Fi settings, Wi-Fi Automatic Rules page, toggling rule which turns wifi on when away from phone for number of seconds [CHAR_LIMIT=80]-->
+    <string name="wifi_rules_toggle_away_from_phone_seconds">On when away from phone for <xliff:g id="num_seconds">%d</xliff:g>s</string>
+    <!-- Wi-Fi settings, Wi-Fi Automatic Rules page, toggling rule which turns wifi on when charging for a number of seconds[CHAR_LIMIT=80]-->
+    <string name="wifi_rules_toggle_charging_seconds">On when charging for <xliff:g id="num_seconds">%d</xliff:g>s</string>
+    <!-- Wi-Fi settings, Wi-Fi Automatic Rules page, toggling rule which turns wifi on when an app requests it[CHAR_LIMIT=80]-->
+    <string name="wifi_rules_toggle_app_requested">On when requested by app</string>
+    <!-- Wi-Fi settings, Wi-Fi Automatic Rules page, toggling rule which turns wifi off wifi is unavailable for a number of minutes[CHAR_LIMIT=80]-->
+    <string name="wifi_rules_toggle_no_wifi_available_minutes">Off when no Wi-Fi available for <xliff:g id="num_minutes">%d</xliff:g>m</string>
+    <!-- Wi-Fi settings, Wi-Fi Automatic Rules page, toggling rule which turns wifi off when battery is below a certain percentage[CHAR_LIMIT=80]-->
+    <string name="wifi_rules_toggle_battery_below_percent">Off when battery is below <xliff:g id="percentage">%s</xliff:g></string>
+
+    <!-- Wi-Fi Settings, About Wi-Fi Automatic Page -->
+    <skip />
+    <!-- The title text of the Wi-Fi About Wi-Fi Automatic page [CHAR LIMIT=20] -->
+    <string name="wifi_about_automatic_title">About Wi-Fi</string>
+
+    <!-- Wi-Fi settings, About Wi-Fi Automatic text [CHAR LIMIT=NONE] -->
+    <string name="wifi_about_automatic_text">When Wi-Fi is enabled, your watch will automatically turn Wi-Fi on or off to save battery. It responds when:
+            \n
+            \n\u2022 An app requires Wi-Fi
+            \n\u2022 Battery saver is on
+            \n\u2022 Watch is charging
+            \n\u2022 Watch is updating
+            \n\u2022 Watch is away from phone
+            \n\u2022 Watch can\'t connect to Wi-Fi
+            \n\u2022 Some other situations
+    </string>
+    <!-- Wi-Fi Settings Miscellaneous/Old Texts -->
+    <skip />
+    <!-- The title of the activity for Wi-Fi saved networks [CHAR_LIMIT=30] -->
+    <string name="wifi_saved_networks_activity_title">Saved networks</string>
+
+    <!-- The action text to toggle Wi-Fi [CHAR_LIMIT=20] -->
+    <string name="toggle_wifi_action">Wi-Fi</string>
+
+    <!-- The summary text of turning Wi-Fi on [CHAR_LIMIT=10] -->
+    <string name="action_summary_on">ON</string>
+
+    <!-- The summary text of turning Wi-Fi off [CHAR_LIMIT=10] -->
+    <string name="action_summary_off">OFF</string>
+
+    <!-- Title of the list item to be clicked on when the user wants to trigger a new wifi scan process. [CHAR_LIMIT=150] -->
+    <string name="wifi_scan">Scan</string>
+
+    <!-- Message to be shown during the Wi-Fi scanning process. [CHAR_LIMIT=150] -->
+    <string name="wifi_scanning">Scanning\u2026</string>
+
+    <!-- Message which is shown on entering the Wi-Fi settings when Wi-Fi is enabling. [CHAR_LIMIT=100] -->
+    <string name="wifi_enabling">Wi-Fi turning on\u2026</string>
+
+    <!-- Message which is shown on entering the Wi-Fi settings when Wi-Fi is disabling. [CHAR_LIMIT=100] -->
+    <string name="wifi_disabling">Wi-Fi turning off\u2026</string>
+
+    <!-- Successfully connected [CHAR_LIMIT=100] -->
+    <string name="wifi_connect_success_message">Connected</string>
+
+    <!-- Failured notification for connect [CHAR_LIMIT=100] -->
+    <string name="wifi_failed_connect_message">Failed to connect to network</string>
+
+    <!-- Failured notification for forget [CHAR_LIMIT=100] -->
+    <string name="wifi_failed_forget_message">Failed to forget network</string>
+
+    <!-- Message indicating the state of forgetting a saved network [CHAR_LIMIT=20] -->
+    <string name="wifi_network_forgetting">Forgetting\u2026</string>
+
+    <!-- The title of the dialog for forget network confirmation [CHAR_LIMIT=50] -->
+    <string name="wifi_forget_network_title">Forget network <xliff:g id="network_name">%1$s</xliff:g>?</string>
+
+    <!-- Toast message asking user to turn on Wi-Fi [CHAR_LIMIT=100] -->
+    <string name="wifi_needs_on_message">Please turn on Wi-Fi</string>
+
+    <!-- If automatic Wi-Fi sync unsuccessful ask user to add network -->
+    <string name="wifi_needs_network_message">Connect your watch to a Wi-Fi network</string>
+    <!-- If automatic Wi-Fi sync unsuccessful page before showing networks -->
+    <string name="wifi_select_network_message">Select network</string>
+
+    <!-- Summary for the remembered network but no internet connection was detected. [CHAR_LIMIT=100]-->
+    <string name="wifi_no_internet">No Internet access detected, won\'t automatically reconnect.</string>
+    <!-- Status for networked disabled from a DNS or DHCP failure [CHAR_LIMIT=50]-->
+    <string name="wifi_disabled_network_failure">IP configuration failure</string>
+    <!-- Status for networked disabled from a wifi association failure [CHAR_LIMIT=50]-->
+    <string name="wifi_disabled_wifi_failure">Wi-Fi connection failure</string>
+    <!-- Status for networks disabled from authentication failure (wrong password or certificate).[CHAR_LIMIT=50] -->
+    <string name="wifi_disabled_password_failure">Wrong password</string>
+
+    <!-- Wifi status item value if the actual value is not available. [CHAR_LIMIT=30] -->
+    <string name="wifi_status_unavailable">Unavailable</string>
+
+    <!-- Wi-Fi settings screen, advanced, power save after x minutes. [CHAR_LIMIT=NONE]-->
+    <plurals name="wifi_power_save_minutes">
+        <item quantity="one">1 minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <!-- Wi-Fi settings screen, advanced, power save after x hours. [CHAR_LIMIT=NONE]-->
+    <plurals name="wifi_power_save_hours">
+        <item quantity="one">1 hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <!-- Wi-Fi settings screen, advanced, never trigger power save. [CHAR_LIMIT=NONE]-->
+    <string name="wifi_power_save_never">Never</string>
+
+    <!-- Wi-Fi settings screen, advanced, title of the item to show power save after. [CHAR_LIMIT=50]-->
+    <string name="wifi_advanced_power_save_title">Power save after</string>
+    <!-- Wi-Fi settings screen, advanced, title of the item to show max battery use.[CHAR_LIMIT=50] -->
+    <string name="wifi_advanced_max_battery_title">Max battery use</string>
+
+    <!-- Wi-Fi notifications and actions for adding Wi-Fi Networks-->
+    <skip />
+    <!-- Notification title for when a Wi-Fi network is detected and can be connected to. [CHAR_LIMIT=75] -->
+    <string name="wifi_network_found_title">Wi-Fi network found</string>
+    <!-- Notification summary for when a Wi-Fi network is found. Tapping on the notification initiates connection to the network. [CHAR_LIMIT=75] -->
+    <string name="wifi_network_found_summary">Tap to connect watch to Wi-Fi</string>
+    <!-- Notification title for when a named Wi-Fi network is detected and can be connected to. [CHAR_LIMIT=75] -->
+    <string name="wifi_network_named_found_title">(<xliff:g id="network_name">%s</xliff:g>) network found</string>
+    <!-- Notification summary for when a named Wi-Fi network is found. Tapping on the notification initiates connection to the network. [CHAR_LIMIT=75] -->
+    <string name="wifi_network_named_found_summary">Tap to connect to Wi-Fi</string>
+    <!-- Alert text when a password must be entered to join a secure network. [CHAR_LIMIT=75] -->
+    <string name="wifi_network_password_required">Password required</string>
+    <!-- Alert/action text to enter the password using the phone. [CHAR_LIMIT=75] -->
+    <string name="wifi_network_enter_password_phone">Enter password on phone</string>
+    <!-- Alert/action text to enter the password using the watch. [CHAR_LIMIT=75] -->
+    <string name="wifi_network_enter_password_watch">Enter password on watch</string>
+    <!-- Alert/action complete network connection using the phone. [CHAR_LIMIT=100] -->
+    <string name="wifi_network_check_phone_to_connect">Check your phone to finish connecting to network</string>
+    <!-- Alert/action complete network/Wi-Fi setup using the phone. [CHAR_LIMIT=100] -->
+    <string name="wifi_network_check_phone_to_finish">Check your phone to finish set up</string>
+    <!-- Generic string for continuing an action on the phone. [CHAR_LIMIT=75] -->
+    <string name="wifi_network_continue_on_phone">Continue on phone</string>
+
+    <!-- Message telling the user to connect the watch to Wi-Fi [CHAR_LIMIT=100]-->
+    <string name="setting_cloudsync_title">Connect your watch to Wi-Fi with Wear cloud sync</string>
+    <!-- Subtext on setting that toggles whether or not to opt in Cloud Sync. [CHAR LIMIT=500] -->
+    <string name="setting_cloudsync_summary">"Turn on Wear cloud sync to receive notifications and use voice search when you leave your phone behind. To enable this service, Wear OS data from your phone and watch will be stored on Google\'s servers. Your backed up Wi-Fi networks and passwords will be automatically sent to your watch, and your watch will stay synced even when you're not wearing it."</string>
+
+    <string name="cloudsync_opt_in">Accept</string>
+    <string name="cloudsync_opt_out">No thanks</string>
+    <string name="cloudsync_open_on_phone">Open on phone</string>
+
+    <!-- System alert title telling the user they have switched to an unsupported language [CHAR_LIMIT=100]-->
+    <string name="language_not_supported_title">Language not supported.</string>
+    <!-- Option text in language not supported system alert allowing users to open language settings on the phone. [CHAR_LIMIT=21]-->
+    <string name="language_not_supported_open_on_phone">Open on phone</string>
+
+    <!-- Action which launches the input settings activity [CHAR LIMIT=25] -->
+    <string name="input_settings">Input methods</string>
+    <!-- The prefix displayed before the current input method. [CHAR_LIMIT=25] -->
+    <string name="input_current_prefix">Current</string>
+    <!-- Action to configure which keyboards are enabled for use. [CHAR_LIMIT=30] -->
+    <string name="input_choose_keyboards">Choose keyboards</string>
+    <!-- Shown when there is no default input method selected. [CHAR_LIMIT=30] -->
+    <string name="input_none_selected">None selected</string>
+    <!-- Shown when there are no input method installed to select from. [CHAR_LIMIT=40] -->
+    <string name="input_none_enabled">No input methods are enabled</string>
+    <!-- Title for settings whether or not the framework will select input methods in an IME based on the current system locale. -->
+    <string name="use_system_language_to_select_input_method_subtypes">Use system language</string>
+    <!-- Warning message about security implications of enabling an input method, displayed as a dialog
+         message when the user selects to enable an IME. -->
+    <string name="ime_security_warning">This input method may be able to collect
+    all the text you type, including personal data like passwords and credit
+    card numbers.  It comes from the app
+    <xliff:g id="ime_application_name">%1$s</xliff:g>.
+    Use this input method?</string>
+    <!-- Title for the 'virtual keyboard' preference sub-screen. [CHAR LIMIT=35] -->
+    <string name="virtual_keyboard_category">Virtual keyboard</string>
+    <!-- Title for the 'available virtual keyboard' preference sub-screen. [CHAR LIMIT=35] -->
+    <string name="available_virtual_keyboard_category">Available virtual keyboard</string>
+    <!-- Title for the button to trigger the 'Manage keyboards' preference sub-screen, where the user can turn on/off installed virtual keyboards.[CHAR LIMIT=35] -->
+    <string name="add_virtual_keyboard">Manage keyboards</string>
+
+    <!-- Title of a dialog for allowing adb debugging. [CHAR_LIMIT=30] -->
+    <string name="secure_adb_confirmation_title">Allow Debugging?</string>
+    <!-- Secure adb confirmation dialog's Cancel button label [CHAR LIMIT=30] -->
+    <string name="secure_adb_cancel">Cancel</string>
+    <!-- Secure adb confirmation dialog's OK button label [CHAR LIMIT=30] -->
+    <string name="secure_adb_ok">OK</string>
+    <!-- Option to always allow USB debugging from the attached computer [CHAR_LIMIT=80] -->
+    <string name="secure_adb_whitelist_label">Always allow from this computer</string>
+    <!-- Option to view the USB host's fingerprint [CHAR LIMIT=80] -->
+    <string name="secure_adb_view_fingerprint">View fingerprint</string>
+    <!-- Message in the secure adb confirmation dialog [CHAR_LIMIT=80] -->
+    <string name="secure_adb_fingerprint_text">The computer\'s RSA key fingerprint is:
+        \n<xliff:g id="fingerprint">%1$s</xliff:g></string>
+
+    <!-- Text for toast shown when theater mode is entered on a device with a physical power button [CHAR_LIMIT=NONE] -->
+    <string name="theater_mode_toast_button">To turn screen back on, press the power button</string>
+
+    <!-- Text for toast shown when theater mode is entered on a device without a physical side button [CHAR_LIMIT=NONE] -->
+    <string name="theater_mode_toast_no_button">To turn screen back on, quickly tap 3 times</string>
+
+    <!-- Text for dialog shown when wet mode is started [CHAR_LIMIT=NONE] -->
+    <string name="wet_mode_dialog_title">Touch lock enabled</string>
+    <!-- Text for dialog shown when wet mode is started [CHAR_LIMIT=NONE] -->
+    <string name="wet_mode_dialog_message">Touch screen now off. Turn on with power button.</string>
+    <!-- Text for the "never show again" option on the wet mode dialog [CHAR_LIMIT=NONE] -->
+    <string name="wet_mode_dialog_never_show_dialog">Don\'t show again</string>
+
+    <!-- Caption for Wifi action button Open on phone. [CHAR_LIMIT=30] -->
+    <string name="action_open_on_phone">Open on phone</string>
+    <!-- Caption for Wifi action button Open on watch. [CHAR_LIMIT=30] -->
+    <string name="action_open_on_watch">Open on watch</string>
+    <!-- Caption for Wifi action button Enter on phone. [CHAR_LIMIT=30] -->
+    <string name="action_enter_on_phone">Enter on phone</string>
+    <!-- Caption for Wifi action button Enter on watch. [CHAR_LIMIT=30] -->
+    <string name="action_enter_on_watch">Enter on watch</string>
+    <!-- Caption for Wifi action button Forget network. [CHAR_LIMIT=30] -->
+    <string name="action_forget">Forget</string>
+    <!-- Caption for Wifi action button Retry. [CHAR_LIMIT=30] -->
+    <string name="action_retry">Retry</string>
+    <!-- Title of Wifi action dialog for manually adding a network with a hidden SSID. [CHAR_LIMIT=100]-->
+    <string name="wifi_action_dialog_title_add_network">To add a new network, open the Wear OS app on your phone</string>
+    <!-- Title of Wifi action dialog for entering credentials for selected SSID on their phone [CHAR LIMIT=100]-->
+    <string name="wifi_action_dialog_enter_on_phone">Network password required</string>
+
+    <!-- Text for selecting protected Wi-Fi network on watch and entering password on phone [CHAR LIMIT=100] -->
+    <string name="wifi_enter_password_on_phone">To connect, enter the password on your phone</string>
+
+    <!-- Text for screen where we wait for the user to do an action on the phone [CHAR LIMIT=30] -->
+    <string name="wifi_continue_on_phone">Continue on phone</string>
+
+    <!--  Title of the error dialog to tell user "Open on phone" requires the phone to be nearby. [CHAR LIMIT=20]-->
+    <string name="phone_away_error_dialog_title">Phone away</string>
+    <!--  Subtitle of the error dialog to tell user "Open on phone" requires the phone to be nearby. [CHAR LIMIT=100]-->
+    <string name="phone_away_error_dialog_subtitle">Phone is not nearby or Bluetooth is off</string>
+
+    <!-- Title of screen where the user creates a new screen lock pattern [CHAR LIMIT=70] -->
+    <string name="screen_lock_create_pattern">Draw an unlock pattern</string>
+
+    <!-- Title when lock pattern drawing is in progress during lock creation [CHAR LIMIT=70] -->
+    <string name="screen_lock_create_pattern_in_progress">Lift finger when done</string>
+
+    <!-- Title of screen where the user confirms their newly created pattern [CHAR LIMIT=70] -->
+    <string name="screen_lock_confirm_pattern">Draw pattern again to confirm</string>
+
+    <!-- Message informing the user that the pattern they entered did not match [CHAR LIMIT=23] -->
+    <string name="screen_lock_pattern_no_match">Wrong pattern</string>
+
+    <!-- Title of screen where the user enters a new screen lock pattern [CHAR LIMIT=19] -->
+    <string name="screen_lock_enter_pattern">Enter pattern</string>
+
+    <!-- Title of dialog shown when the user tries to disable their lock pattern [CHAR LIMIT=100] -->
+    <string name="screen_lock_remove_dialog">Turn off screen lock?</string>
+
+    <!-- Title of dialog shown when the user tries to disable their lock pattern and they have
+         Pay tokens on their watch [CHAR LIMIT=100] -->
+    <string name="screen_lock_remove_pay_dialog_title">A screen lock is required for Android Pay</string>
+    <!-- Text of dialog shown when the user tries to disable their lock pattern and they have
+         Pay tokens on their watch [CHAR LIMIT=150] -->
+    <string name="screen_lock_remove_pay_dialog_text">For your security, your cards will be removed if the screen lock is off for 5 minutes or more. Continue?</string>
+
+    <!-- Confirmation dialog shown for enabling lock screen [CHAR LIMIT=100] -->
+    <string name="screen_lock_create_confirmation">Auto-lock watch after you take it off?</string>
+
+    <!-- Hint on virtual keyboard for filling password on the watch [CHAR LIMIT=10] -->
+    <string name="keyboard_password_hint">password</string>
+
+    <!-- Hint on first keyboard of choose pin flow [CHAR LIMIT=10] -->
+    <string name="screen_lock_pin_hint">PIN</string>
+    <!-- Hint on password confirm screen [CHAR LIMIT=10] -->
+    <string name="screen_lock_confirm_hint">confirm</string>
+
+    <!-- Message informing the user that the password they entered did not match [CHAR LIMIT=30] -->
+    <string name="screen_lock_password_no_match">Wrong password</string>
+
+    <!-- Message shown to the user when they've tried unsuccessfully to unlock the device too many times [CHAR LIMIT=50] -->
+    <string name="screen_lock_too_many_attempts">Too many attempts. Please wait.</string>
+
+    <!-- Message informing the user that the PIN they entered did not match [CHAR LIMIT=30] -->
+    <string name="screen_lock_pin_no_match">Wrong PIN</string>
+
+    <!-- Copied from platform Settings app -->
+    <!-- Header on password confirm screen if second password doesn't match the first. [CHAR LIMIT=30] -->
+    <string name="lockpassword_confirm_passwords_dont_match">Passwords don\u2019t match</string>
+    <!-- Header on pin confirm screen if second pin doesn't match the first. [CHAR LIMIT=30]-->
+    <string name="lockpassword_confirm_pins_dont_match">PINs don\u2019t match</string>
+    <!-- Security & location settings screen, change security method screen instruction if user
+     enters incorrect PIN [CHAR LIMIT=30] -->
+    <string name="lockpassword_invalid_pin">Wrong PIN</string>
+    <!-- Security & location settings screen, change security method screen instruction if user enters incorrect password [CHAR LIMIT=40] -->
+    <string name="lockpassword_invalid_password">Wrong password</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction if user draws incorrect pattern [CHAR LIMIT=40] -->
+    <!-- Security & location settings screen, change unlock pattern screen instruction if user draws incorrect pattern [CHAR LIMIT=40] -->
+    <string name="lockpattern_need_to_unlock_wrong">Try again</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen while drawing pattern [CHAR LIMIT=40] -->
+    <string name="lockpattern_recording_inprogress">Release finger when done</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen.  This is when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns).. [CHAR LIMIT=40]-->
+    <string name="lockpattern_recording_intro_header">Draw an unlock pattern</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen if user doesn't connect enough dots [CHAR LIMIT=40] -->
+    <string name="lockpattern_recording_incorrect_too_short">Connect at least <xliff:g id="number">%d</xliff:g> dots. Try again.</string>
+    <!-- Security & location settings screen, change unlock pattern screen message on top of screen after drawing pattern [CHAR LIMIT=40] -->
+    <string name="lockpattern_pattern_entered_header">Pattern recorded</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern [CHAR LIMIT=40] -->
+    <string name="lockpattern_need_to_confirm">Draw pattern again to confirm</string>
+    <string name="lockpattern_pattern_confirmed_header">Your new unlock pattern</string>
+    <!-- Error shown when password is too short [CHAR LIMIT=40] -->
+    <string name="lockpassword_password_too_short">Password must be at least %d characters</string>
+    <!-- Error shown when PIN is too short [CHAR LIMIT=40] -->
+    <string name="lockpassword_pin_too_short">PIN must be at least %d digits</string>
+    <!-- Error shown when password is too long [CHAR LIMIT=40] -->
+    <string name="lockpassword_password_too_long">Password must be fewer than <xliff:g id="number" example="17">%d</xliff:g> characters.</string>
+    <!-- Error shown when PIN is too long [CHAR LIMIT=40] -->
+    <string name="lockpassword_pin_too_long">PIN must be fewer than <xliff:g id="number" example="17">%d</xliff:g> digits.</string>
+    <!-- Error shown when in PIN mode and user enters a non-digit [CHAR LIMIT=70] -->
+    <string name="lockpassword_pin_contains_non_digits">PIN must contain only digits 0-9.</string>
+    <!-- Error shown when in PIN mode and PIN has been used recently. [CHAR LIMIT=70] -->
+    <string name="lockpassword_pin_recently_used">Device administrator doesn\u2019t allow using a recent PIN.</string>
+    <!-- Error shown when in PASSWORD mode and user enters an invalid character [CHAR LIMIT=70] -->
+    <string name="lockpassword_illegal_character">Password contains an illegal character.</string>
+    <!-- Error shown when in PASSWORD mode and password is all digits [CHAR LIMIT=70] -->
+    <string name="lockpassword_password_requires_alpha">Password must contain at least one letter.</string>
+    <!-- Error shown when in PASSWORD mode and password doesn't contain any digits [CHAR LIMIT=70] -->
+    <string name="lockpassword_password_requires_digit">Password must contain at least one digit.</string>
+    <!-- Error shown when in PASSWORD mode and password doesn't contain any symbols [CHAR LIMIT=70] -->
+    <string name="lockpassword_password_requires_symbol">Password must contain at least one symbol.</string>
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of letters [CHAR LIMIT=70] -->
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="one">Password must contain at least 1 letter.</item>
+        <item quantity="other">Password must contain at least %d letters.</item>
+    </plurals>
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of lowercase letters [CHAR LIMIT=70] -->
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="one">Password must contain at least 1 lowercase letter.</item>
+        <item quantity="other">Password must contain at least %d lowercase letters.</item>
+    </plurals>
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of uppercase letters [CHAR LIMIT=70] -->
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="one">Password must contain at least 1 uppercase letter.</item>
+        <item quantity="other">Password must contain at least %d uppercase letters.</item>
+    </plurals>
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of numerical digits [CHAR LIMIT=70] -->
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="one">Password must contain at least 1 numerical digit.</item>
+        <item quantity="other">Password must contain at least %d numerical digits.</item>
+    </plurals>
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of special symbols [CHAR LIMIT=70] -->
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="one">Password must contain at least 1 special symbol.</item>
+        <item quantity="other">Password must contain at least %d special symbols.</item>
+    </plurals>
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of non-letter characters [CHAR LIMIT=70] -->
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="one">Password must contain at least 1 non-letter character.</item>
+        <item quantity="other">Password must contain at least %d non-letter characters.</item>
+    </plurals>
+    <!-- Error shown when in PASSWORD mode and password has been used recently. [CHAR LIMIT=70] -->
+    <string name="lockpassword_password_recently_used">Device administrator doesn\u2019t allow using a recent password.</string>
+    <!-- Error shown when the user tries to set an ascending or descending sequence of digits [CHAR LIMIT=70] -->
+    <string name="lockpassword_pin_no_sequential_digits">An ascending, descending or repeated sequence of digits is forbidden</string>
+
+    <!-- Mobile settings strings -->
+    <!-- Action text for requesting activation of call forwarding [CHAR_LIMIT=50] -->
+    <string name="action_request_activation">Request activation</string>
+    <!-- Action text for changing phone number [CHAR_LIMIT=50] -->
+    <string name="action_change_number">Change watch number</string>
+    <!-- The title of a dialog prompting the user to enter their watch phone number [CHAR_LIMIT=40] -->
+    <string name="call_forward_empty_watch_number_title">Enter number for watch</string>
+    <!-- The message of a dialog prompting the user to enter their watch phone number [CHAR_LIMIT=NONE] -->
+    <string name="call_forward_empty_watch_number_message">A phone number needs to be set for this watch. Enter one now.</string>
+    <!-- The action text to open emergency alerts page [CHAR_LIMIT=30] -->
+    <string name="emergency_alerts_action">Emergency alerts</string>
+    <!-- The action text for toggling whether the watch shares the phone's number [CHAR_LIMIT=48] -->
+    <string name="twinning_settings_action">Watch shares number with phone</string>
+    <!-- The title for the number sharing section [CHAR_LIMIT=30] -->
+    <string name="number_sharing_title">Number sharing</string>
+    <!-- The action text to toggle sharing number with phone for calls [CHAR_LIMIT=30] -->
+    <string name="number_sharing_calls_action">Calls</string>
+    <!-- The action text to toggle sharing number with phone for text messages [CHAR_LIMIT=30] -->
+    <string name="number_sharing_sms_action">Text messages</string>
+    <!-- The title of the activity for mobile data usage [CHAR_LIMIT=30] -->
+    <string name="data_usage_activity_title">Watch data usage</string>
+    <!-- The action text to toggle mobile data limit [CHAR_LIMIT=20] -->
+    <string name="toggle_data_limit_action">Set data limit</string>
+    <!-- The action text to toggle whether to use mobile data [CHAR_LIMIT=20] -->
+    <string name="toggle_data_connectivity_action">Mobile data</string>
+    <!-- Title of dialog shown before user limits data usage. [CHAR LIMIT=48] -->
+    <string name="data_usage_limit_dialog_title">Limiting data usage</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_subtitle">Once the limit is reached, mobile data will turn off.\n\nYour watch and your carrier may measure data usage differently, so consider setting a conservative limit.</string>
+    <!-- The action text to set mobile data limit value [CHAR_LIMIT=20] -->
+    <string name="set_data_limit_action">Data limit</string>
+    <!-- The action text to set mobile data usage warning level value [CHAR_LIMIT=20] -->
+    <string name="set_warning_level_action">Warning level</string>
+    <!-- The action text to show mobile usage for each app [CHAR_LIMIT=20] -->
+    <string name="show_app_usage_action">App usage</string>
+    <!-- The title of the activity for choosing data limit [CHAR_LIMIT=20] -->
+    <string name="data_limit_chooser_title">Data limit</string>
+    <!-- The title of the activity for choosing warning level [CHAR_LIMIT=20] -->
+    <string name="data_limit_chooser_warning_level_title">Warning level</string>
+    <!-- The title of the SIM locked dialog [CHAR_LIMIT=20] -->
+    <string name="sim_locked_dialog_title">Unlock SIM?</string>
+    <!-- The subtitle of the SIM locked dialog [CHAR LIMIT=NONE] -->
+    <string name="sim_locked_dialog_subtitle">SIM is locked. To place or receive a call, SIM must be unlocked.</string>
+    <!-- The title of the activity for choosing data usage cycle start day [CHAR_LIMIT=30] -->
+    <string name="cycle_day_chooser_title">Cycle start day</string>
+    <!-- The title of the activity for app data usage [CHAR_LIMIT=20] -->
+    <string name="app_usage_activity_title">App usage</string>
+
+    <!-- Emergency Dialer Settings -->
+    <!-- The title of the setting for the emergency dialer [CHAR_LIMIT=20] -->
+    <string name="emergency_dialer_title">Emergency call</string>
+    <!-- Mobile Advanced Settings -->
+    <!-- The title of the activity for Mobile advanced settings [CHAR_LIMIT=20] -->
+    <string name="advanced_settings_title">Advanced</string>
+    <!-- The action text to set Preferred network type [CHAR_LIMIT=30] -->
+    <string name="preferred_network_type_action">Preferred network type</string>
+    <!-- The action text to set Access Point Names [CHAR_LIMIT=30] -->
+    <string name="access_point_names_action">Access Point Names</string>
+    <!-- The action text and title to enable or disable phone accounts [CHAR LIMIT=30] -->
+    <string name="accounts">Accounts</string>
+    <!-- The action text to set Network operators [CHAR_LIMIT=30] -->
+    <string name="network_operators_action">Network operators</string>
+
+    <!-- Preferred network type Settings -->
+    <!-- The title of the activity for preferred network type settings [CHAR_LIMIT=30] -->
+    <string name="preferred_network_type_title">Preferred network type</string>
+
+    <!-- APN Settings -->
+    <!-- The title of the activity for APN settings [CHAR_LIMIT=30] -->
+    <string name="apn_settings_title">Access Point Names</string>
+    <!-- Edit access point label summary text when no value has been set -->
+    <string name="apn_not_set">Not set</string>
+    <!-- Edit access point labels: A label the user can give to the APN to allow him to differentiate it from the others -->
+    <string name="apn_name">Name</string>
+    <!-- Edit access point labels: The actual access point name-->
+    <string name="apn_apn">APN</string>
+    <!-- Edit access point labels: The addess of the proxy to use for this APN -->
+    <string name="apn_http_proxy">Proxy</string>
+    <!-- Edit access point labels: The port number of the proxy to use for this APN -->
+    <string name="apn_http_port">Port</string>
+    <!-- Edit access point labels: The username that will be used when conencting to this APN-->
+    <string name="apn_user">Username</string>
+    <!-- Edit access point labels: The password that will be used when connecting to this APN -->
+    <string name="apn_password">Password</string>
+    <!-- Edit access point labels: The server address to conenct to for this APN -->
+    <string name="apn_server">Server</string>
+    <!-- Edit access point labels: -->
+    <string name="apn_mmsc">MMSC</string>
+    <!-- Edit access point labels: The proxy to use for MMS (multimedia messages)-->
+    <string name="apn_mms_proxy">MMS proxy</string>
+    <!-- Edit access point labels: The port on the proxy used for MMS-->
+    <string name="apn_mms_port">MMS port</string>
+    <!-- Edit access point labels: -->
+    <string name="apn_mcc">MCC</string>
+    <!-- Edit access point labels: -->
+    <string name="apn_mnc">MNC</string>
+    <!-- Edit acces  point labels: Authenticaton type-->
+    <string name="apn_auth_type">Authentication type</string>
+    <!-- Authentication Typs: None -->
+    <string name="apn_auth_type_none">None</string>
+    <!-- Authentication Typs: PAP -->
+    <string name="apn_auth_type_pap">PAP</string>
+    <!-- Authentication Typs: CHAP -->
+    <string name="apn_auth_type_chap">CHAP</string>
+    <!-- Authentication Typs: PAP or CHAP -->
+    <string name="apn_auth_type_pap_chap">PAP or CHAP</string>
+    <!-- Edit access point labels: The type of APN -->
+    <string name="apn_type">APN type</string>
+    <!-- Edit access point labels: The protocol of the APN, e.g., "IPv4", "IPv6", or "IPv4/IPv6". -->
+    <string name="apn_protocol">APN protocol</string>
+    <!-- Edit access point labels: The protocol of the APN when roaming, e.g., "IPv4", "IPv6", or "IPv4/IPv6". -->
+    <string name="apn_roaming_protocol">APN roaming protocol</string>
+    <!-- Edit enable/disable of APN -->
+    <string name="carrier_enabled">APN enable/disable</string>
+    <string name="carrier_enabled_summaryOn">APN enabled</string>
+    <string name="carrier_enabled_summaryOff">APN disabled</string>
+    <!-- Edit Beaerer Info of APN -->
+    <string name="bearer">Bearer</string>
+    <!-- Edit Mvno Type Info of APN -->
+    <string name="mvno_type">MVNO type</string>
+    <!-- Edit Mvno Match Data Info of APN -->
+    <string name="mvno_match_data">MVNO value</string>
+
+    <!-- Network Operators Settings -->
+    <!-- The title of button to enable  Enhaced 4G LTE Mode [CHAR_LIMIT=30] -->
+    <string name="enhanced_4g_lte_mode">Enhanced 4G LTE Mode</string>
+    <!-- The title of the activity for network operators settings [CHAR_LIMIT=30] -->
+    <string name="network_operators_title">Available networks</string>
+    <!-- The title of the activity for network operators settings inidicating no networks found [CHAR_LIMIT=30] -->
+    <string name="empty_networks_title">No networks found</string>
+    <!-- The label for the progress view [CHAR_LIMIT=30] -->
+    <string name="network_operators_searching">Searching\u2026</string>
+    <!-- Available networks screen, setting option name [CHAR_LIMIT=30] -->
+    <string name="network_operators_select_automatically">Choose automatically</string>
+
+    <!-- SIM unlock strings -->
+    <!-- SIM unlock PIN input box hint text [CHAR LIMIT=20] -->
+    <string name="sim_pin_edit_hint">Enter SIM PIN</string>
+    <!-- SIM PUK unlock PIN input box hint text [CHAR LIMIT=20] -->
+    <string name="sim_pin_edit_puk_hint">Enter PUK PIN</string>
+    <!-- Enable lock SIM card old PIN input box hint text [CHAR LIMIT=20] -->
+    <string name="sim_pin_edit_old_hint">Enter old PIN</string>
+    <!-- Enable lock SIM card new PIN input box hint text [CHAR LIMIT=20] -->
+    <string name="sim_pin_edit_new_hint">Enter new PIN</string>
+    <!-- Repeat enable lock SIM card PIN input box hint text [CHAR LIMIT=20] -->
+    <string name="sim_pin_edit_repeat_hint">Repeat new PIN</string>
+    <!-- Two enable lock SIM card PIN not matched warning [CHAR LIMIT=30] -->
+    <string name="sim_pin_edit_repeat_not_match">The PIN codes do not match.</string>
+    <!-- Enable lock SIM card success text [CHAR LIMIT=30] -->
+    <string name="sim_lock_success">SIM locked</string>
+    <!-- Number of attempts remaining to unlock SIM [CHAR LIMIT=20] -->
+    <string name="sim_unlock_success">SIM unlocked</string>
+    <!-- Number of attempts remaining to unlock SIM [CHAR LIMIT=20] -->
+    <string name="puk_unlock_success">PUK unlocked</string>
+    <!-- Enable lock SIM card success text [CHAR LIMIT=30] -->
+    <string name="sim_lock_enable_success">SIM lock enabled</string>
+    <!-- Enable lock SIM card success text [CHAR LIMIT=30] -->
+    <string name="sim_lock_disable_success">SIM lock disabled</string>
+    <!-- Changed SIM pin success text [CHAR LIMIT=50] -->
+    <string name="sim_lock_pin_change_success">SIM PIN changed</string>
+    <!-- Number of attempts remaining to unlock SIM [CHAR LIMIT=20] -->
+    <plurals name="sim_unlock_attempts_remaining">
+        <item quantity="one">%d more try</item>
+        <item quantity="other">%d more tries</item>
+    </plurals>
+    <!-- No tries remaining to unlock SIM [CHAR LIMIT=30] -->
+    <string name="sim_unlock_attempts_remaining_none">No tries remaining.</string>
+    <!-- SIM unlock wrong code message [CHAR LIMIT=30] -->
+    <string name="sim_unlock_wrong_code">Wrong SIM PIN.</string>
+    <!-- SIM unlock wrong code message [CHAR LIMIT=30] -->
+    <string name="sim_unlock_wrong_code_puk">Wrong PUK PIN.</string>
+    <!-- SIM unlock wrong code length message [CHAR LIMIT=40] -->
+    <string name="sim_unlock_wrong_length">Length should be between 4 and 8 digits.</string>
+    <!-- PUK unlock wrong code length message [CHAR LIMIT=40] -->
+    <string name="sim_unlock_wrong_length_puk">Length should be 8 digits.</string>
+    <!-- Too many attempts trying to unlock the SIM [CHAR LIMIT=NONE] -->
+    <string name="sim_unlock_too_many_attempts">Too many SIM unlock attempts.\nContact your carrier to unlock your SIM.</string>
+    <string name="puk_unlock_too_many_attempts">Too many PUK unlock attempts.\nContact your carrier for a new SIM.</string>
+
+    <!-- Default SMS app strings -->
+    <!-- The title of the activity for default SMS app settings [CHAR_LIMIT=30] -->
+    <string name="default_sms_title">Default SMS app</string>
+
+    <!-- SIM notification strings -->
+    <!-- Title for the SIM locked notification [CHAR LIMIT=23] -->
+    <string name="sim_locked_notification_title">SIM locked</string>
+    <!-- Title for the SIM locked notification [CHAR LIMIT=23] -->
+    <string name="sim_unlock_action_title">Unlock SIM</string>
+    <!-- Title for the SIM locked notification [CHAR LIMIT=30] -->
+    <string name="sim_dismiss_action_title">Dismiss without unlocking SIM</string>
+    <!-- Summary for the SIM locked notification [CHAR LIMIT=NONE] -->
+    <string name="sim_locked_notification_summary">Tap to enter SIM unlock PIN</string>
+    <!-- Title for the SIM absent notification [CHAR LIMIT=20] -->
+    <string name="sim_absent_notification_title">Missing SIM</string>
+    <!-- Title for the SIM invalid notification [CHAR LIMIT=20] -->
+    <string name="sim_invalid_notification_title">Invalid SIM</string>
+    <!-- Title for the SIM locked PUK required notification [CHAR LIMIT=NONE] -->
+    <string name="puk_required_notification_title">SIM PUK locked</string>
+    <!-- Summary for the SIM locked PUK required notification [CHAR LIMIT=NONE] -->
+    <string name="puk_required_notification_summary">Tap to enter PUK PIN and set up new SIM PIN</string>
+    <!-- Title for the SIM permanently locked notification [CHAR LIMIT=40] -->
+    <string name="perm_locked_notification_title">SIM permanently locked</string>
+    <!-- Summary for the SIM permanently locked notification [CHAR LIMIT=NONE] -->
+    <string name="perm_locked_notification_summary">Contact your carrier for a new SIM. Too many PUK unlock attempts.</string>
+
+    <!-- SIM status strings -->
+    <!-- Title for the SIM status activity [CHAR LIMIT=20] -->
+    <string name="sim_status_activity_title">SIM status</string>
+    <!-- Format string for the signal strength on SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_signal_strength"><xliff:g id="dbm">%1$d</xliff:g> dBm <xliff:g id="asu">%2$d</xliff:g> asu</string>
+    <!-- String displayed when SIM status field could not be read. [CHAR LIMIT=20] -->
+    <string name="sim_status_field_not_available">Not available</string>
+
+    <!-- Call forwarding -->
+    <!-- Message shown for call forwarding settings activity [CHAR LIMIT=NONE] -->
+    <string name="call_forwarding_activity_message">Unanswered calls to your phone will forward to your watch (<xliff:g id="phone_number">%s</xliff:g>). Your phone must be on to activate this feature.</string>
+
+    <!-- String displayed in SIM status page when device is roaming. [CHAR LIMIT=20] -->
+    <string name="sim_status_roaming">Roaming</string>
+    <!-- String displayed in SIM status page when device is not roaming. [CHAR LIMIT=20] -->
+    <string name="sim_status_not_roaming">Not roaming</string>
+
+    <!-- Title for the network name section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_network">Network</string>
+    <!-- Title for the signal strength section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_signal_strength">Signal strength</string>
+    <!-- Title for the network type section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_network_type">Network type</string>
+    <!-- Title for the service state section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_service_state">Service state</string>
+    <!-- Title for the roaming state section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_roaming_state">Roaming</string>
+    <!-- Title for the network state section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_network_state">Network state</string>
+    <!-- Title for the phone number section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_phone_number">Phone number</string>
+    <!-- Title for the IMEI section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_imei">IMEI</string>
+    <!-- Title for the IMEI SV section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_imei_sv">IMEI SV</string>
+    <!-- Title for the ICCID section of the SIM status page. [CHAR LIMIT=20] -->
+    <string name="sim_status_title_iccid">ICCID</string>
+
+    <!-- String to display for an unknown network type. [CHAR LIMIT=20] -->
+    <string name="network_type_unknown">Unknown</string>
+    <!-- String to display for GPRS network type. [CHAR LIMIT=20] -->
+    <string name="network_type_gprs">GPRS</string>
+    <!-- String to display for EDGE network type. [CHAR LIMIT=20] -->
+    <string name="network_type_edge">EDGE</string>
+    <!-- String to display for UMTS network type. [CHAR LIMIT=20] -->
+    <string name="network_type_umts">UMTS</string>
+    <!-- String to display for CDMA network type. [CHAR LIMIT=20] -->
+    <string name="network_type_cdma">CDMA</string>
+    <!-- String to display for EVDO 0 network type. [CHAR LIMIT=20] -->
+    <string name="network_type_evdo_0">EVDO 0</string>
+    <!-- String to display for EVDO A network type. [CHAR LIMIT=20] -->
+    <string name="network_type_evdo_a">EVDO A</string>
+    <!-- String to display for 1xRTT network type. [CHAR LIMIT=20] -->
+    <string name="network_type_1xrtt">1xRTT</string>
+    <!-- String to display for HSDPA network type. [CHAR LIMIT=20] -->
+    <string name="network_type_hsdpa">HSDPA</string>
+    <!-- String to display for HSUPA network type. [CHAR LIMIT=20] -->
+    <string name="network_type_hsupa">HSUPA</string>
+    <!-- String to display for HSPA network type. [CHAR LIMIT=20] -->
+    <string name="network_type_hspa">HSPA</string>
+    <!-- String to display for iDen network type. [CHAR LIMIT=20] -->
+    <string name="network_type_iden">iDen</string>
+    <!-- String to display for EVDO B network type. [CHAR LIMIT=20] -->
+    <string name="network_type_evdo_b">EVDO B</string>
+    <!-- String to display for LTE network type. [CHAR LIMIT=20] -->
+    <string name="network_type_lte">LTE</string>
+    <!-- String to display for eHRPD network type. [CHAR LIMIT=20] -->
+    <string name="network_type_ehrpd">eHRPD</string>
+    <!-- String to display for HSPA+ network type. [CHAR LIMIT=20] -->
+    <string name="network_type_hspap">HSPA+</string>
+    <!-- String to display for GSM network type. [CHAR LIMIT=20] -->
+    <string name="network_type_gsm">GSM</string>
+    <!-- String to display for TD-SCDMA network type. [CHAR LIMIT=20] -->
+    <string name="network_type_td_scdma">TD-SCDMA</string>
+
+    <!-- The disconnected data network state. [CHAR LIMIT=20] -->
+    <string name="network_state_disconnected">Disconnected</string>
+    <!-- The connecting data network state. [CHAR LIMIT=20] -->
+    <string name="network_state_connecting">Connecting\u2026</string>
+    <!-- The connected data network state. [CHAR LIMIT=20] -->
+    <string name="network_state_connected">Connected</string>
+    <!-- The suspended data network state. [CHAR LIMIT=20] -->
+    <string name="network_state_suspended">Suspended</string>
+
+    <!-- The voice network is in service. [CHAR LIMIT=20] -->
+    <string name="service_state_in_service">In service</string>
+    <!-- The voice network is out of service. [CHAR LIMIT=20] -->
+    <string name="service_state_out_of_service">Out of service</string>
+    <!-- The voice network can only place emergency calls. [CHAR LIMIT=40] -->
+    <string name="service_state_emergency_only">Emergency calls only</string>
+    <!-- The voice network is off. [CHAR LIMIT=20] -->
+    <string name="service_state_off">Radio off</string>
+
+    <!-- Emergency alerts strings -->
+    <!-- Setting item to enable/disable extreme threat notifications. [CHAR LIMIT=40] -->
+    <string name="emergency_alerts_extreme_threats">Show extreme threats</string>
+    <!-- Setting item to enable/disable severe threat notifications. [CHAR LIMIT=40] -->
+    <string name="emergency_alerts_severe_threats">Show severe threats</string>
+    <!-- Setting item to enable/disable AMBER alert notifications. [CHAR LIMIT=40] -->
+    <string name="emergency_alerts_amber_alerts">Show AMBER alerts</string>
+    <!-- Setting item to enable/disable ETWS alert notifications. [CHAR LIMIT=40] -->
+    <string name="emergency_alerts_etws_test_alerts">Show ETWS test alerts</string>
+    <!-- Setting item to enable/disable CMAS alert notifications. [CHAR LIMIT=40] -->
+    <string name="emergency_alerts_cmas_test_alerts">Show CMAS test alerts</string>
+    <!-- Setting item to enable/disable reminders for the various alerts.[CHAR LIMIT=40] -->
+    <string name="emergency_alerts_alert_reminder">Alert reminder</string>
+    <!-- Setting item to enable/disable vibration when an alert is receive. [CHAR LIMIT=40] -->
+    <string name="emergency_alerts_vibrate">Vibrate on alert</string>
+    <!-- Setting item specify how long an alert should be active. [CHAR LIMIT=40] -->
+    <string name="emergency_alerts_duration">Alert sound duration</string>
+
+
+    <!-- Wrist gestures settings dialog. DO NOT TRANSLATE -->
+    <string name="wrist_gesture_settings_dialog">Wrist Gesture Settings Dialog</string>
+
+    <!-- Sound settings strings -->
+    <!-- The action text to set voice call volume [CHAR_LIMIT=20] -->
+    <string name="voice_call_volume_action">Call volume</string>
+    <!-- Header text of volume activity [CHAR_LIMIT=20] -->
+    <string name="volume_activity_header">Volume</string>
+
+    <!-- Apps settings strings -->
+    <!-- Setting title that leads to the apps settings view. [CHAR_LIMIT=40] -->
+    <string name="apps_settings">App info</string>
+    <!-- Setting title that leads to the apps settings view filtered to contain only system apps. [CHAR_LIMIT=40] -->
+    <string name="apps_settings_sys">System app info</string>
+    <!-- Label for setting that handles how notifications are handled in a per app basis. [CHAR_LIMIT=40] -->
+    <string name="app_notifications">App notifications</string>
+    <!-- Label for setting that lists a set of apps where tapping an app will open a screen with the selected app permission settings. [CHAR_LIMIT=40] -->
+    <string name="app_permissions">App permissions</string>
+    <!-- Label for setting that lists a set of system apps where tapping an app will open a screen with the selected app permission settings. [CHAR_LIMIT=40] -->
+    <string name="app_permissions_sys">System app permissions</string>
+    <!-- Placeholder text that indicates the app list is currently being loaded. [CHAR_LIMIT=40] -->
+    <string name="apps_settings_loading">Loading apps&#8230;</string>
+    <!-- Setting title to open notification settings for a specific app. [CHAR_LIMIT=40] -->
+    <string name="apps_notifications_setting">Notifications</string>
+    <!-- The action label to uninstall an app [CHAR_LIMIT=20] -->
+    <string name="app_label_uninstall">Uninstall</string>
+    <!-- The title of alert dialog to uninstall an app [CHAR_LIMIT=20] -->
+    <string name="app_alert_title_uninstall">Uninstall app?</string>
+    <!-- Title of Usage Access preference item [CHAR LIMIT=30] -->
+    <string name="usage_access_title">Apps with usage access</string>
+    <!-- Title of usage access screen [CHAR LIMIT=30] -->
+    <string name="usage_access">Usage access</string>
+    <!-- Label for setting which controls whether app has usage access [CHAR LIMIT=45] -->
+    <string name="permit_usage_access">Permit usage access</string>
+    <!-- Description of the usage access setting [CHAR LIMIT=NONE] -->
+    <string name="usage_access_description">Usage access allows an app to track what other apps you\u2019re using and how often, as well as your carrier, language settings, and other details.</string>
+
+    <!-- The action text to remove an upgrade a system app [CHAR_LIMIT=20] -->
+    <string name="app_label_remove_upgrades">Remove Upgrades</string>
+    <!-- The title of alert dialog to confirm remove upgrades for an app [CHAR LIMIT=80] -->
+    <string name="app_alert_title_remove_upgrades">Remove Upgrades?</string>
+
+    <!-- The action text to disable a system app [CHAR_LIMIT=20] -->
+    <string name="app_label_disable">Disable</string>
+    <!-- The title of alert dialog to disable an app [CHAR LIMIT=80] -->
+    <string name="app_alert_title_disable">Disable?</string>
+    <!-- The message of alert dialog to disable an app [CHAR LIMIT=80] -->
+    <string name="app_alert_summary_disable">Other apps may be affected.</string>
+
+    <!-- The action text to enable a system app [CHAR_LIMIT=20] -->
+    <string name="app_label_enable">Enable</string>
+    <!-- The title of alert dialog to enable an app [CHAR LIMIT=80] -->
+    <string name="app_alert_title_enable">Enable?</string>
+
+    <!-- The action text to force stop an app [CHAR_LIMIT=20] -->
+    <string name="app_label_force_stop">Force stop</string>
+    <!-- The title of alert dialog to force stop an app [CHAR LIMIT=80] -->
+    <string name="app_alert_title_force_stop">Force stop?</string>
+    <!-- The message of alert dialog to force stop an app [CHAR LIMIT=80] -->
+    <string name="app_alert_summary_force_stop">App may not function properly.</string>
+
+    <!-- Setting Title that leads to System settings [CHAR LIMIT=25] -->
+    <string name="system_apps_settings">System Apps</string>
+
+    <!-- Advanced permissions strings -->
+    <!-- Setting title that leads to the advanced app settings page. [CHAR_LIMIT=20] -->
+    <string name="app_advanced_settings_title">Advanced</string>
+    <!-- The action text to toggle allowing an app to display over other apps [CHAR_LIMIT=29] -->
+    <string name="pref_draw_over_other_apps_title">Display over other apps</string>
+    <!-- Title for the dialog describing that flipping this setting will allow an app to display over other apps [CHAR_LIMIT=46] -->
+    <string name="draw_over_other_apps_dialog_title">Display over other apps?</string>
+    <!-- Description for the dialog describing that flipping this setting will allow an app to display over other apps [CHAR_LIMIT=NONE] -->
+    <string name="draw_over_other_apps_dialog_description">This feature allows an app to display on top of other apps you\u2019re using. It may interfere with your use of those apps or change the way they seem to appear or behave.</string>
+    <!-- The action text to toggle allowing an app to write and modify system settings [CHAR_LIMIT=29] -->
+    <string name="pref_write_settings_title">Modify system settings</string>
+    <!-- Title for the dialog that flipping this setting will allow an app to modify system settings [CHAR_LIMIT=46] -->
+    <string name="write_settings_dialog_title">Modify system settings?</string>
+    <!-- Description for the dialog that flipping this setting will allow an app to modify system settings [CHAR_LIMIT=NONE] -->
+    <string name="write_settings_dialog_description">This permission allows an app to modify system settings.</string>
+
+    <!-- App Info page strings -->
+    <!-- Setting title that leads to the information about the app [CHAR_LIMIT=40] -->
+    <string name="pref_app_about">App Info</string>
+    <!-- App info label for version [CHAR LIMIT=30] -->
+    <string name="app_info_label_version">Version</string>
+    <!-- App info label for storage [CHAR LIMIT=30] -->
+    <string name="app_info_label_storage">Storage</string>
+    <!-- App info label for data used [CHAR LIMIT=30] -->
+    <string name="app_info_label_data">Data</string>
+    <!-- App info label for cache used [CHAR LIMIT=30] -->
+    <string name="app_info_label_cache">Cache</string>
+    <!-- App info label for clearing data action [CHAR LIMIT=30] -->
+    <string name="app_info_label_clear_data">Clear data</string>
+    <!-- App info label for clearing cache action [CHAR LIMIT=30] -->
+    <string name="app_info_label_clear_cache">Clear cache</string>
+    <!-- App info title of dialog for clearing data action [CHAR LIMIT=30] -->
+    <string name="app_info_dialog_delete_data_title">Delete app data?</string>
+    <!-- App info message of dialog for clearing data action [CHAR LIMIT = NONE] -->
+    <string name="app_info_dialog_delete_data_message">All this app\'s data will be permanently deleted. This include all files, settings, accounts, databases, etc.</string>
+    <!-- Toast to tell user Cache was cleared [CHAR LIMIT=NONE] -->
+    <string name="app_info_toast_clear_cache">Cache cleared</string>
+    <!-- Toast to tell user Data was cleared [CHAR LIMIT=NONE] -->
+    <string name="app_info_toast_clear_data">Data cleared</string>
+
+    <!-- Copied from Telephony services. -->
+    <!-- <<<<<<<< BEGIN >>>>>>>> -->
+    <!-- Configuration setting for world mode Format is <true;GID if any to be checked>-->
+    <string translatable="false" name="config_world_mode"/>
+    <string name="network_lte">LTE (recommended)</string>
+    <string name="network_4G">4G (recommended)</string>
+    <string name="network_3G" translatable="false">3G</string>
+    <string name="network_2G" translatable="false">2G</string>
+    <string name="network_1x" translatable="false">1x</string>
+    <string name="network_global">Global</string>
+    <!-- <<<<<<<< END >>>>>>>> -->
+
+    <!-- The notification title for data usage warning [CHAR_LIMIT=40] -->
+    <string name="data_usage_warning_title">Data usage warning</string>
+    <!-- The notification title for reaching the data limit [CHAR_LIMIT=40] -->
+    <string name="data_usage_reached_limit_title">Mobile data limit reached</string>
+    <!-- The notification text for reaching the data limit [CHAR_LIMIT=40] -->
+    <string name="data_usage_reached_limit_text">Data paused for rest of cycle</string>
+    <!-- The notification title for exceeding the data limit [CHAR_LIMIT=40] -->
+    <string name="data_usage_exceeded_limit_title">Mobile data limit exceeded</string>
+    <!-- The notification text for exceeding the data limit [CHAR_LIMIT=40]-->
+    <string name="data_usage_exceeded_limit_text"><xliff:g id="amount_over">%1$s</xliff:g> over specified limit</string>
+
+    <!-- The settings title for changing your voicemail number [CHAR_LIMIT=30] -->
+    <string name="settings_title_voicemail_number">Voicemail number</string>
+    <!-- Prompt to update a mobile phone number [CHAR_LIMIT=30] -->
+    <string name="settings_update_phone_number">Update %1$s to %2$s?</string>
+
+    <!-- Device admin warning message about policies an admin can use -->
+    <string name="device_admin_warning">Activating this administrator will allow
+        the app <xliff:g id="app_name">%1$s</xliff:g> to perform the
+        following operations:</string>
+    <!-- Label for screen showing to add device policy -->
+    <string name="add_device_admin_msg">Activate device administrator?</string>
+    <!-- Label for button to set the active device admin [CHAR_LIMIT=80] -->
+    <string name="add_device_admin">Activate</string>
+    <!-- Button label for generic cancel action [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Title for dialog displayed when user clicks on a setting locked by an admin [CHAR LIMIT=30] -->
+    <string name="disabled_by_policy_title">Action not allowed</string>
+    <!-- Shown when the user tries to change a settings locked by an admin [CHAR LIMIT=200] -->
+    <string name="default_admin_support_msg">This action is disabled. Contact your organization\'s administrator to learn more.</string>
+    <!-- Shown in dialog to allow user to see more information about the device admin [CHAR LIMIT=30] -->
+    <string name="admin_support_more_info">More details</string>
+
+    <!-- Copied from Credentials services. -->
+    <!-- <<<<<<<< BEGIN >>>>>>>> -->
+    <!-- Description of dialog to reset credential storage [CHAR LIMIT=NONE] -->
+    <string name="credentials_reset_hint">Remove all the contents?</string>
+    <!-- Toast message [CHAR LIMIT=30] -->
+    <string name="credentials_erased">Credential storage is erased.</string>
+    <!-- Toast message [CHAR LIMIT=30] when credential storage containing private keys and certificates could not be erased (opposite of string credentials_erased) -->
+    <string name="credentials_not_erased">Credential storage couldn\'t be erased.</string>
+    <!-- Description of dialog to explain that a lock screen password is required to use credential storage [CHAR LIMIT=NONE] -->
+    <string name="credentials_configure_lock_screen_hint">You need to set a lock screen PIN or password before you can use credential storage.</string>
+    <!-- <<<<<<<< END >>>>>>>> -->
+
+    <!-- Do not translate. -->
+    <string-array name="tts_demo_strings" translatable="false">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+        <item>이것은 한국어 음성 합성의 예입니다.</item>
+    </string-array>
+    <string-array name="tts_demo_string_langs" translatable="false">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+        <item>kor</item>
+    </string-array>
+
+    <!-- Title for the screen-lock prompt that may be triggered on pairing [CHAR LIMIT=30] -->
+    <string name="screen_lock_prompt_title">Add screen lock?</string>
+    <!-- Subtitle for the screen-lock prompt that may be triggere on pairing [CHAR LIMIT=NONE] -->
+    <string name="screen_lock_prompt_subtitle">
+        Screen locks can make your watch more secure. Your watch will auto-lock when you take it
+        off. You can change it later in settings.
+    </string>
+
+    <!-- Name of permission required to configure proxy. DO NOT TRANSLATE -->
+    <string name="perm_label_configure_proxy">Change proxy settings</string>
+    <!-- Description of permission required to configure proxy. DO NOT TRANSLATE -->
+    <string name="perm_description_configure_proxy">This app can change proxy connection settings.</string>
+
+    <string name="computing_size">Computing\u2026</string>
+    <string name="invalid_size_value">Couldn\u2019t compute package size.</string>
+
+    <!-- Message of a dialog shown to inform that the remote bugreport that was requested remotely by the IT administrator is still being taken and will be shared when finished. -->
+    <string name="sharing_remote_bugreport_dialog_message">This bug report is being shared with your IT admin. Contact them for more details.</string>
+    <!-- Title of dialog shown to ask for user consent for sharing a bugreport that was requested remotely by the IT administrator. -->
+    <string name="share_remote_bugreport_dialog_title">Share bug report?</string>
+    <!-- Message of a dialog shown to ask for user consent for sharing a bugreport that was requested remotely by the IT administrator. -->
+    <string name="share_remote_bugreport_dialog_message_finished">Your IT admin requested a bug report to help troubleshoot this device. Apps and data may be shared.</string>
+    <!-- Message of a dialog shown to ask for user consent for sharing a bugreport that was requested remotely by the IT administrator and it's still being taken. -->
+    <string name="share_remote_bugreport_dialog_message">Your IT admin requested a bug report to help troubleshoot this device. Apps and data may be shared, and your device may temporarily slow down.</string>
+    <!-- Decline label of dialog shown to ask for user consent for sharing the remote bugreport. -->
+    <string name="decline_remote_bugreport_action">Decline</string>
+    <!-- Acceptance label of dialog shown to ask for user consent for sharing the remote bugreport. -->
+    <string name="share_remote_bugreport_action">Share</string>
+
+    <!-- Label for when app storage is listed by data size -->
+    <string name="storage_sort_data">Data size</string>
+    <!-- Label for when app storage is listed by app size -->
+    <string name="storage_sort_app">App size</string>
+
+    <!-- Text for toast telling the user an operation is not support [CHAR_LIMIT=40]-->
+    <string name="unsupported_operation">Operation not supported</string>
+
+    <!-- Talkback announcement of scrolling to select date-->
+    <string name="set_date_instruction">Scroll to set date</string>
+
+    <!-- Talkback announcement of scrolling to select time-->
+    <string name="set_time_instruction">Scroll to set time</string>
+
+    <!-- Pop-up message indicating that the user's chosen screen lock is being stored. [CHAR LIMIT=35] -->
+    <string name="set_screen_lock_message">Setting screen lock</string>
+</resources>

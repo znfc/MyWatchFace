@@ -79,9 +79,9 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
     }
 
     private class Engine extends CanvasWatchFaceService.Engine {
-        private static final float HOUR_STROKE_WIDTH = 5f;
-        private static final float MINUTE_STROKE_WIDTH = 3f;
-        private static final float SECOND_TICK_STROKE_WIDTH = 2f;
+        private static final float HOUR_STROKE_WIDTH = 15f;
+        private static final float MINUTE_STROKE_WIDTH = 10f;
+        private static final float SECOND_TICK_STROKE_WIDTH = 3f;
 
         private static final float CENTER_GAP_AND_CIRCLE_RADIUS = 4f;
 
@@ -135,14 +135,14 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
         private void initializeBackground() {
             mBackgroundPaint = new Paint();
             mBackgroundPaint.setColor(Color.BLACK);
-            mBackgroundBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.bg);
+            mBackgroundBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.bg3);
 
             /* Extracts colors from background image to improve watchface style. */
             Palette.from(mBackgroundBitmap).generate(new Palette.PaletteAsyncListener() {
                 @Override
                 public void onGenerated(Palette palette) {
                     if (palette != null) {
-                        mWatchHandHighlightColor = palette.getVibrantColor(Color.RED);
+                        mWatchHandHighlightColor = palette.getVibrantColor(Color.WHITE);
                         mWatchHandColor = palette.getLightVibrantColor(Color.WHITE);
                         mWatchHandShadowColor = palette.getDarkMutedColor(Color.BLACK);
                         updateWatchHandStyle();
@@ -154,7 +154,7 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
         private void initializeWatchFace() {
             /* Set defaults for colors */
             mWatchHandColor = Color.WHITE;
-            mWatchHandHighlightColor = Color.RED;
+            mWatchHandHighlightColor = Color.WHITE;
             mWatchHandShadowColor = Color.BLACK;
 
             mHourPaint = new Paint();
@@ -369,6 +369,7 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
 
         private void drawWatchFace(Canvas canvas) {
 
+            canvas.drawText(""+i,mCenterX,mCenterY,mHourPaint);
             /*
              * Draw ticks. Usually you will want to bake this directly into the photo, but in
              * cases where you want to allow users to select their own photos, this dynamically
@@ -394,6 +395,7 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
                     (mCalendar.get(Calendar.SECOND) + mCalendar.get(Calendar.MILLISECOND) / 1000f);
             final float secondsRotation = seconds * 6f;
 
+            Log.i("zhao1122","secondsRotation:"+secondsRotation);
             final float minutesRotation = mCalendar.get(Calendar.MINUTE) * 6f;
 
             final float hourHandOffset = mCalendar.get(Calendar.MINUTE) / 2f;
@@ -424,7 +426,7 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
              * Ensure the "seconds" hand is drawn only when we are in interactive mode.
              * Otherwise, we only update the watch face once a minute.
              */
-            if (!mAmbient) {
+//            if (!mAmbient) {
                 canvas.rotate(secondsRotation - minutesRotation, mCenterX, mCenterY);
                 canvas.drawLine(
                         mCenterX,
@@ -433,7 +435,7 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
                         mCenterY - mSecondHandLength,
                         mSecondPaint);
 
-            }
+//            }
             canvas.drawCircle(
                     mCenterX,
                     mCenterY,
@@ -483,9 +485,9 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
          */
         private void updateTimer() {
             mUpdateTimeHandler.removeMessages(MSG_UPDATE_TIME);
-            if (shouldTimerBeRunning()) {
+//            if (shouldTimerBeRunning()) {
                 mUpdateTimeHandler.sendEmptyMessage(MSG_UPDATE_TIME);
-            }
+//            }
         }
 
         /**
@@ -496,17 +498,19 @@ public class MyDogOgWatchFace extends CanvasWatchFaceService {
             return isVisible() && !mAmbient;
         }
 
+        long i =0;
         /**
          * Handle updating the time periodically in interactive mode.
          */
         private void handleUpdateTimeMessage() {
             invalidate();
-            if (shouldTimerBeRunning()) {
+//            if (shouldTimerBeRunning()) {
                 long timeMs = System.currentTimeMillis();
                 long delayMs = INTERACTIVE_UPDATE_RATE_MS
                         - (timeMs % INTERACTIVE_UPDATE_RATE_MS);
-                mUpdateTimeHandler.sendEmptyMessageDelayed(MSG_UPDATE_TIME, delayMs);
-            }
+                Log.i("zhao1122",""+i++);
+                mUpdateTimeHandler.sendEmptyMessageDelayed(MSG_UPDATE_TIME, 1000);
+//            }
         }
     }
 }

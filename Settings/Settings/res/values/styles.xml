@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Wearable.Small" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+    <style name="TextAppearance.Settings.Label" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.Settings.Label.Secondary">
+        <item name="android:textColor">#7FFFFFFF</item>
+    </style>
+
+    <style name="TextAppearance.Settings.Label.Large">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextView.Small" parent="@android:style/Widget.Holo.Light">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAppearance">@style/TextAppearance.Wearable.Small</item>
+    </style>
+
+    <style name="TextView.Small.Light">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textAppearance">@style/TextAppearance.Wearable.Small</item>
+    </style>
+
+    <style name="TextView.Settings.Label" parent="TextView.Small.Light">
+        <item name="android:textAppearance">@style/TextAppearance.Settings.Label</item>
+    </style>
+
+    <style name="InstructionsText">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">@dimen/instruction_text_size</item>
+        <item name="android:textColor">@color/screen_lock_instruction_color</item>
+    </style>
+
+    <style name="PinPadButton">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/pin_pad_number_size</item>
+        <item name="android:textColor">@color/pin_pad_button_regular</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="PinPadButton.Special">
+        <item name="android:layout_height">22dp</item>
+    </style>
+
+    <!-- Radio control -->
+    <style name="RadioItemTextStyle" parent="android:TextAppearance.Medium">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:color">@color/radio_item_text_color</item>
+        <item name="android:textSize">@dimen/radio_item_text_size</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:maxLength">42</item>
+    </style>
+
+    <style name="RadioItemTextStyle.Small">
+        <item name="android:textSize">@dimen/radio_item_small_text_size</item>
+        <item name="android:maxLength">46</item>
+    </style>
+
+    <style name="RadioItemHeaderTextStyle" parent="android:TextAppearance.Medium">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textColor">@color/radio_item_header_color</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxLength">28</item>
+    </style>
+
+    <style name="SimPinText">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">2</item>
+        <item name="android:textColor">#757575</item>
+        <item name="android:textColorHint">#B3B3B3</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+
+    <style name="SimPinText.PinEdit">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:hint">@string/sim_pin_edit_hint</item>
+    </style>
+
+    <style name="SimPinText.ErrorLabel">
+        <item name="android:textColor">#D0021B</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="SimLockedText">
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Theme.Settings.Dimmed">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+    </style>
+
+    <style name="PreferenceDialog" parent="android:Theme.DeviceDefault.Dialog">
+        <!-- Fill the screen -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@*android:color/background_device_default_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="WearTitleStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/WearText.Title</item>
+    </style>
+
+    <style name="WearButtonStyle">
+        <item name="android:minWidth">@dimen/alert_dialog_button_bar_width</item>
+        <item name="android:minHeight">@dimen/alert_dialog_button_bar_height</item>
+        <item name="android:textAppearance">@style/WearText.Button</item>
+    </style>
+
+    <style name="WearText" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
+        <item name="android:textColorLink">?android:attr/textColorLink</item>
+    </style>
+
+    <style name="WearText.Title">
+	<item name="android:textSize">16sp</item>
+	<item name="android:fontFamily">google-sans</item>
+	<item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WearText.Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">google-sans-medium</item>
+    </style>
+
+    <style name="WearText.Body2">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="WearText.Body1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="WearText.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="WearText.Button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">google-sans-medium</item>
+    </style>
+</resources>

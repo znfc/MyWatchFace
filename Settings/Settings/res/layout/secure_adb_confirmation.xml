@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#434343" >
+
+    <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/settings_header_base_height"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/secure_adb_confirmation_title"
+            android:textColor="#a2a2a2"
+            android:textSize="22sp" />
+
+    <android.support.wearable.view.WearableListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/wheel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</FrameLayout>

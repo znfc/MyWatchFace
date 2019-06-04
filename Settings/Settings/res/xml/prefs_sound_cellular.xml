@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+            android:key="pref_emergencyNotifications"
+            android:title="@string/pref_emergencyNotifications"
+            android:icon="@drawable/ic_settings_alert"
+            android:enabled="true"
+            android:order="110"
+            android:persistent="false">
+        <intent
+            android:targetPackage="com.android.cellbroadcastreceiver"
+            android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
+    </Preference>
+</PreferenceScreen>

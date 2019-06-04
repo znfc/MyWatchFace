@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_bluetooth">
+    <SwitchPreference
+            android:key="pref_bluetoothEnabled"
+            android:title="@string/pref_bluetoothEnabled"
+            android:order="5"
+            android:persistent="false"/>
+    <Preference
+            android:key="pref_bluetoothScan"
+            android:title="@string/pref_bluetoothAvailable"
+            android:icon="@drawable/ic_search"
+            android:dependency="pref_bluetoothEnabled"
+            android:order="200"
+            android:fragment="com.google.android.clockwork.settings.connectivity.bluetooth.BluetoothScanFragment" />
+    <SwitchPreference
+            android:key="pref_bluetoothHfp"
+            android:title="@string/pref_bluetoothHfp"
+            android:dependency="pref_bluetoothEnabled"
+            android:order="210"
+            android:persistent="false" />
+</PreferenceScreen>

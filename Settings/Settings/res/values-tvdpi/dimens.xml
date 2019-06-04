@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="round_content_padding_left">40dp</dimen>
+    <dimen name="round_content_padding_right">40dp</dimen>
+    <dimen name="settings_text_margin_left">10dp</dimen>
+</resources>

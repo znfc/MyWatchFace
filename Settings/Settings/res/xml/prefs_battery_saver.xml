@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orderingFromXml="false" >
+    <com.google.android.clockwork.settings.system.BatterySaverTogglePreference
+            android:order="10"/>
+
+    <android.support.wearable.preference.AcceptDenySwitchPreference
+            android:key="pref_autoBatterySaver"
+            android:order="20"
+            app:showDialogWhenTurningOn="false"
+            android:persistent="false" />
+</PreferenceScreen>

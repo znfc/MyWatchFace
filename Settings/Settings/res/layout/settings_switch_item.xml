@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Switch xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:text="Google Handwriting\nEnglish (US)"
+    android:ellipsize="end"
+    android:switchPadding="@dimen/settings_text_margin_left"
+    android:textSize="14sp"
+    android:layout_gravity="right"
+    style="@style/TextView.Settings.Label"
+    android:gravity="fill_horizontal|center_vertical" />

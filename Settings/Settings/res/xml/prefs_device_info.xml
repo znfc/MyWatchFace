@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_about"
+        android:orderingFromXml="true">
+    <Preference
+        android:key="pref_model"
+        android:title="@string/info_label_model"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_deviceName"
+        android:title="@string/info_label_device_name"
+        android:persistent="false" />
+    <PreferenceScreen
+        android:key="pref_version"
+        android:title="@string/info_label_version"
+        android:summary="@string/info_value_version"
+        android:orderingFromXml="true"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_serial"
+        android:title="@string/info_label_serial"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_imei"
+        android:title="@string/status_imei"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_msn"
+        android:title="@string/info_label_msn"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_build"
+        android:title="@string/info_label_build"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_connectionStatus"
+        android:title="@string/info_label_connection"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_batteryInfo"
+        android:title="@string/info_label_battery"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_systemUpdate"
+        android:title="@string/info_label_system_update"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_regulatoryInfo"
+        android:title="@string/info_label_regulator_information"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_legalNotices"
+        android:title="@string/info_label_legal_notices"
+        android:persistent="false" />
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_screenLock"
+    android:title="@string/pref_screenLock"
+    android:orderingFromXml="true">
+    <com.google.android.clockwork.settings.common.RadioButtonPreference
+        android:key="pref_pattern"
+        android:title="@string/action_lock_pattern"
+        android:persistent="false" />
+    <com.google.android.clockwork.settings.common.RadioButtonPreference
+        android:key="pref_pin"
+        android:title="@string/action_lock_pin"
+        android:persistent="false" />
+    <com.google.android.clockwork.settings.common.RadioButtonPreference
+        android:key="pref_password"
+        android:title="@string/action_lock_password"
+        android:persistent="false" />
+    <com.google.android.clockwork.settings.common.RadioButtonPreference
+        android:key="pref_none"
+        android:title="@string/action_lock_none"
+        android:persistent="false" />
+</PreferenceScreen>

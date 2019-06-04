@@ -3,12 +3,20 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-4.10.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ModernDecompWatchfaces" />
+            <option value="$PROJECT_DIR$/decompositionwf" />
+            <option value="$PROJECT_DIR$/markline" />
+            <option value="$PROJECT_DIR$/mydogwf" />
+            <option value="$PROJECT_DIR$/qcommWF" />
+            <option value="$PROJECT_DIR$/rrr" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>

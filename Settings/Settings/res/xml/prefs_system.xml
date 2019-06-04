@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/main_system"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orderingFromXml="false" >
+    <Preference
+            android:key="pref_batterySaverMode"
+            android:title="@string/pref_batterySaverMode"
+            android:icon="@drawable/ic_settings_battery_saving"
+            android:order="10"
+            android:fragment="com.google.android.clockwork.settings.system.BatterySaverFragment"
+            android:persistent="false" />
+    <Preference
+            android:key="pref_dateTime"
+            android:title="@string/pref_dateTime"
+            android:icon="@drawable/ic_cc_settings_clock"
+            android:order="20"
+            android:fragment="com.google.android.clockwork.settings.system.DateTimeSettingsFragment"
+            android:persistent="false" />
+    <com.google.android.clockwork.settings.system.RestartPreference
+            android:order="30"/>
+    <com.google.android.clockwork.settings.system.PowerOffPreference 
+            android:order="40"/>
+    <com.google.android.clockwork.settings.system.FactoryResetPreference
+            android:key="pref_factoryReset"
+            android:order="50" />
+    <Preference
+            android:key="pref_about"
+            android:title="@string/pref_about"
+            android:icon="@drawable/ic_cc_settings_about"
+            android:order="60"
+            android:fragment="com.google.android.clockwork.settings.system.DeviceInfoFragment"
+            android:persistent="false"/>
+    <Preference
+            android:key="pref_regulatoryInfo"
+            android:title="@string/info_label_regulator_information"
+            android:icon="@drawable/ic_cc_settings_regulatory"
+            android:order="70"
+            android:persistent="false" />
+</PreferenceScreen>

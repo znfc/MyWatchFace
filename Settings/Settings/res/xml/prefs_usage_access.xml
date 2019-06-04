@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+            android:key="usage_access"
+            android:title="@string/permit_usage_access"
+            android:persistent="false" />
+    <Preference
+            android:summary="@string/usage_access_description"
+            android:selectable="false" />
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="@string/main_sound">
+    <com.google.android.clockwork.settings.sound.VolumePreference
+            android:key="pref_mediaVolume"
+            android:title="@string/pref_mediaVolume"
+            android:icon="@drawable/ic_cc_settings_note"
+            android:order="10"
+            app:stream="music" />
+    <com.google.android.clockwork.settings.sound.VolumePreference
+            android:key="pref_accessibilityVolume"
+            android:title="@string/pref_accessibilityVolume"
+            android:icon="@drawable/ic_cc_settings_accessibility"
+            android:order="15"
+            app:stream="accessibility" />
+    <com.google.android.clockwork.settings.sound.VolumePreference
+            android:key="pref_alarmVolume"
+            android:title="@string/pref_alarmVolume"
+            android:icon="@drawable/ic_cc_settings_alarm"
+            android:order="20"
+            app:stream="alarm" />
+    <com.google.android.clockwork.settings.sound.VolumePreference
+            android:key="pref_ringVolume"
+            android:title="@string/pref_ringVolume"
+            android:icon="@drawable/ic_cc_settings_ring"
+            android:order="30"
+            app:stream="ring" />
+    <SwitchPreference
+            android:key="pref_vibrateForCalls"
+            android:title="@string/pref_vibrateForCalls"
+            android:order="50"
+            android:persistent="false" />
+    <com.google.android.clockwork.settings.sound.DefaultRingtonePreference
+            android:key="pref_watchRingtone"
+            android:title="@string/pref_watchRingtone"
+            android:dialogTitle="@string/pref_watchRingtone"
+            android:icon="@drawable/ic_cc_settings_ring"
+            android:order="60"
+            android:showDefault="false"
+            android:ringtoneType="ringtone"
+            android:persistent="false" />
+</PreferenceScreen>

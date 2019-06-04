@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base attributes available to VolumePreference. -->
+    <declare-styleable name="VolumePreference">
+        <!-- Controls the stream connected to the preference, obtained from android.media.AudioManager.  -->
+        <attr name="stream">
+            <!-- From android.media.AudioManager.STREAM_RING -->
+            <enum name="ring" value="2" />
+            <!-- From android.media.AudioManager.STREAM_MUSIC -->
+            <enum name="music" value="3" />
+            <!-- From android.media.AudioManager.STREAM_ALARM -->
+            <enum name="alarm" value="4" />
+            <!-- From android.media.AudioManager.STREAM_NOTIFICATION -->
+            <enum name="notification" value="5" />
+            <!-- From android.media.AudioManager.STREAM_ACCESSIBILITY -->
+            <enum name="accessibility" value="10" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Base attributes available to RadioButtonPreference. -->
+    <declare-styleable name="RadioButtonPreference">
+        <!-- The value the preference represents. -->
+        <attr name="entryValue" format="string" />
+    </declare-styleable>
+</resources>

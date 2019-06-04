@@ -1,0 +1,7 @@
+# See system/core/logcat/event.logtags for a description of the format of this file.
+
+option java_package com.google.android.clockwork.settings
+
+1000001 network_percent (type_none|1|6),(type_mobile|1|6),(type_wifi|1|6),(type_proxy|1|6)
+
+1000002 time_sync_failure (failure_count|1|1)

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LockPatternView has an approximately 6.67% percent margin on each edge, so the maximum size
+         we can safely make the view is 81.59% of full size on round watches -->
+    <item name="lock_pattern_constraint_min" format="float" type="dimen">.1</item>
+    <item name="lock_pattern_constraint_max" format="float" type="dimen">.9</item>
+</resources>

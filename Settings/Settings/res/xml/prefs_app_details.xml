@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.wearable.preference.AcceptDenyDialogPreference
+        android:key="pref_uninstall"
+        android:title="@string/app_label_uninstall"
+        android:icon="@drawable/ic_cc_settings_uninstall"
+        android:persistent="false">
+    </android.support.wearable.preference.AcceptDenyDialogPreference>
+    <android.support.wearable.preference.AcceptDenyDialogPreference
+        android:key="pref_force_stop"
+        android:title="@string/app_label_force_stop"
+        android:icon="@drawable/ic_cc_settings_forcestop"
+        app:dialogTitle="@string/app_alert_title_force_stop"
+        app:dialogMessage="@string/app_alert_summary_force_stop"
+        android:persistent="false">
+    </android.support.wearable.preference.AcceptDenyDialogPreference>
+    <Preference
+        android:key="pref_permissions"
+        android:title="@string/permissions_setting"
+        android:icon="@drawable/ic_cc_settings_permissions"
+        android:persistent="true">
+        <intent android:action="android.intent.action.MANAGE_APP_PERMISSIONS">
+            <extra android:name="hideInfoButton" android:value="true" />
+        </intent>
+    </Preference>
+    <Preference
+            android:key="pref_advanced"
+            android:title="@string/app_advanced_settings_title"
+            android:icon="@drawable/ic_cc_settings_advanced_permissions"
+            android:fragment="com.google.android.clockwork.settings.apps.AdvancedAppSettingsFragment"
+            android:persistent="false" />
+    <Preference
+        android:key="pref_about"
+        android:title="@string/pref_app_about"
+        android:icon="@drawable/ic_cc_settings_about"
+        android:fragment="com.google.android.clockwork.settings.apps.AppDetailsAboutFragment"
+        android:persistent="false"/>
+</PreferenceScreen>

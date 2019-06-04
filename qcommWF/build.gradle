@@ -9,7 +9,7 @@ android {
             storePassword '411328'
         }
     }
-    compileSdkVersion 'android-P'
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.qualcomm.qti.sidekickwatchface1"
         minSdkVersion 27

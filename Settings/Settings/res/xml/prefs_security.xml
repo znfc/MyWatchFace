@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/main_security">
+
+    <Preference
+        android:key="pref_active_device_admins"
+        android:title="@string/pref_deviceAdministrators"
+        android:icon="@drawable/ic_settings_security"
+        android:persistent="false"
+        android:fragment="com.google.android.clockwork.settings.personal.device_administration.ActiveDeviceAdministrationSettingsFragment"/>
+    <Preference
+        android:key="pref_android_device_manager_settings"
+        android:title="@string/pref_androidDeviceManagerSettings"
+        android:icon="@drawable/ic_cc_settings_morehorizontal"
+        android:persistent="false"/>
+</PreferenceScreen>

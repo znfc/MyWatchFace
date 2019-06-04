@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Overlay this file to inject new Preferences into the System setting screen. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sample preference that would open an explicit activity when opened. -->
+    <!-- <Preference
+            android:title="Sample Preference"
+            android:summary="via explicit intent"
+            android:icon="@drawable/ic_settings_alert"
+            android:persistent="false">
+        <intent android:targetPackage="com.example.package"
+                android:targetClass="com.example.package.ui.ExampleActivity" />
+    </Preference> -->
+    <!-- Sample preference that would open an activity via an action when opened. -->
+    <!-- <Preference
+            android:title="Sample Preference"
+            android:summary="via intent action"
+            android:icon="@drawable/ic_settings_alert"
+            android:persistent="false">
+        <intent android:action="android.settings.WIFI_SETTINGS" />
+    </Preference> -->
+    <!-- Sample preference that would open an explicit activity when opened with data string and extras.-->
+    <!-- <Preference
+            android:title="Sample Preference"
+            android:summary="via intent action with data and extras"
+            android:icon="@drawable/ic_settings_alert"
+            android:persistent="false">
+        <intent android:targetPackage="com.example.package"
+                android:targetClass="com.example.package.ui.ExampleActivity"
+                android:data="data_string">
+            <extra android:name="android.intent.extra.TITLE" android:value="title" />
+        </intent>
+    </Preference> -->
+</PreferenceScreen>

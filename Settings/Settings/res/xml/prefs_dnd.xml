@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/pref_dndOptions">
+    <SwitchPreference
+            android:key="pref_dndOptions_calls"
+            android:title="@string/pref_dndOptions_calls_favorites"
+            android:persistent="false" />
+    <SwitchPreference
+            android:key="pref_dndOptions_reminders"
+            android:title="@string/pref_dndOptions_reminders"
+            android:persistent="false" />
+    <SwitchPreference
+            android:key="pref_dndOptions_events"
+            android:title="@string/pref_dndOptions_events"
+            android:persistent="false" />
+    <SwitchPreference
+            android:key="pref_dndOptions_alarms"
+            android:title="@string/pref_dndOptions_alarms"
+            android:enabled="false"
+            android:defaultValue="true"
+            android:persistent="false" />
+</PreferenceScreen>

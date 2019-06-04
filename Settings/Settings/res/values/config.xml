@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Screen off override time: always set to 30s -->
+    <integer name="screen_off_override">30000</integer>
+
+    <!-- Specifies whether device supports Bluetooth headsets -->
+    <bool name="config_supportsBluetoothHeadsets">true</bool>
+
+    <!-- Display low battery warning when battery level dips to this value -->
+    <integer name="config_lowBatteryWarningLevel">15</integer>
+
+    <!-- Display low battery warning when battery level dips to this value.
+     Also, the battery stats are flushed to disk when we hit this level.  -->
+    <integer name="config_criticalBatteryWarningLevel">5</integer>
+
+    <!-- Side button present -->
+    <bool name="side_button_present">true</bool>
+
+    <!-- If a square screen, how rounded the corners are. Same as CSS border-radius property. -->
+    <integer name="config_square_screen_corner_roundness">0</integer>
+
+    <!-- Exercise detection supported -->
+    <bool name="config_exercise_detection_supported">false</bool>
+
+    <!-- Sunlight mode -->
+    <bool name="config_sunlightModeEnabled">true</bool>
+
+    <!-- Whether to disable ambient when in theater mode -->
+    <bool name="config_disableAmbientInTheaterMode">true</bool>
+
+    <!-- Whether to enable the unread watchface -->
+    <bool name="config_enableUnreadWatchFace">true</bool>
+
+    <!-- Default value of GServices key DEFAULT_OFF_CHARGER_WIFI_USAGE_LIMIT_MINUTES -->
+    <integer name="config_defaultOffChargerWifiUsageLimitMinutes">120</integer>
+
+    <!-- Fallback value for GServices key SMART_ILLUMINATE_DEFAULT_SETTING.  The GKey is an integer
+         that will be interpreted as true (enabled) if positive, false (disabled) if zero, and unset
+         if negative.  When the GKey is unset (the default), the code uses this value instead.
+         Smart illuminate attempts to infer if the watch is visible to the user in order to avoid
+         showing notifications the user cannot see. -->
+    <bool name="config_defaultSmartIlluminateOn">true</bool>
+
+    <!-- Default enabled state of accelerometer-based wrist gestures.
+         Wrist gestures are disabled by default, to be enabled explicitly by the user. -->
+    <bool name="config_wristGesturesDefaultEnabled">false</bool>
+
+    <!-- The clockwork auto time mode:
+            1 - Auto time enabled / sync time from phone
+            2 - Auto time enabled / sync time from network
+            3 - Auto time disabled / user manually sets the time -->
+    <integer name="config_clockworkAutoTime">0</integer>
+
+    <!-- The clockwork auto time zone mode:
+            1 - Auto time zone enabled / sync from phone
+            2 - Auto time zone enabled / sync from network
+            3 - Auto time zone disabled / user manually sets the time zone -->
+    <integer name="config_clockworkAutoTimeZone">0</integer>
+
+    <!-- Whether 24 hour time format is enabled on the watch -->
+    <bool name="config_clockwork24HrTime">false</bool>
+
+    <!-- Default enabled state of accelerometer-based up/down gestures. -->
+    <bool name="config_upDownGesturesDefaultEnabled">false</bool>
+
+    <!-- Show enabled lte option for lte device -->
+    <bool name="config_enabled_lte" translatable="false">false</bool>
+
+    <!-- package for the emergency dialer -->
+    <string name="emergency_dialer_package" translatable="false">com.google.android.apps.wearable.phone</string>
+
+    <!-- action for emergency dial -->
+    <string name="emergency_call_action" translatable="false">com.google.android.clockwork.phone.dialer.ACTION_EMERGENCY_DIAL</string>
+
+    <!-- Whether to show "Default SMS app" setting -->
+    <bool name="config_default_sms_app">true</bool>
+    <!-- Whether to show "Displayed phone number" setting -->
+    <bool name="config_displayed_phone_number">true</bool>
+
+    <!-- Whether to enable enhanced debugging from developer settings -->
+    <bool name="config_enableEnhancedDebugging">false</bool>
+
+    <!-- Whether to show manual twinning settings -->
+    <bool name="config_showTwinningSettings">true</bool>
+
+    <!-- Set brightness value for retail mode -->
+    <integer name="config_retailModeBrightness">255</integer>
+
+    <!-- Whether to show adjust brightness setting in retail mode -->
+    <bool name="config_showAdjustBrightnessInRetailMode">true</bool>
+
+    <!-- Default component name for stem 1 button to launch -->
+    <string name="config_defaultStem1ComponentName" translatable="false">com.google.android.apps.fitness/com.google.android.wearable.fitness.realtime.RealtimeActivity</string>
+    <!-- Default component name for stem 2 button to launch -->
+    <!-- TODO(b/78185481): Once FPA is launched and stable, update this string -->
+    <string name="config_defaultStem2ComponentName" translatable="false">com.google.android.wearable.app/com.google.android.clockwork.home.pay.FastPayActivity</string>
+    <!-- Default component name for stem 3 button to launch -->
+    <string name="config_defaultStem3ComponentName" translatable="false">com.google.android.wearable.reminders/com.google.android.wearable.reminders.MainActivity</string>
+
+    <!-- This value is a string due to no long type in resources -->
+    <string name="system_android_wear_version" translatable="false">2</string>
+
+    <!-- This value is the decimal representation of the capabilities bitmask as defined below:
+        0000001 - WIFI
+        0000010 - Accounts
+        0000100 - Phone
+        0001000 - Cell
+        0010000 - Companion Legacy Calling
+        0100000 - Speaker
+        1000000 - Setup Protocomm Channel
+
+        Note: These must match the positions in com.google.android.clockwork.common.system.WearSystemConstants  -->
+    <string name="default_system_capabilities" translatable="false">3</string>
+
+    <!-- This value is used for the default system capabilities used on LE device. -->
+    <string name="default_le_system_capabilities" translatable="false">1</string>
+
+    <!-- default vibration pattern. The format is as follows :
+         delay_duration1, vibration_duration1, delay_duration2, vibration_duration2, ...
+
+         This value is meant to replace the corresponding GKeys.DEFAULT_VIBRATION_PATTERN entry.-->
+    <string name="config_default_vibration" translatable="false">0, 150</string>
+
+    <!-- long vibration pattern when the user chooses a stronger vibration in the settings.
+         Follows same rules as "config_default_vibration" above. -->
+    <string name="config_default_vibration_long" translatable="false">0, 300</string>
+
+    <!-- double vibration pattern when the user chooses the strongest vibration in the settings.
+         Follows same rules as "config_default_vibration" above. -->
+    <string name="config_default_vibration_double" translatable="false">0, 200, 150, 500</string>
+
+    <!-- Whether to show have OK Google hotword detection enabled by default. -->
+    <bool name="config_hotwordDetectionDefaultEnabled">false</bool>
+
+    <!-- Whether to enable mute when off body by default. -->
+    <bool name="config_muteWhenOffBodyEnabled">true</bool>
+
+    <!-- Whether to allow mobile signal detector by default. -->
+    <bool name="config_mobileSignalDetectorAllowed">true</bool>
+
+    <!-- Whether to use an alternate launcher if available. -->
+    <bool name="config_alternateLauncherEnabled">true</bool>
+
+    <!-- Whether or not the regulatory info preference should be shown in the about section-->
+    <bool name="config_showRegulatoryInfoInAbout">false</bool>
+
+    <!-- Component name for a customised regulatory info activity. -->
+    <string name="config_regulatoryInfoComponentName" translatable="false"></string>
+
+    <!-- Packages of Voice Assistans supported in China.
+         First package in the list is considered as default. -->
+    <string-array name="config_le_system_voice_assistant_packages" translatable="false">
+        <!-- Mobvoi Provider -->
+        <item>com.mobvoi.ticwear.sidewearvoicesearch</item>
+    </string-array>
+
+    <!-- Default value in which battery saver or power saver will be automatically enabled.
+         If set to 0, the battery saver entry in Settings will be removed and battery complication won't be clickable. -->
+    <integer name="config_lowPowerModeTriggerLevel">10</integer>
+
+    <!-- Whether tilt to wake is enabled by default. -->
+    <bool name="config_tiltToWakeDefaultEnabled">true</bool>
+
+    <!-- Whether touch to wake is enabled by default. -->
+    <bool name="config_touchToWakeDefaultEnabled">true</bool>
+
+    <!-- Whether to show the settings for ETWS and CMAS test broadcasts. -->
+    <bool name="config_showEtwsCmasSettings">false</bool>
+
+    <!-- Specifies whether device disables charging sounds. -->
+    <bool name="config_disableChargingSounds">true</bool>
+
+    <!-- Specifies whether to remove the always on display toggle switch. -->
+    <bool name="config_remove_aod_toggle">false</bool>
+
+</resources>

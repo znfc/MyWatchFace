@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="wifi_status">
+    <item msgid="8891510295701426223"></item>
+    <item msgid="6828080896991292331">"Inatafuta…"</item>
+    <item msgid="3844860111309157515">"Inaunganisha…"</item>
+    <item msgid="1861834991573280805">"Inathibitisha..."</item>
+    <item msgid="178329685844686473">"Inapata anwani ya IP..."</item>
+    <item msgid="8729438912659078630">"Imeunganishwa"</item>
+    <item msgid="3076664287948185551">"Imesimamishwa"</item>
+    <item msgid="8969139800445813785">"Inaondoa..."</item>
+    <item msgid="4980867983294667139">"Imeondolewa"</item>
+    <item msgid="4069411507995808590">"Haijafanikiwa"</item>
+    <item msgid="5189656844515403014">"Imezuiwa"</item>
+    <item msgid="3612113489328432789">"Inaepuka kwa muda muunganisho mbovu"</item>
+  </string-array>
+    <!-- no translation found for system_app_notif_whitelist:0 (8776925310865767615) -->
+    <!-- no translation found for bearer_entries:0 (8884918780526432466) -->
+    <!-- no translation found for bearer_entries:1 (5033175386015885927) -->
+    <!-- no translation found for bearer_entries:2 (7097861388918243172) -->
+    <!-- no translation found for bearer_entries:3 (3295814143297735177) -->
+    <!-- no translation found for bearer_entries:4 (2492154738000647849) -->
+    <!-- no translation found for bearer_entries:5 (175184183334027205) -->
+    <!-- no translation found for bearer_entries:6 (7843090241341890106) -->
+    <!-- no translation found for bearer_entries:7 (725080259719381229) -->
+    <!-- no translation found for bearer_entries:8 (7526351567955769646) -->
+    <!-- no translation found for bearer_entries:9 (2471395951946992328) -->
+    <!-- no translation found for bearer_entries:10 (915509526094669171) -->
+    <!-- no translation found for bearer_entries:11 (5359257642609984661) -->
+    <!-- no translation found for bearer_entries:12 (4156161823227534620) -->
+    <!-- no translation found for bearer_entries:13 (3036576618570790640) -->
+    <!-- no translation found for bearer_entries:14 (2930967999096404086) -->
+    <!-- no translation found for bearer_entries:15 (6536195174573397206) -->
+    <!-- no translation found for apn_protocol_entries:0 (7833826618983315635) -->
+    <!-- no translation found for apn_protocol_entries:1 (630516118509556233) -->
+    <!-- no translation found for apn_protocol_entries:2 (6604897763950751364) -->
+    <!-- no translation found for apn_auth_entries:0 (6936019629749690603) -->
+    <!-- no translation found for apn_auth_entries:1 (2186712053548999659) -->
+    <!-- no translation found for apn_auth_entries:2 (3345955898849506787) -->
+    <!-- no translation found for apn_auth_entries:3 (406615895372731733) -->
+    <!-- no translation found for emergency_alerts_duration_choices:0 (5748284877987141957) -->
+    <!-- no translation found for emergency_alerts_duration_choices:1 (5741433928649897434) -->
+    <!-- no translation found for emergency_alerts_duration_choices:2 (3659108639719584623) -->
+    <!-- no translation found for emergency_alerts_duration_choices:3 (1542821851789889364) -->
+    <!-- no translation found for emergency_alerts_duration_choices:4 (2846495318108315494) -->
+    <!-- no translation found for emergency_alerts_duration_values:0 (1766912873228958551) -->
+    <!-- no translation found for emergency_alerts_duration_values:1 (8499588392870888445) -->
+    <!-- no translation found for emergency_alerts_duration_values:2 (6742099077406281075) -->
+    <!-- no translation found for emergency_alerts_duration_values:3 (751195113634564435) -->
+    <!-- no translation found for emergency_alerts_duration_values:4 (4687643420567861444) -->
+    <!-- no translation found for preferred_network_mode_choices:0 (6863340322250397737) -->
+    <!-- no translation found for preferred_network_mode_choices:1 (6851401377128793444) -->
+    <!-- no translation found for preferred_network_mode_choices:2 (4645756277090542875) -->
+    <!-- no translation found for preferred_network_mode_choices:3 (6878637936250326496) -->
+    <!-- no translation found for preferred_network_mode_choices:4 (1204244325528767111) -->
+    <!-- no translation found for preferred_network_mode_choices:5 (3224510723906590137) -->
+    <!-- no translation found for preferred_network_mode_choices:6 (9098176300540690892) -->
+    <!-- no translation found for preferred_network_mode_choices:7 (1549319876382983619) -->
+    <!-- no translation found for preferred_network_mode_choices:8 (7999836840638531905) -->
+    <!-- no translation found for preferred_network_mode_choices:9 (8388923164687705653) -->
+    <!-- no translation found for preferred_network_mode_choices:10 (3127904170055111059) -->
+    <!-- no translation found for preferred_network_mode_choices:11 (2848715394380575275) -->
+    <!-- no translation found for preferred_network_mode_choices:12 (1182712799785602428) -->
+    <!-- no translation found for enabled_networks_4g_tdscdma_wcdma_gsm_choices:0 (5748440546907112670) -->
+    <!-- no translation found for enabled_networks_4g_tdscdma_wcdma_gsm_choices:1 (7937441768695381203) -->
+    <!-- no translation found for enabled_networks_4g_tdscdma_wcdma_gsm_choices:2 (9164063391582192643) -->
+    <!-- no translation found for enabled_networks_lte_tdscdma_wcdma_gsm_choices:0 (1281358965732126803) -->
+    <!-- no translation found for enabled_networks_lte_tdscdma_wcdma_gsm_choices:1 (2754920101112125670) -->
+    <!-- no translation found for enabled_networks_lte_tdscdma_wcdma_gsm_choices:2 (7654554203541418546) -->
+    <!-- no translation found for preferred_network_mode_choices_world_mode:0 (3094627154799576406) -->
+    <!-- no translation found for preferred_network_mode_choices_world_mode:1 (7721328980063224426) -->
+    <!-- no translation found for preferred_network_mode_choices_world_mode:2 (3644473664407317772) -->
+    <!-- no translation found for preferred_network_mode_values_world_mode:0 (8408523071022433179) -->
+    <!-- no translation found for preferred_network_mode_values_world_mode:1 (5946158475853980813) -->
+    <!-- no translation found for preferred_network_mode_values_world_mode:2 (3334697499014787857) -->
+    <!-- no translation found for tts_rate_entries:0 (5691209186256880425) -->
+    <!-- no translation found for tts_rate_entries:1 (7244051906504038792) -->
+    <!-- no translation found for tts_rate_entries:2 (6078778542002978911) -->
+    <!-- no translation found for tts_rate_entries:3 (7495171240928750710) -->
+    <!-- no translation found for tts_rate_entries:4 (2214267248496919932) -->
+    <!-- no translation found for tts_rate_entries:5 (47363213828884436) -->
+    <!-- no translation found for tts_rate_entries:6 (6571698587021580913) -->
+    <!-- no translation found for tts_rate_entries:7 (423792245584792960) -->
+    <!-- no translation found for tts_rate_entries:8 (1582929342380125855) -->
+    <!-- no translation found for tts_rate_entry_values:0 (2972825371860282962) -->
+    <!-- no translation found for tts_rate_entry_values:1 (869762641033565214) -->
+    <!-- no translation found for tts_rate_entry_values:2 (2210340565357367368) -->
+    <!-- no translation found for tts_rate_entry_values:3 (6978242724810087298) -->
+    <!-- no translation found for tts_rate_entry_values:4 (2073982471546624658) -->
+    <!-- no translation found for tts_rate_entry_values:5 (174710198964679769) -->
+    <!-- no translation found for tts_rate_entry_values:6 (8285326777226189519) -->
+    <!-- no translation found for tts_rate_entry_values:7 (1369719136096550246) -->
+    <!-- no translation found for tts_rate_entry_values:8 (5524872491758653228) -->
+    <!-- no translation found for cellular_state_entries:0 (8676910494660376452) -->
+    <!-- no translation found for cellular_state_entries:1 (7506376850807893827) -->
+    <!-- no translation found for cellular_state_entries:2 (6999539986218670255) -->
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="@string/main_display"
+        android:orderingFromXml="false">
+    <Preference
+            android:key="pref_watchface"
+            android:title="@string/pref_watchface"
+            android:icon="@drawable/ic_play_watchface"
+            android:order="10"
+            android:persistent="false" />
+    <com.google.android.clockwork.settings.display.BrightnessPreference
+            android:order="20" />
+    <com.google.android.clockwork.settings.display.FontSizePreference
+            android:order="30" />
+    <PreferenceScreen
+        android:key="pref_screenOrientation"
+        android:title="@string/pref_screenOrientation"
+        android:order="40"
+        android:persistent="false">
+        <com.google.android.clockwork.settings.common.RadioButtonPreference
+            android:key="pref_screenOrientation_leftWrist"
+            android:title="@string/pref_screenOrientation_labelLeftWrist"/>
+        <com.google.android.clockwork.settings.common.RadioButtonPreference
+            android:key="pref_screenOrientation_rightWrist"
+            android:title="@string/pref_screenOrientation_labelRightWrist"/>
+    </PreferenceScreen>
+    <android.support.wearable.preference.AcceptDenySwitchPreference
+            android:key="pref_alwaysOnScreen"
+            android:title="@string/pref_alwaysOnScreen"
+            android:order="50"
+            app:dialogTitle="@string/enable_ambient_screen"
+            app:dialogMessage="@string/enable_ambient_screen_subtitle"
+            android:persistent="false" />
+    <Preference
+            android:key="pref_wetMode"
+            android:title="@string/pref_wetMode"
+            android:icon="@drawable/ic_settings_wet_mode"
+            android:order="60"
+            android:persistent="false" />
+</PreferenceScreen>

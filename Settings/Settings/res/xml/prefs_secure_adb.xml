@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/secure_adb_confirmation_title"
+        android:orderingFromXml="true">
+    <Preference
+            android:key="pref_secureAdbCancel"
+            android:title="@string/secure_adb_cancel"
+            android:icon="@drawable/ic_cc_settings_developer"
+            android:persistent="false" />
+    <Preference
+            android:key="pref_secureAdbOk"
+            android:title="@string/secure_adb_ok"
+            android:icon="@drawable/ic_cc_settings_developer"
+            android:persistent="false" />
+    <Preference
+            android:key="pref_secureAdbWhitelist"
+            android:title="@string/secure_adb_whitelist_label"
+            android:icon="@drawable/ic_cc_settings_developer"
+            android:persistent="false" />
+    <Preference
+            android:key="pref_secureAdbFingerprint"
+            android:title="@string/secure_adb_view_fingerprint"
+            android:icon="@drawable/ic_cc_settings_morehorizontal"
+            android:persistent="false" />
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/wifi_add_network_action">
+    <Preference
+            android:key="pref_wifi_loading_networks"
+            android:selectable="false"
+            android:layout="@layout/wifi_loading_networks"
+            android:persistent="false" />
+    <PreferenceCategory
+            android:key="pref_active_ap" />
+    <PreferenceCategory
+            android:key="pref_available_networks_group" />
+    <android.support.wearable.preference.WearableDialogPreference
+            android:key="pref_wifi_add_network"
+            android:title="@string/wifi_add_hidden_network_title"
+            android:icon="@drawable/ic_cc_settings_add"
+            android:dialogMessage="@string/wifi_action_dialog_title_add_network"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:persistent="false"/>
+
+</PreferenceScreen>

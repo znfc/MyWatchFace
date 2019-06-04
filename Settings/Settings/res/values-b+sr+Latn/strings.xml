@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- no translation found for app_name (4805412166234254195) -->
+    <skip />
+    <!-- no translation found for generic_enabled (4767825898537903553) -->
+    <skip />
+    <!-- no translation found for generic_disabled (6132207079573986077) -->
+    <skip />
+    <!-- no translation found for generic_automatic (868637236719762619) -->
+    <skip />
+    <!-- no translation found for generic_help (2981841092590228407) -->
+    <skip />
+    <!-- no translation found for generic_ok (1432634274285209665) -->
+    <skip />
+    <!-- no translation found for generic_cancel (6193428581633519631) -->
+    <skip />
+    <!-- no translation found for generic_phone (8623763185567592337) -->
+    <skip />
+    <!-- no translation found for generic_network (6777066570869553437) -->
+    <skip />
+    <!-- no translation found for disable_text (9106135998265313262) -->
+    <skip />
+    <!-- no translation found for enable_text (8428163776996061717) -->
+    <skip />
+    <!-- no translation found for suggested_settings_battery_saver (6973608585328283281) -->
+    <skip />
+    <!-- no translation found for suggested_settings_summary (545719318271412676) -->
+    <skip />
+    <!-- no translation found for main_general (2277067946678605807) -->
+    <skip />
+    <!-- no translation found for main_display (8543582589798177773) -->
+    <skip />
+    <!-- no translation found for main_sound (1030377248270446960) -->
+    <skip />
+    <!-- no translation found for main_apps (625863343906090300) -->
+    <skip />
+    <!-- no translation found for main_gestures (905553143863618199) -->
+    <skip />
+    <!-- no translation found for main_connectivity (7370591930248236171) -->
+    <skip />
+    <!-- no translation found for main_accessibility (2662022377571056555) -->
+    <skip />
+    <!-- no translation found for main_personal (8308170429366761720) -->
+    <skip />
+    <!-- no translation found for main_system (7224774499516676026) -->
+    <skip />
+    <!-- no translation found for main_enterprise_privacy (7759678798497362601) -->
+    <skip />
+    <!-- no translation found for pref_watchface (219945858425846586) -->
+    <skip />
+    <!-- no translation found for pref_brightness (4404286087899301613) -->
+    <skip />
+    <!-- no translation found for adaptive_brightness (4866645892884526870) -->
+    <skip />
+    <!-- no translation found for pref_fontSize (8359543865029440063) -->
+    <skip />
+    <!-- no translation found for pref_screenOrientation (6127085048589854819) -->
+    <skip />
+    <!-- no translation found for pref_screenOrientation_labelLeftWrist (652035256667508708) -->
+    <skip />
+    <!-- no translation found for pref_screenOrientation_labelRightWrist (6778414045028891067) -->
+    <skip />
+    <!-- no translation found for pref_alwaysOnScreen (977242386652826444) -->
+    <skip />
+    <!-- no translation found for pref_wetMode (6656141011799357196) -->
+    <skip />
+    <!-- no translation found for pref_touchToWakeAlt (7562327450289602518) -->
+    <skip />
+    <!-- no translation found for enable_ambient_screen (6499952256560066035) -->
+    <skip />
+    <!-- no translation found for enable_ambient_screen_subtitle (8243347773079894648) -->
+    <skip />
+    <!-- no translation found for text_size_labels:0 (1172611480729848918) -->
+    <!-- no translation found for text_size_labels:1 (7428343085268820308) -->
+    <!-- no translation found for text_size_labels:2 (2905776473655806193) -->
+    <!-- no translation found for pref_volume (583533202517807550) -->
+    <skip />
+    <!-- no translation found for pref_vibrationLevel (315706692908066738) -->
+    <skip />
+    <!-- no translation found for pref_cardPreviews (8075377469253297138) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions (8591561749698004501) -->
+    <skip />
+    <!-- no translation found for pref_muteWhenOffBody (4130182830105282651) -->
+    <skip />
+    <!-- no translation found for pref_appNotifications (6852580630991838680) -->
+    <skip />
+    <!-- no translation found for pref_appNotifications_blockAll (3528021284111390747) -->
+    <skip />
+    <!-- no translation found for pref_appNotifications_none (836948949641390117) -->
+    <skip />
+    <!-- no translation found for pref_appNotifications_silently (2357553671144158837) -->
+    <skip />
+    <!-- no translation found for pref_mediaVolume (1291596704902475091) -->
+    <skip />
+    <!-- no translation found for pref_accessibilityVolume (8759949518544563500) -->
+    <skip />
+    <!-- no translation found for pref_alarmVolume (4759943273376168989) -->
+    <skip />
+    <!-- no translation found for pref_ringVolume (75112011503047272) -->
+    <skip />
+    <!-- no translation found for pref_vibrateForCalls (8654642357949801834) -->
+    <skip />
+    <!-- no translation found for pref_watchRingtone (855685662644067855) -->
+    <skip />
+    <!-- no translation found for pref_emergencyNotifications (7107773096913970388) -->
+    <skip />
+    <!-- no translation found for pref_silenceWhileWearingWatch (879641131530396794) -->
+    <skip />
+    <!-- no translation found for pref_vibrationLevel_labelNormal (5509707331712871028) -->
+    <skip />
+    <!-- no translation found for pref_vibrationLevel_labelLong (45475922136986874) -->
+    <skip />
+    <!-- no translation found for pref_vibrationLevel_labelDouble (6525541351572583838) -->
+    <skip />
+    <!-- no translation found for pref_vip_contacts (1879173971064604498) -->
+    <skip />
+    <!-- no translation found for pref_previewMode_labelOff (801852493646863895) -->
+    <skip />
+    <!-- no translation found for pref_previewMode_labelNormal (8391218979978349400) -->
+    <skip />
+    <!-- no translation found for pref_previewMode_labelHigh (2845932027101628063) -->
+    <skip />
+    <!-- no translation found for pref_previewMode_descOff (384558221044741768) -->
+    <skip />
+    <!-- no translation found for pref_previewMode_descNormal (2657833659788384592) -->
+    <skip />
+    <!-- no translation found for pref_previewMode_descHigh (423002447230118847) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_repeatCallers (4924335853783993070) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_repeatCallers_favorites (4388447634368861190) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_calls (1348921732306138653) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_calls_favorites (8654395286760587185) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_messages (1302008367985288806) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_messages_favorites (5217086406932660611) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_reminders (4420290271332968202) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_events (6965864185073515283) -->
+    <skip />
+    <!-- no translation found for pref_dndOptions_alarms (4729718969716138764) -->
+    <skip />
+    <!-- no translation found for pref_tiltToWake (7785866998889309936) -->
+    <skip />
+    <!-- no translation found for pref_wristGestures (6020010321248463981) -->
+    <skip />
+    <!-- no translation found for pref_launchTutorial (4964387450661947918) -->
+    <skip />
+    <!-- no translation found for pref_moreTips (6146295100550124006) -->
+    <skip />
+    <!-- no translation found for pref_bluetooth (7676895926390540630) -->
+    <skip />
+    <!-- no translation found for pref_wifi (4193129129106441704) -->
+    <skip />
+    <!-- no translation found for pref_cellular (3524838082225478578) -->
+    <skip />
+    <!-- no translation found for pref_airplaneMode (4224481066347249517) -->
+    <skip />
+    <!-- no translation found for pref_nfc (56967844180257475) -->
+    <skip />
+    <!-- no translation found for pref_location (7846951033644574797) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothEnabled (6930161595186868784) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothConnectedFrom (3878876782242584608) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothDisconnectedFrom (6622709957158221294) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothConnecting (2052112474089894923) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothOn (1398252176423293438) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothHfp (1394124833738696893) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothPaired (6360739401299481697) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothAvailable (876826767303694914) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothScan (6599875708695001297) -->
+    <skip />
+    <!-- no translation found for pref_bluetoothScan_scanning (5039207686660207749) -->
+    <skip />
+    <!-- no translation found for pref_bluetooth_connect (9032184886060752278) -->
+    <skip />
+    <!-- no translation found for pref_bluetooth_disconnect (2415606611532056577) -->
+    <skip />
+    <!-- no translation found for pref_bluetooth_turningOn (200065992562365086) -->
+    <skip />
+    <!-- no translation found for pref_bluetooth_turningOff (263949237015649299) -->
+    <skip />
+    <!-- no translation found for pref_bluetooth_available (7221237122162227317) -->
+    <skip />
+    <!-- no translation found for pref_bluetooth_unavailable (7844532641238906204) -->
+    <skip />
+    <!-- no translation found for pref_bluetooth_forget (5372625095052106897) -->
+    <skip />
+    <!-- no translation found for bluetooth_disconnected (4900229571496554813) -->
+    <skip />
+    <!-- no translation found for bluetooth_connected (8767081179369244502) -->
+    <skip />
+    <!-- no translation found for pref_cellularToggle (1189270259095475208) -->
+    <skip />
+    <!-- no translation found for pref_cellularToggle_noCellAirplane_dialogTitle (8922422032528916508) -->
+    <skip />
+    <!-- no translation found for pref_cellularToggle_noCellAirplane_dialogMessage (4384515910419249445) -->
+    <skip />
+    <!-- no translation found for pref_dataUsage (544998622376426870) -->
+    <skip />
+    <!-- no translation found for pref_resumeData (8499454224697951814) -->
+    <skip />
+    <!-- no translation found for pref_resumeData_dialogTitle (6782193707382944259) -->
+    <skip />
+    <!-- no translation found for pref_resumeData_dialogMessage (2182508225244146591) -->
+    <skip />
+    <!-- no translation found for pref_dataRoaming (7701911059505836019) -->
+    <skip />
+    <!-- no translation found for pref_internationalDataRoaming (9159517213339286616) -->
+    <skip />
+    <!-- no translation found for pref_dataRoaming_dialogTitle (8260031331389764715) -->
+    <skip />
+    <!-- no translation found for pref_dataRoaming_dialogMessage (3366696030290218252) -->
+    <skip />
+    <!-- no translation found for pref_unlockSim (6552716969296791409) -->
+    <skip />
+    <!-- no translation found for pref_lockSimCard (2397976208537128039) -->
+    <skip />
+    <!-- no translation found for pref_changeSimPin (2294547304517946454) -->
+    <skip />
+    <!-- no translation found for pref_simStatus (7123109578139445358) -->
+    <skip />
+    <!-- no translation found for pref_callForwarding (4583344203454583284) -->
+    <skip />
+    <!-- no translation found for pref_callForwarding_infoTitle (1713274495863612938) -->
+    <skip />
+    <!-- no translation found for pref_callForwarding_infoMessage (2623745567044400898) -->
+    <skip />
+    <!-- no translation found for pref_callForwarding_turnOn (5776901365435655283) -->
+    <skip />
+    <!-- no translation found for pref_callForwarding_turnOff (4301413631391610444) -->
+    <skip />
+    <!-- no translation found for pref_callForwarding_turnOn_requested (5194353199996589769) -->
+    <skip />
+    <!-- no translation found for pref_callForwarding_turnOff_requested (500077464114059618) -->
+    <skip />
+    <!-- no translation found for pref_defaultSms (1904017382578955185) -->
+    <skip />
+    <!-- no translation found for pref_phoneNumber (8768999869049546148) -->
+    <skip />
+    <!-- no translation found for pref_voicemailNumber (5001396272302667902) -->
+    <skip />
+    <!-- no translation found for pref_advancedSettings (3082953369356420880) -->
+    <skip />
+    <!-- no translation found for pref_tapAndPay (5429360547337883422) -->
+    <skip />
+    <!-- no translation found for pref_tapAndPayDefault (3014482381832102410) -->
+    <skip />
+    <!-- no translation found for pref_location_summary_hasGps (28013479767394489) -->
+    <skip />
+    <!-- no translation found for pref_location_summary_noGps (2622782496491953522) -->
+    <skip />
+    <!-- no translation found for pref_inputMethods (4297950081899013471) -->
+    <skip />
+    <!-- no translation found for pref_screenLock (8171384079290769925) -->
+    <skip />
+    <!-- no translation found for pref_smartReply (688197994868173920) -->
+    <skip />
+    <!-- no translation found for pref_hotwordDetection (6804276239786601270) -->
+    <skip />
+    <!-- no translation found for pref_alternateLauncher (4274641845535410141) -->
+    <skip />
+    <!-- no translation found for pref_voiceAssistant (7299570457880744010) -->
+    <skip />
+    <!-- no translation found for pref_lockScreenNow (5027792604560312699) -->
+    <skip />
+    <!-- no translation found for pref_accounts (4947734756508379778) -->
+    <skip />
+    <!-- no translation found for pref_storage (2263339280670711255) -->
+    <skip />
+    <!-- no translation found for pref_yolo (1855896809952422114) -->
+    <skip />
+    <!-- no translation found for pref_addAccount (5537863202786700429) -->
+    <skip />
+    <!-- no translation found for pref_removeAccount (2030681086676267267) -->
+    <skip />
+    <!-- no translation found for pref_exerciseDetection (4355564745166222371) -->
+    <skip />
+    <!-- no translation found for pref_exerciseDetection_biking (1923539341450347022) -->
+    <skip />
+    <!-- no translation found for pref_exerciseDetection_running (7500591844212779810) -->
+    <skip />
+    <!-- no translation found for pref_exerciseDetection_walking (5349052193204195939) -->
+    <skip />
+    <!-- no translation found for exerciseDetection_defaultAppTitle (1197577305145685864) -->
+    <skip />
+    <!-- no translation found for exerciseDetection_exerciseLabel (6255648342858632983) -->
+    <skip />
+    <!-- no translation found for exerciseDetection_exerciseLabel_experimental (6414066693044266204) -->
+    <skip />
+    <!-- no translation found for exerciseDetection_none (4238526342036211443) -->
+    <skip />
+    <!-- no translation found for pref_deviceAdministration (3287818398887980726) -->
+    <skip />
+    <!-- no translation found for pref_deviceAdministrators (7491518552210320037) -->
+    <skip />
+    <!-- no translation found for pref_androidDeviceManagerSettings (3867075489724880180) -->
+    <skip />
+    <!-- no translation found for inactive_device_admins (3698121746313055152) -->
+    <skip />
+    <!-- no translation found for active_device_admin_msg (3584958834227349591) -->
+    <skip />
+    <!-- no translation found for deactivate_admin (5441342181579988886) -->
+    <skip />
+    <!-- no translation found for remove_device_admin (3042463741178321566) -->
+    <skip />
+    <!-- no translation found for activate_admin (8670280644534998519) -->
+    <skip />
+    <!-- no translation found for uninstall_admin (206163615160904205) -->
+    <skip />
+    <!-- no translation found for remove_and_uninstall_device_admin (2757364778149043308) -->
+    <skip />
+    <!-- no translation found for uninstall_this_admin (4916748024875598517) -->
+    <skip />
+    <!-- no translation found for inactive_device_admin (4100773806896242172) -->
+    <skip />
+    <!-- no translation found for active_device_admin (6761361821882288394) -->
+    <skip />
+    <!-- no translation found for managed_accounts_removed_warning (5267195158282467117) -->
+    <skip />
+    <!-- no translation found for deactivate_admin_question (554558182931246867) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_header (1248504285037391994) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_exposure_category (4510387788129740157) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_enterprise_data (1429216413706598160) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_installed_packages (7920989838025590911) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_usage_stats (2240723647951535039) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_network_logs (512367407851675039) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_bug_reports (3896200576769708990) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_security_logs (826400763776049537) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_exposure_changes_category (8113274961400635536) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_enterprise_installed_packages (6341303431253805274) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_location_access (4223890913354464139) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_microphone_access (4052262568210797997) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_camera_access (4152983268265746044) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_number_packages_lower_bound (8466331311761064573) -->
+    <!-- no translation found for enterprise_privacy_enterprise_set_default_apps (8979295005824335023) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_number_packages (3196797947251832656) -->
+    <!-- no translation found for enterprise_privacy_apps_count_estimation_info (5313387984426761960) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_always_on_vpn_device (3468167178900269226) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_always_on_vpn_work (4710546374952637115) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_always_on_vpn_personal (503095379572077222) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_input_method (3870535475639737564) -->
+    <skip />
+    <!-- no translation found for enterprise_input_method_name (6442425276025944720) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_global_http_proxy (2978554502609331335) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_ca_certs_device (5660399791832602947) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_ca_certs_personal (449201560713126493) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_ca_certs_work (4959115980503414619) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_number_ca_certs (813536851734029415) -->
+    <!-- no translation found for enterprise_privacy_device_access_category (4284167101249175377) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_lock_device (3185661217624099622) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_wipe_device (6761530811270192821) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_failed_password_wipe_device (5569561594275997893) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_failed_password_wipe_work (5980879176442107748) -->
+    <skip />
+    <!-- no translation found for enterprise_privacy_number_failed_password_wipe (9113277456442443078) -->
+    <!-- no translation found for enterprise_privacy_none (6427359600597239879) -->
+    <skip />
+    <!-- no translation found for do_disclosure_generic (3074124315333371110) -->
+    <skip />
+    <!-- no translation found for do_disclosure_with_name (5575071798074563262) -->
+    <skip />
+    <!-- no translation found for do_disclosure_learn_more_separator (8126714065336044753) -->
+    <skip />
+    <!-- no translation found for do_disclosure_learn_more (7628292198567029215) -->
+    <skip />
+    <!-- no translation found for default_browser_title (1867583584627392619) -->
+    <skip />
+    <!-- no translation found for default_calendar_app_title (3400575348008215057) -->
+    <skip />
+    <!-- no translation found for default_contacts_app_title (5800094107480074512) -->
+    <skip />
+    <!-- no translation found for default_phone_app_title (1593506092172167103) -->
+    <!-- no translation found for default_map_app_title (7713497792633304953) -->
+    <skip />
+    <!-- no translation found for default_email_app_title (193334918360201934) -->
+    <!-- no translation found for default_camera_app_title (6645119903538410998) -->
+    <!-- no translation found for remove_acct_conf (1004030898868231990) -->
+    <skip />
+    <!-- no translation found for remove_account_failed (8014392527624186293) -->
+    <skip />
+    <!-- no translation found for pref_buttons (3617512883503647533) -->
+    <!-- no translation found for pref_buttons_launch_app (233879668818992059) -->
+    <skip />
+    <!-- no translation found for pref_batterySaverMode (8105233369700336751) -->
+    <skip />
+    <!-- no translation found for pref_about (1864968876151865653) -->
+    <skip />
+    <!-- no translation found for pref_restart (8041163662029549677) -->
+    <skip />
+    <!-- no translation found for pref_powerOff (6425033601209321200) -->
+    <skip />
+    <!-- no translation found for pref_factoryReset (4639063415241970664) -->
+    <skip />
+    <!-- no translation found for pref_batterySaver (5458054850929363858) -->
+    <skip />
+    <!-- no translation found for pref_autoBatterySaver (3957633308770335436) -->
+    <skip />
+    <!-- no translation found for pref_batterySaver_offForTalkback (5705485145907080818) -->
+    <skip />
+    <!-- no translation found for pref_batterySaverMode_summary (7548291985288032043) -->
+    <skip />
+    <!-- no translation found for pref_batterySaverMode_title (2566029084026200805) -->
+    <skip />
+    <!-- no translation found for pref_batterySaver_dialogTitle (3521232690182809899) -->
+    <skip />
+    <!-- no translation found for pref_batterySaver_dialogMessage (7062210705790889416) -->
+    <skip />
+    <!-- no translation found for pref_batterySaverScr_dialogMessage (4974077101213179731) -->
+    <skip />
+    <!-- no translation found for pref_dateTime (5010099141828786184) -->
+    <skip />
+    <!-- no translation found for pref_autoDateTime (6780057840667552276) -->
+    <skip />
+    <!-- no translation found for pref_manualDate (4435640066669064872) -->
+    <skip />
+    <!-- no translation found for pref_manualTime (3519418038429900606) -->
+    <skip />
+    <!-- no translation found for pref_autoTimeZone (2503024717839390870) -->
+    <skip />
+    <!-- no translation found for pref_manualTimeZone (8643301936079232151) -->
+    <skip />
+    <!-- no translation found for pref_manualTimeZone_dialogTitle (1654353813764348750) -->
+    <skip />
+    <!-- no translation found for pref_hourFormat (7647328077287325481) -->
+    <skip />
+    <!-- no translation found for sync_from_phone (5561792037089549428) -->
+    <skip />
+    <!-- no translation found for sync_from_network (697734415635360677) -->
+    <skip />
+    <!-- no translation found for gmt (8760491063181319174) -->
+    <skip />
+    <!-- no translation found for pref_stayOnWhilePluggedIn (3295733791198092761) -->
+    <skip />
+    <!-- no translation found for pref_showChimeraModules (4974221305400017478) -->
+    <skip />
+    <!-- no translation found for pref_btSnoopLog (4159721978590346557) -->
+    <skip />
+    <!-- no translation found for pref_connectivityVibrate (4590978864979907904) -->
+    <skip />
+    <!-- no translation found for pref_oemDebug (1862309934319898789) -->
+    <skip />
+    <!-- no translation found for pref_oemDebug_summary (8774336698288562244) -->
+    <skip />
+    <!-- no translation found for pref_adbDebugging (702491673091039691) -->
+    <skip />
+    <!-- no translation found for pref_smartIlluminate (5446895516211655363) -->
+    <skip />
+    <!-- no translation found for pref_debugOverBluetooth (4189963247393422445) -->
+    <skip />
+    <!-- no translation found for pref_debugOverWifi (1672683072742110664) -->
+    <skip />
+    <!-- no translation found for pref_wearDeveloperOptions (7574175582436316353) -->
+    <skip />
+    <!-- no translation found for pref_clearAdbKeys (4287116934368022873) -->
+    <skip />
+    <!-- no translation found for pref_logPersist (4581366923741473004) -->
+    <skip />
+    <!-- no translation found for pref_debugLayout (1023463220489857328) -->
+    <skip />
+    <!-- no translation found for pref_debugOverdraw (9201078493023533404) -->
+    <skip />
+    <!-- no translation found for pref_debugTiming (298485889111711702) -->
+    <skip />
+    <!-- no translation found for pref_bugReport (7804366356076446096) -->
+    <skip />
+    <!-- no translation found for pref_autoWifi (3566618648072344197) -->
+    <skip />
+    <!-- no translation found for pref_enableWifiWhenCharging (8009680987440491406) -->
+    <skip />
+    <!-- no translation found for pref_disableAutomaticWifi (7677937259405124357) -->
+    <skip />
+    <!-- no translation found for pref_wifiLogging (8982039474526082033) -->
+    <skip />
+    <!-- no translation found for pref_powerOptimizations (1523119762455521293) -->
+    <skip />
+    <!-- no translation found for pref_tap_and_pay_title (3809260028353032845) -->
+    <skip />
+    <!-- no translation found for pref_nfc_tap_and_pay_pref_screen_title (99082886156637353) -->
+    <skip />
+    <!-- no translation found for time_service_name (6283586624894331699) -->
+    <skip />
+    <!-- no translation found for airplane_mode_service_name (4439177176343003192) -->
+    <skip />
+    <!-- no translation found for sunlight_mode_service_name (2805107561145270356) -->
+    <skip />
+    <!-- no translation found for locale_service_name (8848057196394129773) -->
+    <skip />
+    <!-- no translation found for configure_doze_service_name (8757463281046904110) -->
+    <skip />
+    <!-- no translation found for battery_stats_service_name (9167387416924076315) -->
+    <skip />
+    <!-- no translation found for retail_service_name (1432625784987533620) -->
+    <skip />
+    <!-- no translation found for update_lock_service_name (2727722966114418843) -->
+    <skip />
+    <!-- no translation found for storage_stats_service_name (7283103097230950947) -->
+    <skip />
+    <!-- no translation found for disable_fitness_service_name (1289359505506277029) -->
+    <skip />
+    <!-- no translation found for perm_label_change_time (1614205346722069119) -->
+    <skip />
+    <!-- no translation found for perm_description_change_time (3735088438206589161) -->
+    <skip />
+    <!-- no translation found for perm_label_set_global_key (134460608000354749) -->
+    <skip />
+    <!-- no translation found for perm_description_set_global_key (7218065128492714180) -->
+    <skip />
+    <!-- no translation found for perm_label_set_power_save (5977410931507977385) -->
+    <skip />
+    <!-- no translation found for perm_description_set_power_save (398664137585810344) -->
+    <skip />
+    <!-- no translation found for perm_label_change_airplane_mode (4621562876922150326) -->
+    <skip />
+    <!-- no translation found for perm_description_change_airplane_mode (5548864799000291188) -->
+    <skip />
+    <!-- no translation found for perm_label_toggle_sunlight_mode (7300350721546030549) -->
+    <skip />
+    <!-- no translation found for perm_description_toggle_sunlight_mode (7970773837921004741) -->
+    <skip />
+    <!-- no translation found for perm_label_change_locale (7000083711553910362) -->
+    <skip />
+    <!-- no translation found for perm_description_change_locale (4911766644238488049) -->
+    <skip />
+    <!-- no translation found for perm_label_configure_doze (5421509200229650269) -->
+    <skip />
+    <!-- no translation found for perm_description_configure_doze (7218651062978851446) -->
+    <skip />
+    <!-- no translation found for perm_label_battery_stats (1778606753594342937) -->
+    <skip />
+    <!-- no translation found for perm_description_battery_stats (8156681656296522428) -->
+    <skip />
+    <!-- no translation found for perm_label_retail (4988785191164980482) -->
+    <skip />
+    <!-- no translation found for perm_description_retail (8096467821470700726) -->
+    <skip />
+    <!-- no translation found for perm_label_read_settings (952483218522377452) -->
+    <skip />
+    <!-- no translation found for perm_description_read_settings (5117658872211225102) -->
+    <skip />
+    <!-- no translation found for perm_label_write_settings (967154864341021740) -->
+    <skip />
+    <!-- no translation found for perm_description_write_settings (9086940006333287901) -->
+    <skip />
+    <!-- no translation found for perm_label_lock_updates (4034546703228244097) -->
+    <skip />
+    <!-- no translation found for perm_description_lock_updates (2683626227679532287) -->
+    <skip />
+    <!-- no translation found for perm_label_storage_stats (6197912295772696716) -->
+    <skip />
+    <!-- no translation found for perm_description_storage_stats (8162425162933291683) -->
+    <skip />
+    <!-- no translation found for perm_label_disable_fitness (1149946811451073823) -->
+    <skip />
+    <!-- no translation found for perm_description_disable_fitness (4951038687262255865) -->
+    <skip />
+    <!-- no translation found for perm_label_set_home_ready (8451607503458763111) -->
+    <skip />
+    <!-- no translation found for perm_description_set_home_ready (1332347716157882869) -->
+    <skip />
+    <!-- no translation found for perm_label_show_factory_reset_confirmation (7303857583755554738) -->
+    <skip />
+    <!-- no translation found for perm_description_show_factory_reset_confirmation (8102678402211318506) -->
+    <skip />
+    <!-- no translation found for verify_screen_lock_pin (7509047618652114025) -->
+    <skip />
+    <!-- no translation found for verify_screen_lock_password (8265310277529137384) -->
+    <skip />
+    <!-- no translation found for choose_screen_lock_pin (4949582802551926327) -->
+    <skip />
+    <!-- no translation found for choose_screen_lock_password (2211757075065518092) -->
+    <skip />
+    <!-- no translation found for lock_settings_title (3838008524017333227) -->
+    <skip />
+    <!-- no translation found for action_lock_none (479246350876272089) -->
+    <skip />
+    <!-- no translation found for action_lock_pattern (215281590639238701) -->
+    <skip />
+    <!-- no translation found for action_lock_pin (4747331804647532967) -->
+    <skip />
+    <!-- no translation found for action_lock_password (6343551604618018553) -->
+    <skip />
+    <!-- no translation found for action_power_off (2257246428618786560) -->
+    <skip />
+    <!-- no translation found for action_restart (4023857913936273892) -->
+    <skip />
+    <!-- no translation found for enable_airplane_mode (7012413720119183231) -->
+    <skip />
+    <!-- no translation found for disable_airplane_mode (5007975406165404037) -->
+    <skip />
+    <!-- no translation found for enable_wifi (268484308397480722) -->
+    <skip />
+    <!-- no translation found for disable_wifi (2563651239499338628) -->
+    <skip />
+    <!-- no translation found for airplane_mode (7474495377860835384) -->
+    <skip />
+    <!-- no translation found for location_warning_title (324768427884387137) -->
+    <skip />
+    <!-- no translation found for location_warning_message (7539862108782770096) -->
+    <skip />
+    <!-- no translation found for agree (6518595068526959386) -->
+    <skip />
+    <!-- no translation found for disagree (7045507156753861285) -->
+    <skip />
+    <!-- no translation found for factory_reset_confirmation (3307130543710863583) -->
+    <skip />
+    <!-- no translation found for factory_reset_confirmation_subtitle (8332262918841859029) -->
+    <skip />
+    <!-- no translation found for factory_resetting (6789489223990944984) -->
+    <skip />
+    <!-- no translation found for permissions_setting (7493246711262889765) -->
+    <skip />
+    <!-- no translation found for info_label_model (5462928090963276060) -->
+    <skip />
+    <!-- no translation found for info_label_device_name (2965996867358217441) -->
+    <skip />
+    <!-- no translation found for info_label_version (2709691749716726745) -->
+    <skip />
+    <!-- no translation found for info_value_version (1921105485159227050) -->
+    <skip />
+    <!-- no translation found for info_label_wear_os_version (2640502800697825605) -->
+    <skip />
+    <!-- no translation found for info_label_home_app (8247458074190539975) -->
+    <skip />
+    <!-- no translation found for info_label_os_version (2426275765373445385) -->
+    <skip />
+    <string name="info_label_security_patch" msgid="2182967081179271667">"Nivo bezbednosne zakrpe za Android"</string>
+    <!-- no translation found for info_label_serial (7541679776559969346) -->
+    <skip />
+    <!-- no translation found for info_label_msn (2761467614956918313) -->
+    <skip />
+    <!-- no translation found for info_label_build (4221674184315078846) -->
+    <skip />
+    <!-- no translation found for info_label_connection (6805565712509458515) -->
+    <skip />
+    <!-- no translation found for info_label_regulator_information (521928042592927567) -->
+    <skip />
+    <!-- no translation found for info_label_legal_notices (6238057824763505209) -->
+    <skip />
+    <!-- no translation found for info_label_open_source_information (6165552906723827208) -->
+    <skip />
+    <!-- no translation found for info_value_connection_error (2595437285507164813) -->
+    <skip />
+    <!-- no translation found for info_value_connection_no_pairing (5859455735262962789) -->
+    <skip />
+    <!-- no translation found for info_value_connection_paired_disconnected (1143552375393611551) -->
+    <skip />
+    <!-- no translation found for info_value_connection_paired_connected (8545309092470711825) -->
+    <skip />
+    <!-- no translation found for info_value_legal_notices (3299469673150652238) -->
+    <skip />
+    <!-- no translation found for show_dev_countdown (278671640704606230) -->
+    <!-- no translation found for show_dev_on (2109846373541532173) -->
+    <skip />
+    <!-- no translation found for show_dev_already (407395843882625544) -->
+    <skip />
+    <!-- no translation found for info_label_battery (3496702431985663374) -->
+    <skip />
+    <!-- no translation found for info_value_battery_plugged (987501859001734110) -->
+    <skip />
+    <!-- no translation found for info_value_battery (2781226267130548261) -->
+    <skip />
+    <!-- no translation found for info_label_system_update (8233770039804037350) -->
+    <skip />
+    <!-- no translation found for checking_for_updates (1643221196764678417) -->
+    <skip />
+    <!-- no translation found for error_could_not_launch (1741795448696961995) -->
+    <skip />
+    <!-- no translation found for baseband_version (3099493437361966829) -->
+    <skip />
+    <!-- no translation found for kernel_version (5681143854298654566) -->
+    <skip />
+    <!-- no translation found for device_status (1479230837802434695) -->
+    <skip />
+    <!-- no translation found for fcc_equipment_id (8247602781643927905) -->
+    <skip />
+    <!-- no translation found for selinux_status (4492945376268631700) -->
+    <skip />
+    <!-- no translation found for device_info_not_available (5858213049114617114) -->
+    <skip />
+    <!-- no translation found for device_status_summary (6883771577220273078) -->
+    <skip />
+    <!-- no translation found for device_status_summary (6190216610174753010) -->
+    <skip />
+    <!-- no translation found for status_number_mdn (751001818997280955) -->
+    <skip />
+    <!-- no translation found for status_number_phone (9215294168305631385) -->
+    <skip />
+    <!-- no translation found for status_min_number (5677264496381777363) -->
+    <skip />
+    <!-- no translation found for status_msid_number (5054431579050365788) -->
+    <skip />
+    <!-- no translation found for status_prl_version (3383131582117101003) -->
+    <skip />
+    <!-- no translation found for status_meid_number (4013889098560657284) -->
+    <skip />
+    <!-- no translation found for status_icc_id (1231660343377072846) -->
+    <skip />
+    <!-- no translation found for status_network_type (7839077811135587430) -->
+    <skip />
+    <!-- no translation found for status_latest_area_info (3858532744396704445) -->
+    <skip />
+    <!-- no translation found for status_data_state (8793217835033667805) -->
+    <skip />
+    <!-- no translation found for status_service_state (7258828116492905451) -->
+    <skip />
+    <!-- no translation found for status_signal_strength (3674931742218015923) -->
+    <skip />
+    <!-- no translation found for status_roaming (8823917885403144430) -->
+    <skip />
+    <!-- no translation found for status_operator (6984266089070939787) -->
+    <skip />
+    <!-- no translation found for status_wifi_mac_address (2551145274089049903) -->
+    <skip />
+    <!-- no translation found for status_bt_address (1706647943982379675) -->
+    <skip />
+    <!-- no translation found for status_serial_number (1832724952261309909) -->
+    <skip />
+    <!-- no translation found for status_up_time (7577065251657875353) -->
+    <skip />
+    <!-- no translation found for status_awake_time (4117932177067081486) -->
+    <skip />
+    <!-- no translation found for action_accessibility (4274477204453979068) -->
+    <skip />
+    <!-- no translation found for action_accessibility_large_text (6941851006725723533) -->
+    <skip />
+    <!-- no translation found for enable_large_text (60823465250294614) -->
+    <skip />
+    <!-- no translation found for disable_large_text (3460354305427083350) -->
+    <skip />
+    <!-- no translation found for action_accessibility_color_inversion (3469641555029056131) -->
+    <skip />
+    <!-- no translation found for action_accessibility_magnification (6876277344986693641) -->
+    <skip />
+    <!-- no translation found for enable_magnification (6711286211098200858) -->
+    <skip />
+    <!-- no translation found for magnification_subtitle (4380044615878003974) -->
+    <skip />
+    <!-- no translation found for disable_magnification (8429032527771401304) -->
+    <skip />
+    <!-- no translation found for accessibility_power_button (3947315068872243678) -->
+    <skip />
+    <!-- no translation found for accessibility_feature_state_on (5943415368007934139) -->
+    <skip />
+    <!-- no translation found for accessibility_feature_state_off (4983415388838116240) -->
+    <skip />
+    <!-- no translation found for accessibility_menu_item_settings (8747326791824357447) -->
+    <skip />
+    <!-- no translation found for accessibility_service_default_description (4618751180180731832) -->
+    <skip />
+    <!-- no translation found for enable_service_title (2705790232499971416) -->
+    <skip />
+    <!-- no translation found for capabilities_list_title (7203592239863197705) -->
+    <skip />
+    <!-- no translation found for capability_title_receiveAccessibilityEvents (8558770593364829246) -->
+    <skip />
+    <!-- no translation found for capability_desc_receiveAccessibilityEvents (4898695177873003684) -->
+    <skip />
+    <!-- no translation found for accessibility_service_experimental (6612613571477586134) -->
+    <skip />
+    <!-- no translation found for tts_status_checking (5914293480810669850) -->
+    <skip />
+    <!-- no translation found for tts_engine_settings_section (3270143842075000764) -->
+    <skip />
+    <!-- no translation found for tts_engine_set_as_default (7070909974135609275) -->
+    <skip />
+    <!-- no translation found for enabled (6211511857401980949) -->
+    <skip />
+    <!-- no translation found for notification_adb_target_service_title (104574699050942483) -->
+    <skip />
+    <!-- no translation found for notification_adb_target_service_text (6982107394778870220) -->
+    <skip />
+    <!-- no translation found for which_application (6276331741936034303) -->
+    <skip />
+    <!-- no translation found for are_you_sure (3613933635863706736) -->
+    <skip />
+    <!-- no translation found for please_wait (6237508868196214134) -->
+    <skip />
+    <!-- no translation found for changed_after_restart (5358424220322341627) -->
+    <skip />
+    <!-- no translation found for change_watch_face (93841052399292998) -->
+    <skip />
+    <!-- no translation found for settings (6718610711513793790) -->
+    <skip />
+    <!-- no translation found for advanced_settings (3278065177901955453) -->
+    <skip />
+    <!-- no translation found for power_save_after_settings (7878839266047420718) -->
+    <skip />
+    <!-- no translation found for max_battery_use_settings (870974980483155447) -->
+    <skip />
+    <!-- no translation found for airplane_mode_on (7326981613660360667) -->
+    <skip />
+    <!-- no translation found for wifi_settings (7125053011032884530) -->
+    <skip />
+    <!-- no translation found for watch_wifi_settings (6977467975231688441) -->
+    <skip />
+    <!-- no translation found for pref_cellularBatterySaver (2314831363095154724) -->
+    <skip />
+    <!-- no translation found for bluetooth_disabled (6280695776893301138) -->
+    <skip />
+    <!-- no translation found for bluetooth_enable_request (5546371593663419423) -->
+    <skip />
+    <!-- no translation found for wifi_enable_request (3585083661439154377) -->
+    <skip />
+    <!-- no translation found for bluetooth_make_discoverable (7255147841378508253) -->
+    <skip />
+    <!-- no translation found for bluetooth_enter_pin (5212095687698442253) -->
+    <skip />
+    <!-- no translation found for bluetooth_pair_with (1433486491715935827) -->
+    <skip />
+    <!-- no translation found for bluetooth_pair_with_short (762483507456875923) -->
+    <skip />
+    <!-- no translation found for bluetooth_confirm_code (3100116401776297946) -->
+    <skip />
+    <!-- no translation found for bluetooth_enter_code_on_phone (4650853076116175299) -->
+    <skip />
+    <!-- no translation found for bluetooth_enter_code (2633544558561573330) -->
+    <skip />
+    <!-- no translation found for wifi_activity_title (6738159393783650449) -->
+    <skip />
+    <!-- no translation found for wifi_connection_action (394506258555947193) -->
+    <skip />
+    <!-- no translation found for wifi_connection_action_automatic (5533359973809075155) -->
+    <skip />
+    <!-- no translation found for wifi_connection_action_on_minutes (6468066446949660201) -->
+    <!-- no translation found for wifi_connection_action_on_hours (3244030981996338795) -->
+    <!-- no translation found for wifi_connection_action_always_off (7878460947972668945) -->
+    <skip />
+    <!-- no translation found for wifi_connection_action_off (533586187701843875) -->
+    <skip />
+    <!-- no translation found for wifi_connection_action_on (1731820036902467766) -->
+    <skip />
+    <!-- no translation found for wifi_toggle_enabled (6040689101508221747) -->
+    <skip />
+    <!-- no translation found for wifi_toggle_disabled (3711675637655236697) -->
+    <skip />
+    <!-- no translation found for wifi_current_connection_connected (1477532317206422899) -->
+    <skip />
+    <!-- no translation found for wifi_current_connection_connecting (170471559380052053) -->
+    <skip />
+    <!-- no translation found for wifi_current_connection_obtaining_ip (7448139656142104252) -->
+    <skip />
+    <!-- no translation found for wifi_connection_last_used (9174721932127941022) -->
+    <skip />
+    <!-- no translation found for wifi_connection_failure (6237186356446896115) -->
+    <skip />
+    <!-- no translation found for wifi_connection_no_internet (2351091570392173312) -->
+    <skip />
+    <!-- no translation found for wifi_available_networks_action (5649911085874011700) -->
+    <skip />
+    <!-- no translation found for wifi_add_network_action (5924861685322990266) -->
+    <skip />
+    <!-- no translation found for wifi_saved_networks_action (8630907330422891856) -->
+    <skip />
+    <!-- no translation found for wifi_advanced_settings_action (6598435900685089887) -->
+    <skip />
+    <!-- no translation found for wifi_about_automatic_action (5789083404638420492) -->
+    <skip />
+    <!-- no translation found for wifi_connection_title (2522820582918781849) -->
+    <skip />
+    <!-- no translation found for wifi_add_hidden_network_title (3829440405335323346) -->
+    <skip />
+    <!-- no translation found for wifi_available_networks_title (8820693844617223880) -->
+    <skip />
+    <!-- no translation found for wifi_add_network_title (5772528174953580978) -->
+    <skip />
+    <!-- no translation found for wifi_saved_networks_title (4180712371469804398) -->
+    <skip />
+    <!-- no translation found for wifi_empty_saved_networks (7547958447761615207) -->
+    <skip />
+    <!-- no translation found for wifi_advanced_title (8481894830427153526) -->
+    <skip />
+    <!-- no translation found for wifi_advanced_automatic_rules_action (8189169829813236728) -->
+    <skip />
+    <!-- no translation found for wifi_advanced_ip_address_title (963026630313847601) -->
+    <skip />
+    <!-- no translation found for wifi_advanced_mac_address_title (5963717237036099879) -->
+    <skip />
+    <!-- no translation found for wifi_advanced_view_address_action (458477374376903839) -->
+    <skip />
+    <!-- no translation found for wifi_rules_toggle_away_from_phone_seconds (8913969046025667674) -->
+    <skip />
+    <!-- no translation found for wifi_rules_toggle_charging_seconds (4987963256512766554) -->
+    <skip />
+    <!-- no translation found for wifi_rules_toggle_app_requested (8195792799475313277) -->
+    <skip />
+    <!-- no translation found for wifi_rules_toggle_no_wifi_available_minutes (8471864639039188010) -->
+    <skip />
+    <!-- no translation found for wifi_rules_toggle_battery_below_percent (492317707991933991) -->
+    <skip />
+    <!-- no translation found for wifi_about_automatic_title (8051939352298115827) -->
+    <skip />
+    <!-- no translation found for wifi_about_automatic_text (6308925970837478481) -->
+    <skip />
+    <!-- no translation found for wifi_saved_networks_activity_title (993170349035104096) -->
+    <skip />
+    <!-- no translation found for toggle_wifi_action (3549061765193426014) -->
+    <skip />
+    <!-- no translation found for action_summary_on (8158876872523376001) -->
+    <skip />
+    <!-- no translation found for action_summary_off (1158645944578595513) -->
+    <skip />
+    <!-- no translation found for wifi_scan (694417691359695724) -->
+    <skip />
+    <!-- no translation found for wifi_scanning (4401813717865532749) -->
+    <skip />
+    <!-- no translation found for wifi_enabling (881270796782061215) -->
+    <skip />
+    <!-- no translation found for wifi_disabling (5517511704850880344) -->
+    <skip />
+    <!-- no translation found for wifi_connect_success_message (2574650953041350732) -->
+    <skip />
+    <!-- no translation found for wifi_failed_connect_message (6822131100872966233) -->
+    <skip />
+    <!-- no translation found for wifi_failed_forget_message (4288874740862056172) -->
+    <skip />
+    <!-- no translation found for wifi_network_forgetting (2819532667839816235) -->
+    <skip />
+    <!-- no translation found for wifi_forget_network_title (2066639657741238885) -->
+    <skip />
+    <!-- no translation found for wifi_needs_on_message (1174643616472847255) -->
+    <skip />
+    <!-- no translation found for wifi_needs_network_message (3513141453674867353) -->
+    <skip />
+    <!-- no translation found for wifi_select_network_message (5109371265503513383) -->
+    <skip />
+    <!-- no translation found for wifi_no_internet (121769553396228583) -->
+    <skip />
+    <!-- no translation found for wifi_disabled_network_failure (436956786413722449) -->
+    <skip />
+    <!-- no translation found for wifi_disabled_wifi_failure (3919369680966360244) -->
+    <skip />
+    <!-- no translation found for wifi_disabled_password_failure (3642364261641610256) -->
+    <skip />
+    <!-- no translation found for wifi_status_unavailable (7913863221429909330) -->
+    <skip />
+    <!-- no translation found for wifi_power_save_minutes (8710071597623674734) -->
+    <!-- no translation found for wifi_power_save_hours (6535781916052356472) -->
+    <!-- no translation found for wifi_power_save_never (1553528659904001622) -->
+    <skip />
+    <!-- no translation found for wifi_advanced_power_save_title (6300021866861061203) -->
+    <skip />
+    <!-- no translation found for wifi_advanced_max_battery_title (7883165495408578628) -->
+    <skip />
+    <!-- no translation found for wifi_network_found_title (5213610451935137809) -->
+    <skip />
+    <!-- no translation found for wifi_network_found_summary (3418781182834180733) -->
+    <skip />
+    <!-- no translation found for wifi_network_named_found_title (1876510205016852259) -->
+    <skip />
+    <!-- no translation found for wifi_network_named_found_summary (7391958531872131752) -->
+    <skip />
+    <!-- no translation found for wifi_network_password_required (5631399248733645591) -->
+    <skip />
+    <!-- no translation found for wifi_network_enter_password_phone (7420154361050701842) -->
+    <skip />
+    <!-- no translation found for wifi_network_enter_password_watch (5240163550532935870) -->
+    <skip />
+    <!-- no translation found for wifi_network_check_phone_to_connect (6779748990989652578) -->
+    <skip />
+    <!-- no translation found for wifi_network_check_phone_to_finish (2028371670543547606) -->
+    <skip />
+    <!-- no translation found for wifi_network_continue_on_phone (3951726447523592572) -->
+    <skip />
+    <!-- no translation found for setting_cloudsync_title (207845698304276784) -->
+    <skip />
+    <!-- no translation found for setting_cloudsync_summary (7607609779178517083) -->
+    <skip />
+    <!-- no translation found for cloudsync_opt_in (5117702329299711162) -->
+    <skip />
+    <!-- no translation found for cloudsync_opt_out (4423699720081282700) -->
+    <skip />
+    <!-- no translation found for cloudsync_open_on_phone (8814497370472312357) -->
+    <skip />
+    <!-- no translation found for language_not_supported_title (1968642720803819568) -->
+    <skip />
+    <!-- no translation found for language_not_supported_open_on_phone (8025189224633042022) -->
+    <skip />
+    <!-- no translation found for input_settings (5118110348107866910) -->
+    <skip />
+    <!-- no translation found for input_current_prefix (2057233867948189591) -->
+    <skip />
+    <!-- no translation found for input_choose_keyboards (278298835689162771) -->
+    <skip />
+    <!-- no translation found for input_none_selected (427147948453108579) -->
+    <skip />
+    <!-- no translation found for input_none_enabled (8421273010295976294) -->
+    <skip />
+    <!-- no translation found for use_system_language_to_select_input_method_subtypes (7151476731488297357) -->
+    <skip />
+    <!-- no translation found for ime_security_warning (3583239264481103860) -->
+    <skip />
+    <!-- no translation found for virtual_keyboard_category (5134055253243112816) -->
+    <skip />
+    <!-- no translation found for available_virtual_keyboard_category (5425724896287911896) -->
+    <skip />
+    <!-- no translation found for add_virtual_keyboard (8722635346146309167) -->
+    <skip />
+    <!-- no translation found for secure_adb_confirmation_title (8816669995420016882) -->
+    <skip />
+    <!-- no translation found for secure_adb_cancel (2243282983486437576) -->
+    <skip />
+    <!-- no translation found for secure_adb_ok (5408715456679027119) -->
+    <skip />
+    <!-- no translation found for secure_adb_whitelist_label (467176563323383647) -->
+    <skip />
+    <!-- no translation found for secure_adb_view_fingerprint (667541700597840756) -->
+    <skip />
+    <!-- no translation found for secure_adb_fingerprint_text (1943809908161283984) -->
+    <skip />
+    <!-- no translation found for theater_mode_toast_button (5603785622123143444) -->
+    <skip />
+    <!-- no translation found for theater_mode_toast_no_button (6472294801147796030) -->
+    <skip />
+    <!-- no translation found for wet_mode_dialog_title (6658208762004810331) -->
+    <skip />
+    <!-- no translation found for wet_mode_dialog_message (6910040220476077907) -->
+    <skip />
+    <!-- no translation found for wet_mode_dialog_never_show_dialog (2926064556269851523) -->
+    <skip />
+    <!-- no translation found for action_open_on_phone (6536470494374750323) -->
+    <skip />
+    <!-- no translation found for action_open_on_watch (2920470776324748337) -->
+    <skip />
+    <!-- no translation found for action_enter_on_phone (168450328024257708) -->
+    <skip />
+    <!-- no translation found for action_enter_on_watch (5401379427138691664) -->
+    <skip />
+    <!-- no translation found for action_forget (1084244122440784430) -->
+    <skip />
+    <!-- no translation found for action_retry (7414627742858009216) -->
+    <skip />
+    <!-- no translation found for wifi_action_dialog_title_add_network (5146083073501841996) -->
+    <skip />
+    <!-- no translation found for wifi_action_dialog_enter_on_phone (170476402115154567) -->
+    <skip />
+    <!-- no translation found for wifi_enter_password_on_phone (1948066766546798630) -->
+    <skip />
+    <!-- no translation found for wifi_continue_on_phone (1670020382042696624) -->
+    <skip />
+    <!-- no translation found for phone_away_error_dialog_title (6999177221305706266) -->
+    <skip />
+    <!-- no translation found for phone_away_error_dialog_subtitle (9128359871227501020) -->
+    <skip />
+    <!-- no translation found for screen_lock_create_pattern (1524551126125179557) -->
+    <skip />
+    <!-- no translation found for screen_lock_create_pattern_in_progress (7841736026012846534) -->
+    <skip />
+    <!-- no translation found for screen_lock_confirm_pattern (2288332177989693647) -->
+    <skip />
+    <!-- no translation found for screen_lock_pattern_no_match (6854352745008646769) -->
+    <skip />
+    <!-- no translation found for screen_lock_enter_pattern (7901714954033038660) -->
+    <skip />
+    <!-- no translation found for screen_lock_remove_dialog (4698796677144476504) -->
+    <skip />
+    <!-- no translation found for screen_lock_remove_pay_dialog_title (8709740069004982264) -->
+    <skip />
+    <!-- no translation found for screen_lock_remove_pay_dialog_text (2877259673018535521) -->
+    <skip />
+    <!-- no translation found for screen_lock_create_confirmation (987128816854413391) -->
+    <skip />
+    <!-- no translation found for keyboard_password_hint (3670518157304850862) -->
+    <skip />
+    <!-- no translation found for screen_lock_pin_hint (240246749320912580) -->
+    <skip />
+    <!-- no translation found for screen_lock_confirm_hint (3451662150226415986) -->
+    <skip />
+    <!-- no translation found for screen_lock_password_no_match (1073003662959199867) -->
+    <skip />
+    <!-- no translation found for screen_lock_too_many_attempts (917383143550629427) -->
+    <skip />
+    <!-- no translation found for screen_lock_pin_no_match (4622252006134251266) -->
+    <skip />
+    <!-- no translation found for lockpassword_confirm_passwords_dont_match (8463714877214196932) -->
+    <skip />
+    <!-- no translation found for lockpassword_confirm_pins_dont_match (7214870325212138533) -->
+    <skip />
+    <!-- no translation found for lockpassword_invalid_pin (2730419184694214982) -->
+    <skip />
+    <!-- no translation found for lockpassword_invalid_password (2500727056195373697) -->
+    <skip />
+    <!-- no translation found for lockpattern_need_to_unlock_wrong (4972676775830079746) -->
+    <skip />
+    <!-- no translation found for lockpattern_recording_inprogress (2990093651271362597) -->
+    <skip />
+    <!-- no translation found for lockpattern_recording_intro_header (5105820853250108037) -->
+    <skip />
+    <!-- no translation found for lockpattern_recording_incorrect_too_short (2218741164770892343) -->
+    <skip />
+    <!-- no translation found for lockpattern_pattern_entered_header (1361014349185514703) -->
+    <skip />
+    <!-- no translation found for lockpattern_need_to_confirm (3218382383593635028) -->
+    <skip />
+    <!-- no translation found for lockpattern_pattern_confirmed_header (2047331995158971023) -->
+    <skip />
+    <!-- no translation found for lockpassword_password_too_short (5122346739159351040) -->
+    <skip />
+    <!-- no translation found for lockpassword_pin_too_short (4831966008478841321) -->
+    <skip />
+    <!-- no translation found for lockpassword_password_too_long (4221525444775369377) -->
+    <skip />
+    <!-- no translation found for lockpassword_pin_too_long (3478217974754680910) -->
+    <skip />
+    <!-- no translation found for lockpassword_pin_contains_non_digits (2061450213300576672) -->
+    <skip />
+    <!-- no translation found for lockpassword_pin_recently_used (5499404229949166372) -->
+    <skip />
+    <!-- no translation found for lockpassword_illegal_character (3342791481112110848) -->
+    <skip />
+    <!-- no translation found for lockpassword_password_requires_alpha (5182750554641803459) -->
+    <skip />
+    <!-- no translation found for lockpassword_password_requires_digit (42065663034289960) -->
+    <skip />
+    <!-- no translation found for lockpassword_password_requires_symbol (8221129992105916373) -->
+    <skip />
+    <!-- no translation found for lockpassword_password_requires_letters (4959911075056879222) -->
+    <!-- no translation found for lockpassword_password_requires_lowercase (5045864394371538219) -->
+    <!-- no translation found for lockpassword_password_requires_uppercase (4892563942754300204) -->
+    <!-- no translation found for lockpassword_password_requires_numeric (5743752317464312740) -->
+    <!-- no translation found for lockpassword_password_requires_symbols (4161266012741472016) -->
+    <!-- no translation found for lockpassword_password_requires_nonletter (2718373281177991138) -->
+    <!-- no translation found for lockpassword_password_recently_used (6794017008402920322) -->
+    <skip />
+    <!-- no translation found for lockpassword_pin_no_sequential_digits (7545805425023308306) -->
+    <skip />
+    <!-- no translation found for action_request_activation (7785408501539612007) -->
+    <skip />
+    <!-- no translation found for action_change_number (1721177210283147908) -->
+    <skip />
+    <!-- no translation found for call_forward_empty_watch_number_title (4841673199764220926) -->
+    <skip />
+    <!-- no translation found for call_forward_empty_watch_number_message (1555005458970933293) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_action (8154280353158530999) -->
+    <skip />
+    <!-- no translation found for twinning_settings_action (6190745163037004374) -->
+    <skip />
+    <!-- no translation found for number_sharing_title (8947414007171920492) -->
+    <skip />
+    <!-- no translation found for number_sharing_calls_action (3507808663796603256) -->
+    <skip />
+    <!-- no translation found for number_sharing_sms_action (1380093527714222200) -->
+    <skip />
+    <!-- no translation found for data_usage_activity_title (8004096494528807765) -->
+    <skip />
+    <!-- no translation found for toggle_data_limit_action (8750788990698495275) -->
+    <skip />
+    <!-- no translation found for toggle_data_connectivity_action (6543775492161440158) -->
+    <skip />
+    <!-- no translation found for data_usage_limit_dialog_title (2112017249657238848) -->
+    <skip />
+    <!-- no translation found for data_usage_limit_dialog_subtitle (850091274679088000) -->
+    <skip />
+    <!-- no translation found for set_data_limit_action (590721615355798132) -->
+    <skip />
+    <!-- no translation found for set_warning_level_action (4572127878638442301) -->
+    <skip />
+    <!-- no translation found for show_app_usage_action (7236650899794379598) -->
+    <skip />
+    <!-- no translation found for data_limit_chooser_title (6048522054915854733) -->
+    <skip />
+    <!-- no translation found for data_limit_chooser_warning_level_title (919320390156462902) -->
+    <skip />
+    <!-- no translation found for sim_locked_dialog_title (7953808077675251018) -->
+    <skip />
+    <!-- no translation found for sim_locked_dialog_subtitle (1509485804448755002) -->
+    <skip />
+    <!-- no translation found for cycle_day_chooser_title (4706921821260735794) -->
+    <skip />
+    <!-- no translation found for app_usage_activity_title (4557567828782085111) -->
+    <skip />
+    <!-- no translation found for emergency_dialer_title (641785562929233778) -->
+    <skip />
+    <!-- no translation found for advanced_settings_title (8338131360462620139) -->
+    <skip />
+    <!-- no translation found for preferred_network_type_action (6199394649430825820) -->
+    <skip />
+    <!-- no translation found for access_point_names_action (7554142836775395337) -->
+    <skip />
+    <!-- no translation found for accounts (3084512371261967454) -->
+    <skip />
+    <!-- no translation found for network_operators_action (3539402039417413215) -->
+    <skip />
+    <!-- no translation found for preferred_network_type_title (7278984223777556890) -->
+    <skip />
+    <!-- no translation found for apn_settings_title (8138182292997199157) -->
+    <skip />
+    <!-- no translation found for apn_not_set (8541183031767332984) -->
+    <skip />
+    <!-- no translation found for apn_name (2148365288258432463) -->
+    <skip />
+    <!-- no translation found for apn_apn (8077766247882916540) -->
+    <skip />
+    <!-- no translation found for apn_http_proxy (3562445287656756262) -->
+    <skip />
+    <!-- no translation found for apn_http_port (4080861752268315117) -->
+    <skip />
+    <!-- no translation found for apn_user (8921609627884311524) -->
+    <skip />
+    <!-- no translation found for apn_password (7837551043693357176) -->
+    <skip />
+    <!-- no translation found for apn_server (7756455418850131772) -->
+    <skip />
+    <!-- no translation found for apn_mmsc (4027987129686592835) -->
+    <skip />
+    <!-- no translation found for apn_mms_proxy (7186884171543320215) -->
+    <skip />
+    <!-- no translation found for apn_mms_port (8446503743811447025) -->
+    <skip />
+    <!-- no translation found for apn_mcc (3332248537078445466) -->
+    <skip />
+    <!-- no translation found for apn_mnc (2883033748036398975) -->
+    <skip />
+    <!-- no translation found for apn_auth_type (88247648181201768) -->
+    <skip />
+    <!-- no translation found for apn_auth_type_none (6718885482261269901) -->
+    <skip />
+    <!-- no translation found for apn_auth_type_pap (3873092426378434797) -->
+    <skip />
+    <!-- no translation found for apn_auth_type_chap (4070640641732056671) -->
+    <skip />
+    <!-- no translation found for apn_auth_type_pap_chap (3796609053857208851) -->
+    <skip />
+    <!-- no translation found for apn_type (777003340517361307) -->
+    <skip />
+    <!-- no translation found for apn_protocol (8797595170754147122) -->
+    <skip />
+    <!-- no translation found for apn_roaming_protocol (1504028033605088551) -->
+    <skip />
+    <!-- no translation found for carrier_enabled (311832592831279233) -->
+    <skip />
+    <!-- no translation found for carrier_enabled_summaryOn (6366438560558188302) -->
+    <skip />
+    <!-- no translation found for carrier_enabled_summaryOff (1917080662135140848) -->
+    <skip />
+    <!-- no translation found for bearer (5705257172380903366) -->
+    <skip />
+    <!-- no translation found for mvno_type (5876618520188528749) -->
+    <skip />
+    <!-- no translation found for mvno_match_data (2300190176742876018) -->
+    <skip />
+    <!-- no translation found for enhanced_4g_lte_mode (1524101604213502605) -->
+    <skip />
+    <!-- no translation found for network_operators_title (8003479675613885925) -->
+    <skip />
+    <!-- no translation found for empty_networks_title (5933372163448044697) -->
+    <skip />
+    <!-- no translation found for network_operators_searching (397288269515180265) -->
+    <skip />
+    <!-- no translation found for network_operators_select_automatically (5538548487657706609) -->
+    <skip />
+    <!-- no translation found for sim_pin_edit_hint (616373397520553542) -->
+    <skip />
+    <!-- no translation found for sim_pin_edit_puk_hint (1744515060305182443) -->
+    <skip />
+    <!-- no translation found for sim_pin_edit_old_hint (1956686439835545342) -->
+    <skip />
+    <!-- no translation found for sim_pin_edit_new_hint (3731958925337669056) -->
+    <skip />
+    <!-- no translation found for sim_pin_edit_repeat_hint (5984284021016728346) -->
+    <skip />
+    <!-- no translation found for sim_pin_edit_repeat_not_match (7471584154731781097) -->
+    <skip />
+    <!-- no translation found for sim_lock_success (6328247201010523178) -->
+    <skip />
+    <!-- no translation found for sim_unlock_success (2656151154421981552) -->
+    <skip />
+    <!-- no translation found for puk_unlock_success (4041698545159912656) -->
+    <skip />
+    <!-- no translation found for sim_lock_enable_success (1646791027446167692) -->
+    <skip />
+    <!-- no translation found for sim_lock_disable_success (5687766559634853681) -->
+    <skip />
+    <!-- no translation found for sim_lock_pin_change_success (8583948845100732893) -->
+    <skip />
+    <!-- no translation found for sim_unlock_attempts_remaining (5411232485051300127) -->
+    <!-- no translation found for sim_unlock_attempts_remaining_none (3816193893172334512) -->
+    <skip />
+    <!-- no translation found for sim_unlock_wrong_code (8521741841049249357) -->
+    <skip />
+    <!-- no translation found for sim_unlock_wrong_code_puk (6052007124691359525) -->
+    <skip />
+    <!-- no translation found for sim_unlock_wrong_length (2633977315176024285) -->
+    <skip />
+    <!-- no translation found for sim_unlock_wrong_length_puk (1793230106938484951) -->
+    <skip />
+    <!-- no translation found for sim_unlock_too_many_attempts (1074580896821316179) -->
+    <skip />
+    <!-- no translation found for puk_unlock_too_many_attempts (8799169769732707995) -->
+    <skip />
+    <!-- no translation found for default_sms_title (1401665463163912488) -->
+    <skip />
+    <!-- no translation found for sim_locked_notification_title (7628982019247375975) -->
+    <skip />
+    <!-- no translation found for sim_unlock_action_title (4506904675643949612) -->
+    <skip />
+    <!-- no translation found for sim_dismiss_action_title (4085452874627480531) -->
+    <skip />
+    <!-- no translation found for sim_locked_notification_summary (7625502458885782257) -->
+    <skip />
+    <!-- no translation found for sim_absent_notification_title (3713617408791319100) -->
+    <skip />
+    <!-- no translation found for sim_invalid_notification_title (6270470542189931144) -->
+    <skip />
+    <!-- no translation found for puk_required_notification_title (1640908579267166099) -->
+    <skip />
+    <!-- no translation found for puk_required_notification_summary (6247770015469060738) -->
+    <skip />
+    <!-- no translation found for perm_locked_notification_title (520630736175218557) -->
+    <skip />
+    <!-- no translation found for perm_locked_notification_summary (2018576335319042403) -->
+    <skip />
+    <!-- no translation found for sim_status_activity_title (3790960421400357682) -->
+    <skip />
+    <!-- no translation found for sim_status_signal_strength (8494546292035755848) -->
+    <skip />
+    <!-- no translation found for sim_status_field_not_available (5384168753901282471) -->
+    <skip />
+    <!-- no translation found for call_forwarding_activity_message (6442561550548434978) -->
+    <skip />
+    <!-- no translation found for sim_status_roaming (8792727636364826672) -->
+    <skip />
+    <!-- no translation found for sim_status_not_roaming (6615179802950394001) -->
+    <skip />
+    <!-- no translation found for sim_status_title_network (6778646630471129135) -->
+    <skip />
+    <!-- no translation found for sim_status_title_signal_strength (2883584737877650688) -->
+    <skip />
+    <!-- no translation found for sim_status_title_network_type (1745915086754667661) -->
+    <skip />
+    <!-- no translation found for sim_status_title_service_state (4245919925118291600) -->
+    <skip />
+    <!-- no translation found for sim_status_title_roaming_state (4217001574707252801) -->
+    <skip />
+    <!-- no translation found for sim_status_title_network_state (1173162393716387204) -->
+    <skip />
+    <!-- no translation found for sim_status_title_phone_number (4258531247809109017) -->
+    <skip />
+    <!-- no translation found for sim_status_title_imei (4807785077839033270) -->
+    <skip />
+    <!-- no translation found for sim_status_title_imei_sv (3916171578271145127) -->
+    <skip />
+    <!-- no translation found for sim_status_title_iccid (9088740330102335658) -->
+    <skip />
+    <!-- no translation found for network_type_unknown (6420632399101347340) -->
+    <skip />
+    <!-- no translation found for network_type_gprs (2880421200350770468) -->
+    <skip />
+    <!-- no translation found for network_type_edge (1924691065824356415) -->
+    <skip />
+    <!-- no translation found for network_type_umts (4937644465006778008) -->
+    <skip />
+    <!-- no translation found for network_type_cdma (8783828427239247586) -->
+    <skip />
+    <!-- no translation found for network_type_evdo_0 (3715365868818778446) -->
+    <skip />
+    <!-- no translation found for network_type_evdo_a (1312108657287730010) -->
+    <skip />
+    <!-- no translation found for network_type_1xrtt (7121077217080189119) -->
+    <skip />
+    <!-- no translation found for network_type_hsdpa (8541302844427681310) -->
+    <skip />
+    <!-- no translation found for network_type_hsupa (1612456803909642947) -->
+    <skip />
+    <!-- no translation found for network_type_hspa (24504969961812165) -->
+    <skip />
+    <!-- no translation found for network_type_iden (9068687023637955767) -->
+    <skip />
+    <!-- no translation found for network_type_evdo_b (4209909564716558955) -->
+    <skip />
+    <!-- no translation found for network_type_lte (946511617080012479) -->
+    <skip />
+    <!-- no translation found for network_type_ehrpd (8269499148323868150) -->
+    <skip />
+    <!-- no translation found for network_type_hspap (3401625991738187399) -->
+    <skip />
+    <!-- no translation found for network_type_gsm (7789621096955444165) -->
+    <skip />
+    <!-- no translation found for network_type_td_scdma (3540477939501561304) -->
+    <skip />
+    <!-- no translation found for network_state_disconnected (1995329139648732597) -->
+    <skip />
+    <!-- no translation found for network_state_connecting (2033661880906096950) -->
+    <skip />
+    <!-- no translation found for network_state_connected (7142925555006698116) -->
+    <skip />
+    <!-- no translation found for network_state_suspended (7392973632777679437) -->
+    <skip />
+    <!-- no translation found for service_state_in_service (1049858121090949894) -->
+    <skip />
+    <!-- no translation found for service_state_out_of_service (7113381159638816530) -->
+    <skip />
+    <!-- no translation found for service_state_emergency_only (2139330614100403725) -->
+    <skip />
+    <!-- no translation found for service_state_off (15569115243060557) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_extreme_threats (1521858409520757775) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_severe_threats (5654141415227703874) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_amber_alerts (2102695613586145083) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_etws_test_alerts (1713794302435988484) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_cmas_test_alerts (1363934803759410404) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_alert_reminder (7743049358230528293) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_vibrate (5679936234811727178) -->
+    <skip />
+    <!-- no translation found for emergency_alerts_duration (97004157287443115) -->
+    <skip />
+    <!-- no translation found for voice_call_volume_action (408360372869909238) -->
+    <skip />
+    <!-- no translation found for volume_activity_header (6084413044879135077) -->
+    <skip />
+    <!-- no translation found for apps_settings (3981870500786239817) -->
+    <skip />
+    <!-- no translation found for apps_settings_sys (5263253129588148759) -->
+    <skip />
+    <!-- no translation found for app_notifications (3101095301364259862) -->
+    <skip />
+    <!-- no translation found for app_permissions (2117795431545957809) -->
+    <skip />
+    <!-- no translation found for app_permissions_sys (8154705223256011836) -->
+    <skip />
+    <!-- no translation found for apps_settings_loading (4389211768781013578) -->
+    <skip />
+    <!-- no translation found for apps_notifications_setting (1265616743859944727) -->
+    <skip />
+    <!-- no translation found for app_label_uninstall (6314929963748048320) -->
+    <skip />
+    <!-- no translation found for app_alert_title_uninstall (2436399574976831203) -->
+    <skip />
+    <!-- no translation found for usage_access_title (1240341273916955036) -->
+    <skip />
+    <!-- no translation found for usage_access (3675321149146070184) -->
+    <skip />
+    <!-- no translation found for permit_usage_access (8456359882394235109) -->
+    <skip />
+    <!-- no translation found for usage_access_description (5280016262050728521) -->
+    <skip />
+    <!-- no translation found for app_label_remove_upgrades (5995010670579009800) -->
+    <skip />
+    <!-- no translation found for app_alert_title_remove_upgrades (273193189483419932) -->
+    <skip />
+    <!-- no translation found for app_label_disable (5662173550341354136) -->
+    <skip />
+    <!-- no translation found for app_alert_title_disable (2048634869072890803) -->
+    <skip />
+    <!-- no translation found for app_alert_summary_disable (7833303458898277307) -->
+    <skip />
+    <!-- no translation found for app_label_enable (3519168879582562992) -->
+    <skip />
+    <!-- no translation found for app_alert_title_enable (8156033734090178600) -->
+    <skip />
+    <!-- no translation found for app_label_force_stop (667092405112695060) -->
+    <skip />
+    <!-- no translation found for app_alert_title_force_stop (488207601157988768) -->
+    <skip />
+    <!-- no translation found for app_alert_summary_force_stop (958801291717219526) -->
+    <skip />
+    <!-- no translation found for system_apps_settings (8066191141788527007) -->
+    <skip />
+    <!-- no translation found for app_advanced_settings_title (3653045230416766354) -->
+    <skip />
+    <!-- no translation found for pref_draw_over_other_apps_title (3310646375501856437) -->
+    <skip />
+    <!-- no translation found for draw_over_other_apps_dialog_title (5318591150598096819) -->
+    <skip />
+    <!-- no translation found for draw_over_other_apps_dialog_description (5130743298196424742) -->
+    <skip />
+    <!-- no translation found for pref_write_settings_title (25404350209480216) -->
+    <skip />
+    <!-- no translation found for write_settings_dialog_title (3995413705151933001) -->
+    <skip />
+    <!-- no translation found for write_settings_dialog_description (5393443251049042059) -->
+    <skip />
+    <!-- no translation found for pref_app_about (3818407988709605619) -->
+    <skip />
+    <!-- no translation found for app_info_label_version (2327954738076469498) -->
+    <skip />
+    <!-- no translation found for app_info_label_storage (8104907221987164864) -->
+    <skip />
+    <!-- no translation found for app_info_label_data (4900178464755655435) -->
+    <skip />
+    <!-- no translation found for app_info_label_cache (6517447845587164795) -->
+    <skip />
+    <!-- no translation found for app_info_label_clear_data (4219489150893792053) -->
+    <skip />
+    <!-- no translation found for app_info_label_clear_cache (5926119164287569364) -->
+    <skip />
+    <!-- no translation found for app_info_dialog_delete_data_title (7394715588093134872) -->
+    <skip />
+    <!-- no translation found for app_info_dialog_delete_data_message (72311265745689860) -->
+    <skip />
+    <!-- no translation found for app_info_toast_clear_cache (3792760581540820790) -->
+    <skip />
+    <!-- no translation found for app_info_toast_clear_data (3927526492669896813) -->
+    <skip />
+    <!-- no translation found for network_lte (8227603060910091716) -->
+    <skip />
+    <!-- no translation found for network_4G (3291562823881132895) -->
+    <skip />
+    <!-- no translation found for network_global (7688386659600092225) -->
+    <skip />
+    <!-- no translation found for data_usage_warning_title (4982628781060662506) -->
+    <skip />
+    <!-- no translation found for data_usage_reached_limit_title (6814624529672600688) -->
+    <skip />
+    <!-- no translation found for data_usage_reached_limit_text (2309438590806512037) -->
+    <skip />
+    <!-- no translation found for data_usage_exceeded_limit_title (6991713340592399854) -->
+    <skip />
+    <!-- no translation found for data_usage_exceeded_limit_text (1525622907355832315) -->
+    <skip />
+    <!-- no translation found for settings_title_voicemail_number (6047558039668191426) -->
+    <skip />
+    <!-- no translation found for settings_update_phone_number (7045423654409404585) -->
+    <skip />
+    <!-- no translation found for device_admin_warning (7322019885433317264) -->
+    <skip />
+    <!-- no translation found for add_device_admin_msg (1152033562635976504) -->
+    <skip />
+    <!-- no translation found for add_device_admin (1237937764953206565) -->
+    <skip />
+    <!-- no translation found for cancel (3093698559472298487) -->
+    <skip />
+    <!-- no translation found for disabled_by_policy_title (4867639270211833535) -->
+    <skip />
+    <!-- no translation found for default_admin_support_msg (6013029522745194315) -->
+    <skip />
+    <!-- no translation found for admin_support_more_info (473762286748096634) -->
+    <skip />
+    <!-- no translation found for credentials_reset_hint (6363764513186826888) -->
+    <skip />
+    <!-- no translation found for credentials_erased (1955991288185844766) -->
+    <skip />
+    <!-- no translation found for credentials_not_erased (1195753161051041914) -->
+    <skip />
+    <!-- no translation found for credentials_configure_lock_screen_hint (4128139727909651999) -->
+    <skip />
+    <!-- no translation found for screen_lock_prompt_title (2499384620531183698) -->
+    <skip />
+    <!-- no translation found for screen_lock_prompt_subtitle (55406056434153765) -->
+    <skip />
+    <!-- no translation found for computing_size (1371812306284285270) -->
+    <skip />
+    <!-- no translation found for invalid_size_value (4641862077377965847) -->
+    <skip />
+    <!-- no translation found for sharing_remote_bugreport_dialog_message (6100694073219249413) -->
+    <skip />
+    <!-- no translation found for share_remote_bugreport_dialog_title (4136999307120378377) -->
+    <skip />
+    <!-- no translation found for share_remote_bugreport_dialog_message_finished (2443699486355972227) -->
+    <skip />
+    <!-- no translation found for share_remote_bugreport_dialog_message (2411146597711336886) -->
+    <skip />
+    <!-- no translation found for decline_remote_bugreport_action (1656841072157939116) -->
+    <skip />
+    <!-- no translation found for share_remote_bugreport_action (5986194940195347877) -->
+    <skip />
+    <!-- no translation found for storage_sort_data (3695575745392144766) -->
+    <skip />
+    <!-- no translation found for storage_sort_app (3251752430571365103) -->
+    <skip />
+    <!-- no translation found for unsupported_operation (6181531042841274481) -->
+    <skip />
+    <!-- no translation found for set_date_instruction (8590422303848718854) -->
+    <skip />
+    <!-- no translation found for set_time_instruction (681317036333560381) -->
+    <skip />
+    <!-- no translation found for set_screen_lock_message (4046088959289588891) -->
+    <skip />
+</resources>

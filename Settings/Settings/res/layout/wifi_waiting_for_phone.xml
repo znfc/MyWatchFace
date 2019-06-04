@@ -1,0 +1,23 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center"
+  android:id="@+id/wifi_waiting_for_phone">
+  <ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    style="@android:style/Widget.Material.ProgressBar.Large" />
+  <Space
+    android:id="@+id/spacer"
+    android:layout_width="0dp"
+    android:layout_height="8dp" />
+  <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/wifi_continue_on_phone" />
+</LinearLayout>

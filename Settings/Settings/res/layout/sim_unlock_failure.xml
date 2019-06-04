@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@*android:color/accent_device_default_dark">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+        <TextView
+                android:id="@+id/sim_locked_text"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/sim_unlock_too_many_attempts"
+                style="@style/SimLockedText"
+                />
+        <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/sim_locked_text"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_lock_outline"
+                />
+    </RelativeLayout>
+</ScrollView>

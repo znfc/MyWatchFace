@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2018 Qualcomm Technologies, Inc.
+All Rights Reserved.
+Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:id="@+id/gridbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextClock
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:format12Hour="hh  mm aa"
+            android:format24Hour="hh  mm aa"
+            android:layout_gravity="center"
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="140px"
+            android:includeFontPadding="false"
+            android:textColor="@color/activeText"
+            android:textSize="30px" />
+        <TextView
+            android:id="@+id/timeviewHH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="83px"
+            android:layout_marginLeft="72px"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/activeText"
+            android:textSize="63px" />
+        <TextView
+            android:id="@+id/timeviewMM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="83px"
+            android:layout_marginLeft="156px"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/activeText"
+            android:textSize="63px" />
+        <TextView
+            android:id="@+id/timeviewSS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="83px"
+            android:layout_marginLeft="245px"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/activeText"
+            android:textSize="63px" />
+        <TextView
+            android:id="@+id/textviewBPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="206px"
+            android:layout_marginRight="276px"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/activeText"
+            android:text="000"
+            android:textSize="48px" />
+        <TextView
+            android:id="@+id/textviewCAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="206px"
+            android:layout_marginRight="144px"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/activeText"
+            android:text="0000"
+            android:textSize="48px" />
+        <TextView
+            android:id="@+id/textviewMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="206px"
+            android:layout_marginRight="33px"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/activeText"
+            android:text="00.0"
+            android:textSize="48px" />
+        <TextView
+            android:id="@+id/stepview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:visibility="gone"
+            android:textColor="@color/activeText"
+            android:textSize="20sp" />
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</LinearLayout>

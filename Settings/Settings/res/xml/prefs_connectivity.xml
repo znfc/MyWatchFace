@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/main_connectivity"
+        android:orderingFromXml="false">
+    <Preference
+            android:key="pref_bluetooth"
+            android:title="@string/pref_bluetooth"
+            android:icon="@drawable/ic_cc_settings_bluetooth"
+            android:order="10"
+            android:fragment="com.google.android.clockwork.settings.connectivity.BluetoothSettingsFragment"
+            android:persistent="false" />
+    <Preference
+            android:key="pref_wifi_old"
+            android:title="@string/pref_wifi_old"
+            android:icon="@drawable/ic_cc_settings_wifi_4"
+            android:order="20"
+            android:persistent="false">
+        <intent android:targetClass="com.google.android.clockwork.settings.wifi.WifiSettingsActivity"
+                android:targetPackage="com.google.android.apps.wearable.settings" />
+    </Preference>
+    <PreferenceScreen
+            android:key="pref_wifi"
+            android:title="@string/pref_wifi"
+            android:icon="@drawable/ic_cc_settings_wifi_4"
+            android:order="30"
+            android:fragment="com.google.android.clockwork.settings.connectivity.wifi.WifiSettingsFragment"
+            android:persistent="false">
+    </PreferenceScreen>
+    <Preference
+            android:key="pref_cellular"
+            android:title="@string/pref_cellular"
+            android:icon="@drawable/ic_cc_settings_cellular_4"
+            android:order="40"
+            android:persistent="false">
+        <intent android:targetClass="com.google.android.clockwork.settings.connectivity.cellular.CellularSettingsActivity"
+                android:targetPackage="com.google.android.apps.wearable.settings" />
+    </Preference>
+    <Preference
+            android:key="pref_twinning"
+            android:icon="@drawable/ic_settings_numbersync_on"
+            android:order="50"
+            android:persistent="false" />
+    <PreferenceScreen
+            android:key="pref_nfc"
+            android:title="@string/pref_nfc"
+            android:icon="@drawable/ic_cc_settings_nfc"
+            android:order="60"
+            android:fragment="com.google.android.clockwork.settings.connectivity.nfc.NfcSettingsFragment"
+            android:persistent="false" />
+    <SwitchPreference
+            android:key="pref_airplaneMode"
+            android:title="@string/pref_airplaneMode"
+            android:order="70"
+            android:persistent="false" />
+    <SwitchPreference
+            android:key="pref_locationToggle"
+            android:title="@string/pref_location"
+            android:order="80"
+            android:persistent="false" />
+</PreferenceScreen>

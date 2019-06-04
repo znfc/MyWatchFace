@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.clockwork.sample.decompwf">
+
+  <!--<uses-sdk-->
+      <!--android:minSdkVersion="27"-->
+      <!--android:targetSdkVersion="27"/>-->
+
+  <uses-feature android:name="android.hardware.type.watch"/>
+
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA"/>
+  <uses-permission android:name="com.google.android.permission.PROVIDE_SETUP_DEFAULTS"/>
+
+  <application
+      android:label="DecompWF"
+      android:theme="@android:style/Theme.DeviceDefault">
+
+    <service
+        android:label="Modern"
+        android:name="com.google.clockwork.sample.decompwf.ModernDecompWf"
+        android:permission="android.permission.BIND_WALLPAPER">
+      <meta-data
+          android:name="android.service.wallpaper"
+          android:resource="@xml/watch_face"/>
+      <meta-data
+          android:name="com.google.android.wearable.watchface.preview"
+          android:resource="@drawable/preview_modern"/>
+      <meta-data
+          android:name="com.google.android.wearable.watchface.preview_circular"
+          android:resource="@drawable/preview_modern"/>
+
+      <intent-filter>
+        <action android:name="android.service.wallpaper.WallpaperService"/>
+        <category android:name="com.google.android.wearable.watchface.category.WATCH_FACE"/>
+      </intent-filter>
+    </service>
+
+    <service
+        android:label="Modern Comp WF"
+        android:name="com.google.clockwork.sample.decompwf.ModernComplicationWf"
+        android:permission="android.permission.BIND_WALLPAPER">
+      <meta-data
+          android:name="com.google.android.wearable.watchface.wearableConfigurationAction"
+          android:value="com.google.clockwork.sample.decompwf.ModernComplicationWf.CONFIG"/>
+      <meta-data
+          android:name="android.service.wallpaper"
+          android:resource="@xml/watch_face"/>
+      <meta-data
+          android:name="com.google.android.wearable.watchface.preview"
+          android:resource="@drawable/preview_modern_comp"/>
+      <meta-data
+          android:name="com.google.android.wearable.watchface.preview_circular"
+          android:resource="@drawable/preview_modern_comp"/>
+
+      <intent-filter>
+        <action android:name="android.service.wallpaper.WallpaperService"/>
+        <category android:name="com.google.android.wearable.watchface.category.WATCH_FACE"/>
+      </intent-filter>
+    </service>
+
+    <activity android:name="com.google.clockwork.sample.decompwf.ConfigActivity">
+      <intent-filter>
+        <action android:name="com.google.clockwork.sample.decompwf.ModernComplicationWf.CONFIG"/>
+        <category android:name="com.google.android.wearable.watchface.category.WEARABLE_CONFIGURATION"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+
+    <activity android:name="android.support.wearable.complications.ComplicationHelperActivity"/>
+
+    <receiver
+        android:name="com.google.clockwork.sample.decompwf.TwmBroadcastReceiver"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="com.google.android.wearable.action.GET_TWM_WATCHFACE"/>
+      </intent-filter>
+    </receiver>
+
+  </application>
+
+</manifest>

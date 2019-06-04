@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2015, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/top_horizontal_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="@dimen/lock_pattern_constraint_min"
+        android:orientation="horizontal" />
+    <android.support.constraint.Guideline
+        android:id="@+id/start_vertical_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="@dimen/lock_pattern_constraint_min"
+        android:orientation="vertical" />
+    <android.support.constraint.Guideline
+        android:id="@+id/end_vertical_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="@dimen/lock_pattern_constraint_max"
+        android:orientation="vertical" />
+    <android.support.constraint.Guideline
+        android:id="@+id/bottom_horizontal_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="@dimen/lock_pattern_constraint_max"
+        android:orientation="horizontal" />
+
+    <com.android.internal.widget.LockPatternView
+            android:id="@+id/lockPatternView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="@id/top_horizontal_guideline"
+            app:layout_constraintBottom_toBottomOf="@id/bottom_horizontal_guideline"
+            app:layout_constraintStart_toStartOf="@id/start_vertical_guideline"
+            app:layout_constraintEnd_toEndOf="@id/end_vertical_guideline" />
+</android.support.constraint.ConstraintLayout>
+

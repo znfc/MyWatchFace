@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="@string/pref_app_about"
+        android:orderingFromXml="true">
+    <Preference
+        android:key="pref_version"
+        android:title="@string/app_info_label_version"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_storage"
+        android:title="@string/app_info_label_storage"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_data"
+        android:title="@string/app_info_label_data"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_cache"
+        android:title="@string/app_info_label_cache"
+        android:persistent="false" />
+    <android.support.wearable.preference.AcceptDenyDialogPreference
+        android:key="pref_clear_data"
+        android:title="@string/app_info_label_clear_data"
+        app:dialogTitle="@string/app_info_dialog_delete_data_title"
+        app:dialogMessage="@string/app_info_dialog_delete_data_message"
+        android:persistent="false" />
+    <Preference
+        android:key="pref_clear_cache"
+        android:title="@string/app_info_label_clear_cache"
+        android:persistent="false" />
+    <android.support.wearable.preference.AcceptDenyDialogPreference
+        android:key="pref_uninstall"
+        android:title="@string/app_label_uninstall"
+        android:persistent="false"/>
+
+</PreferenceScreen>

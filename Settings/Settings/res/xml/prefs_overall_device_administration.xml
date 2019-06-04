@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_deviceAdministration">
+
+    <Preference
+      android:key="pref_android_device_manager_settings"
+      android:title="@string/pref_androidDeviceManagerSettings"
+      android:icon="@drawable/ic_cc_settings_morehorizontal"
+      android:persistent="false"/>
+</PreferenceScreen>

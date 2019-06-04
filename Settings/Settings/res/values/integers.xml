@@ -1,0 +1,28 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <integer name="short_title_length">13</integer>
+    <integer name="char_limit_per_line">18</integer>
+    <integer name="volume_max_progress">7</integer>
+    <!-- Normal polling frequency in milliseconds -->
+    <integer name="ntp_polling_interval">86400000</integer>
+    <!-- Try-again polling interval in milliseconds, in case the network request failed -->
+    <integer name="ntp_polling_interval_shorter">180000</integer>
+    <!-- Number of times to try again with the shorter interval, before backing
+         off until the normal polling interval. A value < 0 indicates infinite. -->
+    <integer name="ntp_retry">3</integer>
+    <!-- If the time difference is greater than this threshold in milliseconds,
+         then update the time. -->
+    <integer name="ntp_threshold">5000</integer>
+    <!-- If the ntp cache is older than this threshold in milliseconds, then update it. -->
+    <integer name="ntp_freshness_threshold">86400000</integer>
+
+    <integer name="disabled_item_alpha">117</integer>
+
+    <!-- Values for default range presented by DatePicker in DatePickerActivity -->
+    <integer name="date_picker_min_year">1970</integer>
+    <integer name="date_picker_max_year">2037</integer>
+    <!-- Value for emergency alert reminder snooze in minutes -->
+    <integer name="emergency_alerts_reminder_interval">2</integer>
+    <integer name="emergency_alerts_reminder_off">0</integer>
+
+    <integer name="setting_list_icon_viewport_size">24</integer>
+</resources>

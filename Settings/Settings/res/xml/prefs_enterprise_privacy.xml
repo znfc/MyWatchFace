@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/main_enterprise_privacy">
+
+    <!-- Header -->
+    <Preference
+        android:key="enterprise_privacy_header"
+        android:summary="@string/enterprise_privacy_header"
+        android:selectable="false"/>
+
+    <!-- Types of information your organization can see -->
+    <Preference
+        android:key="enterprise_privacy_enterprise_data"
+        android:title="@string/enterprise_privacy_enterprise_data"
+        android:selectable="false"/>
+    <Preference
+        android:key="enterprise_privacy_installed_packages"
+        android:title="@string/enterprise_privacy_installed_packages"
+        android:selectable="false"/>
+    <Preference
+        android:key="enterprise_privacy_usage_stats"
+        android:title="@string/enterprise_privacy_usage_stats"
+        android:selectable="false"/>
+    <Preference
+        android:key="network_logs"
+        android:title="@string/enterprise_privacy_network_logs"
+        android:selectable="false"/>
+    <Preference
+        android:key="bug_reports"
+        android:title="@string/enterprise_privacy_bug_reports"
+        android:selectable="false"/>
+    <Preference
+        android:key="security_logs"
+        android:title="@string/enterprise_privacy_security_logs"
+        android:selectable="false"/>
+
+    <!-- Changes made by your organization’s admin -->
+    <Preference
+        android:fragment="com.google.android.clockwork.settings.enterprise.ApplicationListFragment$EnterpriseInstalledPackages"
+        android:key="number_enterprise_installed_packages"
+        android:title="@string/enterprise_privacy_enterprise_installed_packages"/>
+    <Preference
+        android:fragment="com.google.android.clockwork.settings.enterprise.ApplicationListFragment$AdminGrantedPermissionLocation"
+        android:key="number_location_access_packages"
+        android:title="@string/enterprise_privacy_location_access"/>
+    <Preference
+        android:fragment="com.google.android.clockwork.settings.enterprise.ApplicationListFragment$AdminGrantedPermissionMicrophone"
+        android:key="number_microphone_access_packages"
+        android:title="@string/enterprise_privacy_microphone_access"/>
+    <Preference
+        android:fragment="com.google.android.clockwork.settings.enterprise.ApplicationListFragment$AdminGrantedPermissionCamera"
+        android:key="number_camera_access_packages"
+        android:title="@string/enterprise_privacy_camera_access"/>
+    <Preference
+        android:key="number_enterprise_set_default_apps"
+        android:title="@string/enterprise_privacy_enterprise_set_default_apps"
+        android:persistent="false"
+        android:fragment="com.google.android.clockwork.settings.enterprise.EnterpriseSetDefaultAppsListFragment"/>
+    <Preference
+        android:key="always_on_vpn_primary_user"
+        android:selectable="false"/>
+    <Preference
+        android:key="always_on_vpn_managed_profile"
+        android:title="@string/enterprise_privacy_always_on_vpn_work"
+        android:selectable="false"/>
+    <Preference
+        android:key="input_method"
+        android:title="@string/enterprise_privacy_input_method"
+        android:selectable="false"/>
+    <Preference
+        android:key="global_http_proxy"
+        android:title="@string/enterprise_privacy_global_http_proxy"
+        android:selectable="false"/>
+    <Preference
+        android:key="ca_certs_current_user"
+        android:title="@string/enterprise_privacy_ca_certs_personal"
+        android:selectable="false"/>
+    <Preference
+        android:key="ca_certs_managed_profile"
+        android:title="@string/enterprise_privacy_ca_certs_work"
+        android:selectable="false"/>
+
+    <!-- Your access to this device -->
+    <Preference
+        android:key="enterprise_privacy_lock_device"
+        android:title="@string/enterprise_privacy_lock_device"
+        android:selectable="false"/>
+    <Preference
+        android:key="enterprise_privacy_wipe_device"
+        android:title="@string/enterprise_privacy_wipe_device"
+        android:selectable="false"/>
+    <Preference
+        android:key="failed_password_wipe_current_user"
+        android:title="@string/enterprise_privacy_failed_password_wipe_device"
+        android:selectable="false"/>
+    <Preference
+        android:key="failed_password_wipe_managed_profile"
+        android:title="@string/enterprise_privacy_failed_password_wipe_work"
+        android:selectable="false"/>
+</PreferenceScreen>
+
